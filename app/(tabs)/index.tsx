@@ -1,7 +1,5 @@
 import { Text, TouchableOpacity, View } from "react-native";
 
-import { GlassView } from "expo-glass-effect";
-
 export default function HomeScreen() {
   return (
     <View
@@ -12,7 +10,7 @@ export default function HomeScreen() {
         backgroundColor: "#ff0000",
       }}
     >
-      <GlassView
+      <View
         style={{
           marginTop: 20,
           justifyContent: "center",
@@ -35,7 +33,7 @@ export default function HomeScreen() {
         <TouchableOpacity onPress={() => alert("nada!")}>
           <Text style={{ color: "blue", marginTop: 20 }}>absolutely not</Text>
         </TouchableOpacity>
-      </GlassView>
+      </View>
     </View>
   );
 }

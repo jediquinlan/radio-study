@@ -1,20 +1,29 @@
-import { Session } from '@supabase/supabase-js'; // 1. Import the type
+import { Session } from '@supabase/supabase-js';
+import { Stack } from 'expo-router';
 import { useEffect, useState } from 'react';
-import { supabase } from './lib/supabase';
+import AuthGate from './auth';
+import { supabase } from '../lib/supabase';
 
 export default function RootLayout() {
-  // 2. Add the type definition to useState
   const [session, setSession] = useState<Session | null>(null);
 
   useEffect(() => {
-    supabase.auth.getSession().then(({ data: { session } }) => {
+    supabase.auth.getSession().then(({ data: { session } }: { data: { session: Session | null } }) => {
       setSession(session);
     });
 
-    supabase.auth.onAuthStateChange((_event, session) => {
+    supabase.auth.onAuthStateChange((_event: any, session: Session | null) => {
       setSession(session);
     });
   }, []);
 
-  // ... rest of your logic
+  if (!session) {
+    return <AuthGate />;
+  }
+
+  return (
+    <Stack>
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+    </Stack>
+  );
 }
