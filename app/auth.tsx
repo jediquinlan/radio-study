@@ -1,6 +1,66 @@
 import React, { useState } from 'react';
-import { Alert, Button, ScrollView, Text, TextInput, View } from 'react-native';
+import {
+  Alert,
+  KeyboardAvoidingView,
+  Platform,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
+} from 'react-native';
 import { supabase } from '../lib/supabase';
+
+const GREEN = '#58CC02';
+const GREEN_DARK = '#46A302';
+const BLUE = '#1CB0F6';
+const BLUE_DARK = '#1899D6';
+const GRAY_BG = '#F7F7F7';
+const GRAY_BORDER = '#E5E5E5';
+const GRAY_TEXT = '#777';
+
+function RoundedButton({
+  title,
+  onPress,
+  color = GREEN,
+  shadowColor = GREEN_DARK,
+  textColor = '#fff',
+  disabled = false,
+  outline = false,
+}: {
+  title: string;
+  onPress: () => void;
+  color?: string;
+  shadowColor?: string;
+  textColor?: string;
+  disabled?: boolean;
+  outline?: boolean;
+}) {
+  return (
+    <Pressable
+      onPress={onPress}
+      disabled={disabled}
+      style={({ pressed }) => [
+        styles.button,
+        outline
+          ? { backgroundColor: '#fff', borderWidth: 2, borderColor: GRAY_BORDER }
+          : { backgroundColor: color, borderBottomColor: shadowColor, borderBottomWidth: 4 },
+        pressed && { opacity: 0.85, transform: [{ translateY: 1 }] },
+        disabled && { opacity: 0.5 },
+      ]}
+    >
+      <Text
+        style={[
+          styles.buttonText,
+          { color: outline ? BLUE : textColor },
+        ]}
+      >
+        {title}
+      </Text>
+    </Pressable>
+  );
+}
 
 export default function AuthGate() {
   const [mode, setMode] = useState<'signIn' | 'signUp'>('signIn');
@@ -52,52 +112,142 @@ export default function AuthGate() {
   }
 
   return (
-    <ScrollView contentContainerStyle={{ padding: 20, paddingTop: 60 }}>
-      <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 24 }}>
-        {mode === 'signIn' ? 'Sign In' : 'Create Account'}
-      </Text>
+    <KeyboardAvoidingView
+      style={{ flex: 1, backgroundColor: '#fff' }}
+      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+    >
+      <ScrollView
+        contentContainerStyle={styles.container}
+        keyboardShouldPersistTaps="handled"
+      >
+        <Text style={styles.title}>
+          {mode === 'signIn' ? 'Welcome back!' : 'Create Account'}
+        </Text>
+        <Text style={styles.subtitle}>
+          {mode === 'signIn' ? 'Sign in to continue learning' : 'Join the radio community'}
+        </Text>
 
-      <TextInput
-        placeholder="Email *"
-        onChangeText={setEmail}
-        value={email}
-        autoCapitalize="none"
-        keyboardType="email-address"
-      />
-      <TextInput
-        placeholder="Password *"
-        secureTextEntry
-        onChangeText={setPassword}
-        value={password}
-        autoCapitalize="none"
-      />
-
-      {mode === 'signUp' && (
-        <View>
-          <Text style={{ marginTop: 16, marginBottom: 8, color: '#666' }}>Optional</Text>
-          <TextInput placeholder="Call Sign" onChangeText={setCallSign} value={callSign} autoCapitalize="characters" />
-          <TextInput placeholder="First Name" onChangeText={setFirstName} value={firstName} />
-          <TextInput placeholder="Last Name" onChangeText={setLastName} value={lastName} />
-          <TextInput placeholder="Street Address 1" onChangeText={setAddress1} value={address1} />
-          <TextInput placeholder="Street Address 2" onChangeText={setAddress2} value={address2} />
-          <TextInput placeholder="City" onChangeText={setCity} value={city} />
-          <TextInput placeholder="State / Province" onChangeText={setStateProvince} value={stateProvince} />
-          <TextInput placeholder="ZIP / Postal Code" onChangeText={setZip} value={zip} keyboardType="numbers-and-punctuation" />
-          <TextInput placeholder="Country" onChangeText={setCountry} value={country} />
+        <View style={styles.inputGroup}>
+          <TextInput
+            placeholder="Email"
+            placeholderTextColor={GRAY_TEXT}
+            onChangeText={setEmail}
+            value={email}
+            autoCapitalize="none"
+            keyboardType="email-address"
+            style={styles.input}
+          />
+          <TextInput
+            placeholder="Password"
+            placeholderTextColor={GRAY_TEXT}
+            secureTextEntry
+            onChangeText={setPassword}
+            value={password}
+            autoCapitalize="none"
+            style={styles.input}
+          />
         </View>
-      )}
 
-      <View style={{ marginTop: 24, gap: 12 }}>
-        <Button
-          title={mode === 'signIn' ? 'Sign In' : 'Sign Up'}
-          disabled={loading}
-          onPress={mode === 'signIn' ? signInWithEmail : signUpWithEmail}
-        />
-        <Button
-          title={mode === 'signIn' ? "Don't have an account? Sign Up" : 'Already have an account? Sign In'}
-          onPress={() => setMode(mode === 'signIn' ? 'signUp' : 'signIn')}
-        />
-      </View>
-    </ScrollView>
+        {mode === 'signUp' && (
+          <View style={styles.inputGroup}>
+            <Text style={styles.sectionLabel}>Optional Info</Text>
+            <TextInput placeholder="Call Sign" placeholderTextColor={GRAY_TEXT} onChangeText={setCallSign} value={callSign} autoCapitalize="characters" style={styles.input} />
+            <View style={styles.row}>
+              <TextInput placeholder="First Name" placeholderTextColor={GRAY_TEXT} onChangeText={setFirstName} value={firstName} style={[styles.input, styles.halfInput]} />
+              <TextInput placeholder="Last Name" placeholderTextColor={GRAY_TEXT} onChangeText={setLastName} value={lastName} style={[styles.input, styles.halfInput]} />
+            </View>
+            <TextInput placeholder="Street Address 1" placeholderTextColor={GRAY_TEXT} onChangeText={setAddress1} value={address1} style={styles.input} />
+            <TextInput placeholder="Street Address 2" placeholderTextColor={GRAY_TEXT} onChangeText={setAddress2} value={address2} style={styles.input} />
+            <View style={styles.row}>
+              <TextInput placeholder="City" placeholderTextColor={GRAY_TEXT} onChangeText={setCity} value={city} style={[styles.input, styles.halfInput]} />
+              <TextInput placeholder="State / Province" placeholderTextColor={GRAY_TEXT} onChangeText={setStateProvince} value={stateProvince} style={[styles.input, styles.halfInput]} />
+            </View>
+            <View style={styles.row}>
+              <TextInput placeholder="ZIP / Postal Code" placeholderTextColor={GRAY_TEXT} onChangeText={setZip} value={zip} keyboardType="numbers-and-punctuation" style={[styles.input, styles.halfInput]} />
+              <TextInput placeholder="Country" placeholderTextColor={GRAY_TEXT} onChangeText={setCountry} value={country} style={[styles.input, styles.halfInput]} />
+            </View>
+          </View>
+        )}
+
+        <View style={styles.buttonGroup}>
+          <RoundedButton
+            title={mode === 'signIn' ? 'SIGN IN' : 'CREATE ACCOUNT'}
+            disabled={loading}
+            onPress={mode === 'signIn' ? signInWithEmail : signUpWithEmail}
+            color={GREEN}
+            shadowColor={GREEN_DARK}
+          />
+          <RoundedButton
+            title={mode === 'signIn' ? "I DON'T HAVE AN ACCOUNT" : 'I ALREADY HAVE AN ACCOUNT'}
+            onPress={() => setMode(mode === 'signIn' ? 'signUp' : 'signIn')}
+            outline
+          />
+        </View>
+      </ScrollView>
+    </KeyboardAvoidingView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    padding: 24,
+    paddingTop: 80,
+    paddingBottom: 40,
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: '800',
+    color: '#333',
+    textAlign: 'center',
+  },
+  subtitle: {
+    fontSize: 16,
+    color: GRAY_TEXT,
+    textAlign: 'center',
+    marginTop: 8,
+    marginBottom: 32,
+  },
+  inputGroup: {
+    gap: 12,
+    marginBottom: 24,
+  },
+  sectionLabel: {
+    fontSize: 14,
+    fontWeight: '700',
+    color: GRAY_TEXT,
+    textTransform: 'uppercase',
+    letterSpacing: 1,
+    marginBottom: 4,
+  },
+  input: {
+    backgroundColor: GRAY_BG,
+    borderWidth: 2,
+    borderColor: GRAY_BORDER,
+    borderRadius: 16,
+    paddingHorizontal: 16,
+    paddingVertical: 14,
+    fontSize: 16,
+    color: '#333',
+  },
+  row: {
+    flexDirection: 'row',
+    gap: 12,
+  },
+  halfInput: {
+    flex: 1,
+  },
+  buttonGroup: {
+    gap: 12,
+    marginTop: 8,
+  },
+  button: {
+    borderRadius: 16,
+    paddingVertical: 14,
+    alignItems: 'center',
+  },
+  buttonText: {
+    fontSize: 16,
+    fontWeight: '800',
+    letterSpacing: 1,
+  },
+});
