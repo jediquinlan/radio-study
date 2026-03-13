@@ -1,0 +1,28 @@
+{
+  "name": "@radio-lingo/web",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@radio-lingo/ui": "*",
+    "@supabase/supabase-js": "^2.97.0",
+    "@tamagui/config": "^1.121.7",
+    "@tamagui/core": "^1.121.7",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-native-web": "~0.21.0",
+    "tamagui": "^1.121.7"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "@types/react-dom": "~19.1.0",
+    "@vitejs/plugin-react": "^4.5.2",
+    "typescript": "~5.9.2",
+    "vite": "^6.3.0"
+  },
+  "private": true
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@radio-lingo/ui",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "@tamagui/config": "^1.121.7",
+    "@tamagui/core": "^1.121.7",
+    "tamagui": "^1.121.7"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "private": true
+}
