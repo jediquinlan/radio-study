@@ -1,4 +1,12 @@
 import { useState } from "react";
+import { YStack, Text } from "tamagui";
+import {
+  RoundedButton,
+  StyledInput,
+  ScreenTitle,
+  Subtitle,
+  colors,
+} from "@radio-lingo/ui";
 import { supabase } from "./supabase";
 
 export function Login() {
@@ -7,8 +15,7 @@ export function Login() {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
-  const handleLogin = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleLogin = async () => {
     setLoading(true);
     setError(null);
 
@@ -22,105 +29,44 @@ export function Login() {
   };
 
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        minHeight: "100vh",
-        backgroundColor: "#FFFFFF",
-        fontFamily: "system-ui, sans-serif",
-      }}
+    <YStack
+      flex={1}
+      justifyContent="center"
+      alignItems="center"
+      minHeight="100vh"
+      backgroundColor={colors.white}
     >
-      <form
-        onSubmit={handleLogin}
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: 12,
-          width: 360,
-          padding: 24,
-        }}
-      >
-        <h1
-          style={{
-            fontSize: 28,
-            fontWeight: 800,
-            color: "#333333",
-            textAlign: "center",
-            margin: 0,
-          }}
-        >
-          Radio Lingo
-        </h1>
-        <p
-          style={{
-            fontSize: 16,
-            color: "#777",
-            textAlign: "center",
-            margin: "0 0 16px",
-          }}
-        >
-          Sign in to continue
-        </p>
+      <YStack gap={12} width={360} padding={24}>
+        <ScreenTitle>Radio Lingo</ScreenTitle>
+        <Subtitle>Sign in to continue</Subtitle>
 
-        <input
-          type="email"
+        <StyledInput
           placeholder="Email"
           value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          style={{
-            borderRadius: 16,
-            border: "2px solid #E5E5E5",
-            backgroundColor: "#F7F7F7",
-            padding: "14px 16px",
-            fontSize: 16,
-            outline: "none",
-          }}
+          onChangeText={setEmail}
+          autoCapitalize="none"
+          keyboardType="email-address"
         />
-        <input
-          type="password"
+        <StyledInput
           placeholder="Password"
           value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          style={{
-            borderRadius: 16,
-            border: "2px solid #E5E5E5",
-            backgroundColor: "#F7F7F7",
-            padding: "14px 16px",
-            fontSize: 16,
-            outline: "none",
-          }}
+          onChangeText={setPassword}
+          secureTextEntry
+          autoCapitalize="none"
         />
 
         {error && (
-          <p style={{ color: "#EE2A33", fontSize: 14, margin: 0 }}>{error}</p>
+          <Text color={colors.red} fontSize={14}>
+            {error}
+          </Text>
         )}
 
-        <button
-          type="submit"
+        <RoundedButton
+          title={loading ? "SIGNING IN..." : "SIGN IN"}
+          onPress={handleLogin}
           disabled={loading}
-          style={{
-            borderRadius: 16,
-            backgroundColor: "#58CC02",
-            borderBottom: "4px solid #46A302",
-            border: "none",
-            borderBottomStyle: "solid",
-            borderBottomWidth: 4,
-            borderBottomColor: "#46A302",
-            color: "#FFFFFF",
-            padding: "16px",
-            fontSize: 16,
-            fontWeight: 800,
-            letterSpacing: 1,
-            textTransform: "uppercase",
-            cursor: loading ? "not-allowed" : "pointer",
-            opacity: loading ? 0.7 : 1,
-          }}
-        >
-          {loading ? "Signing in..." : "Sign In"}
-        </button>
-      </form>
-    </div>
+        />
+      </YStack>
+    </YStack>
   );
 }
