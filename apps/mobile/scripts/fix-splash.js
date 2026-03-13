@@ -1,8 +1,69 @@
-const { withDangerousMod } = require("expo/config-plugins");
 const fs = require("fs");
 const path = require("path");
 
-const FULL_SCREEN_STORYBOARD = `<?xml version="1.0" encoding="UTF-8"?>
+const root = path.resolve(__dirname, "..");
+const splashSrc = path.join(root, "assets", "images", "splash-icon.png");
+const iosProject = path.join(root, "ios", "radiolingo");
+const imagesetDir = path.join(
+  iosProject,
+  "Images.xcassets",
+  "SplashScreenLogo.imageset"
+);
+const storyboardPath = path.join(iosProject, "SplashScreen.storyboard");
+
+if (!fs.existsSync(splashSrc)) {
+  console.error("Splash source not found:", splashSrc);
+  process.exit(1);
+}
+
+// Create imageset directory if it doesn't exist
+if (!fs.existsSync(imagesetDir)) {
+  fs.mkdirSync(imagesetDir, { recursive: true });
+  console.log("Created SplashScreenLogo.imageset directory.");
+}
+
+// Write Contents.json
+fs.writeFileSync(
+  path.join(imagesetDir, "Contents.json"),
+  JSON.stringify(
+    {
+      images: [
+        { idiom: "universal", filename: "image.png", scale: "1x" },
+        { idiom: "universal", filename: "image@2x.png", scale: "2x" },
+        { idiom: "universal", filename: "image@3x.png", scale: "3x" },
+      ],
+      info: { version: 1, author: "expo" },
+    },
+    null,
+    2
+  )
+);
+
+// Generate properly scaled images using sips (macOS)
+// Source is @3x resolution (1376x3072). Scale down for 1x and 2x.
+const { execSync } = require("child_process");
+
+// @3x — use original
+fs.copyFileSync(splashSrc, path.join(imagesetDir, "image@3x.png"));
+
+// @2x — 2/3 of original
+const img2x = path.join(imagesetDir, "image@2x.png");
+fs.copyFileSync(splashSrc, img2x);
+execSync(
+  `sips --resampleWidth 917 "${img2x}" > /dev/null 2>&1`
+);
+
+// @1x — 1/3 of original
+const img1x = path.join(imagesetDir, "image.png");
+fs.copyFileSync(splashSrc, img1x);
+execSync(
+  `sips --resampleWidth 459 "${img1x}" > /dev/null 2>&1`
+);
+
+console.log("Splash images written (properly scaled for 1x/2x/3x).");
+
+// Write the full storyboard (don't try to patch — just overwrite)
+const STORYBOARD = `<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24093.7" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EXPO-VIEWCONTROLLER-1">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -51,43 +112,5 @@ const FULL_SCREEN_STORYBOARD = `<?xml version="1.0" encoding="UTF-8"?>
     </resources>
 </document>`;
 
-module.exports = function withFullScreenSplash(config) {
-  return withDangerousMod(config, [
-    "ios",
-    async (config) => {
-      const projectName = config.modRequest.projectName;
-      const platformRoot = config.modRequest.platformProjectRoot;
-
-      // Fix storyboard
-      const storyboardPath = path.join(
-        platformRoot,
-        projectName,
-        "SplashScreen.storyboard"
-      );
-      fs.writeFileSync(storyboardPath, FULL_SCREEN_STORYBOARD);
-
-      // Fix splash image — copy full-size source into all scale slots
-      const splashSrc = path.resolve(
-        __dirname,
-        "..",
-        "assets",
-        "images",
-        "splash-icon.png"
-      );
-      const imagesetDir = path.join(
-        platformRoot,
-        projectName,
-        "Images.xcassets",
-        "SplashScreenLogo.imageset"
-      );
-
-      if (fs.existsSync(splashSrc) && fs.existsSync(imagesetDir)) {
-        for (const name of ["image.png", "image@2x.png", "image@3x.png"]) {
-          fs.copyFileSync(splashSrc, path.join(imagesetDir, name));
-        }
-      }
-
-      return config;
-    },
-  ]);
-};
+fs.writeFileSync(storyboardPath, STORYBOARD);
+console.log("Storyboard overwritten with full-screen splash.");

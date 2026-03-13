@@ -46,6 +46,10 @@ apps/mobile/android
 # lock files (use yarn.lock at root)
 package-lock.json
 
+# Root-level Expo artifacts (generated when running expo commands from monorepo root)
+/app.json
+/tsconfig.json
+
 # Yarn
 .yarn/*
 !.yarn/patches

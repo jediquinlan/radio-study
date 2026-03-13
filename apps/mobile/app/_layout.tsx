@@ -1,6 +1,8 @@
 import { Session } from '@supabase/supabase-js';
 import { Stack } from 'expo-router';
 import { useEffect, useState } from 'react';
+import { TamaguiProvider, Theme } from 'tamagui';
+import { tamaguiConfig } from '../tamagui.config';
 import AuthGate from './auth';
 import { supabase } from '../lib/supabase';
 
@@ -17,13 +19,17 @@ export default function RootLayout() {
     });
   }, []);
 
-  if (!session) {
-    return <AuthGate />;
-  }
-
   return (
-    <Stack>
-      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-    </Stack>
+    <TamaguiProvider config={tamaguiConfig}>
+      <Theme name="light">
+        {!session ? (
+          <AuthGate />
+        ) : (
+          <Stack>
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          </Stack>
+        )}
+      </Theme>
+    </TamaguiProvider>
   );
 }

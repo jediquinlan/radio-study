@@ -5,9 +5,8 @@ import {
   Platform,
   ScrollView,
 } from 'react-native';
-import { TamaguiProvider, Theme, XStack, YStack } from 'tamagui';
+import { XStack, YStack } from 'tamagui';
 import {
-  tamaguiConfig,
   RoundedButton,
   StyledInput,
   ScreenTitle,
@@ -66,16 +65,14 @@ export default function AuthGate() {
   }
 
   return (
-    <TamaguiProvider config={tamaguiConfig}>
-      <Theme name="light">
-        <KeyboardAvoidingView
-          style={{ flex: 1, backgroundColor: '#fff' }}
-          behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-        >
-          <ScrollView
-            contentContainerStyle={{ padding: 24, paddingTop: 80, paddingBottom: 40 }}
-            keyboardShouldPersistTaps="handled"
-          >
+    <KeyboardAvoidingView
+      style={{ flex: 1, backgroundColor: '#fff' }}
+      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+    >
+      <ScrollView
+        contentContainerStyle={{ padding: 24, paddingTop: 80, paddingBottom: 40 }}
+        keyboardShouldPersistTaps="handled"
+      >
             <ScreenTitle>
               {mode === 'signIn' ? 'Welcome back!' : 'Create Account'}
             </ScreenTitle>
@@ -138,9 +135,7 @@ export default function AuthGate() {
                 outline
               />
             </YStack>
-          </ScrollView>
-        </KeyboardAvoidingView>
-      </Theme>
-    </TamaguiProvider>
+      </ScrollView>
+    </KeyboardAvoidingView>
   );
 }

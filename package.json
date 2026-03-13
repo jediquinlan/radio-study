@@ -8,7 +8,13 @@
   ],
   "scripts": {
     "mobile": "yarn workspace @radio-lingo/mobile start",
+    "mobile:tunnel": "yarn workspace @radio-lingo/mobile start --tunnel",
+    "mobile:prebuild": "yarn workspace @radio-lingo/mobile exec expo prebuild --clean",
+    "mobile:fix-splash": "node apps/mobile/scripts/fix-splash.js",
+    "mobile:ios": "yarn workspace @radio-lingo/mobile exec expo run:ios --device",
+    "mobile:rebuild": "yarn mobile:prebuild && yarn mobile:fix-splash && yarn mobile:ios",
     "web": "yarn workspace @radio-lingo/web dev",
     "build:web": "yarn workspace @radio-lingo/web build"
-  }
+  },
+  "version": "1.0.0"
 }
