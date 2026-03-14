@@ -20,14 +20,14 @@ const ButtonFrame = styled(Stack, {
     },
     variant: {
       primary: {
-        backgroundColor: colors.green,
+        backgroundColor: colors.primary,
         borderBottomWidth: 4,
-        borderBottomColor: colors.greenDark,
+        borderBottomColor: colors.primaryDark,
       },
       secondary: {
-        backgroundColor: colors.blue,
+        backgroundColor: colors.accent,
         borderBottomWidth: 4,
-        borderBottomColor: colors.blueDark,
+        borderBottomColor: colors.accentDark,
       },
     },
     disabled: {
@@ -51,7 +51,7 @@ const ButtonText = styled(Text, {
   variants: {
     outline: {
       true: {
-        color: colors.blue,
+        color: colors.accent,
       },
     },
   } as const,

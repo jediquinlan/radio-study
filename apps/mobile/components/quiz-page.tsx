@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { Pressable, SafeAreaView, StyleSheet, Text, View } from "react-native";
 
 // These should eventually go into a shared theme file
-const GREEN = "#58CC02";
-const GREEN_DARK = "#46A302";
-const BLUE = "#1CB0F6";
-const BLUE_DARK = "#1899D6";
+const GREEN = "#DD614A";
+const GREEN_DARK = "#C04535";
+const BLUE = "#73A580";
+const BLUE_DARK = "#5A8468";
 const GRAY_BORDER = "#E5E5E5";
 const GRAY_TEXT = "#777";
 const WHITE = "#FFFFFF";
@@ -63,14 +63,14 @@ export default function MultipleChoiceQuiz({
 
             if (isSelected) {
               borderColor = BLUE;
-              backgroundColor = "#E5F6FF";
+              backgroundColor = "#EAF3EC";
               shadowColor = BLUE_DARK;
             }
 
             if (isChecked) {
               if (isCorrect) {
                 borderColor = GREEN;
-                backgroundColor = "#D7FFB8";
+                backgroundColor = "#EAECD4";
                 shadowColor = GREEN_DARK;
               } else if (isSelected) {
                 borderColor = "#EE2A33";

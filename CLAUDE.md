@@ -1,11 +1,14 @@
 # Radio Lingo
 
-## UI Style Guide — Duolingo-inspired
+## UI Style Guide
 All screens should follow this visual style consistently:
 
 ### Colors
-- Primary green: `#58CC02` (shadow: `#46A302`)
-- Accent blue: `#1CB0F6` (shadow: `#1899D6`)
+- Primary coral: `#DD614A` (shadow: `#C04535`)
+- Accent green: `#73A580` (shadow: `#5A8468`)
+- Salmon: `#F48668`
+- Peach: `#F4A698`
+- Sage: `#C5C392`
 - Background: `#FFFFFF`
 - Input background: `#F7F7F7`
 - Border/divider: `#E5E5E5`
@@ -15,7 +18,7 @@ All screens should follow this visual style consistently:
 ### Buttons
 - Rounded corners: `borderRadius: 16`
 - Bold uppercase text: `fontWeight: '800'`, `letterSpacing: 1`
-- Primary buttons: green fill with darker bottom border (4px) for 3D effect
+- Primary buttons: coral fill with darker bottom border (4px) for 3D effect
 - Secondary buttons: white fill with gray outline border
 - Use `Pressable` with pressed state (`opacity: 0.85`, `translateY: 1`)
 
