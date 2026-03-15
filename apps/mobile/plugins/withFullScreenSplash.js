@@ -87,6 +87,30 @@ module.exports = function withFullScreenSplash(config) {
         }
       }
 
+      // Patch SplashScreenManager.swift to skip creating the JS overlay.
+      // This eliminates the low-res→high-res crossfade caused by iOS
+      // transitioning between its cached launch screen and a second
+      // programmatic storyboard instantiation.
+      const splashManagerPath = path.join(
+        platformRoot,
+        "..",
+        "node_modules",
+        "expo-splash-screen",
+        "ios",
+        "SplashScreenManager.swift"
+      );
+      if (fs.existsSync(splashManagerPath)) {
+        let swift = fs.readFileSync(splashManagerPath, "utf8");
+        // Add early return to showSplashScreen() so no overlay is created
+        if (!swift.includes("// PATCHED: skip overlay")) {
+          swift = swift.replace(
+            "private func showSplashScreen() {",
+            "private func showSplashScreen() {\n    // PATCHED: skip overlay to prevent low-res crossfade\n    return"
+          );
+          fs.writeFileSync(splashManagerPath, swift);
+        }
+      }
+
       return config;
     },
   ]);

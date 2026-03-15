@@ -39,28 +39,26 @@ fs.writeFileSync(
   )
 );
 
-// Generate properly scaled images using sips (macOS)
-// Source is @3x resolution (1376x3072). Scale down for 1x and 2x.
-const { execSync } = require("child_process");
+// Use full-res image for ALL scale slots in BOTH image sets.
+// The native storyboard uses SplashScreenLogo; the JS overlay uses SplashScreenLegacy.
+// Both must have identical full-res images to prevent any visible crossfade.
+for (const name of ["image.png", "image@2x.png", "image@3x.png"]) {
+  fs.copyFileSync(splashSrc, path.join(imagesetDir, name));
+}
+console.log("SplashScreenLogo images written (full-res all scales).");
 
-// @3x — use original
-fs.copyFileSync(splashSrc, path.join(imagesetDir, "image@3x.png"));
-
-// @2x — 2/3 of original
-const img2x = path.join(imagesetDir, "image@2x.png");
-fs.copyFileSync(splashSrc, img2x);
-execSync(
-  `sips --resampleWidth 917 "${img2x}" > /dev/null 2>&1`
+// Also overwrite SplashScreenLegacy (used by expo-splash-screen JS overlay)
+const legacyDir = path.join(
+  iosProject,
+  "Images.xcassets",
+  "SplashScreenLegacy.imageset"
 );
-
-// @1x — 1/3 of original
-const img1x = path.join(imagesetDir, "image.png");
-fs.copyFileSync(splashSrc, img1x);
-execSync(
-  `sips --resampleWidth 459 "${img1x}" > /dev/null 2>&1`
-);
-
-console.log("Splash images written (properly scaled for 1x/2x/3x).");
+if (fs.existsSync(legacyDir)) {
+  for (const name of ["image.png", "image@2x.png", "image@3x.png"]) {
+    fs.copyFileSync(splashSrc, path.join(legacyDir, name));
+  }
+  console.log("SplashScreenLegacy images written (full-res all scales).");
+}
 
 // Write the full storyboard (don't try to patch — just overwrite)
 const STORYBOARD = `<?xml version="1.0" encoding="UTF-8"?>
