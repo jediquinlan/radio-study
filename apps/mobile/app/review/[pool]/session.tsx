@@ -76,6 +76,9 @@ export default function ReviewSession() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      <Pressable onPress={() => router.back()} hitSlop={12} style={{ alignSelf: 'flex-start', marginBottom: 8 }}>
+        <Text style={{ fontSize: 28, color: '#333' }}>←</Text>
+      </Pressable>
       <Text style={styles.counter}>{index + 1} / {questions.length}</Text>
       <Text style={styles.questionId}>{question.id}</Text>
       <Text style={styles.question}>{question.question}</Text>

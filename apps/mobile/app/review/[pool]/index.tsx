@@ -1,7 +1,7 @@
 import { ScrollView, View, Text, Pressable, StyleSheet } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { YStack } from 'tamagui';
-import { ScreenTitle, Subtitle, SectionLabel, RoundedButton } from '@radio-lingo/ui';
+import { ScreenTitle, Subtitle, SectionLabel, RoundedButton, BackButton } from '@radio-lingo/ui';
 import { PoolId, POOL_LABELS, getSubelements, getSubelementMeta } from '../../../lib/questions';
 
 export default function PoolModeScreen() {
@@ -14,6 +14,7 @@ export default function PoolModeScreen() {
       contentContainerStyle={{ padding: 24, paddingTop: 80, paddingBottom: 40 }}
       keyboardShouldPersistTaps="handled"
     >
+      <BackButton onPress={() => router.back()} />
       <ScreenTitle>{POOL_LABELS[pool]}</ScreenTitle>
       <Subtitle>Choose a study mode</Subtitle>
 

@@ -25,9 +25,7 @@ export default function RootLayout() {
         {!session ? (
           <AuthGate />
         ) : (
-          <Stack>
-            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          </Stack>
+          <Stack screenOptions={{ headerShown: false }} />
         )}
       </Theme>
     </TamaguiProvider>
