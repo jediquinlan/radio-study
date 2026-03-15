@@ -1,39 +1,35 @@
-import { Text, TouchableOpacity, View } from "react-native";
+import { ScrollView, Linking } from 'react-native';
+import { YStack } from 'tamagui';
+import { ScreenTitle, Subtitle, SectionLabel, RoundedButton } from '@radio-lingo/ui';
+
+const RESOURCES = [
+  { label: 'Order ARRL Study Guides', url: 'https://www.arrl.org/shop/Licensing-Education/' },
+  { label: 'Find an Exam Session', url: 'https://www.arrl.org/find-an-amateur-radio-license-exam-session' },
+  { label: 'Get Your FRN', url: 'https://apps.fcc.gov/coresWeb/regEntityType.do' },
+  { label: 'Find a Radio Club', url: 'https://www.arrl.org/find-a-club' },
+  { label: 'Join ARRL', url: 'https://www.arrl.org/join' },
+];
 
 export default function HomeScreen() {
   return (
-    <View
-      style={{
-        flex: 2,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "#ff0000",
-      }}
+    <ScrollView
+      contentContainerStyle={{ padding: 24, paddingTop: 80, paddingBottom: 40 }}
+      keyboardShouldPersistTaps="handled"
     >
-      <View
-        style={{
-          marginTop: 20,
-          justifyContent: "center",
-          alignItems: "center",
-          borderRadius: 10,
-        }}
-      >
-        <Text>Which one?</Text>
+      <ScreenTitle>Radio Lingo</ScreenTitle>
+      <Subtitle>Study for your amateur radio license</Subtitle>
 
-        <TouchableOpacity onPress={() => alert("Correct!")}>
-          <Text style={{ color: "blue", marginTop: 20 }}>yes</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity onPress={() => alert("nope!")}>
-          <Text style={{ color: "blue", marginTop: 20 }}>maybe</Text>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => alert("nope!")}>
-          <Text style={{ color: "blue", marginTop: 20 }}>possibly</Text>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => alert("nada!")}>
-          <Text style={{ color: "blue", marginTop: 20 }}>absolutely not</Text>
-        </TouchableOpacity>
-      </View>
-    </View>
+      <YStack gap={12} marginTop={32}>
+        <SectionLabel>Resources</SectionLabel>
+        {RESOURCES.map((r) => (
+          <RoundedButton
+            key={r.url}
+            title={r.label}
+            outline
+            onPress={() => Linking.openURL(r.url)}
+          />
+        ))}
+      </YStack>
+    </ScrollView>
   );
 }
