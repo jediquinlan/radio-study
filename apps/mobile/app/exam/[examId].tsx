@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
-import { ScrollView, View, Text, Pressable, StyleSheet, ActivityIndicator } from 'react-native';
+import { ScrollView, View, Text, Pressable, StyleSheet, ActivityIndicator, Image, useWindowDimensions } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { supabase } from '../../lib/supabase';
 import { getQuestions, PoolId } from '../../lib/questions';
+import { parseFigureRef, getFigureSource } from '../../lib/figures';
 
 interface ExamQuestion {
   id: string;
@@ -23,6 +24,7 @@ interface Exam {
 export default function ExamSessionScreen() {
   const { examId } = useLocalSearchParams<{ examId: string }>();
   const router = useRouter();
+  const { width } = useWindowDimensions();
 
   const [exam, setExam] = useState<Exam | null>(null);
   const [examQuestions, setExamQuestions] = useState<ExamQuestion[]>([]);
@@ -96,11 +98,22 @@ export default function ExamSessionScreen() {
     setShowCorrect(false);
   }
 
+  const figureRef = parseFigureRef(question.question);
+  const figureSource = figureRef ? getFigureSource(figureRef) : null;
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.counter}>{index + 1} / {examQuestions.length}</Text>
       <Text style={styles.questionId}>{question.id}</Text>
       <Text style={styles.question}>{question.question}</Text>
+
+      {figureSource && (
+        <Image
+          source={figureSource}
+          style={{ width: width - 48, height: (width - 48) * 0.75, marginBottom: 16 }}
+          resizeMode="contain"
+        />
+      )}
 
       <View style={styles.answers}>
         {order.map((originalIdx, displayIdx) => {

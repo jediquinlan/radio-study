@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ScrollView, View, Text, Pressable, StyleSheet, Alert } from 'react-native';
+import { ScrollView, View, Text, Pressable, StyleSheet, Image, useWindowDimensions } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import {
   PoolId,
@@ -8,6 +8,7 @@ import {
   getQuestionsBySubelement,
   shuffleAnswerOrder,
 } from '../../../lib/questions';
+import { parseFigureRef, getFigureSource } from '../../../lib/figures';
 import { supabase } from '../../../lib/supabase';
 
 type Mode = 'random' | 'subelement' | 'missed';
@@ -26,6 +27,7 @@ export default function ReviewSession() {
     subelement?: string;
   }>();
   const router = useRouter();
+  const { width } = useWindowDimensions();
 
   const [questions] = useState<Question[]>(() =>
     loadQuestions(pool, mode as Mode, subelement)
@@ -69,12 +71,22 @@ export default function ReviewSession() {
   }
 
   const correctDisplayIdx = order.indexOf(question.correct);
+  const figureRef = parseFigureRef(question.question);
+  const figureSource = figureRef ? getFigureSource(figureRef) : null;
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.counter}>{index + 1} / {questions.length}</Text>
       <Text style={styles.questionId}>{question.id}</Text>
       <Text style={styles.question}>{question.question}</Text>
+
+      {figureSource && (
+        <Image
+          source={figureSource}
+          style={{ width: width - 48, height: (width - 48) * 0.75, marginBottom: 16 }}
+          resizeMode="contain"
+        />
+      )}
 
       <View style={styles.answers}>
         {order.map((originalIdx, displayIdx) => {
