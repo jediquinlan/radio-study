@@ -15,10 +15,7 @@ export default function ExamScreen() {
       keyboardShouldPersistTaps="handled"
     >
       <ScreenTitle>Practice Exam</ScreenTitle>
-      <Subtitle>One question drawn from each group — just like the real test</Subtitle>
-
       <YStack gap={12} marginTop={32}>
-        <SectionLabel>License Class</SectionLabel>
         {POOLS.map((pool) => (
           <RoundedButton
             key={pool}

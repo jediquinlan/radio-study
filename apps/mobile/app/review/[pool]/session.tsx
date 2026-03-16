@@ -79,7 +79,6 @@ export default function ReviewSession() {
       <Pressable onPress={() => router.back()} hitSlop={12} style={{ alignSelf: 'flex-start', marginBottom: 8 }}>
         <Text style={{ fontSize: 28, color: '#333' }}>←</Text>
       </Pressable>
-      <Text style={styles.counter}>{index + 1} / {questions.length}</Text>
       <Text style={styles.questionId}>{question.id}</Text>
       <Text style={styles.question}>{question.question}</Text>
 
@@ -125,7 +124,6 @@ export default function ReviewSession() {
 
 const styles = StyleSheet.create({
   container: { padding: 24, paddingTop: 60, paddingBottom: 40 },
-  counter: { fontSize: 14, fontWeight: '700', color: '#777', marginBottom: 8, letterSpacing: 1 },
   questionId: { fontSize: 12, color: '#aaa', marginBottom: 4 },
   question: { fontSize: 18, fontWeight: '700', color: '#333', marginBottom: 24, lineHeight: 26 },
   answers: { gap: 12 },
