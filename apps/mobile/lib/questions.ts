@@ -135,3 +135,40 @@ export function getRandomQuestions(pool: PoolId, count?: number): Question[] {
 export function shuffleAnswerOrder(question: Question): number[] {
   return shuffle([0, 1, 2, 3]);
 }
+
+/**
+ * Weighted random question picker based on user performance.
+ * Questions answered incorrectly get higher weight; unseen questions
+ * get moderate weight; mastered questions get low weight.
+ */
+export interface PerformanceRecord {
+  question_id: string;
+  total: number;
+  correct: number;
+}
+
+export function weightedPickQuestion(
+  questions: Question[],
+  performance: Map<string, PerformanceRecord>,
+  recentIds: Set<string>,
+): Question {
+  const weights = questions.map((q) => {
+    // Avoid showing same question back-to-back
+    if (recentIds.has(q.id)) return 0.01;
+
+    const rec = performance.get(q.id);
+    if (!rec || rec.total === 0) return 3; // unseen — moderate priority
+    const accuracy = rec.correct / rec.total;
+    if (accuracy < 0.5) return 5;          // struggling — highest priority
+    if (accuracy < 0.8) return 2;          // learning — medium
+    return 0.5;                            // mastered — low
+  });
+
+  const totalWeight = weights.reduce((a, b) => a + b, 0);
+  let roll = Math.random() * totalWeight;
+  for (let i = 0; i < questions.length; i++) {
+    roll -= weights[i];
+    if (roll <= 0) return questions[i];
+  }
+  return questions[questions.length - 1];
+}

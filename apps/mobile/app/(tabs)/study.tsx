@@ -15,7 +15,7 @@ export default function StudyScreen() {
       keyboardShouldPersistTaps="handled"
     >
       <ScreenTitle>Review Mode</ScreenTitle>
-      <Subtitle>Choose a license class to study</Subtitle>
+      <Subtitle>Review questions by subelement or randomly. Questions you miss will appear more often.</Subtitle>
 
       <YStack gap={12} marginTop={32}>
         <SectionLabel>License Class</SectionLabel>

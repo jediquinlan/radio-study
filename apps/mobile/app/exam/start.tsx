@@ -5,11 +5,22 @@ import { YStack } from 'tamagui';
 import { ScreenTitle, Subtitle, RoundedButton, BackButton } from '@radio-lingo/ui';
 import { PoolId, POOL_LABELS, buildPracticeExam, shuffleAnswerOrder } from '../../lib/questions';
 import { supabase } from '../../lib/supabase';
+import { exportExamPdf } from '../../lib/examPdf';
 
 export default function ExamStartScreen() {
   const { pool } = useLocalSearchParams<{ pool: PoolId }>();
   const router = useRouter();
   const [loading, setLoading] = useState(false);
+  const [exporting, setExporting] = useState(false);
+
+  async function handleExportPdf() {
+    setExporting(true);
+    try {
+      await exportExamPdf(pool);
+    } finally {
+      setExporting(false);
+    }
+  }
 
   async function startExam() {
     setLoading(true);
@@ -45,6 +56,7 @@ export default function ExamStartScreen() {
       <Subtitle>One question per group, answers scrambled — just like the real thing.</Subtitle>
       <YStack gap={12} marginTop={32}>
         <RoundedButton title="START EXAM" disabled={loading} onPress={startExam} />
+        <RoundedButton title="EXPORT PDF" outline disabled={exporting} onPress={handleExportPdf} />
         <RoundedButton title="CANCEL" outline onPress={() => router.back()} />
       </YStack>
     </ScrollView>

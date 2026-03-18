@@ -25,6 +25,10 @@ export default function PoolModeScreen() {
           onPress={() => router.push(`/review/${pool}/session?mode=random`)}
         />
         <RoundedButton
+          title="CORRECT ANSWERS ONLY"
+          onPress={() => router.push(`/review/${pool}/session?mode=random&correctOnly=1`)}
+        />
+        <RoundedButton
           title="MISSED ONLY"
           outline
           onPress={() => router.push(`/review/${pool}/session?mode=missed`)}
@@ -36,17 +40,31 @@ export default function PoolModeScreen() {
         {subelements.map((sub) => {
           const meta = getSubelementMeta(pool, sub);
           return (
-            <Pressable
-              key={sub}
-              style={styles.card}
-              onPress={() => router.push(`/review/${pool}/session?mode=subelement&subelement=${sub}`)}
-            >
-              <View style={styles.cardHeader}>
-                <Text style={styles.cardId}>{sub}</Text>
-                <Text style={styles.cardCount}>{meta?.exam_questions ?? '?'} exam Qs</Text>
+            <View key={sub} style={styles.card}>
+              <Pressable
+                onPress={() => router.push(`/review/${pool}/session?mode=subelement&subelement=${sub}`)}
+              >
+                <View style={styles.cardHeader}>
+                  <Text style={styles.cardId}>{sub}</Text>
+                  <Text style={styles.cardCount}>{meta?.exam_questions ?? '?'} exam Qs</Text>
+                </View>
+                <Text style={styles.cardTitle}>{meta?.title ?? ''}</Text>
+              </Pressable>
+              <View style={styles.cardActions}>
+                <Pressable
+                  onPress={() => router.push(`/review/${pool}/session?mode=subelement&subelement=${sub}&correctOnly=1`)}
+                  hitSlop={8}
+                >
+                  <Text style={styles.actionText}>Correct Only</Text>
+                </Pressable>
+                <Pressable
+                  onPress={() => router.push(`/review/${pool}/session?mode=missed&subelement=${sub}`)}
+                  hitSlop={8}
+                >
+                  <Text style={styles.actionText}>Missed Only</Text>
+                </Pressable>
               </View>
-              <Text style={styles.cardTitle}>{meta?.title ?? ''}</Text>
-            </Pressable>
+            </View>
           );
         })}
       </YStack>
@@ -82,5 +100,18 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: '700',
     color: '#333',
+  },
+  cardActions: {
+    flexDirection: 'row',
+    gap: 16,
+    marginTop: 10,
+    borderTopWidth: 1,
+    borderTopColor: '#E5E5E5',
+    paddingTop: 10,
+  },
+  actionText: {
+    fontSize: 13,
+    fontWeight: '700',
+    color: '#DD614A',
   },
 });

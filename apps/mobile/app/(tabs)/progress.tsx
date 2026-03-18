@@ -100,7 +100,7 @@ export default function ProgressScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <ScreenTitle>Progress</ScreenTitle>
-      <Subtitle>Your performance by subelement</Subtitle>
+      <Subtitle>See how you're doing across every subelement.</Subtitle>
 
       <View style={styles.legend}>
         <View style={styles.legendItem}>

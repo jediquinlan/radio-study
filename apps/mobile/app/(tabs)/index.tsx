@@ -25,7 +25,6 @@ export default function HomeScreen() {
           <RoundedButton
             key={r.url}
             title={r.label}
-            outline
             onPress={() => Linking.openURL(r.url)}
           />
         ))}

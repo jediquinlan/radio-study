@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ScrollView, View, Text, Pressable, StyleSheet, ActivityIndicator, Image, useWindowDimensions } from 'react-native';
+import { ScrollView, View, Text, Pressable, StyleSheet, ActivityIndicator, Alert, Image, useWindowDimensions } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { supabase } from '../../lib/supabase';
 import { getQuestions, PoolId } from '../../lib/questions';
@@ -32,6 +32,31 @@ export default function ExamSessionScreen() {
   const [selected, setSelected] = useState<number | null>(null);
   const [showCorrect, setShowCorrect] = useState(false);
   const [loading, setLoading] = useState(true);
+
+  function confirmQuit() {
+    Alert.alert(
+      'Leave Exam?',
+      'Your progress so far will be saved and the exam will be scored.',
+      [
+        { text: 'Cancel', style: 'cancel' },
+        { text: 'Leave', style: 'destructive', onPress: handleQuit },
+      ]
+    );
+  }
+
+  async function handleQuit() {
+    const { data: finalQs } = await supabase
+      .from('practice_exam_questions')
+      .select('is_correct')
+      .eq('exam_id', examId);
+    const answered = finalQs?.filter((q) => q.is_correct !== null) ?? [];
+    const score = answered.filter((q) => q.is_correct).length;
+    await supabase
+      .from('practice_exams')
+      .update({ completed_at: new Date().toISOString(), score })
+      .eq('id', examId);
+    router.replace(`/exam/results/${examId}`);
+  }
 
   useEffect(() => {
     async function load() {
@@ -103,7 +128,12 @@ export default function ExamSessionScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.counter}>{index + 1} / {examQuestions.length}</Text>
+      <View style={styles.topRow}>
+        <Text style={styles.counter}>{index + 1} / {examQuestions.length}</Text>
+        <Pressable onPress={confirmQuit} hitSlop={12}>
+          <Text style={styles.quitBtn}>✕</Text>
+        </Pressable>
+      </View>
       <Text style={styles.questionId}>{question.id}</Text>
       <Text style={styles.question}>{question.question}</Text>
 
@@ -149,7 +179,9 @@ export default function ExamSessionScreen() {
 
 const styles = StyleSheet.create({
   container: { padding: 24, paddingTop: 60, paddingBottom: 40 },
-  counter: { fontSize: 14, fontWeight: '700', color: '#777', marginBottom: 8, letterSpacing: 1 },
+  topRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 },
+  counter: { fontSize: 14, fontWeight: '700', color: '#777', letterSpacing: 1 },
+  quitBtn: { fontSize: 22, color: '#999', fontWeight: '700' },
   questionId: { fontSize: 12, color: '#aaa', marginBottom: 4 },
   question: { fontSize: 18, fontWeight: '700', color: '#333', marginBottom: 24, lineHeight: 26 },
   answers: { gap: 12 },
