@@ -9,6 +9,7 @@ import {
   getQuestionsBySubelement,
   shuffleAnswerOrder,
   weightedPickQuestion,
+  getHintData,
 } from '../../../lib/questions';
 import { parseFigureRef, getFigureSource } from '../../../lib/figures';
 import { supabase } from '../../../lib/supabase';
@@ -42,6 +43,7 @@ export default function ReviewSession() {
   const [order, setOrder] = useState<number[]>(() => shuffleAnswerOrder(questionPool[0]));
   const [selected, setSelected] = useState<number | null>(null);
   const [showCorrect, setShowCorrect] = useState(false);
+  const [showHint, setShowHint] = useState(false);
 
   // Load existing performance data on mount
   useEffect(() => {
@@ -88,6 +90,7 @@ export default function ReviewSession() {
     setOrder(shuffleAnswerOrder(next));
     setSelected(null);
     setShowCorrect(false);
+    setShowHint(false);
   }, [questionPool, performance, recentIds, question.id]);
 
   async function handleSelect(displayIdx: number) {
@@ -121,6 +124,7 @@ export default function ReviewSession() {
   const correctDisplayIdx = order.indexOf(question.correct);
   const figureRef = parseFigureRef(question.question);
   const figureSource = figureRef ? getFigureSource(figureRef) : null;
+  const hintData = getHintData(pool, question.id);
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
@@ -143,12 +147,30 @@ export default function ReviewSession() {
           <View style={[styles.answer, { backgroundColor: '#F7F7F7', borderColor: '#E5E5E5' }]}>
             <Text style={styles.answerText}>{question.answers[question.correct]}</Text>
           </View>
+          {hintData && (
+            <View style={styles.explanationBox}>
+              <Text style={styles.explanationLabel}>Explanation</Text>
+              <Text style={styles.explanationText}>{hintData.explanation}</Text>
+            </View>
+          )}
           <Pressable style={styles.next} onPress={handleNext}>
             <Text style={styles.nextText}>NEXT</Text>
           </Pressable>
         </>
       ) : (
         <>
+          {!showCorrect && !showHint && hintData && (
+            <Pressable style={styles.hintBtn} onPress={() => setShowHint(true)}>
+              <Text style={styles.hintBtnText}>SHOW HINT</Text>
+            </Pressable>
+          )}
+
+          {showHint && hintData && !showCorrect && (
+            <View style={styles.hintBox}>
+              <Text style={styles.hintText}>{hintData.hint}</Text>
+            </View>
+          )}
+
           <View style={styles.answers}>
             {order.map((originalIdx, displayIdx) => {
               const isSelected = selected === displayIdx;
@@ -169,6 +191,13 @@ export default function ReviewSession() {
               );
             })}
           </View>
+
+          {showCorrect && hintData && (
+            <View style={styles.explanationBox}>
+              <Text style={styles.explanationLabel}>Explanation</Text>
+              <Text style={styles.explanationText}>{hintData.explanation}</Text>
+            </View>
+          )}
 
           {showCorrect && (
             <Pressable style={styles.next} onPress={handleNext}>
@@ -192,6 +221,34 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   answerText: { fontSize: 16, color: '#333' },
+  hintBtn: {
+    marginBottom: 16,
+    borderRadius: 16,
+    borderWidth: 2,
+    borderColor: '#F4A698',
+    padding: 12,
+    alignItems: 'center',
+  },
+  hintBtnText: { color: '#DD614A', fontWeight: '800', fontSize: 14, letterSpacing: 1 },
+  hintBox: {
+    marginBottom: 16,
+    backgroundColor: '#FFF8F0',
+    borderRadius: 12,
+    padding: 14,
+    borderLeftWidth: 4,
+    borderLeftColor: '#F4A698',
+  },
+  hintText: { fontSize: 15, color: '#555', lineHeight: 22, fontStyle: 'italic' },
+  explanationBox: {
+    marginTop: 16,
+    backgroundColor: '#F0F7F2',
+    borderRadius: 12,
+    padding: 14,
+    borderLeftWidth: 4,
+    borderLeftColor: '#73A580',
+  },
+  explanationLabel: { fontSize: 13, fontWeight: '700', color: '#73A580', marginBottom: 4, letterSpacing: 0.5 },
+  explanationText: { fontSize: 15, color: '#444', lineHeight: 22 },
   next: {
     marginTop: 24,
     backgroundColor: '#58CC02',

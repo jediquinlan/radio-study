@@ -1,0 +1,1646 @@
+{
+  "T1A01": {
+    "hint": "Think about what the FCC says is the fundamental purpose of ham radio -- it involves advancing knowledge.",
+    "explanation": "Part 97.1 of the FCC rules states that the Amateur Radio Service exists for the purpose of advancing skills in the technical and communication phases of the radio art. This includes self-training, intercommunication, and technical investigation. It is not primarily about providing personal communications or serving non-profit organizations."
+  },
+  "T1A02": {
+    "hint": "Consider which federal agency is responsible for regulating all radio communications in the US.",
+    "explanation": "The Federal Communications Commission (FCC) is the US government agency that regulates and enforces the rules for the Amateur Radio Service. FEMA and Homeland Security have different roles related to emergency management, not radio regulation. The FCC's authority comes from the Communications Act of 1934."
+  },
+  "T1A03": {
+    "hint": "The rules don't mandate it, but they do look favorably on using it.",
+    "explanation": "The FCC rules state that the use of a phonetic alphabet for station identification is encouraged but not required. While phonetics help ensure accurate communication of call signs, especially under poor signal conditions, the FCC does not mandate their use in any specific situation."
+  },
+  "T1A04": {
+    "hint": "Think about keeping things simple -- the FCC issues just a single grant per person.",
+    "explanation": "The FCC rules allow only one operator/primary station license grant per person. You do not need separate licenses for different bands or locations. Your single license authorizes you to operate from any location within the privileges of your license class."
+  },
+  "T1A05": {
+    "hint": "Think about the official FCC database where all license records are maintained.",
+    "explanation": "The official proof that the FCC has issued a license is its appearance in the FCC's Universal Licensing System (ULS) database. The CSCE (Certificate of Successful Completion of Examination) is not proof of a license grant, nor is notification from the NCVEC or any other organization. The ULS database is the authoritative record."
+  },
+  "T1A06": {
+    "hint": "A beacon is about observing how signals travel, not about weather or emergencies.",
+    "explanation": "Under Part 97, a beacon is defined as an amateur station transmitting communications for the purposes of observing propagation or related experimental activities. Beacons typically transmit continuously on specific frequencies so that other operators can monitor signal propagation conditions. They are not government transmitters, emergency bulletins, or weather stations."
+  },
+  "T1A07": {
+    "hint": "Think about altitude -- the definition involves a specific distance above Earth.",
+    "explanation": "The FCC defines a space station as an amateur station located more than 50 km above Earth's surface. This definition is specific to amateur radio and differs from common usage. It is not simply any satellite or a manned spacecraft, but specifically refers to the altitude threshold of 50 km."
+  },
+  "T1A08": {
+    "hint": "These coordinators are chosen by and serve the local amateur community, not the government.",
+    "explanation": "Volunteer Frequency Coordinators, recognized by local amateurs, recommend transmit/receive channels and other parameters for auxiliary and repeater stations. They are not government-appointed officials but rather volunteers recognized by the amateur community in their area. This system helps prevent interference between repeater stations."
+  },
+  "T1A09": {
+    "hint": "The people who use repeaters and auxiliary stations in the area get to pick.",
+    "explanation": "Frequency Coordinators are selected by amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations. This is a grassroots, self-governing process within the amateur radio community, not something done by the FCC or any other government agency."
+  },
+  "T1A10": {
+    "hint": "RACES combines all the elements listed -- it uses amateur frequencies, amateur stations, and certified operators for civil defense.",
+    "explanation": "RACES (Radio Amateur Civil Emergency Service) encompasses all the listed descriptions: it is a radio service using amateur frequencies and amateur stations for emergency management or civil defense communications, operated by amateur operators certified by a civil defense organization. All three elements together define RACES under Part 97."
+  },
+  "T1A11": {
+    "hint": "There is absolutely no circumstance where intentionally interfering with another station is allowed.",
+    "explanation": "Willful interference to other amateur radio stations is prohibited at all times under FCC rules (97.101(d)). Even if another station is violating rules, you may not intentionally interfere with them. The proper course of action is to report violations to the FCC. Self-policing through interference is never permitted."
+  },
+  "T1B01": {
+    "hint": "Technicians get phone privileges on 10 meters in a segment starting at 28.300 MHz.",
+    "explanation": "Technician class licensees have phone privileges on the 10 meter band from 28.300 to 28.500 MHz. The segment below 28.300 MHz is reserved for CW and data modes. This is the only HF phone segment available to Technician class operators."
+  },
+  "T1B02": {
+    "hint": "VHF bands are the bread and butter of the entry-level license class.",
+    "explanation": "Any amateur holding a Technician class or higher license may contact the ISS on VHF bands. Since VHF frequencies fall within Technician privileges, no higher license class is needed. No special approval from NASA is required either -- the ISS amateur radio program is open to all licensed amateurs with appropriate privileges."
+  },
+  "T1B03": {
+    "hint": "The 6 meter band runs from 50 to 54 MHz -- look for the frequency in that range.",
+    "explanation": "52.525 MHz falls within the 6 meter amateur band, which spans 50.0 to 54.0 MHz. 49.00 MHz is below the band, 28.50 MHz is in the 10 meter band, and 222.15 MHz is in the 1.25 meter band. 52.525 MHz is actually the national FM simplex calling frequency for 6 meters."
+  },
+  "T1B04": {
+    "hint": "146.52 MHz is the national FM calling frequency -- think about which band covers 144-148 MHz.",
+    "explanation": "146.52 MHz falls within the 2 meter band, which spans 144.0 to 148.0 MHz. This frequency is well-known as the national FM simplex calling frequency. The 2 meter band is the most popular VHF band for amateur radio communications."
+  },
+  "T1B05": {
+    "hint": "This narrow segment near the bottom of the 1.25 meter band has a very specific authorized use.",
+    "explanation": "The 219-220 MHz segment of the 1.25 meter band is restricted to fixed digital message forwarding systems only. This limitation exists because this segment is shared with other services. The rest of the 1.25 meter band (222-225 MHz) has broader amateur privileges."
+  },
+  "T1B06": {
+    "hint": "Technicians are mainly VHF/UHF operators, but they do get a slice of one HF band for voice.",
+    "explanation": "Technician class operators have phone (voice) privileges only on the 10 meter HF band (28.300-28.500 MHz). They do not have phone privileges on 80, 40, 30, or 15 meters. Those bands require a General or Amateur Extra class license for phone operation."
+  },
+  "T1B07": {
+    "hint": "The lowest portions of the 6 meter and 2 meter bands are set aside for the simplest mode.",
+    "explanation": "The segments 50.0-50.1 MHz (6 meters) and 144.0-144.1 MHz (2 meters) are limited to CW only. These are the very bottom portions of these VHF bands, reserved for CW to protect weak-signal operations. This is similar to how HF band plans reserve lower segments for CW."
+  },
+  "T1B08": {
+    "hint": "When amateur radio is the secondary service, think about who has priority.",
+    "explanation": "In band segments where the Amateur Radio Service is secondary, US amateurs may encounter non-amateur (primary) stations and must avoid interfering with them. Secondary status means amateur operators must yield to primary users. This does not restrict international communications or digital transmissions specifically."
+  },
+  "T1B09": {
+    "hint": "Several factors could push your signal outside the band -- frequency error, drift, and sidebands.",
+    "explanation": "You should avoid transmitting exactly at a band edge because of calibration error in the frequency display, modulation sidebands extending beyond the edge, and transmitter frequency drift. All of these factors could cause your signal to extend outside the amateur band, which would be a rules violation. Keeping a safety margin from the edge prevents accidental out-of-band operation."
+  },
+  "T1B10": {
+    "hint": "SSB phone is widely available on VHF and above -- not restricted to any single class or condition.",
+    "explanation": "SSB phone may be used in at least some segment of all amateur bands above 50 MHz. It is not limited to specific license classes above Technician, not restricted to repeaters, and not dependent on power level. SSB is commonly used for weak-signal work on VHF and UHF."
+  },
+  "T1B11": {
+    "hint": "Technicians get a bit more power on HF than you might expect for an entry-level license.",
+    "explanation": "The maximum peak envelope power (PEP) output for Technician class operators in their HF band segments is 200 watts. This applies to the 10 meter band segments available to Technician licensees. This is less than the 1500 watt maximum available on VHF/UHF but still provides good capability on 10 meters."
+  },
+  "T1B12": {
+    "hint": "Above 30 MHz, Technicians generally enjoy the same maximum power as higher-class licensees.",
+    "explanation": "The maximum PEP output for Technician class operators on frequencies above 30 MHz is 1500 watts, with some specific exceptions. This is the same maximum power level available to all amateur license classes on these bands. The exceptions include certain band segments with lower power limits."
+  },
+  "T1C01": {
+    "hint": "The Novice and Advanced classes are no longer being issued -- only three classes remain.",
+    "explanation": "The FCC currently issues new licenses for three classes: Technician, General, and Amateur Extra. The Novice and Advanced classes were discontinued for new applicants, though existing holders may still renew. The Technician Plus class was also eliminated, with those licensees being grandfathered as Technicians."
+  },
+  "T1C02": {
+    "hint": "The vanity call sign program is open to everyone with a license, regardless of class.",
+    "explanation": "Any licensed amateur may select a desired call sign under the vanity call sign rules. There is no requirement for a specific license class, though the call sign format you can request depends on your license class. The vanity call sign program allows amateurs to choose a call sign that may be more memorable or meaningful to them."
+  },
+  "T1C03": {
+    "hint": "International amateur communications should be incidental to the service's purposes and can include personal remarks.",
+    "explanation": "FCC-licensed amateur stations may make international communications that are incidental to the purposes of the Amateur Radio Service and remarks of a personal character. Business communications are prohibited, and there is no restriction limiting international contacts to contests only. The key is that communications must align with the amateur service's purposes."
+  },
+  "T1C04": {
+    "hint": "The FCC takes email contact information seriously -- failing to maintain it has significant consequences.",
+    "explanation": "If the FCC is unable to reach you by email, it may result in revocation of the station license or suspension of the operator license. The FCC requires licensees to maintain a valid email address on file. This is a serious obligation, as failure to comply can jeopardize your license."
+  },
+  "T1C05": {
+    "hint": "Technician call signs typically have a one-letter prefix, a single digit, and a three-letter suffix.",
+    "explanation": "KF1XXX is a valid Technician class call sign format -- it has a two-letter prefix (KF), single digit (1), and three-letter suffix (XXX). Technician call signs in the US use the 2x3 format (two prefix letters, one number, three suffix letters). The other formats shown represent higher-class or special call signs."
+  },
+  "T1C06": {
+    "hint": "Think about US-documented vessels in international waters -- that is one specific location allowed.",
+    "explanation": "An FCC-licensed amateur station may transmit from any vessel or craft located in international waters that is documented or registered in the United States. Operating from foreign countries requires permission from that country's administration. The key is that US jurisdiction extends to US-registered vessels in international waters."
+  },
+  "T1C07": {
+    "hint": "Keeping your email current with the FCC is not optional -- there are real consequences.",
+    "explanation": "Failure to provide and maintain a correct email address with the FCC can result in revocation of the station license or suspension of the operator license. This requirement was updated in recent rule changes to ensure the FCC can contact licensees electronically. It is a mandatory obligation for all amateur licensees."
+  },
+  "T1C08": {
+    "hint": "Amateur licenses last for a decade.",
+    "explanation": "The normal term for an FCC-issued amateur radio license is ten years. After that period, the license must be renewed. There is a two-year grace period after expiration during which you may renew, but you may not transmit during the grace period until the renewal is processed."
+  },
+  "T1C09": {
+    "hint": "You get a couple of years after expiration to get your renewal processed.",
+    "explanation": "The grace period for renewal of an expired amateur license is two years. During this time, you may apply for renewal, but you may not operate until the renewal is granted. If you do not renew within the two-year grace period, you must take the exam again to obtain a new license."
+  },
+  "T1C10": {
+    "hint": "The official record is in the FCC's own database, not on any other website or in the mail.",
+    "explanation": "You may begin transmitting as soon as your operator/station license grant appears in the FCC's ULS (Universal Licensing System) database. The CSCE is not sufficient for first-time licensees. You do not need to wait for a mailed copy, and the ARRL website is not the official record."
+  },
+  "T1C11": {
+    "hint": "Even though there is a grace period to renew, you cannot operate while the license is expired.",
+    "explanation": "If your license has expired, even if still within the grace period, you may not transmit until the license has been renewed. The grace period only preserves your right to renew without retaking the exam -- it does not authorize continued operation. You must wait until the FCC processes your renewal before transmitting again."
+  },
+  "T1D01": {
+    "hint": "The restriction comes from the other country's government notifying the ITU.",
+    "explanation": "FCC-licensed amateur stations are prohibited from exchanging communications with any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications. The ITU is the international body that coordinates telecommunications between nations. Neither the ARRL nor the IARU has authority to ban communications."
+  },
+  "T1D02": {
+    "hint": "Most one-way transmissions are allowed, but sending to a general audience is not.",
+    "explanation": "Broadcasting -- transmissions intended for reception by the general public -- is prohibited for amateur stations. However, other one-way transmissions such as CW practice, beacon transmissions, telecommand, and telemetry are permitted under specific conditions. The prohibition is specifically on broadcasting, not all one-way transmissions."
+  },
+  "T1D03": {
+    "hint": "Encoded messages are generally prohibited, but there is an exception for commanding remote devices.",
+    "explanation": "Transmitting messages encoded to obscure their meaning is only permissible when transmitting control commands to space stations or radio control craft. This exception exists because telecommand signals need to be secure to prevent unauthorized control. In all other situations, amateur communications must not be encoded to hide their meaning."
+  },
+  "T1D04": {
+    "hint": "Music is generally forbidden on amateur radio, but there is one narrow exception involving space communications.",
+    "explanation": "An amateur station is authorized to transmit music only when it is incidental to an authorized retransmission of manned spacecraft communications. For example, if NASA plays wake-up music for astronauts, a station retransmitting that communication may include the music. In all other cases, transmitting music on amateur frequencies is prohibited."
+  },
+  "T1D05": {
+    "hint": "Selling personal amateur equipment occasionally is allowed, but it cannot be a regular business.",
+    "explanation": "Amateur operators may use their stations to notify other amateurs of the availability of equipment for sale or trade when selling amateur radio equipment and not on a regular basis. The key restrictions are that it must be amateur radio equipment and it cannot be done regularly as a business. This allows occasional selling of personal gear."
+  },
+  "T1D06": {
+    "hint": "The FCC takes a zero-tolerance approach to this type of language.",
+    "explanation": "Any language that may be considered indecent or obscene is prohibited on amateur radio frequencies. There is no specific list of prohibited words -- the prohibition is blanket. The FCC can take enforcement action against licensees who use such language, including fines and license revocation."
+  },
+  "T1D07": {
+    "hint": "Think about which types of stations relay signals without a human operator initiating each retransmission.",
+    "explanation": "Repeater, auxiliary, and space stations can automatically retransmit the signals of other amateur stations. Repeaters receive and simultaneously retransmit signals on a different frequency. Auxiliary stations support repeater operations. Space stations (satellites) also retransmit signals. Beacon stations transmit their own signals, not retransmissions."
+  },
+  "T1D08": {
+    "hint": "Teaching at a school is the one scenario where getting paid while operating is acceptable.",
+    "explanation": "A control operator may receive compensation when the communication is incidental to classroom instruction at an educational institution. This exception allows teachers and instructors to be paid for teaching while using amateur radio as part of the educational program. Compensation for other amateur radio activities is generally prohibited."
+  },
+  "T1D09": {
+    "hint": "The only exception for supporting broadcast activities involves immediate safety of life or property.",
+    "explanation": "Amateur stations may transmit information in support of broadcasting, program production, or news gathering only when such communications are directly related to the immediate safety of human life or protection of property. This is a very narrow exception to the general prohibition against amateur radio being used to support commercial broadcasting."
+  },
+  "T1D10": {
+    "hint": "Broadcasting is about who can receive it -- think about signals meant for everyone.",
+    "explanation": "The FCC defines broadcasting for the Amateur Radio Service as transmissions intended for reception by the general public. This is distinct from two-way communications between amateur stations. Amateur radio is a two-way communication service, and one-way transmissions to the general public (broadcasting) are prohibited."
+  },
+  "T1D11": {
+    "hint": "Radio-controlled models get a special exemption from the identification requirement.",
+    "explanation": "An amateur station may transmit without identifying when transmitting signals to control model craft. This exemption exists because model control signals are brief and identifying would interfere with the control function. In all other cases, stations must identify at least every 10 minutes and at the end of communications."
+  },
+  "T1E01": {
+    "hint": "A control operator is always required -- no exceptions.",
+    "explanation": "An amateur station may never transmit without a control operator. Even repeaters operating under automatic control have a designated control operator who is responsible for the station's proper operation. The control operator does not need to be physically present at all times (as in automatic or remote control), but one must always be designated."
+  },
+  "T1E02": {
+    "hint": "The key is whether you are authorized on the satellite's uplink frequency, not your license class per se.",
+    "explanation": "Any amateur whose license authorizes them to transmit on the satellite uplink frequency may be the control operator of a station communicating through a satellite. Since most amateur satellites use VHF/UHF uplink frequencies, Technician class licensees can participate. No special certification or membership is required."
+  },
+  "T1E03": {
+    "hint": "The person who holds the station license gets to decide who operates.",
+    "explanation": "The station licensee must designate the station control operator. This is the licensee's responsibility and cannot be delegated to the FCC, a frequency coordinator, or just any licensed operator. The licensee maintains ultimate responsibility for who operates their station."
+  },
+  "T1E04": {
+    "hint": "It is the person at the controls, not the owner or anyone else on the premises, whose license matters.",
+    "explanation": "The transmitting frequency privileges of an amateur station are determined by the class of operator license held by the control operator. It does not matter what class license the station owner holds or what licenses other people at the station have. The control operator's license class determines what frequencies may be used."
+  },
+  "T1E05": {
+    "hint": "The control point is where the person in charge is actually performing their duties.",
+    "explanation": "An amateur station's control point is the location at which the control operator function is performed. This could be at the transmitter location for local control, or at a remote location for remote control. It is not the antenna location, the transmitter location, or the licensee's mailing address."
+  },
+  "T1E06": {
+    "hint": "Your license class limits where you can operate -- no one can grant you privileges you do not have.",
+    "explanation": "A Technician class licensee may never be the control operator of a station operating in an Amateur Extra Class band segment. Even if designated by an Extra Class licensee, the Technician's privileges do not extend to those frequencies. The control operator can only use frequencies authorized for their own license class."
+  },
+  "T1E07": {
+    "hint": "Both the person operating and the person who owns the station share the responsibility.",
+    "explanation": "When the control operator is not the station licensee, both the control operator and the station licensee are responsible for proper operation of the station. The licensee cannot escape responsibility by having someone else operate, and the control operator is always responsible for their own actions. This shared responsibility encourages oversight."
+  },
+  "T1E08": {
+    "hint": "Think about a station that operates on its own without anyone manually controlling each transmission.",
+    "explanation": "Repeater operation is an example of automatic control. A repeater automatically retransmits received signals without a control operator manually initiating each transmission. While a control operator is still designated, they do not need to be present. Controlling a station over the internet is remote control, not automatic control."
+  },
+  "T1E09": {
+    "hint": "Remote control still requires a person in the loop -- they must be at the control point and manipulate controls indirectly.",
+    "explanation": "Remote control operation requires all of the listed conditions: the control operator must be at the control point, a control operator is required at all times, and the control operator must indirectly manipulate the controls. The difference from local control is that the operator is not at the transmitter location."
+  },
+  "T1E10": {
+    "hint": "Remote control means operating a station from a different location using some kind of link.",
+    "explanation": "Operating a station over the internet is an example of remote control as defined in Part 97. The operator is at a different location from the transmitter and controls it through an internet connection. Repeater operation is automatic control, and controlling model craft is a different category entirely."
+  },
+  "T1E11": {
+    "hint": "Unless proven otherwise, the FCC assumes the station owner is in charge.",
+    "explanation": "The FCC presumes the station licensee to be the control operator unless documentation to the contrary exists in the station records. This means if there is a rules violation, the licensee will be held responsible unless they can show that someone else was designated as the control operator at the time."
+  },
+  "T1F01": {
+    "hint": "The FCC does not need to give advance notice or a warrant -- they can inspect upon request.",
+    "explanation": "The station and its records must be available for FCC inspection at any time upon request by an FCC representative. No advance notice, written notification, or warrant is required. This is a condition of holding an amateur radio license, and licensees agree to this when they receive their license."
+  },
+  "T1F02": {
+    "hint": "Tactical call signs are fine to use, but you still need to give your FCC call sign at regular intervals.",
+    "explanation": "When using tactical call signs, you must still identify with your FCC-assigned call sign at the end of each communication and at least every ten minutes during a communication. Tactical call signs like 'Race Headquarters' are convenient but do not replace the legal requirement to identify with your assigned call sign."
+  },
+  "T1F03": {
+    "hint": "The rule is every 10 minutes during and at the end.",
+    "explanation": "You are required to transmit your assigned call sign at least every 10 minutes during a communication and at the end of the communication. This is the standard identification interval for all amateur communications. It is not at the beginning, not every 15 minutes, and not every transmission."
+  },
+  "T1F04": {
+    "hint": "The FCC requires a specific language for phone identification -- the one most commonly spoken in the US.",
+    "explanation": "When operating in a phone sub-band, you must identify in English. While you may conduct the rest of your conversation in any language, the station identification must be in English. This ensures that FCC monitoring stations and other operators can understand the identification."
+  },
+  "T1F05": {
+    "hint": "You can identify using either voice or Morse code, even on phone.",
+    "explanation": "A station transmitting phone signals must send the call sign using a CW or phone emission. This means you can identify by speaking your call sign or by sending it in Morse code (CW). You are not required to use only phone, and no special indicators like RPT or R are needed."
+  },
+  "T1F06": {
+    "hint": "When saying a portable or temporary indicator on phone, any of the common separator words work.",
+    "explanation": "When using phone transmission, all the listed self-assigned indicators are acceptable: stroke, slant, and slash are all recognized ways to verbally indicate the separator (/) in a call sign modifier. For example, KL7CC/W3 can be spoken as 'KL7CC stroke W3' or any of the other variations."
+  },
+  "T1F07": {
+    "hint": "Third-party traffic with foreign stations requires a specific international agreement to be in place.",
+    "explanation": "When a non-licensed person speaks to a foreign station, the foreign station must be in a country with which the US has a third party agreement. Not all countries have such agreements. The person does not need to be a US citizen, and while the control operator handles identification, the third-party agreement is the key restriction."
+  },
+  "T1F08": {
+    "hint": "Third party communications involve a licensed operator passing a message on behalf of someone else.",
+    "explanation": "Third party communications is defined as a message from a control operator to another amateur station control operator on behalf of another person. The third party is the person for whom the message is being sent. It does not mean three stations in contact or temporary authorization for unlicensed persons to transmit."
+  },
+  "T1F09": {
+    "hint": "This type of station receives on one frequency and simultaneously transmits on another.",
+    "explanation": "A repeater station simultaneously retransmits the signal of another amateur station on a different channel or channels. This is the fundamental function of a repeater -- it receives a signal on its input frequency and retransmits it on its output frequency, extending the range of communications."
+  },
+  "T1F10": {
+    "hint": "The person who originally sent the offending transmission bears the responsibility.",
+    "explanation": "The control operator of the originating station is accountable if a repeater inadvertently retransmits communications that violate FCC rules. The repeater operator is generally not held responsible for content originated by others, since a repeater automatically retransmits whatever it receives. Responsibility falls on the person who generated the prohibited content."
+  },
+  "T1F11": {
+    "hint": "Club stations need a minimum number of members -- it is a small number.",
+    "explanation": "A requirement for the issuance of a club station license grant is that the club must have at least four members. The trustee does not need an Extra Class license, and the club does not need to be registered with the ARRL. The four-member minimum ensures that it is a genuine club rather than an individual seeking an additional call sign."
+  },
+  "T2A01": {
+    "hint": "The standard 2 meter offset is measured in kilohertz, not megahertz.",
+    "explanation": "The common repeater frequency offset in the 2 meter band is plus or minus 600 kHz. This means your transmit frequency is 600 kHz above or below the repeater's output frequency. This standard offset was established to provide adequate separation between repeater input and output frequencies on the 2 meter band."
+  },
+  "T2A02": {
+    "hint": "This well-known frequency ending in .520 is the go-to simplex frequency for 2 meters.",
+    "explanation": "The national calling frequency for FM simplex operations in the 2 meter band is 146.520 MHz. This is the most important frequency to remember for 2 meter FM operation. If you want to make contact with another station on simplex (without a repeater), this is where to start."
+  },
+  "T2A03": {
+    "hint": "The 70 cm offset is much larger than the 2 meter offset, measured in megahertz.",
+    "explanation": "The common repeater frequency offset in the 70 cm band is plus or minus 5 MHz. This larger offset (compared to 600 kHz on 2 meters) is needed because the 70 cm band is much wider. The offset provides adequate separation between the repeater's input and output frequencies."
+  },
+  "T2A04": {
+    "hint": "The polite way is to call them by their call sign and then identify yourself.",
+    "explanation": "When you know the other station's call sign, the appropriate way to call on a repeater is to say their call sign followed by your call sign. For example, 'W1ABC, this is K2DEF.' This is direct and efficient, letting the other station know who is calling them while properly identifying your station."
+  },
+  "T2A05": {
+    "hint": "Give their call sign first to get their attention, then yours so they know who is calling.",
+    "explanation": "When responding to a CQ call, you should transmit the other station's call sign followed by your call sign. This lets the calling station know you are responding to them specifically, and identifies who you are. For example, 'W1ABC, this is K2DEF.'"
+  },
+  "T2A06": {
+    "hint": "Even test transmissions require you to say who you are.",
+    "explanation": "When making on-the-air test transmissions, you are required to identify the transmitting station. This is a fundamental requirement of amateur radio -- all transmissions must be identified with your call sign. There is no time restriction or FCC notification requirement for test transmissions."
+  },
+  "T2A07": {
+    "hint": "The offset is the gap between the two frequencies a repeater uses.",
+    "explanation": "Repeater offset refers to the difference between a repeater's transmit frequency and its receive frequency. When you program a repeater into your radio, you set the offset so your radio transmits on the repeater's input frequency while listening on its output frequency. This allows the repeater to receive and retransmit simultaneously."
+  },
+  "T2A08": {
+    "hint": "CQ is ham radio's universal invitation to make contact -- it means you want to talk to anyone.",
+    "explanation": "The procedural signal CQ means 'calling any station.' When you transmit CQ, you are inviting any station that hears you to respond. It is not a test transmission, not limited to specific times, and not directed at a particular station. CQ is one of the most fundamental procedures in amateur radio."
+  },
+  "T2A09": {
+    "hint": "Saying your call sign followed by a specific word lets others know you are available for a contact.",
+    "explanation": "A station listening on a repeater and looking for a contact typically transmits their call sign followed by the word 'monitoring.' This is a brief, non-intrusive way to let others know you are on the frequency and available for a conversation without making a formal CQ call."
+  },
+  "T2A10": {
+    "hint": "Band plans are suggestions from the amateur community, not enforceable regulations.",
+    "explanation": "A band plan is a voluntary guideline for using different modes or activities within an amateur band. Band plans go beyond FCC regulations to help organize activity within bands, suggesting where different modes should be used. They are adopted by agreement within the amateur community but are not legally enforceable."
+  },
+  "T2A11": {
+    "hint": "When both stations use the exact same frequency, that is the simplest type of operation.",
+    "explanation": "Simplex describes an amateur station that is transmitting and receiving on the same frequency. In simplex operation, stations take turns transmitting and listening on a single frequency. This contrasts with duplex operation (used by repeaters) where different frequencies are used for transmit and receive."
+  },
+  "T2A12": {
+    "hint": "Good operating practice means doing everything you can to avoid interfering with others.",
+    "explanation": "Before calling CQ, you should listen to make sure no one else is using the frequency, ask if the frequency is in use, and make sure you are authorized to use that frequency. All these steps help prevent interference with ongoing communications and ensure you are operating within your privileges."
+  },
+  "T2B01": {
+    "hint": "The reverse function swaps your transmit and receive frequencies so you can hear what the repeater hears.",
+    "explanation": "The reverse function on a VHF/UHF transceiver is used to listen on a repeater's input frequency. Normally your radio listens on the repeater's output and transmits on its input. The reverse function swaps these, allowing you to hear signals on the repeater's input frequency to determine if a station is within simplex range."
+  },
+  "T2B02": {
+    "hint": "This acronym starts with C and stands for Continuous Tone-Coded Squelch System.",
+    "explanation": "CTCSS (Continuous Tone-Coded Squelch System) is the term for using a sub-audible tone transmitted along with normal voice audio to open the squelch of a receiver. CTCSS tones are below the range of normal hearing and are used to prevent a repeater from being activated by unwanted signals. It is also known by trade names like PL (Private Line)."
+  },
+  "T2B03": {
+    "hint": "In a linked network, what one repeater receives, all repeaters in the network transmit.",
+    "explanation": "A linked repeater network is one in which signals received by one repeater are transmitted by all the repeaters in the network. This greatly extends the range of communications, allowing a station talking to one repeater to be heard through all linked repeaters. The linking is typically done via the internet or dedicated radio links."
+  },
+  "T2B04": {
+    "hint": "If you can hear the repeater but cannot get in, the problem could be your offset, tone, or code settings.",
+    "explanation": "Being unable to access a repeater whose output you can hear could be caused by any of the listed issues: improper transceiver offset, wrong CTCSS tone, or wrong DCS code. All of these settings must match the repeater's requirements for it to accept your signal. Check your radio's programming if you cannot access a repeater."
+  },
+  "T2B05": {
+    "hint": "Over-deviation on FM happens when the audio input is too strong.",
+    "explanation": "Talking too loudly into the microphone causes FM transmission audio to be distorted on voice peaks. This is called over-deviation -- the audio signal drives the FM modulation beyond its normal range. The solution is to speak at a normal level or hold the microphone farther from your mouth."
+  },
+  "T2B06": {
+    "hint": "Those touch-tone sounds on your phone are this type of signaling.",
+    "explanation": "DTMF (Dual-Tone Multi-Frequency) is the type of signaling that uses pairs of audio tones. Each button on a telephone keypad generates a unique combination of two tones. In amateur radio, DTMF is used to control repeater functions, access autopatch systems, and interact with linked repeater networks."
+  },
+  "T2B07": {
+    "hint": "You need to set up your radio with the right identification code for the group.",
+    "explanation": "To join a digital repeater's talkgroup, you program your radio with the group's ID or code. Talkgroups are virtual channels within digital repeater systems that allow different groups of users to share the same repeater. You do not need to register with any office or join a club -- just program the correct code."
+  },
+  "T2B08": {
+    "hint": "Amateur radio operates on shared frequencies, so cooperation and courtesy are essential.",
+    "explanation": "When two stations transmitting on the same frequency interfere with each other, the stations should negotiate continued use of the frequency. No one 'owns' a frequency in amateur radio. The proper approach is courteous communication to work out who will use the frequency or agree to share it."
+  },
+  "T2B09": {
+    "hint": "Simplex channels let nearby stations communicate directly without using repeater resources.",
+    "explanation": "Simplex channels are designated in VHF/UHF band plans so stations within range of each other can communicate without tying up a repeater. When two stations can hear each other directly, using simplex frees the repeater for stations that need it. This is both courteous and efficient use of amateur radio resources."
+  },
+  "T2B10": {
+    "hint": "The M in this Q signal stands for interference from other stations (man-made).",
+    "explanation": "QRM is the Q signal that indicates you are receiving interference from other stations. QRN means natural noise (like static from thunderstorms), QTH means your location, and QSB means signal fading. These Q signals originated in CW (Morse code) communication but are also used in voice conversations."
+  },
+  "T2B11": {
+    "hint": "This Q signal with 'SY' in it relates to switching to a different frequency.",
+    "explanation": "QSY is the Q signal that indicates you are changing frequency. When someone says 'QSY to 146.520,' they mean 'let's move to 146.520 MHz.' QRU means no more traffic, QSL means acknowledgment, and QRZ means 'who is calling me?'"
+  },
+  "T2B12": {
+    "hint": "Like CTCSS for analog, this code must match for the repeater to let you in.",
+    "explanation": "The color code on DMR repeater systems must match between your radio and the repeater for access. It functions similarly to CTCSS tones on analog repeaters -- if your color code does not match the repeater's setting, it will not accept your transmissions. The color code is a number (0-15) that you program into your radio."
+  },
+  "T2B13": {
+    "hint": "Squelch keeps the speaker quiet when there is nothing worth listening to.",
+    "explanation": "The squelch function mutes the receiver audio when a signal is not present. Without squelch, you would hear constant noise (static) from the receiver. The squelch circuit detects when a signal above a certain strength is present and unmutes the audio only then, making monitoring much more pleasant."
+  },
+  "T2C01": {
+    "hint": "FCC rules are always in effect -- there are no special circumstances that suspend them.",
+    "explanation": "FCC rules always apply to the operation of an amateur station. There are no exceptions for RACES, FEMA, ARES, or any other organization. Even during emergencies, FCC rules remain in effect, though Part 97.403 does allow deviation from regulations when immediate safety of life or protection of property is at stake."
+  },
+  "T2C02": {
+    "hint": "The NCS is like a traffic officer, directing the flow of communications on the net.",
+    "explanation": "A Net Control Station (NCS) calls the net to order and directs communications between stations checking in. The NCS manages the flow of traffic, recognizes stations, and maintains orderly communications. Setting the net schedule and verifying licenses are typically handled by the net manager, not the NCS."
+  },
+  "T2C03": {
+    "hint": "Alpha-Bravo-Charlie -- spelling things out using standardized words prevents misunderstandings.",
+    "explanation": "Spelling words using a standard phonetic alphabet (like the NATO/ICAO alphabet) is the technique used to ensure unusual words are received correctly. Using phonetics like Alpha, Bravo, Charlie eliminates confusion between similar-sounding letters, especially under poor signal conditions."
+  },
+  "T2C04": {
+    "hint": "RACES is specifically defined in FCC Part 97 for civil defense during national emergencies.",
+    "explanation": "RACES (Radio Amateur Civil Emergency Service) is an FCC Part 97 amateur radio service for civil defense communications during national emergencies. It operates under the direction of local, state, or federal civil defense agencies. RACES is distinct from ARES and uses amateur radio frequencies specifically for emergency management purposes."
+  },
+  "T2C05": {
+    "hint": "In net operations, traffic refers to the actual messages being handled.",
+    "explanation": "In net operation, 'traffic' refers to messages exchanged by net stations. This term comes from the formal message handling tradition in amateur radio, where structured messages (radiograms) are relayed between stations. It does not refer to the number of stations checking in or to mobile operations."
+  },
+  "T2C06": {
+    "hint": "ARES is a volunteer organization of licensed amateurs ready to serve the public.",
+    "explanation": "ARES (Amateur Radio Emergency Service) is a group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service. ARES is organized by the ARRL and works with served agencies during emergencies. It is not a military group, a training program, or a certification program."
+  },
+  "T2C07": {
+    "hint": "On a net, discipline means waiting for NCS to call on you before transmitting.",
+    "explanation": "Standard practice when participating in a net is to transmit only when directed by the net control station, unless you are reporting an emergency. This ensures orderly communications and prevents chaos. You do not need to give your address, record transmission times, or follow the other procedures listed."
+  },
+  "T2C08": {
+    "hint": "The golden rule of traffic handling: do not change the message.",
+    "explanation": "Good traffic handling means passing messages exactly as received. A traffic handler should not modify, edit, interpret, or judge the worthiness of messages. The integrity of the message must be maintained throughout the relay process, just like a postal carrier delivers letters without opening or changing them."
+  },
+  "T2C09": {
+    "hint": "In a genuine life-or-death emergency, the rules allow flexibility.",
+    "explanation": "Amateur station control operators may operate outside the frequency privileges of their license class only in situations involving the immediate safety of human life or protection of property. This emergency provision (Part 97.403) exists to ensure that amateur radio can be used to save lives, even if it means operating on unauthorized frequencies."
+  },
+  "T2C10": {
+    "hint": "The preamble contains routing and tracking data, not the recipient's contact information.",
+    "explanation": "The preamble of a formal traffic message contains information needed to track the message, such as the message number, precedence, handling instructions, station of origin, check count, place of origin, and filing time. The recipient's address and phone number are in other parts of the message, not the preamble."
+  },
+  "T2C11": {
+    "hint": "The check is a count that helps verify the message was received completely.",
+    "explanation": "In a radiogram header, 'check' refers to the number of words or word equivalents in the text portion of the message. This count helps the receiving station verify that the entire message was received. If the word count does not match the check number, the operator knows something was missed or added."
+  },
+  "T3A01": {
+    "hint": "When signals take multiple paths and combine, they can cancel or reinforce each other.",
+    "explanation": "VHF signal strengths can vary greatly when the antenna is moved only a few feet because of multipath propagation. Signals reflecting off buildings, terrain, and other objects arrive at the antenna from different paths, combining constructively (reinforcing) or destructively (canceling). Moving even a small distance can change this combination dramatically."
+  },
+  "T3A02": {
+    "hint": "Trees and foliage soak up these higher-frequency signals.",
+    "explanation": "Vegetation causes absorption of UHF and microwave signals. The water content in leaves and branches absorbs RF energy at these higher frequencies. This is why signals on UHF and microwave bands are significantly weakened when passing through wooded areas, and why line-of-sight paths clear of vegetation are preferred."
+  },
+  "T3A03": {
+    "hint": "For long-distance weak signal work on VHF/UHF, the antenna element is oriented parallel to the ground.",
+    "explanation": "Horizontal polarization is normally used for long-distance CW and SSB contacts on VHF and UHF bands. This is a convention adopted by the amateur community to maximize signal strength between stations. Vertical polarization is typically used for FM communications, while horizontal is standard for weak-signal (SSB/CW) work."
+  },
+  "T3A04": {
+    "hint": "Mismatched polarization wastes signal -- you will hear a weaker signal.",
+    "explanation": "When antennas at opposite ends of a VHF or UHF line of sight link are not using the same polarization, received signal strength is reduced. Cross-polarization can cause a loss of 20 dB or more. This is why it is important to match polarization between communicating stations -- both should use vertical or both horizontal."
+  },
+  "T3A05": {
+    "hint": "Signals can bounce off buildings and other surfaces to reach a destination not in direct line of sight.",
+    "explanation": "When buildings or obstructions block the direct path, you can try to find a path that reflects signals to the repeater. By pointing a directional antenna at a building or hillside, signals can bounce off these surfaces and reach the repeater indirectly. This technique exploits the reflective properties of radio waves."
+  },
+  "T3A06": {
+    "hint": "The rapid fluttering of a mobile signal sounds like driving past a picket fence.",
+    "explanation": "Picket fencing refers to rapid flutter on mobile signals due to multipath propagation. As a mobile station moves, signals reflecting off multiple surfaces combine and cancel rapidly, causing the signal to flutter in and out. The name comes from the sound, which resembles a stick being dragged across a picket fence."
+  },
+  "T3A07": {
+    "hint": "Rain and other moisture in the air scatter and absorb microwave signals.",
+    "explanation": "Precipitation (rain, snow, sleet) decreases range at microwave frequencies. Water droplets and ice crystals scatter and absorb microwave energy. This effect is more pronounced at higher frequencies and is the same principle used by weather radar to detect precipitation."
+  },
+  "T3A08": {
+    "hint": "When ionospheric signals arrive via different paths and combine randomly, the signal fades unpredictably.",
+    "explanation": "Irregular fading of ionospheric signals is caused by random combining of signals arriving via different paths. The ionosphere is not uniform, and signals can be refracted along multiple paths with varying lengths and delays. When these signals arrive at the receiver, they combine in constantly changing ways, producing irregular fading."
+  },
+  "T3A09": {
+    "hint": "Since ionospheric signals become elliptically polarized, the original polarization does not matter much.",
+    "explanation": "Because signals propagated by the ionosphere are elliptically polarized, either vertically or horizontally polarized antennas may be used for transmission or reception. The ionosphere rotates the polarization of signals (Faraday rotation), so by the time a signal arrives, its polarization has changed unpredictably. Either antenna orientation will work."
+  },
+  "T3A10": {
+    "hint": "Multiple signal paths arriving at different times confuse digital data receivers.",
+    "explanation": "Multi-path propagation increases error rates in data transmissions. When copies of the same signal arrive at slightly different times via different paths, they interfere with each other. For data transmissions, this time spreading (delay spread) causes bits to overlap, making it harder for the receiver to correctly decode the data."
+  },
+  "T3A11": {
+    "hint": "This electrically charged layer high in the atmosphere bends radio waves back to Earth.",
+    "explanation": "The ionosphere can refract or bend HF and VHF radio waves. The ionosphere is a region of the upper atmosphere (roughly 60-600 km altitude) where solar radiation ionizes gas molecules, creating electrically charged layers that can bend radio waves. This is the mechanism that enables long-distance HF communications."
+  },
+  "T3A12": {
+    "hint": "At these lower frequencies, the wavelengths are long enough that fog and rain have minimal impact.",
+    "explanation": "Fog and rain have little effect on signals in the 10 meter and 6 meter bands. The wavelengths at these frequencies (approximately 10 and 6 meters) are much larger than rain droplets or fog particles, so the signals pass through with minimal absorption or scattering. Precipitation effects become significant only at much higher frequencies."
+  },
+  "T3B01": {
+    "hint": "The electric and magnetic fields of a radio wave are perpendicular to each other.",
+    "explanation": "The electric and magnetic fields of an electromagnetic wave are at right angles (perpendicular) to each other. They are also both perpendicular to the direction of wave propagation. This orthogonal relationship is a fundamental property of electromagnetic waves described by Maxwell's equations."
+  },
+  "T3B02": {
+    "hint": "Polarization is determined by which field component is doing the oscillating in a particular direction.",
+    "explanation": "The polarization of a radio wave is defined by the orientation of its electric field. A vertically polarized wave has its electric field oriented vertically, while a horizontally polarized wave has its electric field horizontal. The magnetic field is always perpendicular to the electric field."
+  },
+  "T3B03": {
+    "hint": "A radio wave is an electromagnetic wave with two field components.",
+    "explanation": "The two components of a radio wave are electric and magnetic fields. These fields oscillate perpendicular to each other and perpendicular to the direction of propagation. Together they form an electromagnetic wave. They are not voltage and current, impedance and reactance, or types of radiation."
+  },
+  "T3B04": {
+    "hint": "Radio waves and light are both electromagnetic waves and travel at the same speed.",
+    "explanation": "A radio wave traveling through free space moves at the speed of light, approximately 300,000,000 meters per second. All electromagnetic waves, including radio waves, light, and X-rays, travel at this same speed in a vacuum. The speed does not change with frequency or wavelength."
+  },
+  "T3B05": {
+    "hint": "As frequency goes up, wavelength comes down -- they have an inverse relationship.",
+    "explanation": "Wavelength gets shorter as frequency increases. This is an inverse relationship: wavelength = speed of light / frequency. Higher frequency means more oscillations per second, which means each complete cycle covers less distance. This is why UHF antennas are physically smaller than HF antennas."
+  },
+  "T3B06": {
+    "hint": "Divide 300 by the frequency in megahertz to get wavelength in meters.",
+    "explanation": "The formula for converting frequency to approximate wavelength in meters is: wavelength = 300 / frequency in megahertz. This comes from the relationship wavelength = speed of light / frequency, using 300 as an approximation for the speed of light in millions of meters per second. For example, 146 MHz gives about 2 meters."
+  },
+  "T3B07": {
+    "hint": "Ham bands are commonly referred to by their wavelength -- like '2 meters' or '70 centimeters.'",
+    "explanation": "Amateur radio bands are identified by their approximate wavelength in meters, in addition to frequency. For example, the band at 144-148 MHz is called the '2 meter band' because the wavelength at those frequencies is approximately 2 meters. This naming convention makes it easy to quickly estimate antenna sizes."
+  },
+  "T3B08": {
+    "hint": "VHF stands for Very High Frequency, and both numbers start with 30 and 300.",
+    "explanation": "VHF (Very High Frequency) refers to the frequency range of 30 MHz to 300 MHz. This includes popular amateur bands like 6 meters (50 MHz) and 2 meters (144 MHz). Frequencies below 30 MHz are HF, and frequencies above 300 MHz are UHF."
+  },
+  "T3B09": {
+    "hint": "UHF stands for Ultra High Frequency and is the next range above VHF.",
+    "explanation": "UHF (Ultra High Frequency) refers to the frequency range of 300 MHz to 3000 MHz. This includes the 70 cm amateur band (420-450 MHz) and the 23 cm band (1240-1300 MHz). UHF signals generally require line-of-sight paths and are commonly used for repeater operations."
+  },
+  "T3B10": {
+    "hint": "HF stands for High Frequency and covers the range used for long-distance ionospheric propagation.",
+    "explanation": "HF (High Frequency) refers to the frequency range of 3 to 30 MHz. This includes traditional shortwave amateur bands like 80, 40, 20, 15, and 10 meters. HF signals can propagate over long distances via ionospheric refraction, making worldwide communication possible."
+  },
+  "T3B11": {
+    "hint": "The speed is 300 million meters per second, which is the speed of light.",
+    "explanation": "The approximate velocity of a radio wave in free space is 300,000,000 meters per second (3 x 10^8 m/s). This is the speed of light. All electromagnetic radiation, including radio waves, travels at this speed in a vacuum. This fundamental constant is used in calculations relating frequency to wavelength."
+  },
+  "T3C01": {
+    "hint": "UHF signals generally travel in straight lines and are not reflected back to Earth by the ionosphere.",
+    "explanation": "Simplex UHF signals are rarely heard beyond their radio horizon because UHF signals are usually not propagated by the ionosphere. The ionosphere cannot refract these higher frequencies back to Earth under normal conditions. UHF communications are primarily line-of-sight, limited to the radio horizon, which is slightly beyond the visual horizon."
+  },
+  "T3C02": {
+    "hint": "HF's big advantage is that signals can bounce off the ionosphere for long-distance communication.",
+    "explanation": "Long-distance ionospheric propagation is far more common on HF than on VHF and higher frequencies. The ionosphere readily refracts HF signals back to Earth, enabling worldwide communication. VHF and higher frequency signals generally pass through the ionosphere into space, limiting them to line-of-sight range under normal conditions."
+  },
+  "T3C03": {
+    "hint": "Aurora-scattered signals are rough and vary a lot -- think distorted and unstable.",
+    "explanation": "VHF signals received via auroral backscatter are distorted and signal strength varies considerably. The aurora is an irregular, moving reflector that causes rapid fading and adds a characteristic buzzing or hissing quality to reflected signals. CW and digital modes work best for auroral contacts because voice signals become unintelligible."
+  },
+  "T3C04": {
+    "hint": "This type of E-layer propagation occurs unpredictably and can provide surprisingly strong signals.",
+    "explanation": "Sporadic E propagation is most commonly associated with occasional strong signals on the 10, 6, and 2 meter bands from beyond the radio horizon. Sporadic E occurs when dense patches of ionization form in the E layer of the ionosphere, capable of refracting VHF signals back to Earth over distances of hundreds to thousands of miles."
+  },
+  "T3C05": {
+    "hint": "When a signal bends around the sharp edge of an obstacle, it is called diffraction.",
+    "explanation": "Knife-edge diffraction allows radio signals to travel beyond obstructions between transmitting and receiving stations. When a signal encounters a sharp edge (like a mountain ridge or building), it bends around the edge, allowing some signal to reach the other side. This is a wave phenomenon similar to light bending around an edge."
+  },
+  "T3C06": {
+    "hint": "Temperature inversions create atmospheric ducts that channel VHF/UHF signals over long distances.",
+    "explanation": "Tropospheric ducting is responsible for allowing over-the-horizon VHF and UHF communications to ranges of approximately 300 miles on a regular basis. This occurs when temperature inversions in the lower atmosphere create a layer that channels radio signals along the Earth's surface, similar to how fiber optics guide light."
+  },
+  "T3C07": {
+    "hint": "The 6 meter band hits the sweet spot for bouncing signals off the ionized trails left by meteors.",
+    "explanation": "The 6 meter band is best suited for communicating via meteor scatter. When meteors enter the atmosphere, they create brief trails of ionized gas that can reflect radio signals. The 6 meter band (50 MHz) is optimal because it is high enough to be reflected by these trails but low enough for the trails to provide useful reflection."
+  },
+  "T3C08": {
+    "hint": "Temperature inversions create layers in the atmosphere that can trap and guide radio signals.",
+    "explanation": "Tropospheric ducting is caused by temperature inversions in the atmosphere. Normally, temperature decreases with altitude, but when a warm layer sits above a cooler layer, it creates a duct that can channel VHF and UHF signals over great distances. This is common along coastlines and in certain weather patterns."
+  },
+  "T3C09": {
+    "hint": "The F region works best during daylight hours when the sun is active.",
+    "explanation": "The best time for long-distance 10 meter band propagation via the F region is from dawn to shortly after sunset during periods of high sunspot activity. Solar radiation ionizes the F layer during daylight hours, and high sunspot activity increases the ionization enough to support refraction of 10 meter signals. After sunset, the F layer weakens."
+  },
+  "T3C10": {
+    "hint": "During sunspot peaks, even the VHF bands can open up for long-distance F-region propagation.",
+    "explanation": "The 6 and 10 meter bands may provide long-distance communications via the ionosphere's F region during the peak of the sunspot cycle. High solar activity increases ionospheric ionization enough to refract these higher frequencies. The 23 cm and 70 cm bands are too high in frequency to be refracted by the ionosphere."
+  },
+  "T3C11": {
+    "hint": "The atmosphere bends radio waves slightly, extending their reach beyond what you can see.",
+    "explanation": "The radio horizon for VHF and UHF signals is more distant than the visual horizon because the atmosphere refracts radio waves slightly. The Earth's atmosphere bends radio waves downward, allowing them to follow the curvature of the Earth slightly. This typically extends the radio horizon about 15% beyond the visual horizon."
+  },
+  "T4A01": {
+    "hint": "Mobile radios run on 12V vehicle power and draw significant current when transmitting at full power.",
+    "explanation": "A typical 50 watt output mobile FM transceiver requires approximately 13.8 volts at 12 amperes. The 13.8V matches a vehicle's electrical system (nominally 12V but actually 13.8V when the engine is running). At 50 watts output, the current draw is about 10-12 amperes due to the transmitter's efficiency being less than 100%."
+  },
+  "T4A02": {
+    "hint": "An SWR meter needs to be rated for the frequency and power level you will be using.",
+    "explanation": "When selecting an accessory SWR meter, you should consider the frequency and power level at which measurements will be made. SWR meters are designed for specific frequency ranges and power levels. Using a meter outside its rated range will give inaccurate readings. The distance from the antenna and modulation type are not key selection criteria."
+  },
+  "T4A03": {
+    "hint": "Thin, long wires would have too much resistance, causing voltage to drop when the radio transmits.",
+    "explanation": "Short, heavy-gauge wires are used for a transceiver's DC power connection to minimize voltage drop when transmitting. When the transmitter keys up, it draws significant current (10+ amperes). Thin or long wires would have enough resistance to cause a voltage drop, reducing power to the radio and potentially causing problems."
+  },
+  "T4A04": {
+    "hint": "FT8 uses computer software to generate and decode audio tones through the radio.",
+    "explanation": "For FT8 operation, the transceiver audio input and output are connected to the audio input and output of a computer running WSJT-X software. WSJT-X generates audio tones for transmission and decodes received audio tones. The computer's sound card interfaces with the transceiver's audio connections."
+  },
+  "T4A05": {
+    "hint": "The power meter goes in the signal path between the radio and the antenna.",
+    "explanation": "An RF power meter should be installed in the feed line between the transmitter and antenna. This placement allows it to measure the actual RF power being delivered toward the antenna. Placing it at the power supply or in other locations would not measure RF power output correctly."
+  },
+  "T4A06": {
+    "hint": "The interface needs to handle audio in both directions plus a way to switch between receive and transmit.",
+    "explanation": "A computer-radio interface for digital mode operation uses receive audio, transmit audio, and transmitter keying signals. The receive audio feeds from the radio to the computer for decoding, transmit audio goes from the computer to the radio for encoding, and the keying signal tells the radio when to transmit."
+  },
+  "T4A07": {
+    "hint": "The computer needs to receive audio from the radio, so the computer's input connects to the radio's output.",
+    "explanation": "For digital mode operation, the computer's 'line in' connects to the transceiver's speaker connector. This allows the computer to receive audio from the radio for decoding digital signals. The computer's 'line out' would connect to the radio's microphone or audio input for transmitting, and a separate PTT connection controls transmit/receive switching."
+  },
+  "T4A08": {
+    "hint": "For RF bonding, you want maximum surface area and low impedance -- think wide and flat.",
+    "explanation": "Flat copper strap is preferred for bonding at RF. At radio frequencies, current flows mainly on the surface of conductors (skin effect), so wide, flat conductors provide more surface area and lower impedance than round wire. Copper braid, steel wire, and twisted-pair cable all have higher RF impedance than flat strap."
+  },
+  "T4A09": {
+    "hint": "Divide the battery's capacity (in amp-hours) by how much current the equipment uses on average.",
+    "explanation": "To determine how long a battery can power equipment, divide the battery ampere-hour (Ah) rating by the average current draw of the equipment. For example, a 10 Ah battery powering equipment that draws 2 amperes will last approximately 5 hours. Use average current, not peak, for a realistic estimate."
+  },
+  "T4A10": {
+    "hint": "A hot spot bridges digital voice modes to the internet for wider connectivity.",
+    "explanation": "A digital mode hot spot used with a transceiver enables communication using digital voice or data systems via the internet. The hot spot acts as a low-power personal access point that connects your radio to digital voice networks (like DMR, D-STAR, or Fusion) through the internet, allowing worldwide communication."
+  },
+  "T4A11": {
+    "hint": "For the cleanest ground connection, go directly to the battery's ground terminal.",
+    "explanation": "The negative power return of a mobile transceiver should be connected at the 12 volt battery chassis ground. Connecting directly to the battery's negative terminal (or the chassis ground point at the battery) provides the lowest resistance path and avoids ground loops. Using random metal parts of the vehicle can introduce noise and unreliable connections."
+  },
+  "T4A12": {
+    "hint": "An electronic keyer helps you send dots and dashes more accurately and at a consistent speed.",
+    "explanation": "An electronic keyer is a device that assists in manual sending of Morse code. It automatically generates correctly-timed dots and dashes when used with a paddle-type key. The operator controls which element (dot or dash) to send, and the keyer produces properly-spaced, uniform characters at the selected speed."
+  },
+  "T4B01": {
+    "hint": "Too much microphone gain overdrives the audio, just like turning up a speaker too loud.",
+    "explanation": "Excessive microphone gain on SSB transmissions causes distorted transmitted audio. When the gain is too high, the audio signal clips and generates distortion and splatter (unwanted sideband energy). This makes the signal hard to understand and causes interference to stations on adjacent frequencies."
+  },
+  "T4B02": {
+    "hint": "The two most common ways to set a frequency are typing it in or turning the tuning knob.",
+    "explanation": "A transceiver's operating frequency can be entered using the keypad or VFO (Variable Frequency Oscillator) knob. The keypad allows direct frequency entry, while the VFO knob allows you to tune smoothly across frequencies. CTCSS/DTMF encoders and AFC (Automatic Frequency Control) serve different functions."
+  },
+  "T4B03": {
+    "hint": "Opening the squelch all the way means you hear everything, including very weak signals buried in noise.",
+    "explanation": "To hear a weak FM signal, set the squelch threshold so that receiver output audio is on all the time (fully open). This disables the squelch function, allowing even very weak signals to be heard. The tradeoff is that you will also hear background noise when no signal is present."
+  },
+  "T4B04": {
+    "hint": "Memory channels let you save and quickly recall your favorite frequencies.",
+    "explanation": "Storing a frequency in a memory channel enables quick access to a favorite frequency or channel. Most transceivers have many memory channels that can store frequency, offset, CTCSS tone, and other settings. This is much faster than manually entering all the parameters each time."
+  },
+  "T4B05": {
+    "hint": "The scan function automatically checks multiple frequencies for activity.",
+    "explanation": "The scanning function of an FM transceiver tunes through a range of frequencies to check for activity. When it detects a signal, it stops on that frequency so you can listen. This is useful for finding active conversations on repeaters or simplex frequencies without manually tuning through each one."
+  },
+  "T4B06": {
+    "hint": "The RIT (Receiver Incremental Tuning) adjusts your receive frequency without changing your transmit frequency.",
+    "explanation": "The RIT (Receiver Incremental Tuning) or Clarifier is used to adjust the voice pitch of a single-sideband signal. SSB signals must be tuned precisely, and the RIT allows you to fine-tune the receive frequency to make the voice sound natural without changing your transmit frequency."
+  },
+  "T4B07": {
+    "hint": "A code plug is like a configuration file that tells your DMR radio about all the repeaters and groups it can use.",
+    "explanation": "A DMR code plug contains access information for repeaters and talkgroups. It is a configuration file programmed into a DMR radio that includes repeater frequencies, color codes, talkgroup IDs, time slots, and contact lists. Without a properly programmed code plug, a DMR radio cannot access the digital repeater network."
+  },
+  "T4B08": {
+    "hint": "Matching the filter bandwidth to the signal mode reduces noise and interference.",
+    "explanation": "Having multiple receive bandwidth choices on a multimode transceiver permits noise or interference reduction by selecting a bandwidth matching the mode. A narrow filter for CW rejects nearby signals, while a wider filter is needed for SSB voice. Matching the filter to the mode optimizes the signal-to-noise ratio."
+  },
+  "T4B09": {
+    "hint": "Digital voice systems use identification codes to select which group of stations you want to communicate with.",
+    "explanation": "A specific group of stations on a digital voice transceiver is selected by entering the group's identification code. This could be a talkgroup ID on DMR or a reflector number on D-STAR. The code routes your audio to the correct group of users within the digital network."
+  },
+  "T4B10": {
+    "hint": "SSB voice bandwidth is approximately 2.4 kHz, so the filter should match that.",
+    "explanation": "A 2400 Hz filter bandwidth provides the best signal-to-noise ratio for SSB reception. This matches the approximately 2.4 kHz bandwidth of an SSB voice signal. A narrower filter would cut off parts of the voice, while a wider filter would let in more noise without improving the signal. The 500 Hz filter is better for CW."
+  },
+  "T4B11": {
+    "hint": "D-STAR uses your call sign as your digital identity on the network.",
+    "explanation": "Your call sign must be programmed into a D-STAR digital transceiver before transmitting. D-STAR (Digital Smart Technologies for Amateur Radio) uses the call sign as a network identifier for routing and access. Without your call sign programmed in, the system cannot identify you, and other users cannot direct calls to you."
+  },
+  "T4B12": {
+    "hint": "FM requires precise tuning -- being off frequency garbles the audio.",
+    "explanation": "Tuning an FM receiver above or below a signal's frequency results in distortion of the signal's audio. FM demodulation requires the receiver to be centered on the signal. Being off-frequency causes the demodulator to incorrectly decode the frequency variations, producing distorted or unintelligible audio."
+  },
+  "T5A01": {
+    "hint": "Current is the flow of electrons, and it is measured in a unit named after Andre-Marie.",
+    "explanation": "Electrical current is measured in amperes (amps). Current is the rate of flow of electric charge through a conductor. One ampere represents one coulomb of charge passing a point per second. Volts measure voltage, watts measure power, and ohms measure resistance."
+  },
+  "T5A02": {
+    "hint": "Power tells you the rate at which energy is being used or produced.",
+    "explanation": "Electrical power is measured in watts. Power represents the rate at which electrical energy is consumed or produced. It is calculated by multiplying voltage times current (P = E x I). Watt-hours measure energy over time, not instantaneous power."
+  },
+  "T5A03": {
+    "hint": "The movement of electrons through a circuit has a specific name related to flow.",
+    "explanation": "The flow of electrons in an electric circuit is called current. Current is measured in amperes and represents the actual movement of charge carriers (electrons) through the conductor. Voltage is the force that drives current, resistance opposes it, and capacitance stores charge."
+  },
+  "T5A04": {
+    "hint": "Named after Georg Simon, this unit measures how much a material opposes current flow.",
+    "explanation": "The units of electrical resistance are ohms, named after Georg Simon Ohm who formulated Ohm's Law. Resistance measures how much a component opposes the flow of electric current. Siemens and mhos are units of conductance (the inverse of resistance), and coulombs measure electric charge."
+  },
+  "T5A05": {
+    "hint": "This is the electrical pressure that pushes electrons through a circuit.",
+    "explanation": "Voltage is the electrical term for the force that causes electron flow. Also called electromotive force (EMF) or potential difference, voltage is the electrical pressure that drives current through a circuit. It is measured in volts and is analogous to water pressure in a plumbing system."
+  },
+  "T5A06": {
+    "hint": "Named after Heinrich, this unit measures cycles per second.",
+    "explanation": "The unit of frequency is the hertz (Hz), named after Heinrich Hertz. One hertz equals one cycle per second. Common multiples include kilohertz (kHz = 1,000 Hz), megahertz (MHz = 1,000,000 Hz), and gigahertz (GHz = 1,000,000,000 Hz). Henry measures inductance, farad measures capacitance, and tesla measures magnetic field strength."
+  },
+  "T5A07": {
+    "hint": "Metals conduct electricity well because their electrons are not tightly bound to atoms.",
+    "explanation": "Metals are generally good conductors of electricity because they have many free electrons. In metallic structures, the outermost electrons are loosely bound and can move freely through the material. This 'sea of electrons' allows electric current to flow easily. Density and free protons are not relevant to electrical conductivity."
+  },
+  "T5A08": {
+    "hint": "Think about which material does not conduct electricity -- it is something transparent and brittle.",
+    "explanation": "Glass is a good electrical insulator. Its atomic structure has very few free electrons, so it strongly resists the flow of electric current. Copper, aluminum, and mercury are all metals (or metallic elements) with many free electrons, making them good conductors, not insulators."
+  },
+  "T5A09": {
+    "hint": "AC flows in both directions -- it swings positive, then negative, then positive again.",
+    "explanation": "Alternating current (AC) is current that alternates between positive and negative directions. Unlike direct current (DC), which flows in only one direction, AC periodically reverses direction. In a typical AC power system, the current completes 60 cycles per second (60 Hz) in the US."
+  },
+  "T5A10": {
+    "hint": "This term describes how quickly electrical energy is being consumed.",
+    "explanation": "Power is the term that describes the rate at which electrical energy is used. Measured in watts, power tells you how much energy is consumed or produced per unit of time. Resistance opposes current, current is the flow of charge, and voltage is the force driving that flow."
+  },
+  "T5A11": {
+    "hint": "Resistance opposes all types of current flow, regardless of whether it is AC, DC, or RF.",
+    "explanation": "Resistance opposes all types of current flow: direct current, alternating current, and RF current. Resistance is a fundamental property of materials that converts electrical energy into heat as current flows through them. This is true regardless of the type or frequency of the current."
+  },
+  "T5A12": {
+    "hint": "This is the count of how many complete back-and-forth cycles happen each second.",
+    "explanation": "Frequency describes the number of times per second that an alternating current makes a complete cycle. Measured in hertz (Hz), frequency tells you how rapidly the current alternates. One complete cycle includes the current going positive, returning to zero, going negative, and returning to zero again."
+  },
+  "T5B01": {
+    "hint": "There are 1000 milliamperes in one ampere, so multiply by 1000.",
+    "explanation": "1.5 amperes equals 1500 milliamperes. The prefix 'milli' means one-thousandth, so there are 1000 milliamperes in one ampere. To convert amperes to milliamperes, multiply by 1000: 1.5 x 1000 = 1500 milliamperes."
+  },
+  "T5B02": {
+    "hint": "The prefix 'kilo' means 1000, so divide 1,500,000 by 1000.",
+    "explanation": "1,500,000 hertz equals 1500 kHz (kilohertz). The prefix 'kilo' means one thousand, so 1 kHz = 1000 Hz. Dividing 1,500,000 by 1000 gives 1500 kHz. This is also equal to 1.5 MHz, since mega means one million."
+  },
+  "T5B03": {
+    "hint": "The prefix 'kilo' means one thousand.",
+    "explanation": "One kilovolt equals one thousand volts. The prefix 'kilo' in the metric system means 1000. So 1 kV = 1000 V. This is a common metric prefix used throughout electronics and amateur radio."
+  },
+  "T5B04": {
+    "hint": "The prefix 'micro' means one millionth.",
+    "explanation": "One microvolt equals one one-millionth of a volt. The prefix 'micro' (symbol: u or Greek mu) means 10^-6, or one millionth. Microvolts are used to describe very small signal levels, such as the sensitivity of a receiver."
+  },
+  "T5B05": {
+    "hint": "The prefix 'milli' means one thousandth, so 500 milliwatts is 500 thousandths of a watt.",
+    "explanation": "500 milliwatts equals 0.5 watts. Since 'milli' means one thousandth (10^-3), you divide by 1000: 500/1000 = 0.5 watts. This is half a watt, a common power level for some low-power amateur radio operations."
+  },
+  "T5B06": {
+    "hint": "Divide 3000 by 1000 to convert milliamperes to amperes.",
+    "explanation": "3000 milliamperes equals 3 amperes. Since there are 1000 milliamperes in one ampere, dividing 3000 by 1000 gives 3 amperes. This is a straightforward metric conversion using the 'milli' prefix."
+  },
+  "T5B07": {
+    "hint": "Multiply by 1000 to convert MHz to kHz.",
+    "explanation": "3.525 MHz equals 3525 kHz. Since 1 MHz = 1000 kHz, multiply 3.525 by 1000 to get 3525 kHz. This frequency is in the 80 meter amateur band and is commonly used for CW operations."
+  },
+  "T5B08": {
+    "hint": "There are 1,000,000 picofarads in one microfarad.",
+    "explanation": "1,000,000 picofarads equals 1 microfarad. The prefix 'pico' means 10^-12, and 'micro' means 10^-6. The difference between them is a factor of 10^6 (one million). So 1,000,000 pF = 1 uF. These are common units for measuring capacitance in electronic circuits."
+  },
+  "T5B09": {
+    "hint": "Doubling power equals approximately 3 dB.",
+    "explanation": "A power increase from 5 watts to 10 watts is approximately 3 dB. The formula is: dB = 10 x log10(P2/P1) = 10 x log10(10/5) = 10 x log10(2) = 10 x 0.301 = approximately 3 dB. This is a fundamental relationship: every doubling of power equals about 3 dB."
+  },
+  "T5B10": {
+    "hint": "A power ratio of 4:1 (decrease) equals about -6 dB -- think of it as two doublings.",
+    "explanation": "A power decrease from 12 watts to 3 watts is approximately -6 dB. The ratio is 3/12 = 1/4. Since each halving of power is -3 dB, and 1/4 represents two halvings, the result is -6 dB. Mathematically: 10 x log10(3/12) = 10 x log10(0.25) = 10 x (-0.602) = approximately -6 dB."
+  },
+  "T5B11": {
+    "hint": "A ten-fold increase in power is exactly 10 dB.",
+    "explanation": "A power increase from 20 watts to 200 watts is 10 dB. The ratio is 200/20 = 10. The formula gives: 10 x log10(10) = 10 x 1 = 10 dB. This is another fundamental relationship: every ten-fold increase in power equals exactly 10 dB."
+  },
+  "T5B12": {
+    "hint": "Divide 28400 by 1000 to convert kHz to MHz.",
+    "explanation": "28400 kHz equals 28.400 MHz. Since 1 MHz = 1000 kHz, divide 28400 by 1000 to get 28.400 MHz. This frequency is in the 10 meter amateur band, a popular HF band available to Technician licensees."
+  },
+  "T5B13": {
+    "hint": "Divide 2425 by 1000 to convert MHz to GHz.",
+    "explanation": "2425 MHz equals 2.425 GHz. Since 1 GHz = 1000 MHz, divide 2425 by 1000 to get 2.425 GHz. This frequency is in the 13 cm amateur band, which overlaps with the 2.4 GHz Wi-Fi frequency range."
+  },
+  "T5C01": {
+    "hint": "Storing energy in an electric field is what capacitors do.",
+    "explanation": "Capacitance describes the ability to store energy in an electric field. A capacitor stores energy between its plates in an electric field. Inductance stores energy in a magnetic field, resistance dissipates energy as heat, and tolerance describes the acceptable variation in a component's value."
+  },
+  "T5C02": {
+    "hint": "Named after Michael, this unit measures how much charge a capacitor can store.",
+    "explanation": "The unit of capacitance is the farad, named after Michael Faraday. One farad is a very large capacitance; most electronic components use microfarads (uF) or picofarads (pF). The ohm measures resistance, the volt measures voltage, and the henry measures inductance."
+  },
+  "T5C03": {
+    "hint": "Storing energy in a magnetic field is what inductors do.",
+    "explanation": "Inductance describes the ability to store energy in a magnetic field. An inductor (typically a coil of wire) stores energy in the magnetic field created when current flows through it. Capacitance stores energy in an electric field, resistance dissipates energy, and admittance is the inverse of impedance."
+  },
+  "T5C04": {
+    "hint": "Named after Joseph, this unit measures the ability of a coil to store magnetic energy.",
+    "explanation": "The unit of inductance is the henry, named after Joseph Henry. Common subunits include millihenries (mH) and microhenries (uH). The coulomb measures charge, the farad measures capacitance, and the ohm measures resistance."
+  },
+  "T5C05": {
+    "hint": "Impedance uses the same unit as resistance because it is the AC equivalent of resistance.",
+    "explanation": "The unit of impedance is the ohm, the same unit used for resistance. Impedance is the total opposition to AC current flow, combining resistance and reactance (from capacitors and inductors). While measured in the same unit, impedance includes both resistive and reactive components."
+  },
+  "T5C06": {
+    "hint": "RF is the broad abbreviation for all signals in the radio spectrum.",
+    "explanation": "RF stands for radio frequency, referring to radio frequency signals of all types. This is a general term encompassing all electromagnetic signals in the radio spectrum, from very low frequencies to microwave frequencies. It does not specifically mean resonant frequency, real frequency, or reflective force."
+  },
+  "T5C07": {
+    "hint": "The capital M stands for mega, and Hz stands for hertz -- pay attention to capitalization.",
+    "explanation": "The correct abbreviation for megahertz is MHz. The capital M represents 'mega' (10^6), the capital H and lowercase z form 'Hz' for hertz. Proper capitalization matters in scientific abbreviations -- 'mHz' would mean millihertz, a very different quantity."
+  },
+  "T5C08": {
+    "hint": "Power equals current times voltage: P = I x E.",
+    "explanation": "The formula for electrical power in a DC circuit is P = I x E (power equals current times voltage). This is one of the fundamental equations in electronics. If you know any two of the three quantities (power, current, voltage), you can calculate the third."
+  },
+  "T5C09": {
+    "hint": "Multiply voltage times current: 13.8 x 10.",
+    "explanation": "A voltage of 13.8 volts DC and a current of 10 amperes delivers 138 watts. Using P = I x E: P = 10 x 13.8 = 138 watts. This is a practical calculation -- 13.8V is the typical vehicle electrical system voltage, and 10A is a common current draw for a mobile transceiver."
+  },
+  "T5C10": {
+    "hint": "Multiply voltage times current: 12 x 2.5.",
+    "explanation": "A voltage of 12 volts DC and a current of 2.5 amperes delivers 30 watts. Using P = I x E: P = 2.5 x 12 = 30 watts. This straightforward application of the power formula is a common exam calculation."
+  },
+  "T5C11": {
+    "hint": "Rearrange the power formula: I = P / E = 120 / 12.",
+    "explanation": "To deliver 120 watts at 12 volts DC requires 10 amperes. Rearranging P = I x E to solve for current: I = P / E = 120 / 12 = 10 amperes. This calculation is important for sizing power supply cables and fuses."
+  },
+  "T5C12": {
+    "hint": "Impedance is like resistance, but it applies to AC circuits and includes reactive effects.",
+    "explanation": "Impedance is the opposition to AC current flow. It combines resistance (which opposes all current flow) with reactance (which is the opposition to AC from capacitors and inductors). Impedance is measured in ohms and is important in antenna systems and RF circuit design."
+  },
+  "T5C13": {
+    "hint": "The lowercase k stands for kilo, and Hz stands for hertz.",
+    "explanation": "The correct abbreviation for kilohertz is kHz. The lowercase k represents 'kilo' (10^3, or thousand), followed by Hz for hertz. Unlike mega (M), which uses an uppercase letter, kilo uses a lowercase k. Proper capitalization in metric prefixes is important to avoid confusion."
+  },
+  "T5D01": {
+    "hint": "Ohm's Law for current: divide voltage by resistance.",
+    "explanation": "The formula for calculating current is I = E / R (current equals voltage divided by resistance). This is one form of Ohm's Law, the fundamental relationship between voltage, current, and resistance. If you know the voltage and resistance, you can calculate the current."
+  },
+  "T5D02": {
+    "hint": "Ohm's Law for voltage: multiply current by resistance.",
+    "explanation": "The formula for calculating voltage is E = I x R (voltage equals current times resistance). This form of Ohm's Law shows that voltage across a component equals the current through it multiplied by its resistance. It is one of the most important formulas in electronics."
+  },
+  "T5D03": {
+    "hint": "Ohm's Law for resistance: divide voltage by current.",
+    "explanation": "The formula for calculating resistance is R = E / I (resistance equals voltage divided by current). This is the third form of Ohm's Law. If you measure the voltage across a component and the current through it, dividing gives you the resistance."
+  },
+  "T5D04": {
+    "hint": "R = E / I = 90 / 3.",
+    "explanation": "The resistance is 30 ohms. Using Ohm's Law: R = E / I = 90 / 3 = 30 ohms. When 3 amperes flow through a circuit connected to 90 volts, the total resistance must be 30 ohms."
+  },
+  "T5D05": {
+    "hint": "R = E / I = 12 / 1.5.",
+    "explanation": "The resistance is 8 ohms. Using Ohm's Law: R = E / I = 12 / 1.5 = 8 ohms. This is a straightforward application of the resistance formula with the given voltage and current values."
+  },
+  "T5D06": {
+    "hint": "R = E / I = 12 / 4.",
+    "explanation": "The resistance is 3 ohms. Using Ohm's Law: R = E / I = 12 / 4 = 3 ohms. A circuit drawing 4 amperes from a 12-volt source has a resistance of 3 ohms."
+  },
+  "T5D07": {
+    "hint": "I = E / R = 120 / 80.",
+    "explanation": "The current is 1.5 amperes. Using Ohm's Law: I = E / R = 120 / 80 = 1.5 amperes. With 120 volts applied across 80 ohms of resistance, the resulting current is 1.5 amperes."
+  },
+  "T5D08": {
+    "hint": "I = E / R = 200 / 100.",
+    "explanation": "The current is 2 amperes. Using Ohm's Law: I = E / R = 200 / 100 = 2 amperes. A 100-ohm resistor connected across 200 volts will draw 2 amperes of current."
+  },
+  "T5D09": {
+    "hint": "I = E / R = 240 / 24.",
+    "explanation": "The current is 10 amperes. Using Ohm's Law: I = E / R = 240 / 24 = 10 amperes. A 24-ohm resistor across 240 volts draws 10 amperes."
+  },
+  "T5D10": {
+    "hint": "E = I x R = 0.5 x 2.",
+    "explanation": "The voltage is 1 volt. Using Ohm's Law: E = I x R = 0.5 x 2 = 1 volt. When 0.5 amperes flows through a 2-ohm resistor, the voltage drop across it is 1 volt."
+  },
+  "T5D11": {
+    "hint": "E = I x R = 1 x 10.",
+    "explanation": "The voltage is 10 volts. Using Ohm's Law: E = I x R = 1 x 10 = 10 volts. When 1 ampere flows through a 10-ohm resistor, the voltage across it is 10 volts."
+  },
+  "T5D12": {
+    "hint": "E = I x R = 2 x 10.",
+    "explanation": "The voltage is 20 volts. Using Ohm's Law: E = I x R = 2 x 10 = 20 volts. When 2 amperes flow through a 10-ohm resistor, the voltage drop is 20 volts."
+  },
+  "T5D13": {
+    "hint": "In this type of circuit, components are connected end-to-end, so the same current flows through all of them.",
+    "explanation": "In a series circuit, DC current is the same through all components. Components in series are connected end-to-end, forming a single path for current flow. Since there is only one path, the same current must flow through every component. Voltage, however, divides among the components."
+  },
+  "T5D14": {
+    "hint": "In this type of circuit, components share the same two connection points, so they all see the same voltage.",
+    "explanation": "In a parallel circuit, voltage is the same across all components. Components in parallel are connected between the same two points, so they all have the same voltage applied across them. Current, however, divides among the parallel paths based on each component's resistance."
+  },
+  "T6A01": {
+    "hint": "This passive component is specifically designed to limit or oppose current flow.",
+    "explanation": "A resistor opposes the flow of current in a DC circuit. Resistors are one of the most fundamental electronic components, converting electrical energy to heat as current flows through them. They are used to limit current, divide voltages, and set bias points in circuits."
+  },
+  "T6A02": {
+    "hint": "This is an adjustable resistor commonly found as a volume knob.",
+    "explanation": "A potentiometer is often used as an adjustable volume control. A potentiometer is a three-terminal variable resistor with a sliding or rotating contact that forms an adjustable voltage divider. By turning the knob, you change the resistance and thus the audio signal level."
+  },
+  "T6A03": {
+    "hint": "A potentiometer is just an adjustable version of this electrical property.",
+    "explanation": "A potentiometer controls resistance. By adjusting the position of the wiper contact, you change the effective resistance between the terminals. This variable resistance is used to control volume, brightness, and other parameters in electronic circuits."
+  },
+  "T6A04": {
+    "hint": "This component stores energy between its plates using an electric field.",
+    "explanation": "A capacitor stores energy in an electric field. Capacitors consist of two conductive plates separated by an insulating material (dielectric). When voltage is applied, charge accumulates on the plates, creating an electric field that stores energy. Capacitors are used in filters, timing circuits, and power supplies."
+  },
+  "T6A05": {
+    "hint": "Two plates with an insulator between them -- this describes a component that stores charge.",
+    "explanation": "A capacitor consists of conductive surfaces separated by an insulator (dielectric). This physical structure is what allows a capacitor to store electrical energy in the electric field between its plates. The insulator prevents DC current from flowing through while allowing the capacitor to charge and discharge."
+  },
+  "T6A06": {
+    "hint": "This component uses a magnetic field to store energy, typically made from a coil of wire.",
+    "explanation": "An inductor stores energy in a magnetic field. When current flows through the coil, it creates a magnetic field that stores energy. Inductors are used in filters, oscillators, and power supplies. They oppose changes in current, which is the basis of their operation in AC circuits."
+  },
+  "T6A07": {
+    "hint": "A coil of wire creates a magnetic field when current flows through it -- this is the defining structure of this component.",
+    "explanation": "An inductor is typically constructed as a coil of wire. The coil shape concentrates the magnetic field, increasing the inductance. Some inductors have an iron or ferrite core to further increase inductance. The number of turns, core material, and coil dimensions determine the inductance value."
+  },
+  "T6A08": {
+    "hint": "SPDT means Single Pole Double Throw -- one input that can connect to either of two outputs.",
+    "explanation": "An SPDT (Single Pole Double Throw) switch switches a single circuit between one of two other circuits. It has one common terminal and two positions, connecting the common to either one terminal or the other. This type of switch is used to select between two options, like switching between two antennas."
+  },
+  "T6A09": {
+    "hint": "This component sacrifices itself to protect the rest of the circuit from too much current.",
+    "explanation": "A fuse is used to protect other circuit components from current overloads. A fuse contains a thin conductor that melts (blows) when too much current flows, opening the circuit and protecting downstream components from damage. Fuses are a simple, reliable, and inexpensive form of overcurrent protection."
+  },
+  "T6A10": {
+    "hint": "All three of these common battery types can be recharged and used many times.",
+    "explanation": "Nickel-metal hydride, lithium-ion, and lead-acid batteries are all rechargeable. These are the most common rechargeable battery chemistries. NiMH is used in many consumer devices, lithium-ion in phones and laptops, and lead-acid in cars and backup power systems."
+  },
+  "T6A11": {
+    "hint": "This is the old-fashioned dry cell battery -- once it is dead, it is done.",
+    "explanation": "Carbon-zinc batteries are not rechargeable. These are the traditional dry cell batteries found in inexpensive flashlights and remotes. Once discharged, they cannot be recharged. Nickel-cadmium, lead-acid, and lithium-ion are all rechargeable battery chemistries."
+  },
+  "T6A12": {
+    "hint": "A simple on-off switch has one pole and one throw position.",
+    "explanation": "Component 3 in figure T-2 represents a single-pole single-throw (SPST) switch. An SPST switch has one input and one output -- it is either open (off) or closed (on). This is the simplest type of switch, like a basic light switch."
+  },
+  "T6B01": {
+    "hint": "Different diode types (silicon, germanium, Schottky) have different voltage drops when conducting.",
+    "explanation": "Forward voltage drop in a diode is lower in some diode types than in others. For example, silicon diodes typically have a forward voltage drop of about 0.7V, germanium diodes about 0.3V, and Schottky diodes about 0.2-0.3V. This is a normal characteristic, not a defect, and it does affect the voltage available to the load."
+  },
+  "T6B02": {
+    "hint": "This semiconductor has a one-way valve property for electrical current.",
+    "explanation": "A diode allows current to flow in only one direction. When forward-biased (positive voltage on the anode), current flows. When reverse-biased, current is blocked. This one-way property makes diodes essential for rectification (converting AC to DC) and many other circuit functions."
+  },
+  "T6B03": {
+    "hint": "This three-terminal semiconductor device can be turned on and off electronically.",
+    "explanation": "A transistor can be used as an electronic switch. By applying a control signal to the base (BJT) or gate (FET), the transistor can be switched between conducting (on) and non-conducting (off) states. This switching ability is the basis of all digital electronics and computer circuits."
+  },
+  "T6B04": {
+    "hint": "This three-terminal semiconductor has regions of N-type and P-type material.",
+    "explanation": "A transistor can consist of three regions of semiconductor material. Bipolar junction transistors (BJTs) have three alternating regions: either NPN or PNP. Field-effect transistors also have three semiconductor regions. This three-region structure enables the transistor to amplify or switch electronic signals."
+  },
+  "T6B05": {
+    "hint": "The three terminals of this transistor type are named for their function: gate controls, source provides, drain collects.",
+    "explanation": "A field-effect transistor (FET) has a gate, drain, and source. The gate controls current flow between the source and drain. This contrasts with a bipolar junction transistor, which has base, collector, and emitter terminals. FETs are widely used in radio frequency amplifiers and switches."
+  },
+  "T6B06": {
+    "hint": "Look for a band or line near one end of the diode body.",
+    "explanation": "The cathode lead of a semiconductor diode is often marked with a stripe on the package. This stripe indicates the negative end of the diode -- the end from which conventional current exits when the diode is forward-biased. Identifying the cathode correctly is important for proper circuit installation."
+  },
+  "T6B07": {
+    "hint": "LEDs emit light when current flows through them in the forward direction.",
+    "explanation": "A light-emitting diode (LED) emits light due to forward current flowing through it. When electrons cross the junction in the forward direction, they recombine with holes and release energy as photons (light). Reverse current does not produce light and excessive reverse voltage can damage the LED."
+  },
+  "T6B08": {
+    "hint": "FET stands for the type of transistor controlled by an electric field at its gate.",
+    "explanation": "FET stands for Field Effect Transistor. In a FET, the current flow between source and drain is controlled by an electric field created by voltage applied to the gate terminal. This contrasts with bipolar junction transistors, where current at the base controls current flow."
+  },
+  "T6B09": {
+    "hint": "These two electrode names correspond to the positive and negative sides of the diode.",
+    "explanation": "The electrodes of a diode are called the anode and cathode. The anode is the positive terminal, and the cathode is the negative terminal. Current flows from anode to cathode when the diode is forward-biased. These terms come from electrochemistry and are used universally for diodes."
+  },
+  "T6B10": {
+    "hint": "This active component can make a signal come out larger than it went in.",
+    "explanation": "A transistor can provide power gain. Unlike passive components like resistors and transformers (which can only reduce or transfer power), transistors can amplify signals, producing output power greater than input power. The additional power comes from the DC power supply connected to the transistor circuit."
+  },
+  "T6B11": {
+    "hint": "When a device makes a signal bigger, that increase is called this.",
+    "explanation": "Gain is the term that describes a device's ability to amplify a signal. Gain is typically expressed in decibels (dB) and represents the ratio of output power to input power. A device with gain greater than 0 dB amplifies the signal, while negative gain (loss) means the signal is reduced."
+  },
+  "T6B12": {
+    "hint": "BJT terminals: one emits, one collects, and one serves as the base or control.",
+    "explanation": "The electrodes of a bipolar junction transistor are the emitter, base, and collector. The base controls current flow between emitter and collector. A small current into the base allows a larger current to flow from collector to emitter, providing amplification."
+  },
+  "T6C01": {
+    "hint": "This type of drawing shows how electronic components are connected using standardized symbols.",
+    "explanation": "A schematic is an electrical wiring diagram that uses standard component symbols. Schematics show how components are electrically connected without regard to their physical layout. They use universally recognized symbols for resistors, capacitors, transistors, and other components."
+  },
+  "T6C02": {
+    "hint": "In figure T-1, component 1 is the simplest passive component shown with a zigzag symbol.",
+    "explanation": "Component 1 in figure T-1 is a resistor. The standard schematic symbol for a resistor is a zigzag line (US style) or a rectangle (international style). Resistors are among the most common components in electronic circuits."
+  },
+  "T6C03": {
+    "hint": "In figure T-1, component 2 is a three-terminal active semiconductor device.",
+    "explanation": "Component 2 in figure T-1 is a transistor. Transistors are shown in schematics with three leads and an arrow indicating current direction. They are active components used for amplification and switching in electronic circuits."
+  },
+  "T6C04": {
+    "hint": "In figure T-1, component 3 produces light when current flows through it.",
+    "explanation": "Component 3 in figure T-1 is a lamp (indicator lamp). Lamps are shown in schematics as a circle with filament lines inside. They serve as visual indicators in circuits, showing when power is applied or a function is active."
+  },
+  "T6C05": {
+    "hint": "In figure T-1, component 4 provides the electrical energy to power the circuit.",
+    "explanation": "Component 4 in figure T-1 is a battery. The schematic symbol for a battery consists of alternating long and short parallel lines, representing the positive and negative plates. Batteries provide DC power to electronic circuits."
+  },
+  "T6C06": {
+    "hint": "In figure T-2, component 6 has two parallel lines as its schematic symbol, representing its plates.",
+    "explanation": "Component 6 in figure T-2 is a capacitor. The schematic symbol for a capacitor shows two parallel lines (representing the plates) separated by a gap (representing the dielectric). Capacitors store energy in electric fields and are used in filters, coupling, and timing circuits."
+  },
+  "T6C07": {
+    "hint": "In figure T-2, component 8 is a semiconductor that emits light, shown with arrows pointing away.",
+    "explanation": "Component 8 in figure T-2 is a light emitting diode (LED). The schematic symbol looks like a standard diode (triangle with bar) with small arrows pointing away, representing the emitted light. LEDs are used as indicators and for illumination."
+  },
+  "T6C08": {
+    "hint": "In figure T-2, component 9 is an adjustable component shown with an arrow through the symbol.",
+    "explanation": "Component 9 in figure T-2 is a variable resistor (potentiometer). The schematic symbol shows a resistor with an arrow or third terminal indicating adjustability. Variable resistors are used to adjust voltage, current, or signal levels in circuits."
+  },
+  "T6C09": {
+    "hint": "In figure T-2, component 4 has two coils shown together, indicating magnetic coupling.",
+    "explanation": "Component 4 in figure T-2 is a transformer. The schematic symbol shows two inductors (coils) placed close together, often with parallel lines between them representing an iron core. Transformers transfer electrical energy between circuits through magnetic coupling."
+  },
+  "T6C10": {
+    "hint": "In figure T-3, component 3 is a coil whose inductance can be adjusted.",
+    "explanation": "Component 3 in figure T-3 is a variable inductor. The schematic symbol shows an inductor (coil) with an arrow indicating adjustability. Variable inductors are used in tuning circuits to adjust resonant frequency by changing the inductance value."
+  },
+  "T6C11": {
+    "hint": "In figure T-3, component 4 is used to radiate and receive radio signals.",
+    "explanation": "Component 4 in figure T-3 is an antenna. The schematic symbol for an antenna typically shows a vertical line with angled lines at the top. Antennas convert electrical signals to electromagnetic waves for transmission and vice versa for reception."
+  },
+  "T6C12": {
+    "hint": "Schematics show how things are connected electrically, not how they look physically.",
+    "explanation": "Electrical schematics accurately represent component connections. They show which components are connected to which, using standardized symbols and lines. Schematics do not represent physical appearance, wire lengths, or component sizes -- they focus purely on the electrical relationships between components."
+  },
+  "T6D01": {
+    "hint": "This circuit converts AC (which alternates) into DC (which flows one way).",
+    "explanation": "A rectifier changes alternating current into a varying direct current signal. Rectifiers use diodes to allow current to flow in only one direction, converting the back-and-forth AC waveform into a pulsating DC signal. This is the first step in most power supply circuits."
+  },
+  "T6D02": {
+    "hint": "This device is like a switch controlled by an electromagnet.",
+    "explanation": "A relay is an electrically-controlled switch. It uses an electromagnet to mechanically open or close switch contacts. When current flows through the relay's coil, the magnetic field actuates the switch. Relays allow a low-power circuit to control a high-power circuit safely."
+  },
+  "T6D03": {
+    "hint": "The shield around the wire blocks unwanted electromagnetic signals from getting in or out.",
+    "explanation": "Shielded wire is used to prevent coupling of unwanted signals to or from the wire. The conductive shield surrounding the wire blocks electromagnetic interference from entering or radiating from the conductor. This is important in audio cables, sensitive measurement circuits, and near RF transmitters."
+  },
+  "T6D04": {
+    "hint": "This instrument reads out electrical values with numbers you can read.",
+    "explanation": "A meter displays an electrical quantity as a numeric value. Meters (both analog and digital) can measure voltage, current, resistance, and other electrical parameters, presenting the result as a readable number. They are essential tools for building and troubleshooting electronic circuits."
+  },
+  "T6D05": {
+    "hint": "This circuit keeps the output voltage steady regardless of load changes.",
+    "explanation": "A regulator circuit controls the amount of voltage from a power supply. Regulators maintain a constant output voltage despite changes in input voltage or load current. They are essential in power supplies to provide stable, clean DC voltage to electronic circuits."
+  },
+  "T6D06": {
+    "hint": "This component uses magnetic coupling to change voltage levels.",
+    "explanation": "A transformer changes 120V AC power to a lower AC voltage for other uses. Transformers work by magnetic coupling between primary and secondary windings, and the voltage ratio is determined by the turns ratio. They can only work with AC -- they cannot transform DC voltage."
+  },
+  "T6D07": {
+    "hint": "This small semiconductor glows when current flows through it.",
+    "explanation": "An LED (Light Emitting Diode) is commonly used as a visual indicator. LEDs emit light when forward current flows through them and are used as power indicators, status lights, and display elements. They are efficient, long-lasting, and available in many colors."
+  },
+  "T6D08": {
+    "hint": "When you pair a coil with this component, you get a circuit that resonates at a specific frequency.",
+    "explanation": "A capacitor combined with an inductor makes a resonant (tuned) circuit. The inductor and capacitor exchange energy back and forth at a specific resonant frequency determined by their values. This LC circuit is fundamental to radio -- it is used in oscillators, filters, and tuning circuits."
+  },
+  "T6D09": {
+    "hint": "This tiny package contains multiple transistors, resistors, and other components on a single chip.",
+    "explanation": "An integrated circuit (IC) combines several semiconductors and other components into one package. ICs can contain thousands to billions of transistors on a single chip, performing complex functions like amplification, signal processing, and computing. They are the building blocks of modern electronics."
+  },
+  "T6D10": {
+    "hint": "Component 2 in figure T-1 is a transistor, which controls current flow in the circuit.",
+    "explanation": "The function of component 2 (a transistor) in figure T-1 is to control the flow of current. Transistors can amplify signals or act as switches, controlling how much current flows in a circuit based on an input signal. They are active components that can provide gain."
+  },
+  "T6D11": {
+    "hint": "A resonant circuit consists of an inductor and capacitor working together.",
+    "explanation": "An inductor and a capacitor connected in series or parallel form a resonant (tuned) circuit. At the resonant frequency, the inductive and capacitive reactances are equal and cancel out. This creates a circuit that naturally oscillates at or selects a specific frequency, fundamental to all radio equipment."
+  },
+  "T7A01": {
+    "hint": "This receiver specification tells you how weak a signal can be and still be detected.",
+    "explanation": "Sensitivity describes the ability of a receiver to detect the presence of a signal. A more sensitive receiver can detect weaker signals. Sensitivity is typically measured in microvolts or dBm and is one of the most important specifications of a radio receiver."
+  },
+  "T7A02": {
+    "hint": "This device does double duty -- it can both send and receive.",
+    "explanation": "A transceiver is a device that combines a receiver and transmitter in one unit. Most modern amateur radio equipment is built as a transceiver, sharing components like the frequency synthesizer, display, and controls between transmit and receive functions. This is more practical than having separate units."
+  },
+  "T7A03": {
+    "hint": "This circuit combines two signals to produce sum and difference frequencies.",
+    "explanation": "A mixer is used to convert a signal from one frequency to another. Mixers combine two signals (the input signal and a local oscillator signal) to produce output signals at the sum and difference frequencies. This frequency conversion is fundamental to how radio receivers and transmitters work."
+  },
+  "T7A04": {
+    "hint": "This receiver specification tells you how well it can separate desired signals from nearby unwanted ones.",
+    "explanation": "Selectivity describes the ability of a receiver to discriminate between multiple signals. A receiver with good selectivity can receive a desired signal while rejecting strong signals on nearby frequencies. Selectivity is determined primarily by the receiver's filters."
+  },
+  "T7A05": {
+    "hint": "This circuit generates a steady signal at a chosen frequency.",
+    "explanation": "An oscillator is a circuit that generates a signal at a specific frequency. Oscillators are essential in radio equipment -- they provide the local oscillator signals for frequency conversion, the carrier signal for transmission, and the clock signals for digital circuits. They typically use LC circuits or crystals to set the frequency."
+  },
+  "T7A06": {
+    "hint": "This device takes a transceiver designed for one band and converts its signals to work on another band.",
+    "explanation": "A transverter converts the RF input and output of a transceiver to another band. For example, a transverter can take a 28 MHz transceiver and convert its signals to work on 144 MHz or 432 MHz. It contains mixers and oscillators to perform the frequency conversion."
+  },
+  "T7A07": {
+    "hint": "PTT stands for Push-To-Talk, and it switches the radio from listening to transmitting.",
+    "explanation": "The PTT (Push-To-Talk) input switches the transceiver from receive to transmit when grounded. When you press the PTT button on a microphone, it connects the PTT line to ground, telling the transceiver to switch to transmit mode. Releasing it returns to receive mode."
+  },
+  "T7A08": {
+    "hint": "Adding voice information onto a radio frequency carrier signal is called this.",
+    "explanation": "Modulation is the process of combining speech with an RF carrier signal. The voice audio modifies (modulates) the carrier wave so that it carries the information. Different types of modulation include AM (amplitude modulation), FM (frequency modulation), and SSB (single sideband)."
+  },
+  "T7A09": {
+    "hint": "The switch adjusts the amplifier's operating parameters to match the selected mode's characteristics.",
+    "explanation": "The SSB/CW-FM switch on a VHF power amplifier sets the amplifier for proper operation in the selected mode. FM signals are constant-amplitude and can use a different bias setting than SSB/CW signals, which vary in amplitude. Setting the switch correctly ensures the amplifier operates efficiently and linearly for the chosen mode."
+  },
+  "T7A10": {
+    "hint": "This device boosts the signal power coming from your transceiver before it reaches the antenna.",
+    "explanation": "An RF power amplifier increases the transmitted output power from a transceiver. It takes the relatively low power output of a transceiver and amplifies it to a higher power level. Power amplifiers (also called linear amplifiers) are used when the transceiver's built-in power is insufficient."
+  },
+  "T7A11": {
+    "hint": "A preamplifier boosts weak signals before they enter the receiver.",
+    "explanation": "An RF preamplifier is installed between the antenna and receiver. It amplifies weak signals before they reach the receiver, improving the system's overall sensitivity. Placing it at the antenna end of the feed line is ideal because it amplifies the signal before feed line losses reduce it."
+  },
+  "T7B01": {
+    "hint": "Over-deviation means your audio signal is too strong -- move your mouth away from the mic.",
+    "explanation": "If your FM transceiver is over-deviating, you should talk farther away from the microphone. Over-deviation occurs when the audio input is too strong, causing the FM signal to exceed its normal bandwidth. Increasing the distance between your mouth and the microphone reduces the audio level reaching the transmitter."
+  },
+  "T7B02": {
+    "hint": "The broadcast receiver is not selective enough to reject the strong amateur signal nearby.",
+    "explanation": "A broadcast AM or FM radio receives amateur transmissions unintentionally when the receiver is unable to reject strong signals outside its band. This is called fundamental overload -- the amateur signal is so strong that it overwhelms the receiver's front end, even though it is on a completely different frequency."
+  },
+  "T7B03": {
+    "hint": "RFI can come from the main signal being too strong, from harmonics, or from spurious emissions.",
+    "explanation": "Fundamental overload, harmonics, and spurious emissions can all cause radio frequency interference (RFI). Fundamental overload occurs when the primary signal overwhelms a receiver. Harmonics are multiples of the transmit frequency. Spurious emissions are unwanted signals generated by the transmitter."
+  },
+  "T7B04": {
+    "hint": "A ferrite choke blocks RF energy from flowing on the cable shield.",
+    "explanation": "A ferrite choke can cure distorted audio caused by RF current on a microphone cable shield. The ferrite material absorbs RF energy, preventing it from flowing on the cable's outer shield and coupling into the audio signal. Ferrite chokes are a simple and effective solution for this common type of RF interference."
+  },
+  "T7B05": {
+    "hint": "When the receiving device is being overloaded by the fundamental signal, filter it at the receiver's antenna input.",
+    "explanation": "Fundamental overload of a non-amateur receiver can be reduced by blocking the amateur signal with a filter at the antenna input of the affected receiver. Since the problem is the receiver being overwhelmed by a strong signal, a filter at the receiver's input that rejects the amateur frequency is the most effective solution."
+  },
+  "T7B06": {
+    "hint": "First verify that your own station is clean and not causing the problem.",
+    "explanation": "If a neighbor reports interference, you should make sure your station is functioning properly and does not cause interference to your own radio or TV tuned to the same channel. This is the responsible first step -- before troubleshooting the neighbor's equipment, ensure your station is not at fault."
+  },
+  "T7B07": {
+    "hint": "A filter that rejects the specific interfering frequency is what you need.",
+    "explanation": "A band-reject filter can reduce overload of a VHF transceiver by a nearby commercial FM station. A band-reject (notch) filter attenuates signals at the commercial FM frequency while passing other frequencies. This prevents the strong commercial signal from overloading the amateur receiver's front end."
+  },
+  "T7B08": {
+    "hint": "A cooperative approach combining investigation and good practice is the best way to handle this.",
+    "explanation": "If a neighbor's device is causing interference to your station, you should work with your neighbor to identify the offending device, politely inform them about FCC rules, and make sure your own station meets good practice standards. A collaborative, neighborly approach is most effective for resolving interference issues."
+  },
+  "T7B09": {
+    "hint": "Loose or bad coax connectors are the most common cause of cable TV interference.",
+    "explanation": "The first step to resolve cable TV interference from your amateur transmission is to make sure all TV feed line coaxial connectors are installed properly. Loose or corroded connectors are the most common cause of cable TV interference, as they allow amateur signals to leak into the cable system. This is a simple fix that often resolves the problem."
+  },
+  "T7B10": {
+    "hint": "Multiple issues can cause FM audio problems -- being off frequency, low batteries, or a poor location.",
+    "explanation": "Distorted or unintelligible audio through an FM repeater can be caused by your transmitter being slightly off frequency, low batteries, or a bad location. All of these can degrade the FM signal quality. Off-frequency operation causes distortion, low batteries reduce power, and a poor location results in a weak signal."
+  },
+  "T7B11": {
+    "hint": "When RF energy gets back into the transmitter's audio circuits, the voice signal becomes garbled.",
+    "explanation": "RF feedback in a transmitter or transceiver causes reports of garbled, distorted, or unintelligible voice transmissions. RF feedback occurs when transmitted RF energy couples back into the audio stages of the equipment, contaminating the voice signal. This can happen with poor grounding, antenna issues, or high SWR."
+  },
+  "T7C01": {
+    "hint": "A dummy load absorbs RF energy so you can test your transmitter without radiating a signal.",
+    "explanation": "The primary purpose of a dummy load is to prevent transmitting signals over the air when making tests. A dummy load absorbs the transmitter's RF output and converts it to heat, simulating an antenna without radiating any signal. This allows testing and tuning without causing interference to other stations."
+  },
+  "T7C02": {
+    "hint": "This instrument measures antenna characteristics including resonance and SWR across a range of frequencies.",
+    "explanation": "An antenna analyzer is used to determine if an antenna is resonant at the desired operating frequency. It sweeps across frequencies and measures impedance, SWR, and other parameters, showing you exactly where the antenna is resonant. This is much more informative than a simple SWR meter."
+  },
+  "T7C03": {
+    "hint": "A dummy load is basically a big resistor on a heatsink that absorbs RF energy.",
+    "explanation": "A dummy load consists of a non-inductive resistor mounted on a heat sink. The resistor (typically 50 ohms) absorbs RF energy and converts it to heat. The heat sink dissipates this heat safely. The resistor must be non-inductive to maintain a good impedance match across all frequencies."
+  },
+  "T7C04": {
+    "hint": "A perfect match means no reflected power -- the ratio is 1 to 1.",
+    "explanation": "An SWR reading of 1:1 indicates a perfect impedance match between the antenna and feed line. This means all power from the transmitter is being delivered to the antenna with no reflections. In practice, 1:1 is ideal but rarely achieved; an SWR below 2:1 is generally considered acceptable."
+  },
+  "T7C05": {
+    "hint": "High SWR means reflected power coming back, which can destroy the transistors in the final amplifier.",
+    "explanation": "Most solid-state transmitters reduce output power as SWR increases to protect the output amplifier transistors. High SWR causes reflected power to return to the transmitter, which can overheat and destroy the output transistors. The automatic power reduction (foldback) protects these expensive and critical components."
+  },
+  "T7C06": {
+    "hint": "An SWR of 4:1 means significant power is being reflected back -- not a good match.",
+    "explanation": "An SWR reading of 4:1 indicates an impedance mismatch between the antenna and feed line. At 4:1 SWR, a significant portion of the transmitted power is being reflected back toward the transmitter instead of being radiated by the antenna. This reduces efficiency and can damage the transmitter."
+  },
+  "T7C07": {
+    "hint": "Energy that does not make it to the antenna gets turned into heat in the feed line.",
+    "explanation": "Power lost in a feed line is converted into heat. As RF energy travels through the feed line, some is absorbed by the conductor resistance and dielectric losses, warming the cable. This is why lower-loss feed line is preferred, especially for long cable runs and at higher frequencies where losses are greater."
+  },
+  "T7C08": {
+    "hint": "A directional wattmeter measures both forward and reflected power, from which SWR can be calculated.",
+    "explanation": "A directional wattmeter can be used to determine SWR. By measuring both forward power (going to the antenna) and reflected power (coming back), the SWR can be calculated. A voltmeter and ohmmeter measure different quantities, and an iambic pentameter is a poetic meter, not a measuring instrument."
+  },
+  "T7C09": {
+    "hint": "Water is the enemy of coax -- once it gets inside, the cable is compromised.",
+    "explanation": "Moisture contamination causes failure of coaxial cables. When water enters a coaxial cable through damaged connectors or jacket, it increases signal losses dramatically and can corrode the conductors. Keeping connectors weatherproofed and replacing damaged cable sections is important for maintaining system performance."
+  },
+  "T7C10": {
+    "hint": "UV light from the sun breaks down the cable jacket, letting water in.",
+    "explanation": "Coaxial cable outer jacket should be resistant to ultraviolet light because UV radiation can damage the jacket and allow water to enter the cable. Outdoor cables are exposed to constant sunlight, and UV-degraded jackets crack and deteriorate over time. Water entry then causes signal losses and cable failure."
+  },
+  "T7C11": {
+    "hint": "Air-core coax has lower loss but is vulnerable to moisture getting inside.",
+    "explanation": "A disadvantage of air core coaxial cable compared to foam or solid dielectric types is that it requires special techniques to prevent moisture in the cable. Air-core coax uses dry air or nitrogen as the dielectric, which gives it lower loss. But if moisture enters, it dramatically increases losses and degrades performance."
+  },
+  "T7D01": {
+    "hint": "This instrument measures voltage, also known as electric potential.",
+    "explanation": "A voltmeter is used to measure electric potential (voltage). It measures the potential difference between two points in a circuit. Voltmeters are connected in parallel with the component being measured. An ammeter measures current, a wavemeter measures frequency, and an ohmmeter measures resistance."
+  },
+  "T7D02": {
+    "hint": "Voltage is measured across a component, so the meter connects in parallel.",
+    "explanation": "A voltmeter is connected in parallel with a component to measure applied voltage. By connecting across the component (one probe on each side), the voltmeter reads the potential difference without significantly affecting circuit operation. Connecting a voltmeter in series would block current flow."
+  },
+  "T7D03": {
+    "hint": "Current flows through the circuit path, so the meter must be placed in that path.",
+    "explanation": "When measuring current, a multimeter is connected in series with the component. The meter must be in the current path so that all current flows through it. This means you must break the circuit and insert the meter. Connecting an ammeter in parallel would create a short circuit."
+  },
+  "T7D04": {
+    "hint": "This meter measures the flow of electrons through a circuit.",
+    "explanation": "An ammeter is used to measure electric current. It measures the rate of electron flow through a circuit in amperes. An ammeter must be connected in series with the circuit. An ohmmeter measures resistance, an electrometer measures charge, and a voltmeter measures voltage."
+  },
+  "T7D06": {
+    "hint": "Applying external voltage to a meter set for resistance measurement can damage it.",
+    "explanation": "Attempting to measure voltage when using the resistance (ohms) setting can damage a multimeter. When set to measure resistance, the meter applies a small internal voltage. External voltage from the circuit being measured can overwhelm the meter's internal circuitry. Always ensure the meter is set to the correct function before connecting."
+  },
+  "T7D07": {
+    "hint": "A basic multimeter measures the three fundamental electrical quantities: voltage, current, and resistance.",
+    "explanation": "A multimeter measures voltage and resistance (and typically current as well). These are the most common electrical measurements in troubleshooting and building circuits. Signal strength, noise, impedance, and reactance require specialized instruments."
+  },
+  "T7D08": {
+    "hint": "Acid-core solder is for plumbing -- its corrosive flux will damage electronic components.",
+    "explanation": "Acid-core solder should not be used for radio and electronic applications. The acid flux is corrosive and will damage electronic components and circuit board traces over time. Rosin-core solder is the correct choice for electronics, as its flux is non-corrosive and leaves a benign residue."
+  },
+  "T7D09": {
+    "hint": "A cold solder joint did not flow properly, resulting in a rough, grainy appearance.",
+    "explanation": "A cold tin-lead solder joint has a rough or lumpy surface. This occurs when the solder did not fully melt and flow, often because the joint was moved before the solder solidified or the components were not hot enough. A good solder joint should have a bright, shiny, smooth appearance."
+  },
+  "T7D10": {
+    "hint": "A discharged capacitor initially looks like a short, then slowly charges up through the meter.",
+    "explanation": "When an ohmmeter is connected across a large, discharged capacitor, the reading shows increasing resistance with time. Initially, the meter reads low resistance as current flows to charge the capacitor. As the capacitor charges, less current flows and the resistance reading increases, eventually reaching infinity for a good capacitor."
+  },
+  "T7D11": {
+    "hint": "You must remove power from the circuit before measuring resistance to get an accurate reading.",
+    "explanation": "When measuring in-circuit resistance with an ohmmeter, you should ensure that the circuit is not powered. An ohmmeter works by applying its own small voltage and measuring the resulting current. External voltage from a powered circuit would give false readings and could damage the meter."
+  },
+  "T8A01": {
+    "hint": "SSB is derived from AM by removing the carrier and one sideband.",
+    "explanation": "Single sideband (SSB) is a form of amplitude modulation. SSB is produced by generating a standard AM signal and then filtering out the carrier and one sideband. This makes SSB more efficient than full AM because all the transmitted power is concentrated in the information-carrying sideband."
+  },
+  "T8A02": {
+    "hint": "VHF packet radio uses frequency or phase modulation, the same as voice FM.",
+    "explanation": "FM (Frequency Modulation) or PM (Phase Modulation) is commonly used for VHF packet radio transmissions. These modulation types are well-suited for VHF because they are resistant to amplitude noise and work well with the FM repeater infrastructure. Most VHF data modes use audio tones to modulate an FM transmitter."
+  },
+  "T8A03": {
+    "hint": "For weak signal work at a distance, the mode that uses the least bandwidth and is most power-efficient is preferred.",
+    "explanation": "SSB (Single Sideband) is often used for long-distance weak signal contacts on VHF and UHF bands. SSB concentrates all transmitted power into the information-carrying sideband, making it much more effective than FM for weak signal communications. FM requires a stronger signal to be usable."
+  },
+  "T8A04": {
+    "hint": "Most VHF/UHF voice repeaters use the modulation type that provides good audio quality and noise rejection.",
+    "explanation": "FM or PM (Frequency Modulation or Phase Modulation) is commonly used for VHF and UHF voice repeaters. FM provides clear audio quality and effective noise rejection, making it ideal for repeater use. The capture effect of FM also helps when multiple signals are present."
+  },
+  "T8A05": {
+    "hint": "Morse code uses just a simple on-off signal, requiring the least bandwidth.",
+    "explanation": "CW (Continuous Wave / Morse code) has the narrowest bandwidth of the signals listed. A CW signal requires only about 150 Hz of bandwidth, compared to about 3 kHz for SSB voice, 10-15 kHz for FM voice, and more for slow-scan TV. Narrow bandwidth means CW can be copied under conditions that would render other modes unusable."
+  },
+  "T8A06": {
+    "hint": "Above 10 MHz, including VHF and UHF, the convention is to use the upper sideband.",
+    "explanation": "Upper sideband (USB) is normally used for 10 meter HF, VHF, and UHF single-sideband communications. By convention, USB is used on frequencies above 10 MHz, while lower sideband (LSB) is used below 10 MHz. This convention ensures that stations can communicate without needing to negotiate which sideband to use."
+  },
+  "T8A07": {
+    "hint": "SSB uses less spectrum space than FM, which is an important advantage.",
+    "explanation": "SSB signals have narrower bandwidth than FM signals. An SSB signal occupies about 3 kHz, while an FM signal occupies 10-15 kHz. This narrower bandwidth allows more SSB signals to fit in a given amount of spectrum and also means SSB can work with weaker signals since the noise is reduced."
+  },
+  "T8A08": {
+    "hint": "An SSB voice signal is about 3 kHz wide -- roughly the bandwidth of human speech.",
+    "explanation": "The approximate bandwidth of a typical SSB voice signal is 3 kHz. This corresponds to the frequency range of human speech that is important for intelligibility (roughly 300 Hz to 3000 Hz). This narrow bandwidth is one of the advantages of SSB over FM."
+  },
+  "T8A09": {
+    "hint": "VHF FM repeater signals are wider than SSB, typically in the 10-15 kHz range.",
+    "explanation": "The approximate bandwidth of a VHF repeater FM voice signal is between 10 and 15 kHz. This wider bandwidth compared to SSB is needed because FM modulation spreads the signal over a broader frequency range. The wider bandwidth provides better audio quality but requires more spectrum space."
+  },
+  "T8A10": {
+    "hint": "Fast-scan TV is like broadcast television and needs about the same bandwidth.",
+    "explanation": "The approximate bandwidth of AM fast-scan TV transmissions is about 6 MHz. This is similar to the bandwidth of commercial broadcast television. The wide bandwidth is needed to carry the detailed video information. This is why amateur TV is only practical on UHF and higher bands where sufficient bandwidth is available."
+  },
+  "T8A11": {
+    "hint": "CW is extremely narrow -- just enough for the on-off keying of a carrier signal.",
+    "explanation": "The approximate bandwidth required to transmit a CW signal is 150 Hz. This very narrow bandwidth is one of the great advantages of CW -- it can be copied through heavy interference and noise that would make wider bandwidth modes unusable. The actual bandwidth depends on sending speed."
+  },
+  "T8A12": {
+    "hint": "FM has a capture effect where the strongest signal takes over, blocking weaker signals.",
+    "explanation": "A disadvantage of FM compared to SSB is that only one signal can be received at a time due to the FM capture effect. The strongest FM signal on a frequency suppresses all weaker signals. With SSB, multiple signals can be heard simultaneously, and the operator can mentally separate them."
+  },
+  "T8B01": {
+    "hint": "Satellite beacons tell ground stations how the satellite is doing.",
+    "explanation": "Satellite beacons typically transmit health and status information about the satellite. This telemetry includes data like battery voltage, temperature, and operating mode. Ground stations monitor this telemetry to assess the satellite's condition and proper operation."
+  },
+  "T8B02": {
+    "hint": "Using too much power on the uplink is selfish -- it drowns out other users of the satellite.",
+    "explanation": "Using excessive effective radiated power on a satellite uplink blocks access by other users. Satellite transponders have limited capacity, and a very strong uplink signal can activate the automatic gain control, reducing the satellite's sensitivity to all other signals. This is why minimum necessary power is important."
+  },
+  "T8B03": {
+    "hint": "Satellite tracking software provides comprehensive information about passes, position, and frequencies.",
+    "explanation": "Satellite tracking programs provide all of the listed information: real-time position maps, pass timing/azimuth/elevation data, and Doppler-corrected frequencies. This information is essential for successful satellite communications, as you need to know when the satellite is in range and where to point your antenna."
+  },
+  "T8B04": {
+    "hint": "Amateur satellites use various modes to accommodate different types of communications.",
+    "explanation": "Amateur radio satellites commonly use SSB, FM, and CW/data modes of transmission. Different satellites support different modes. Some have FM repeaters for voice, some have linear transponders for SSB/CW, and many support various digital data modes."
+  },
+  "T8B05": {
+    "hint": "A satellite beacon is a status signal that tells you about the satellite's condition.",
+    "explanation": "A satellite beacon is a transmission from a satellite that contains status information. It broadcasts continuously or periodically so ground stations can monitor the satellite's health and operating parameters. The beacon also helps ground stations find and track the satellite."
+  },
+  "T8B06": {
+    "hint": "Keplerian elements describe the satellite's orbit so the software can predict its position.",
+    "explanation": "The Keplerian elements are inputs to a satellite tracking program. These are a set of orbital parameters that mathematically describe the satellite's orbit around the Earth. The tracking software uses these elements to calculate the satellite's position at any given time, predict pass times, and determine antenna pointing angles."
+  },
+  "T8B07": {
+    "hint": "The frequency shift you hear from a satellite is caused by the satellite's motion relative to you.",
+    "explanation": "Doppler shift in satellite communications is an observed change in signal frequency caused by relative motion between the satellite and the Earth station. As the satellite approaches, the frequency appears higher; as it recedes, the frequency appears lower. Operators must adjust their frequency during a pass to compensate."
+  },
+  "T8B08": {
+    "hint": "U stands for UHF (70 cm) uplink and V stands for VHF (2 meter) downlink.",
+    "explanation": "A satellite operating in U/V mode has its uplink in the 70 centimeter (UHF) band and its downlink in the 2 meter (VHF) band. The first letter indicates the uplink band and the second indicates the downlink band. This is a common configuration for amateur satellites."
+  },
+  "T8B09": {
+    "hint": "As the satellite tumbles in space, its antenna orientation changes, causing the signal to vary.",
+    "explanation": "Spin fading of satellite signals is caused by rotation of the satellite and its antennas. As the satellite rotates, its antenna pattern changes relative to the ground station, causing the received signal strength to vary periodically. This creates a characteristic fading pattern synchronized with the satellite's rotation rate."
+  },
+  "T8B10": {
+    "hint": "LEO stands for the type of orbit closest to Earth.",
+    "explanation": "A LEO satellite is a satellite in low earth orbit. LEO satellites orbit relatively close to Earth (typically 160-2000 km altitude), resulting in fast passes overhead with short windows of communication. Most amateur radio satellites are in LEO, requiring directional antennas and Doppler correction for optimal use."
+  },
+  "T8B11": {
+    "hint": "Receiving signals does not require a license -- anyone can listen.",
+    "explanation": "Anyone may receive telemetry from a space station. There is no restriction on receiving amateur radio signals, including satellite telemetry. You only need a license to transmit. This means anyone with appropriate receiving equipment can monitor satellite health data and signals."
+  },
+  "T8B12": {
+    "hint": "Compare your signal strength to the satellite's beacon to gauge if your power is appropriate.",
+    "explanation": "You can determine if your satellite uplink power is appropriate by checking that your signal strength on the downlink is about the same as the beacon. If your signal is much stronger than the beacon, you are using too much power. If much weaker, you may need more power. The beacon serves as a reference level."
+  },
+  "T8C01": {
+    "hint": "Finding the source of interference involves using a receiver with a directional antenna.",
+    "explanation": "Radio direction finding is used to locate sources of noise interference or jamming. By using a directional antenna and noting signal strength from different directions, you can triangulate the source. This technique is also used for hidden transmitter hunts (fox hunts) and locating illegal or interfering transmitters."
+  },
+  "T8C02": {
+    "hint": "To find a hidden transmitter, you need an antenna that tells you which direction the signal is coming from.",
+    "explanation": "A directional antenna is useful for a hidden transmitter hunt (fox hunt). By rotating the antenna and noting where the signal is strongest (or weakest, with a loop antenna), you can determine the direction to the hidden transmitter. Combined with an attenuator, you can narrow down the location."
+  },
+  "T8C03": {
+    "hint": "Making as many contacts as possible in a limited time is the essence of this competitive activity.",
+    "explanation": "Contesting involves contacting as many stations as possible during a specified period. Amateur radio contests (also called radiosport) test operators' skills and station capabilities. Participants exchange specific information and earn points for each contact, competing for the highest score."
+  },
+  "T8C04": {
+    "hint": "In contests, efficiency is key -- send only what is required and keep it brief.",
+    "explanation": "Good contest procedure is to send only the minimum information needed for proper identification and the contest exchange. Contests move quickly, and brevity is essential. Always use your full call sign (never partial), do not repeat contacts unnecessarily, and include only the required exchange information."
+  },
+  "T8C05": {
+    "hint": "A grid locator is a compact geographic coordinate system used by amateur radio operators.",
+    "explanation": "A grid locator is a letter-number designator assigned to a geographic location. The Maidenhead grid locator system divides the world into grid squares identified by combinations of letters and numbers (e.g., FN31). Grid locators are used for VHF/UHF contests and to calculate distances between stations."
+  },
+  "T8C06": {
+    "hint": "IRLP nodes are accessed by sending touch-tone commands from your radio.",
+    "explanation": "Over-the-air access to IRLP (Internet Radio Linking Project) nodes is accomplished by using DTMF signals. Users press sequences of touch-tone buttons on their radio to connect to specific IRLP nodes or reflectors. These DTMF commands are decoded by the node controller to establish internet links."
+  },
+  "T8C07": {
+    "hint": "VoIP carries voice conversations as digital data over the internet.",
+    "explanation": "Voice Over Internet Protocol (VoIP) is a method of delivering voice communications over the internet using digital techniques. In amateur radio, VoIP is used by systems like EchoLink and IRLP to link repeaters and stations over the internet, enabling worldwide communication through local repeaters."
+  },
+  "T8C08": {
+    "hint": "IRLP connects repeaters and other amateur radio systems together using the internet.",
+    "explanation": "The Internet Radio Linking Project (IRLP) is a technique to connect amateur radio systems, such as repeaters, via the internet using VoIP. IRLP allows operators to communicate through their local repeater with stations connected to other IRLP nodes anywhere in the world."
+  },
+  "T8C09": {
+    "hint": "This system lets you use a computer or smartphone to access a repeater without a radio.",
+    "explanation": "EchoLink enables an amateur station to transmit through a repeater without using a radio to initiate the transmission. With EchoLink software on a computer or smartphone, licensed amateurs can connect to EchoLink-enabled repeaters over the internet and communicate with radio users, all without a physical radio."
+  },
+  "T8C10": {
+    "hint": "EchoLink verifies you are a licensed amateur before granting access.",
+    "explanation": "Before using EchoLink, you must register your call sign and provide proof of license. This verification process ensures that only licensed amateur radio operators can access the system. Once verified, you can use EchoLink software to connect to repeaters and other stations worldwide."
+  },
+  "T8C11": {
+    "hint": "A gateway bridges amateur radio to the internet.",
+    "explanation": "A gateway is an amateur radio station that connects other amateur stations to the internet. Gateways serve as bridge points between radio networks and internet-based systems. Examples include IRLP nodes, EchoLink gateways, and Winlink email gateways."
+  },
+  "T8D01": {
+    "hint": "All of the listed options involve transmitting data digitally over radio.",
+    "explanation": "Packet radio, IEEE 802.11 (Wi-Fi), and FT8 are all digital communications modes. Digital modes encode information as discrete symbols (ones and zeros) rather than continuous analog waveforms. Amateur radio uses many digital modes for different purposes, from high-speed data to weak-signal communication."
+  },
+  "T8D02": {
+    "hint": "A talkgroup is a virtual channel within a digital repeater system for a specific group of users.",
+    "explanation": "A talkgroup on a DMR repeater is a way for groups of users to share a channel at different times without hearing other users on the channel. Talkgroups are virtual 'rooms' within the digital network. Your radio is programmed to listen to specific talkgroups, so you only hear conversations relevant to your interests."
+  },
+  "T8D03": {
+    "hint": "APRS can send GPS position, text messages, weather, and more.",
+    "explanation": "APRS (Automatic Packet Reporting System) can transmit GPS position data, text messages, and weather data. APRS is a versatile digital communication system used for real-time position tracking, short messaging, and weather station reporting. It operates primarily on 144.390 MHz in North America."
+  },
+  "T8D04": {
+    "hint": "NTSC is the analog TV standard that was used for broadcast television in North America.",
+    "explanation": "NTSC refers to an analog fast-scan color TV signal. NTSC (National Television System Committee) was the standard for analog broadcast television in North America. In amateur radio, NTSC is used for amateur television (ATV) on UHF and higher bands."
+  },
+  "T8D05": {
+    "hint": "APRS shows station positions on a map, enabling tactical situational awareness.",
+    "explanation": "An application of APRS is providing real-time tactical digital communications in conjunction with a map showing the locations of stations. This combination of position data and messaging makes APRS invaluable for emergency communications, public service events, and general situational awareness."
+  },
+  "T8D06": {
+    "hint": "PSK stands for the digital modulation technique that shifts the phase of the signal.",
+    "explanation": "PSK stands for Phase Shift Keying. This is a digital modulation technique where data is encoded by changing the phase of the transmitted signal. PSK31 is a popular amateur radio digital mode that uses PSK to achieve very narrow bandwidth communications."
+  },
+  "T8D07": {
+    "hint": "DMR uses time-division to fit two conversations on one channel.",
+    "explanation": "DMR (Digital Mobile Radio) is a technique for time-multiplexing two digital voice signals on a single 12.5 kHz repeater channel. DMR divides each channel into two time slots, allowing two simultaneous conversations on one frequency pair. This doubles the capacity of a single repeater channel."
+  },
+  "T8D08": {
+    "hint": "Packet radio includes error checking, addressing, and automatic retransmission.",
+    "explanation": "Packet radio transmissions include a check sum for error detection, a header with the destination call sign, and automatic repeat request (ARQ) for error correction. These features make packet radio a reliable digital communication method, ensuring that data arrives correctly at the intended destination."
+  },
+  "T8D09": {
+    "hint": "CW stands for the oldest form of radio communication using dots and dashes.",
+    "explanation": "CW is another name for a Morse code transmission. CW stands for Continuous Wave, referring to the method of keying (turning on and off) a continuous radio wave to form the dots and dashes of Morse code. Despite being the oldest mode, CW remains effective for weak-signal communication."
+  },
+  "T8D10": {
+    "hint": "WSJT-X is a versatile suite supporting many different propagation modes.",
+    "explanation": "The WSJT-X software suite supports Earth-Moon-Earth (EME) communication, weak signal propagation beacons, and meteor scatter operations. WSJT-X includes multiple digital modes optimized for different propagation conditions, including FT8, FT4, JT65, and MSK144 for meteor scatter."
+  },
+  "T8D11": {
+    "hint": "ARQ stands for Automatic Repeat reQuest -- the receiver asks for retransmission of bad data.",
+    "explanation": "An ARQ (Automatic Repeat reQuest) transmission system is an error correction method in which the receiving station detects errors and sends a request for retransmission. When corrupted data is detected (using checksums), the receiver automatically requests the sender to resend that portion. This ensures reliable data delivery."
+  },
+  "T8D12": {
+    "hint": "Mesh networks use modified Wi-Fi gear to create self-healing amateur radio data networks.",
+    "explanation": "An amateur radio mesh network is an amateur-radio based data network using commercial Wi-Fi equipment with modified firmware. These networks use off-the-shelf Wi-Fi devices reflashed with special firmware (like AREDN) that operates on amateur radio frequencies, creating self-healing, wide-area data networks for emergency communications."
+  },
+  "T8D13": {
+    "hint": "FT8 is a popular digital mode designed to work with very weak signals.",
+    "explanation": "FT8 is a digital mode capable of low signal-to-noise operation. Developed by Joe Taylor (K1JT) and Steve Franke (K9AN), FT8 can decode signals buried well below the noise floor. It uses 15-second transmission periods and has become extremely popular for making contacts when signals are weak."
+  },
+  "T9A01": {
+    "hint": "A beam antenna focuses its energy in a particular direction, like a flashlight.",
+    "explanation": "A beam antenna concentrates signals in one direction. Unlike omnidirectional antennas that radiate equally in all directions, beam antennas focus their energy into a narrower pattern, providing gain in the favored direction. Examples include Yagi and parabolic dish antennas."
+  },
+  "T9A02": {
+    "hint": "Loading involves adding inductors to make a physically short antenna behave like a longer one.",
+    "explanation": "Antenna loading involves electrically lengthening an antenna by inserting inductors in the radiating elements. This technique allows a physically short antenna to operate at a frequency where it would normally be too short. The inductors add electrical length, making the antenna resonant at the desired frequency."
+  },
+  "T9A03": {
+    "hint": "When a dipole is parallel to the ground, its electric field is also parallel to the ground.",
+    "explanation": "A simple dipole oriented parallel to Earth's surface is a horizontally polarized antenna. The polarization of an antenna matches the orientation of its radiating elements. A horizontal dipole produces horizontally polarized waves, while a vertical antenna produces vertically polarized waves."
+  },
+  "T9A04": {
+    "hint": "The short rubber duck antenna is convenient but does not radiate as well as a full-sized antenna.",
+    "explanation": "The short, flexible antenna (rubber duck) supplied with handheld radios has low efficiency compared to a full-sized quarter-wave antenna. Much of the power fed to a rubber duck antenna is lost as heat rather than being radiated. A full-sized antenna radiates a much larger percentage of the input power."
+  },
+  "T9A05": {
+    "hint": "Making a dipole shorter increases its resonant frequency -- shorter antenna, higher frequency.",
+    "explanation": "Shortening a dipole antenna increases its resonant frequency. The resonant frequency of a dipole is inversely proportional to its length. A shorter antenna resonates at a higher frequency because the shorter length corresponds to a shorter wavelength (higher frequency). Lengthening would decrease the resonant frequency."
+  },
+  "T9A06": {
+    "hint": "This multi-element directional antenna provides the most gain of the options listed.",
+    "explanation": "A Yagi antenna offers the greatest gain of the antennas listed. A Yagi uses multiple elements (a driven element, reflector, and one or more directors) to concentrate signal energy in one direction. The more directors added, the higher the gain. Yagi antennas are widely used for VHF and UHF communications."
+  },
+  "T9A07": {
+    "hint": "The metal body of the vehicle blocks and absorbs the radio signal from the handheld's antenna.",
+    "explanation": "Using a handheld VHF transceiver with a flexible antenna inside a vehicle reduces signal strength due to the shielding effect of the vehicle body. The metal in the vehicle's body acts as a shield, absorbing and reflecting the radio signal. An external antenna mounted on the vehicle performs much better."
+  },
+  "T9A08": {
+    "hint": "A quarter wavelength at 146 MHz is about 19 inches -- use the formula: 234/frequency in MHz x 12.",
+    "explanation": "The approximate length of a quarter-wavelength vertical antenna for 146 MHz is 19 inches. Using the formula: quarter wavelength (feet) = 234 / frequency (MHz) = 234 / 146 = 1.6 feet = approximately 19 inches. This is a practical length for a mobile whip antenna on the 2 meter band."
+  },
+  "T9A09": {
+    "hint": "A half-wavelength dipole for 6 meters is about 112 inches -- use 468/frequency in MHz x 12.",
+    "explanation": "The approximate length of a half-wavelength 6 meter dipole antenna is 112 inches (about 9.3 feet). Using the formula: half wavelength (feet) = 468 / frequency (MHz) = 468 / 50 = 9.36 feet = approximately 112 inches. This is a practical size for a 6 meter dipole."
+  },
+  "T9A10": {
+    "hint": "A dipole radiates strongest perpendicular to its wire, not off the ends.",
+    "explanation": "A half-wave dipole antenna radiates the strongest signal broadside to the antenna (perpendicular to the wire). The radiation pattern of a dipole looks like a donut shape around the antenna, with maximum radiation at right angles to the wire and minimum radiation (nulls) off the ends."
+  },
+  "T9A11": {
+    "hint": "Antenna gain is about concentrating signal energy in a preferred direction compared to a reference.",
+    "explanation": "Antenna gain is the increase in signal strength in a specified direction compared to a reference antenna. It does not add power to the signal but concentrates the existing power into a narrower beam. Gain is typically measured in dBi (relative to an isotropic antenna) or dBd (relative to a dipole)."
+  },
+  "T9A12": {
+    "hint": "The 5/8 wavelength whip has a lower radiation angle, putting more energy toward the horizon.",
+    "explanation": "A 5/8 wavelength whip antenna has more gain than a 1/4-wavelength antenna for VHF or UHF mobile service. The 5/8 wave design concentrates more energy at lower radiation angles (toward the horizon), which is where other stations are located. This provides approximately 3 dB of gain over a quarter-wave whip."
+  },
+  "T9B01": {
+    "hint": "Low SWR means most of your power reaches the antenna instead of being reflected back.",
+    "explanation": "A benefit of low SWR is reduced signal loss. When SWR is low (close to 1:1), most of the transmitter's power reaches the antenna and is radiated. High SWR means more power is reflected back toward the transmitter, resulting in lost signal strength and potential damage to the transmitter."
+  },
+  "T9B02": {
+    "hint": "Most amateur radio equipment and antennas are designed for this standard impedance.",
+    "explanation": "The most common impedance of coaxial cables used in amateur radio is 50 ohms. This standard allows easy interconnection of transmitters, feed lines, and antennas. Most amateur radio equipment is designed for 50-ohm impedance, making 50-ohm coax the universal choice."
+  },
+  "T9B03": {
+    "hint": "Coax is popular because it is practical and forgiving -- no special routing or spacing is required.",
+    "explanation": "Coaxial cable is the most common feed line because it is easy to use and requires few special installation considerations. Unlike open-wire feed line, coax can be routed near metal objects, bent around corners, and buried underground without significant performance degradation. Its shielded construction makes installation straightforward."
+  },
+  "T9B04": {
+    "hint": "An antenna tuner adjusts the impedance so the transmitter sees a good match.",
+    "explanation": "The major function of an antenna tuner (antenna coupler) is to match the antenna system impedance to the transceiver's output impedance. When the antenna's impedance does not match the transmitter's expected 50 ohms, the tuner transforms the impedance to present a good match, reducing reflected power and protecting the transmitter."
+  },
+  "T9B05": {
+    "hint": "Higher frequencies mean more signal loss in the coax.",
+    "explanation": "As the frequency of a signal in coaxial cable increases, the loss increases. This is due to increased resistive losses in the conductors (skin effect) and increased dielectric losses at higher frequencies. This is why low-loss cable is especially important at VHF, UHF, and microwave frequencies."
+  },
+  "T9B06": {
+    "hint": "For frequencies above 400 MHz, you need a connector designed for UHF and microwave use.",
+    "explanation": "The Type N connector is most suitable for frequencies above 400 MHz. Type N connectors maintain consistent impedance and low loss at UHF and microwave frequencies. The common PL-259/SO-239 (UHF) connector, despite its name, has increasing losses above 150 MHz and is not ideal for UHF use."
+  },
+  "T9B07": {
+    "hint": "PL-259 connectors are the workhorses of amateur radio, commonly found on HF and VHF equipment.",
+    "explanation": "PL-259 type coax connectors are commonly used at HF and VHF frequencies. They are the most widely used connector in amateur radio, found on most transceivers and antennas. While not ideal for UHF and above (where Type N is preferred), PL-259s are rugged, readily available, and easy to install."
+  },
+  "T9B08": {
+    "hint": "Water in connectors, high SWR, and multiple connections all reduce the signal that reaches your antenna.",
+    "explanation": "Water intrusion into connectors, high SWR, and multiple connectors in the line are all sources of loss in coaxial feed line. Water causes corrosion and increased dielectric losses, high SWR causes additional heating losses, and each connector adds a small amount of loss. Minimizing all three improves system performance."
+  },
+  "T9B09": {
+    "hint": "An intermittent connection somewhere in the antenna system causes the SWR to jump around.",
+    "explanation": "Erratic changes in SWR are caused by a loose connection in the antenna or feed line. A connection that intermittently makes and breaks contact causes the impedance to change rapidly, resulting in SWR readings that fluctuate unpredictably. Check all connectors, solder joints, and mechanical connections."
+  },
+  "T9B10": {
+    "hint": "The thicker cable (RG-213) has lower loss because of its larger conductor and more dielectric material.",
+    "explanation": "RG-213 cable has less loss at a given frequency than RG-58. RG-213 is a larger diameter cable with a bigger center conductor and more dielectric, resulting in lower attenuation. While both are 50-ohm cables, RG-213 is preferred for longer runs and higher frequencies where loss reduction matters."
+  },
+  "T9B11": {
+    "hint": "Rigid hardline with air as the dielectric has the lowest loss of any common feed line type.",
+    "explanation": "Air-insulated hardline has the lowest loss at VHF and UHF of the feed line types listed. Air has virtually no dielectric loss, and the rigid construction maintains consistent impedance. While more difficult to install than flexible coax, hardline is preferred for critical applications where every decibel counts."
+  },
+  "T9B12": {
+    "hint": "SWR tells you how well the antenna and feed line are matched -- how much power goes forward versus reflected.",
+    "explanation": "Standing wave ratio (SWR) is a measure of how well a load is matched to a transmission line. A perfect match (1:1) means all power is absorbed by the load (antenna). Higher SWR values indicate more power is being reflected. SWR is one of the most important measurements in antenna system setup."
+  },
+  "T0A01": {
+    "hint": "A 12V battery may seem safe, but it can deliver enormous current if shorted.",
+    "explanation": "A safety hazard of a 12-volt storage battery is that shorting the terminals can cause burns, fire, or an explosion. While 12 volts is too low to cause electrical shock, batteries can deliver hundreds of amperes when shorted, generating extreme heat. This can melt tools, cause chemical burns from acid, and generate explosive hydrogen gas."
+  },
+  "T0A02": {
+    "hint": "Electrical current through the body is dangerous in multiple ways -- heating, disruption, and involuntary contractions.",
+    "explanation": "All the listed health hazards are presented by electrical current flowing through the body: heating of tissue, disruption of cellular electrical functions, and involuntary muscle contractions. Even small currents can be lethal if they pass through the heart, causing fibrillation. Electrical safety is critically important."
+  },
+  "T0A03": {
+    "hint": "In US residential wiring, the hot wire that carries voltage is always black.",
+    "explanation": "In a three-wire 120V cable in the United States, black wire insulation indicates the hot (live) conductor. White indicates neutral, and green (or bare) indicates equipment ground. Knowing wire colors is essential for safe electrical work. The hot wire carries the full 120V potential."
+  },
+  "T0A04": {
+    "hint": "A fuse disconnects the circuit when too much current flows, protecting equipment and preventing fires.",
+    "explanation": "The purpose of a fuse in an electrical circuit is to remove power in case of overload. When current exceeds the fuse's rating, the fuse element melts, opening the circuit and disconnecting power. This protects wiring and equipment from damage due to excessive current, which could cause overheating or fire."
+  },
+  "T0A05": {
+    "hint": "A fuse rated too high will not blow when it should, allowing dangerous overcurrent.",
+    "explanation": "A 5-ampere fuse should never be replaced with a 20-ampere fuse because excessive current could cause a fire. The 5-ampere fuse is sized to protect the specific wiring and components in that circuit. A 20-ampere fuse would allow four times the intended current to flow, potentially overheating wires and starting a fire before the fuse blows."
+  },
+  "T0A06": {
+    "hint": "Multiple layers of protection work together to prevent electrical shock.",
+    "explanation": "Good ways to guard against electrical shock include using three-wire cords and plugs, connecting equipment to a common safety ground, and installing mechanical interlocks in high-voltage circuits. All these measures work together to ensure that if a fault occurs, the current flows safely to ground rather than through a person."
+  },
+  "T0A07": {
+    "hint": "Install the lightning arrester where the feed line enters the building, on a grounded panel.",
+    "explanation": "A lightning arrester should be installed on a grounded panel near where feed lines enter the building. This placement stops lightning energy at the building entrance before it can enter the shack. The arrester must be connected to a good ground system to safely divert the energy."
+  },
+  "T0A08": {
+    "hint": "The fuse goes in series with the hot wire only -- never in the neutral or ground.",
+    "explanation": "A fuse or circuit breaker should be installed in series with the hot conductor only in a 120V AC circuit. The hot wire carries the dangerous voltage, and the fuse must be able to disconnect it. Fusing the neutral could leave the circuit energized even when the fuse blows, creating a dangerous situation."
+  },
+  "T0A09": {
+    "hint": "All ground rods must be connected together to create a single ground system.",
+    "explanation": "All external ground rods or earth connections should be bonded together with heavy wire or conductive strap. This creates a single, unified ground system with no potential differences between ground points. Without bonding, different ground rods can be at different potentials during a lightning strike, creating dangerous voltage differences."
+  },
+  "T0A10": {
+    "hint": "Charging or discharging too fast generates excessive heat and can cause dangerous gas buildup.",
+    "explanation": "Charging or discharging a battery too quickly can cause overheating or out-gassing. Rapid charging generates excess heat that can damage the battery or cause thermal runaway. Out-gassing produces hydrogen gas, which is explosive. This is why batteries have recommended charge and discharge rate limits."
+  },
+  "T0A11": {
+    "hint": "Capacitors can hold a dangerous charge even after the power supply is turned off.",
+    "explanation": "After turning off a power supply, charge stored in filter capacitors presents a hazard. Large filter capacitors can retain lethal voltages for minutes or even hours after power is removed. Always discharge capacitors safely before working on power supply circuits. This is one of the most common sources of electrical shock in electronics."
+  },
+  "T0A12": {
+    "hint": "When measuring high voltages, make sure your equipment can handle the voltage safely.",
+    "explanation": "When measuring high voltages, ensure that the voltmeter and leads are rated for use at the voltages to be measured. Using a meter or test leads not rated for the voltage being measured can result in insulation breakdown, arcing, and severe electrical shock. Always check ratings before making high-voltage measurements."
+  },
+  "T0B01": {
+    "hint": "Lightning ground wires should take the shortest, most direct path with no sharp bends.",
+    "explanation": "Good practice when installing ground wires on a tower for lightning protection is to ensure that connections are short and direct. Lightning seeks the shortest path to ground, and long or bent ground wires have higher impedance at the high frequencies present in lightning strikes. Sharp bends act as inductors, impeding current flow."
+  },
+  "T0B02": {
+    "hint": "Tower climbing requires proper training, equipment, and tie-off at all times.",
+    "explanation": "When climbing an antenna tower, all the listed requirements apply: sufficient training on safe climbing techniques, appropriate tie-off at all times, and always wearing an approved climbing harness. Tower climbing is inherently dangerous, and proper safety equipment and training are essential to prevent falls."
+  },
+  "T0B03": {
+    "hint": "Never climb alone -- you always need someone on the ground who can get help if needed.",
+    "explanation": "It is never safe to climb a tower without a helper or observer. A person on the ground is essential to call for help in case of an emergency, assist with hoisting tools and equipment, and watch for developing hazards. Climbing alone greatly increases the risk of a fatal outcome if an accident occurs."
+  },
+  "T0B04": {
+    "hint": "The biggest danger when erecting a tower is contact with overhead power lines.",
+    "explanation": "An important safety precaution when putting up an antenna tower is to look for and stay clear of any overhead electrical wires. Contact between a tower or antenna and power lines can be instantly fatal. Always survey the area before beginning tower work and maintain safe clearance from all power lines."
+  },
+  "T0B05": {
+    "hint": "A safety wire prevents the turnbuckle from slowly unscrewing due to wind and vibration.",
+    "explanation": "A safety wire through a turnbuckle prevents loosening from vibration. Guy line turnbuckles are subject to constant vibration from wind, which can gradually unscrew them. The safety wire passes through the turnbuckle to physically prevent it from rotating. Without it, a guy line could loosen and the tower could collapse."
+  },
+  "T0B06": {
+    "hint": "If the antenna falls, it must not be able to reach the power lines -- maintain enough clearance.",
+    "explanation": "The minimum safe distance from a power line when installing an antenna is enough so that if the antenna falls, no part of it can come closer than 10 feet to the power wires. This safety margin accounts for the worst-case scenario of the antenna or its support structure falling. Contact with power lines can be fatal."
+  },
+  "T0B07": {
+    "hint": "Never climb a crank-up tower unless it is fully retracted or has mechanical locks engaged.",
+    "explanation": "An important safety rule for crank-up towers is that they must not be climbed unless retracted or with mechanical safety locking devices installed. Crank-up towers can collapse if the lifting mechanism fails while someone is on an extended tower. Always retract the tower or engage positive mechanical locks before climbing."
+  },
+  "T0B08": {
+    "hint": "Each tower leg gets its own ground rod, and all rods are bonded together.",
+    "explanation": "A proper grounding method for a tower is separate eight-foot ground rods for each tower leg, bonded to the tower and each other. This provides a low-impedance path to earth for lightning energy. A single short ground rod is insufficient, and all ground points must be bonded together to equalize voltage during a strike."
+  },
+  "T0B09": {
+    "hint": "Utility poles carry high-voltage power lines -- putting an antenna on one is extremely dangerous.",
+    "explanation": "You should avoid attaching an antenna to a utility pole because the antenna could contact high-voltage power lines. Utility poles carry dangerous voltages, and working near them or attaching antennas to them creates a serious risk of electrocution. Always install antennas on structures well away from power lines."
+  },
+  "T0B10": {
+    "hint": "Sharp bends in lightning ground wires act as inductors and impede the flow of high-frequency lightning energy.",
+    "explanation": "When installing grounding conductors for lightning protection, sharp bends must be avoided. Sharp bends increase the impedance of the conductor at the high frequencies present in lightning strikes. Lightning current tends to jump across sharp bends rather than follow them, reducing the effectiveness of the ground system."
+  },
+  "T0B11": {
+    "hint": "Your local building codes govern how towers and antennas must be grounded.",
+    "explanation": "Local electrical codes establish grounding requirements for amateur radio towers and antennas. While the FCC regulates radio operations, the physical installation of towers and their electrical grounding falls under local building and electrical codes. These codes ensure safe installation practices appropriate for local conditions."
+  },
+  "T0C01": {
+    "hint": "Radio waves are electromagnetic radiation but do not have enough energy to ionize atoms.",
+    "explanation": "Radio signals are non-ionizing radiation. Unlike gamma rays, X-rays, and alpha particles, radio waves do not have enough energy to remove electrons from atoms or break chemical bonds. While RF energy can cause heating effects at high power levels, it does not cause the cellular damage associated with ionizing radiation."
+  },
+  "T0C02": {
+    "hint": "The human body absorbs RF energy most efficiently around 50 MHz, making exposure limits strictest there.",
+    "explanation": "Maximum permissible exposure has the lowest value (most restrictive limit) at 50 MHz. The human body resonates and absorbs RF energy most efficiently in the 30-300 MHz range, with peak absorption near 50 MHz for a standing adult. Because more energy is absorbed, exposure limits must be lower at these frequencies."
+  },
+  "T0C03": {
+    "hint": "If you transmit only half the time, the average exposure is halved, so the limit doubles.",
+    "explanation": "If duty cycle changes from 100% to 50%, the allowable power density increases by a factor of 2. Since exposure limits are based on average exposure over time, transmitting only 50% of the time means the average RF exposure is half of what it would be at 100% duty cycle. Therefore, twice the instantaneous power density is allowed."
+  },
+  "T0C04": {
+    "hint": "Frequency, power, distance, and antenna pattern all play a role in how much RF energy a person is exposed to.",
+    "explanation": "All the listed factors affect RF exposure: frequency and power level of the RF field, distance from the antenna, and radiation pattern of the antenna. Higher power, closer distance, and being in the main beam of the antenna all increase exposure. RF safety analysis must consider all these factors together."
+  },
+  "T0C05": {
+    "hint": "Your body absorbs different amounts of RF energy at different frequencies.",
+    "explanation": "Exposure limits vary with frequency because the human body absorbs more RF energy at some frequencies than at others. The body acts as an antenna, and its absorption characteristics change with frequency. Peak absorption occurs when body dimensions are resonant with the wavelength, typically around 30-100 MHz."
+  },
+  "T0C06": {
+    "hint": "You can verify compliance through calculation, computer modeling, or actual measurement.",
+    "explanation": "All the listed methods are acceptable for determining compliance with FCC RF exposure regulations: calculation based on FCC OET Bulletin 65, calculation based on computer modeling, and measurement of field strength using calibrated equipment. Any of these approaches can be used to demonstrate that exposure levels are within safe limits."
+  },
+  "T0C07": {
+    "hint": "Concentrated RF energy at the antenna can burn your skin on contact.",
+    "explanation": "Touching an antenna during transmission creates a hazard of RF burn to the skin. The high concentration of RF energy at the antenna can cause localized heating of tissue at the point of contact, resulting in painful burns. Always ensure no one can touch the antenna while transmitting."
+  },
+  "T0C08": {
+    "hint": "Moving the antenna farther from people is the most effective way to reduce exposure.",
+    "explanation": "Relocating antennas can reduce exposure to RF radiation. Since RF field strength decreases rapidly with distance (inverse square law), moving antennas higher or farther from occupied areas is one of the most effective ways to reduce exposure. Relocating the transmitter or increasing duty cycle would not help."
+  },
+  "T0C09": {
+    "hint": "Any time you change your antenna or transmitter setup, you need to recheck your RF safety compliance.",
+    "explanation": "To keep your station in compliance with RF safety regulations, re-evaluate the station whenever an item in the transmitter or antenna system is changed. Changes in power level, antenna type, antenna height, or feed line can all affect RF exposure levels. A new evaluation ensures continued compliance after any modification."
+  },
+  "T0C10": {
+    "hint": "Duty cycle matters because it determines how much RF energy a person is exposed to on average.",
+    "explanation": "Duty cycle is used to determine safe RF exposure levels because it affects the average exposure to radiation. Since RF safety limits are based on average exposure over time, a lower duty cycle (less time transmitting) means lower average exposure. CW and SSB modes have lower duty cycles than FM, for example."
+  },
+  "T0C11": {
+    "hint": "Duty cycle is simply what fraction of time the transmitter is actually transmitting.",
+    "explanation": "Duty cycle during the averaging time for RF exposure is defined as the percentage of time that a transmitter is transmitting. If you transmit for 3 minutes out of every 6 minutes, your duty cycle is 50%. Lower duty cycles mean lower average RF exposure, which is favorable for RF safety compliance."
+  },
+  "T0C12": {
+    "hint": "RF radiation lacks the energy to damage DNA or cause chemical changes in cells.",
+    "explanation": "RF radiation differs from ionizing radiation (radioactivity) because RF radiation does not have sufficient energy to cause chemical changes in cells and damage DNA. Ionizing radiation (like gamma rays and X-rays) has enough energy to break molecular bonds, but RF energy can only cause heating effects. This is a fundamental difference in their biological impact."
+  },
+  "T0C13": {
+    "hint": "The person who holds the license bears the responsibility for RF safety at their station.",
+    "explanation": "The station licensee is responsible for ensuring that no person is exposed to RF energy above the FCC exposure limits. This obligation requires the licensee to evaluate their station's RF exposure levels and take steps to ensure compliance. It is not the FCC's, the public's, or any local authority's responsibility -- it falls squarely on the licensee."
+  }
+}

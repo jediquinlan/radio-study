@@ -1,0 +1,1710 @@
+{
+  "G1A01": {
+    "hint": "Think about which HF bands have sub-bands where only Extra class licensees can operate.",
+    "explanation": "General class licensees cannot transmit on certain portions of the 80-, 40-, 20-, and 15-meter bands. These bands have segments reserved exclusively for Amateur Extra licensees, so General class operators are restricted to the upper portions of the phone sub-bands on these frequencies."
+  },
+  "G1A02": {
+    "hint": "This band is shared with other services and has very limited bandwidth, restricting what modes can be used.",
+    "explanation": "Phone (voice) operation is prohibited on the 30-meter band (10.1-10.15 MHz). This narrow band is shared with the fixed service outside the US, and only CW and data modes are permitted to keep the bandwidth of transmissions narrow."
+  },
+  "G1A03": {
+    "hint": "The same band that prohibits phone also prohibits image transmissions for the same bandwidth reasons.",
+    "explanation": "Image transmission is prohibited on the 30-meter band. Since image modes like SSTV require wider bandwidth than CW or narrow data modes, they are not allowed on this shared, narrow band to minimize interference with other services."
+  },
+  "G1A04": {
+    "hint": "This band is shared with federal government users and operates on specific channelized frequencies rather than a continuous range.",
+    "explanation": "The 60-meter band is restricted to specific channels rather than a continuous frequency range. This band is shared with US government (primarily military) users, so amateur operations are limited to designated channels to avoid interference with primary users."
+  },
+  "G1A05": {
+    "hint": "Consider which 40-meter frequencies fall within the Extra-only sub-band below the General class allocation.",
+    "explanation": "General class licensees are prohibited from operating on 7.125 to 7.175 MHz, which falls within the Extra class sub-band of the 40-meter band. The General class phone allocation on 40 meters begins at 7.175 MHz, so frequencies below that are reserved for Extra class operators."
+  },
+  "G1A06": {
+    "hint": "Secondary users have obligations to primary users regarding interference -- think about who must yield.",
+    "explanation": "When amateurs are secondary users on a band, they must not cause harmful interference to primary users and must accept any interference from those primary users. This is the fundamental principle of secondary spectrum allocation under international radio regulations."
+  },
+  "G1A07": {
+    "hint": "CW privileges for General class on 10 meters are broader than you might expect.",
+    "explanation": "General class operators may transmit CW on the entire 10-meter band (28.0-29.7 MHz). Unlike some other HF bands, there is no Extra-only CW sub-band on 10 meters, so General class licensees have full CW access across the whole band."
+  },
+  "G1A08": {
+    "hint": "The bands with Extra-only segments are the same ones where General class has restricted voice portions.",
+    "explanation": "The 80-, 40-, 20-, and 15-meter bands have segments exclusively allocated to Amateur Extra licensees. These are the same bands where General class operators are limited to the upper portions of the phone sub-bands. Other bands like 160, 60, 30, 17, 12, and 10 meters do not have Extra-only segments."
+  },
+  "G1A09": {
+    "hint": "The 15-meter band starts at 21 MHz -- check which frequency falls within the General class allocation.",
+    "explanation": "21300 kHz (21.300 MHz) is within the General class portion of the 15-meter band. The General class phone allocation on 15 meters runs from 21.275 to 21.450 MHz. The other choices are on different bands entirely (14250 kHz is 20m, 18155 kHz is 17m, 24900 kHz is 12m)."
+  },
+  "G1A10": {
+    "hint": "Repeater use on 10 meters is limited to the uppermost part of the band.",
+    "explanation": "The portion of the 10-meter band above 29.5 MHz is available for repeater use. This is where FM repeater operations are found on 10 meters, keeping repeater operations separate from SSB and CW activity lower in the band."
+  },
+  "G1A11": {
+    "hint": "General class operators get the higher-frequency portion of voice segments on restricted bands.",
+    "explanation": "When General class licensees cannot use the entire voice portion of a band, they are permitted to use the upper frequency portion. The lower portions of the voice segments on bands like 80, 40, 20, and 15 meters are reserved for Extra class operators."
+  },
+  "G1B01": {
+    "hint": "Think about the FAA notification threshold -- it is a round number commonly associated with building height regulations.",
+    "explanation": "Antenna structures up to 200 feet above ground do not require FAA notification or FCC registration, provided they are not near a public use airport. This rule comes from FCC Part 97.15(a) and is based on general aviation safety regulations regarding structure heights."
+  },
+  "G1B02": {
+    "hint": "Focus on the restriction about how many beacons can operate from one location on the same band.",
+    "explanation": "Beacon stations must comply with the condition that no more than one beacon station may transmit in the same band from the same station location. This prevents excessive spectrum usage by beacons at any single site and ensures fair access for other beacon operators."
+  },
+  "G1B03": {
+    "hint": "Beacons are specifically designed to help assess how well signals travel between locations.",
+    "explanation": "The FCC rules identify the purpose of a beacon station as observation of propagation and reception. Beacons transmit signals so that other operators can assess band conditions and propagation paths, which is particularly useful for HF operations."
+  },
+  "G1B04": {
+    "hint": "Think about which type of retransmission involves government weather information.",
+    "explanation": "All amateur stations are permitted to occasionally retransmit weather and propagation forecast information from US government stations. This allows useful public information to be shared across the amateur radio service. Unidentified transmissions, automatic retransmission by any station, and encrypted messages are not generally permitted."
+  },
+  "G1B05": {
+    "hint": "One-way transmissions are generally prohibited, but there are specific exceptions for educational purposes.",
+    "explanation": "Transmissions to assist with learning the International Morse code are permitted as one-way transmissions. This exception allows CW practice transmissions to be sent without requiring a two-way contact, supporting amateur radio's purpose of advancing radio communication skills."
+  },
+  "G1B06": {
+    "hint": "The key legal principle here involves balancing local regulation with accommodating amateur communications -- think PRB-1.",
+    "explanation": "Under the FCC's PRB-1 ruling, state and local governments may regulate amateur antenna structures, but they must reasonably accommodate amateur communications and their regulations must constitute the minimum practical restriction to accomplish a legitimate purpose. This balanced approach prevents outright bans while allowing reasonable local regulation."
+  },
+  "G1B07": {
+    "hint": "The rules are permissive about abbreviations as long as they serve communication clarity.",
+    "explanation": "Abbreviations and procedural signals may be used in the amateur service as long as they do not obscure the meaning of a message. The FCC does not restrict operators to specific approved lists of abbreviations -- the key requirement is that communications remain understandable."
+  },
+  "G1B08": {
+    "hint": "International contacts are broadly permitted with one important exception category.",
+    "explanation": "Amateurs may communicate with stations in any country except those whose administrations have notified the ITU that they object to such communications. This means international contacts are generally allowed unless a specific country has formally opted out through the ITU process."
+  },
+  "G1B09": {
+    "hint": "Automatically controlled beacons on HF are limited to a specific segment in the 10-meter band.",
+    "explanation": "Automatically controlled beacon stations are permitted on HF only in the 28.20 to 28.30 MHz segment of the 10-meter band. This narrow allocation ensures that automated beacons do not cause interference across the broader HF spectrum while still providing useful propagation information."
+  },
+  "G1B10": {
+    "hint": "Beacon stations have the same power limit as many other special-purpose amateur operations.",
+    "explanation": "The power limit for beacon stations is 100 watts PEP output. This limit is sufficient for beacons to serve their propagation-monitoring purpose while keeping their signal strength reasonable relative to other amateur operations on the same frequencies."
+  },
+  "G1B11": {
+    "hint": "When the rules do not explicitly address a situation, one specific entity has the final say.",
+    "explanation": "The FCC determines what constitutes good engineering and good amateur practice for situations not specifically covered by Part 97 rules. This gives the FCC authority to interpret and enforce standards even in areas where the written rules do not provide specific guidance."
+  },
+  "G1C01": {
+    "hint": "10.140 MHz is on the 30-meter band, which has a lower power limit than most HF bands.",
+    "explanation": "The maximum transmitter power on 10.140 MHz (30-meter band) is 200 watts PEP output. The 30-meter band has a reduced power limit because it is shared with other services, requiring amateurs to operate at lower power to minimize potential interference."
+  },
+  "G1C02": {
+    "hint": "The 12-meter band follows the standard maximum power rule for most HF bands.",
+    "explanation": "The maximum transmitter power on the 12-meter band is 1500 watts PEP output. This is the standard maximum power level for most amateur HF bands. Only certain shared bands like 30 meters and 60 meters have lower limits."
+  },
+  "G1C03": {
+    "hint": "The 60-meter band uses USB with a bandwidth limit that matches typical SSB voice signals.",
+    "explanation": "The maximum bandwidth for amateur radio stations transmitting on USB frequencies in the 60-meter band is 2.8 kHz. This limit ensures that amateur transmissions stay within the designated channels on this shared band and is consistent with the bandwidth of a typical SSB voice signal."
+  },
+  "G1C04": {
+    "hint": "If you use anything other than a dipole on 60 meters, you need to document something about your antenna.",
+    "explanation": "When operating on the 60-meter band, if you are using an antenna other than a dipole, you must keep a record of the gain of your antenna. This requirement exists because the power limit on 60 meters is specified as ERP relative to a dipole, so antenna gain must be accounted for to ensure compliance."
+  },
+  "G1C05": {
+    "hint": "The 28 MHz band follows the standard maximum power limit that applies to most amateur HF bands.",
+    "explanation": "The power limit on the 28 MHz (10-meter) band for a General class control operator is 1500 watts PEP output. This is the standard maximum power level for most HF amateur bands, and General class operators have the same power limit as Extra class on bands where they are authorized to operate."
+  },
+  "G1C06": {
+    "hint": "The 160-meter band has the same maximum power as most other HF bands.",
+    "explanation": "The power limit on the 1.8 MHz (160-meter) band is 1500 watts PEP output. Despite being the lowest-frequency amateur HF band, it carries the standard maximum power limit. Only certain shared bands (30m, 60m) have reduced power limits."
+  },
+  "G1C07": {
+    "hint": "The key requirement is transparency -- others must be able to decode your signal.",
+    "explanation": "Before using a new digital protocol on the air, you must publicly document the technical characteristics of the protocol. This requirement ensures that any station's digital transmissions can be decoded by other amateurs, maintaining the open nature of amateur radio communications."
+  },
+  "G1C09": {
+    "hint": "The 60-meter power limit is expressed differently from other bands -- think about effective radiated power.",
+    "explanation": "The maximum power on the 60-meter band is an ERP of 100 watts PEP with respect to a dipole. Unlike other bands where power is measured at the transmitter output, the 60-meter limit is expressed as effective radiated power, which accounts for antenna gain and feed line losses."
+  },
+  "G1C11": {
+    "hint": "The FCC specifies a particular measurement point and type of power reading for maximum power regulations.",
+    "explanation": "FCC rules specify PEP (Peak Envelope Power) output from the transmitter as the measurement for maximum power. PEP is measured at the transmitter output, not at the antenna, and represents the average power during one RF cycle at the crest of the modulation envelope."
+  },
+  "G1D01": {
+    "hint": "Think about which license classes are eligible for credit toward a new license after expiration.",
+    "explanation": "Any person who can demonstrate they once held an FCC-issued General, Advanced, or Amateur Extra class license that was not revoked may receive partial credit for expired exam elements. This provision helps experienced operators return to amateur radio without retaking all exams from scratch."
+  },
+  "G1D02": {
+    "hint": "A VE can only administer exams for license classes below their own.",
+    "explanation": "A General class Volunteer Examiner may only administer the Technician exam. VEs can only administer exams for license classes below their own license level. Since General is one step above Technician, they can test for Technician but not for General or Extra."
+  },
+  "G1D03": {
+    "hint": "A CSCE grants immediate operating privileges at the new license level.",
+    "explanation": "With an unexpired CSCE for General class, a Technician operator may operate on any General or Technician class band segment immediately. The CSCE serves as proof of passing the exam and grants privileges before the upgrade appears in the FCC database."
+  },
+  "G1D04": {
+    "hint": "Think about the minimum number of VEs required and their minimum license class for a Technician exam.",
+    "explanation": "At least three Volunteer Examiners of General class or higher must observe the administration of a Technician class license examination. This three-VE requirement ensures exam integrity, and VEs must hold a license class above the level being tested."
+  },
+  "G1D05": {
+    "hint": "Operating a US station requires a US license regardless of where the control operator is physically located.",
+    "explanation": "When operating a US station by remote control from outside the country, the control operator must hold a US operator/primary station license. The physical location of the operator does not change the licensing requirement for the station being controlled."
+  },
+  "G1D06": {
+    "hint": "The AG identifier is only needed when using the higher privileges not yet reflected in the database.",
+    "explanation": "A Technician licensee must identify with AG after their call sign whenever they operate using General class frequency privileges, until the upgrade is reflected in the FCC database. This special identifier is not required when operating on Technician frequencies."
+  },
+  "G1D07": {
+    "hint": "VEs are accredited by an organization that coordinates the examination process.",
+    "explanation": "Volunteer Examiners are accredited by a Volunteer Examiner Coordinator (VEC). Organizations like the ARRL VEC or W5YI VEC serve as coordinators that accredit individual VEs, prepare exams, and process license applications to the FCC."
+  },
+  "G1D08": {
+    "hint": "The key criterion is what license the person holds, not their citizenship.",
+    "explanation": "A non-US citizen can be an accredited Volunteer Examiner if they hold an FCC-granted amateur radio license of General class or above. Citizenship is not a barrier -- the requirement is holding the appropriate FCC license, which is available to non-citizens."
+  },
+  "G1D09": {
+    "hint": "The CSCE is valid for approximately one year.",
+    "explanation": "A Certificate of Successful Completion of Examination (CSCE) is valid for 365 days for exam element credit. This gives the applicant a full year to apply the credit toward their license upgrade or to pass remaining exam elements."
+  },
+  "G1D10": {
+    "hint": "The minimum age matches the legal age of majority in most US states.",
+    "explanation": "The minimum age to qualify as an accredited Volunteer Examiner is 18 years. While there is no minimum age to hold an amateur radio license, serving as a VE requires being at least 18 years old in addition to holding a General class or higher license."
+  },
+  "G1D11": {
+    "hint": "After the grace period expires, you need to provide proof of the old license and pass the current entry-level exam.",
+    "explanation": "To obtain a new General class license after a previously held license has expired and the two-year grace period has passed, the applicant must show proof of the expired license grant and pass the current Element 2 (Technician) exam. The expired General or higher license provides credit for Element 3."
+  },
+  "G1D12": {
+    "hint": "When the transmitter is in another country, think about whose rules govern that transmitter.",
+    "explanation": "When operating a station in South America by remote control from the US, only the regulations of the remote station's country apply. The station's physical location determines which country's regulations govern its operation, regardless of where the control operator is located."
+  },
+  "G1E01": {
+    "hint": "Consider what condition would make someone ineligible to participate even indirectly in amateur communications.",
+    "explanation": "A third party whose amateur license has been revoked and not reinstated is disqualified from participating in sending messages via an amateur station. License revocation indicates serious rules violations, and allowing such a person to participate as a third party would circumvent the purpose of the revocation."
+  },
+  "G1E02": {
+    "hint": "The key is who must hold the appropriate license for the output frequency of the repeater.",
+    "explanation": "A 10-meter repeater may retransmit a 2-meter Technician signal only if the 10-meter repeater control operator holds at least a General class license. The control operator of the repeater must be authorized on the output frequency (10 meters), which requires General class or higher privileges."
+  },
+  "G1E03": {
+    "hint": "To contact an automatically controlled digital station outside its normal segments, the initiating station must be under a specific type of control.",
+    "explanation": "The station initiating contact with a digital station operating under automatic control outside the automatic control band segments must be under local or remote control. This ensures a human operator is involved in initiating contact with automatically controlled stations operating outside their designated segments."
+  },
+  "G1E04": {
+    "hint": "Multiple situations require interference avoidance -- think broadly about when special care is needed.",
+    "explanation": "All of the listed conditions require steps to avoid harmful interference: operating near FCC Monitoring Stations, using bands where amateurs are secondary, and transmitting spread spectrum emissions. Each of these situations has specific regulatory requirements to protect other users and facilities."
+  },
+  "G1E05": {
+    "hint": "Third-party messages to countries with agreements cover personal and amateur topics, plus emergencies.",
+    "explanation": "Messages sent to third parties in countries with Third-Party Agreements must relate to amateur radio, be remarks of a personal character, or relate to emergencies or disaster relief. Commercial or business messages are not permitted even when a third-party agreement exists between the countries."
+  },
+  "G1E06": {
+    "hint": "The Americas fall within a specific ITU region number.",
+    "explanation": "ITU Region 2 covers North and South America, and its frequency allocations apply to amateur operators in those areas. The ITU divides the world into three regions for frequency allocation purposes, with Region 2 encompassing the Western Hemisphere."
+  },
+  "G1E07": {
+    "hint": "Amateur stations and unlicensed Part 15 devices operate under different regulatory frameworks and cannot communicate with each other.",
+    "explanation": "Amateur stations may not communicate with non-licensed Wi-Fi stations in any part of the 2.4 GHz band. Even though amateurs share this band with unlicensed devices, amateur communications must be between licensed stations. Intentional communication with unlicensed stations is not permitted."
+  },
+  "G1E08": {
+    "hint": "Spread spectrum has a significantly lower power limit compared to most amateur operations.",
+    "explanation": "The maximum PEP output for spread spectrum transmissions is 10 watts. This lower power limit reflects the wide-bandwidth nature of spread spectrum signals and helps minimize interference to other users sharing the same spectrum."
+  },
+  "G1E09": {
+    "hint": "Digital modes do not get any special exemption from third-party traffic rules.",
+    "explanation": "Messages sent via digital modes are never exempt from Part 97 third-party rules. The same rules apply regardless of the mode used -- digital, phone, or CW. Third-party traffic restrictions apply equally to all modes of amateur communication."
+  },
+  "G1E10": {
+    "hint": "These specific frequencies serve an important propagation-monitoring function in the amateur community.",
+    "explanation": "Operators should avoid transmitting on 14.100, 18.110, 21.150, 24.930, and 28.200 MHz because a system of propagation beacon stations operates on those frequencies. The International Beacon Project uses these frequencies to provide worldwide propagation information, and transmitting on them would interfere with this valuable service."
+  },
+  "G1E11": {
+    "hint": "Automatically controlled digital stations can communicate on specific segments of certain bands, particularly VHF and above.",
+    "explanation": "Automatically controlled stations transmitting RTTY or data may communicate with other automatically controlled stations anywhere in the 6-meter or shorter wavelength bands, and in limited segments of some HF bands. This allocation provides designated space for machine-to-machine digital communications."
+  },
+  "G1E12": {
+    "hint": "Remote control does not add any extra restrictions beyond the normal third-party rules.",
+    "explanation": "Third-party messages may be transmitted via remote control under any circumstances in which third-party messages are normally permitted by FCC rules. Remote control operation does not change the rules regarding third-party traffic -- the same permissions and restrictions apply."
+  },
+  "G2A01": {
+    "hint": "There is a convention for which sideband to use based on frequency, with a dividing line around 10 MHz.",
+    "explanation": "Upper sideband (USB) is most commonly used for voice communications on frequencies of 14 MHz and higher. By amateur convention, USB is used above approximately 10 MHz, while lower sideband is used on lower frequency bands. This convention helps operators find each other on the bands."
+  },
+  "G2A02": {
+    "hint": "The lower HF bands follow the opposite convention from the higher bands regarding sideband selection.",
+    "explanation": "Lower sideband (LSB) is most commonly used for voice communications on the 160-, 75-, and 40-meter bands. By long-standing amateur convention, LSB is used on bands below about 10 MHz, while USB is used on higher frequency bands."
+  },
+  "G2A03": {
+    "hint": "VHF and UHF SSB follows the same convention as the upper HF bands.",
+    "explanation": "Upper sideband (USB) is most commonly used for SSB voice communications in the VHF and UHF bands. Since these frequencies are above the conventional dividing line, they follow the same USB convention used on HF bands above 10 MHz."
+  },
+  "G2A04": {
+    "hint": "These WARC bands are above the 10 MHz dividing line for sideband convention.",
+    "explanation": "Upper sideband (USB) is most commonly used for voice communications on the 17- and 12-meter bands. Both bands are above 10 MHz (18.068 MHz and 24.890 MHz respectively), so they follow the convention of using USB for voice."
+  },
+  "G2A05": {
+    "hint": "This mode is more efficient than AM because it removes the carrier and one sideband.",
+    "explanation": "Single sideband (SSB) is the most commonly used voice mode on the HF amateur bands. SSB is preferred over AM or FM on HF because it uses approximately half the bandwidth of AM and concentrates all transmitter power into the voice signal rather than wasting power on a carrier."
+  },
+  "G2A06": {
+    "hint": "SSB is valued on HF primarily for its efficient use of two key resources.",
+    "explanation": "SSB uses less bandwidth and has greater power efficiency compared to other analog voice modes on HF. By eliminating the carrier and one sideband, SSB concentrates all transmitter power into a single sideband, effectively using half the bandwidth while delivering the full signal power to the voice information."
+  },
+  "G2A07": {
+    "hint": "In SSB, both the carrier and one of the two sidebands are removed before transmission.",
+    "explanation": "In single sideband, only one sideband is transmitted while the other sideband and the carrier are suppressed. This is achieved using a balanced modulator (to remove the carrier) and a filter (to remove one sideband), resulting in a more efficient signal than AM."
+  },
+  "G2A08": {
+    "hint": "Keep it simple and professional -- just identify yourself briefly.",
+    "explanation": "The recommended way to break into a phone contact is to simply say your call sign once during a pause between transmissions. This is polite, efficient, and follows proper amateur practice. Using CB-style language like 'breaker breaker' is not appropriate on amateur frequencies."
+  },
+  "G2A09": {
+    "hint": "The choice of sideband on lower bands is not a regulatory requirement but rather a tradition.",
+    "explanation": "Most amateur stations use lower sideband on the 160-, 75-, and 40-meter bands because it is commonly accepted amateur practice. There is no technical or legal requirement to use LSB on these bands -- it is simply a long-standing convention that helps all operators know where to find each other."
+  },
+  "G2A10": {
+    "hint": "VOX stands for Voice Operated Exchange and activates the transmitter based on audio input.",
+    "explanation": "VOX operation allows hands-free operation by automatically switching between transmit and receive based on whether the operator is speaking. Unlike PTT (Push-To-Talk), which requires manually pressing a button, VOX frees the operator's hands for logging, antenna adjustments, or other tasks."
+  },
+  "G2A11": {
+    "hint": "CQ DX means the caller wants to work distant stations, not local ones.",
+    "explanation": "When a station in the contiguous 48 states calls CQ DX, generally only stations outside the lower 48 states should respond. CQ DX is a call specifically seeking long-distance or international contacts, so stations within the same region should refrain from responding."
+  },
+  "G2A12": {
+    "hint": "ALC prevents overdrive, and the control that most directly affects it is related to audio input level.",
+    "explanation": "The transmit audio or microphone gain control is typically adjusted for proper ALC setting on a single sideband transceiver. If the mic gain is set too high, the ALC will engage excessively, potentially causing distortion. Proper adjustment keeps the ALC barely active on voice peaks."
+  },
+  "G2B01": {
+    "hint": "Amateur radio operates on a first-come, first-served basis with one critical exception.",
+    "explanation": "Except during emergencies, no amateur station has priority access to any frequency. All amateur stations have equal right to use any frequency within their authorized privileges, regardless of whether they are participating in a net, contest, or casual QSO."
+  },
+  "G2B02": {
+    "hint": "The first priority when hearing a distress call is to respond to the station in need.",
+    "explanation": "If a station in distress breaks in during your contact, you should acknowledge the station in distress and determine what assistance may be needed. Emergency communications take priority over all other amateur operations, and the first step is to establish contact with the distressed station."
+  },
+  "G2B03": {
+    "hint": "The proper approach to frequency conflicts is cooperative problem-solving.",
+    "explanation": "Good amateur practice when propagation changes cause interference is to attempt to resolve the problem with the other stations in a mutually acceptable manner. This might involve one or both stations moving to a different frequency, as no station has inherent priority over another."
+  },
+  "G2B04": {
+    "hint": "CW signals are narrow, so the required separation is much less than for voice but more than just a few hertz.",
+    "explanation": "When selecting a CW transmitting frequency, a minimum separation of 150 Hz to 500 Hz from other stations should be maintained. CW signals have a narrow bandwidth (typically 100-250 Hz), so this spacing helps prevent overlap and allows comfortable copy of both signals."
+  },
+  "G2B05": {
+    "hint": "SSB signals are wider than CW, so they need proportionally more separation.",
+    "explanation": "When selecting an SSB transmitting frequency, a minimum separation of 2 kHz to 3 kHz from other stations should be maintained. SSB voice signals typically occupy about 2.4-3 kHz of bandwidth, so this spacing prevents the signals from overlapping and causing mutual interference."
+  },
+  "G2B06": {
+    "hint": "The proper procedure involves asking if the frequency is in use, using appropriate mode-specific language.",
+    "explanation": "To avoid harmful interference before calling CQ, send 'QRL?' on CW followed by your call sign, or if using phone, ask if the frequency is in use followed by your call sign. This gives any stations already on frequency the opportunity to respond before you begin transmitting."
+  },
+  "G2B07": {
+    "hint": "Voluntary band plans help organize activity by mode and purpose within each band.",
+    "explanation": "Following the voluntary band plan is commonly accepted amateur practice when choosing a frequency to initiate a call. Band plans designate portions of each band for different modes and activities, helping reduce interference and making it easier for operators to find the type of activity they seek."
+  },
+  "G2B08": {
+    "hint": "This narrow 6-meter segment is reserved for working stations at a distance.",
+    "explanation": "The voluntary band plan restriction for US stations in the 48 contiguous states on 50.1 to 50.125 MHz is that only contacts with stations not within the 48 contiguous states should be made. This segment is reserved for DX (long-distance) contacts, particularly via sporadic E propagation."
+  },
+  "G2B09": {
+    "hint": "RACES operations still require a licensed amateur as control operator.",
+    "explanation": "Only a person holding an FCC-issued amateur operator license may be the control operator of a station transmitting in RACES during a disaster. Even during emergencies, the control operator must be a licensed amateur, though RACES provides a framework for organized emergency communications."
+  },
+  "G2B10": {
+    "hint": "Good net management anticipates problems like losing the primary frequency.",
+    "explanation": "Having a backup frequency in case of interference or poor conditions is good amateur practice for net management. Conditions on HF can change rapidly, and other stations may cause interference, so a prearranged alternate frequency allows the net to continue operations without disruption."
+  },
+  "G2B11": {
+    "hint": "RACES drills have a specific weekly time limit for routine training.",
+    "explanation": "RACES training drills and tests may be routinely conducted no more than 1 hour per week without special authorization. This limitation ensures that RACES frequencies and operations do not consume excessive spectrum time while still allowing regular training to maintain readiness."
+  },
+  "G2C01": {
+    "hint": "QSK means the transmitter can receive between the individual elements of Morse code characters.",
+    "explanation": "Full break-in CW operation (QSK) means transmitting stations can receive between code characters and elements. The transmitter switches off and the receiver activates in the gaps between dits and dahs, allowing the operator to hear other stations at all times during transmission."
+  },
+  "G2C02": {
+    "hint": "QRS is a Q-signal that relates to transmission speed.",
+    "explanation": "When a CW station sends QRS, it is a request to send slower. QRS is the Q-signal meaning 'shall I send more slowly?' and is used when the receiving operator is having difficulty copying at the current speed."
+  },
+  "G2C03": {
+    "hint": "KN is more restrictive than just K, indicating the sender wants to hear from a specific station only.",
+    "explanation": "When a CW operator sends KN at the end of a transmission, it means they are listening only for a specific station or stations. KN is more exclusive than K (which invites any station to respond) and is used to prevent other stations from breaking into the conversation."
+  },
+  "G2C04": {
+    "hint": "This Q-signal is used to check whether a frequency is occupied before calling CQ.",
+    "explanation": "The Q signal QRL? means 'Are you busy?' or 'Is this frequency in use?' It is commonly sent on CW before calling CQ to determine if another station is already using the frequency. If someone responds with 'QRL' (yes), you should find another frequency."
+  },
+  "G2C05": {
+    "hint": "Match the speed of the station calling CQ, but do not exceed your own comfortable copying speed.",
+    "explanation": "When answering a CQ in Morse code, you should send at the fastest speed at which you are comfortable copying, but no faster than the CQ. Sending faster than the calling station might result in a response you cannot copy, while sending much slower wastes time."
+  },
+  "G2C06": {
+    "hint": "Zero beat involves adjusting your transmit frequency to match what you are hearing.",
+    "explanation": "Zero beat in CW operation means matching your transmit frequency to the frequency of a received signal. When two signals are at the same frequency, their difference (beat) frequency is zero hertz -- hence 'zero beat.' This ensures you transmit on the same frequency as the station you are calling."
+  },
+  "G2C07": {
+    "hint": "The letter C in an RST report indicates an issue with the transmitter's frequency stability.",
+    "explanation": "When sending CW, a C added to the RST report indicates a chirpy or unstable signal. Chirp occurs when the transmitter's oscillator frequency shifts slightly during key-down, creating an audible frequency change. This is typically caused by poor power supply regulation or oscillator instability."
+  },
+  "G2C08": {
+    "hint": "This prosign is commonly used in formal traffic handling to mark the end of a message.",
+    "explanation": "The prosign AR is sent to indicate the end of a formal message in CW. AR (sent as a single character, didahdidahdit) means 'end of message' and is used in formal traffic handling. SK indicates end of contact, BK means break, and KN means go ahead specific station only."
+  },
+  "G2C09": {
+    "hint": "This Q-signal confirms receipt and understanding of a message.",
+    "explanation": "The Q signal QSL means 'I have received and understood.' It is commonly used to acknowledge receipt of information during a contact and is also the basis for QSL cards, which serve as written confirmation of a completed contact between two stations."
+  },
+  "G2C10": {
+    "hint": "This Q-signal relates to natural noise and atmospheric interference.",
+    "explanation": "The Q signal QRN means 'I am troubled by static.' QRN refers to natural noise, particularly atmospheric static from thunderstorms and other natural sources. It is distinct from QRM, which refers to interference from other stations."
+  },
+  "G2C11": {
+    "hint": "This Q-signal indicates readiness to receive transmissions.",
+    "explanation": "The Q signal QRV means 'I am ready to receive.' It indicates that the station is set up and prepared to accept transmissions. This is useful for coordinating contacts, especially on schedules or in nets."
+  },
+  "G2D01": {
+    "hint": "This program replaced the former Official Observer program for monitoring the airwaves.",
+    "explanation": "The Volunteer Monitor Program consists of amateur volunteers who are formally enlisted to monitor the airwaves for rules violations. This ARRL-administered program works cooperatively with the FCC to identify and address operating violations through advisory notices and, when necessary, formal reports."
+  },
+  "G2D02": {
+    "hint": "The program's goals center around amateur radio self-governance and rules compliance.",
+    "explanation": "The objectives of the Volunteer Monitor Program are to encourage amateur radio operators to self-regulate and comply with the rules. Rather than relying solely on FCC enforcement, the program promotes self-policing within the amateur community to maintain operating standards."
+  },
+  "G2D03": {
+    "hint": "Multiple Volunteer Monitors can triangulate on a signal using directional antennas.",
+    "explanation": "Volunteer Monitors can localize a station causing interference by comparing beam headings on the repeater input from their home locations with those of other Volunteer Monitors. By taking bearings from multiple locations, they can triangulate and identify the approximate location of the offending station."
+  },
+  "G2D04": {
+    "hint": "This type of map is centered on a specific point and shows accurate bearings from that location.",
+    "explanation": "An azimuthal projection map shows true bearings and distances from a specific location. This type of map is invaluable for amateur radio operators because it shows the correct beam heading to point a directional antenna toward any location in the world from the map's center point."
+  },
+  "G2D05": {
+    "hint": "The standard calling procedure involves repeating a specific phrase followed by your identification.",
+    "explanation": "To indicate you are looking for an HF contact with any station, repeat CQ a few times, followed by 'this is' and your call sign a few times, then pause to listen and repeat as necessary. CQ is the universal amateur radio calling signal meaning 'calling any station.'"
+  },
+  "G2D06": {
+    "hint": "Long path is literally the opposite direction around the globe from the short path.",
+    "explanation": "When making a long-path contact, a directional antenna is pointed 180 degrees from the station's short-path heading. Instead of taking the shortest route around the globe, the signal travels the long way around, which sometimes provides better propagation conditions than the short path."
+  },
+  "G2D07": {
+    "hint": "The NATO alphabet starts with Alpha and uses internationally standardized words.",
+    "explanation": "Alpha, Bravo, Charlie, Delta are examples of the NATO Phonetic Alphabet. This internationally standardized alphabet is used in amateur radio to clearly spell out call signs and other information, reducing errors caused by similar-sounding letters."
+  },
+  "G2D08": {
+    "hint": "A station log is not required by the FCC but serves a practical purpose if questions arise.",
+    "explanation": "Many amateurs keep a station log to help with a reply if the FCC requests information about their station. While the FCC no longer requires amateurs to maintain a log, having one provides documentation of operations that can be useful for resolving interference complaints or other inquiries."
+  },
+  "G2D09": {
+    "hint": "Contest participation does not exempt you from normal FCC identification requirements.",
+    "explanation": "When participating in a contest on HF frequencies, you must identify your station according to normal FCC regulations. Contest operating does not change any FCC rules -- you must still identify at least every 10 minutes and at the end of each communication, using your assigned call sign."
+  },
+  "G2D10": {
+    "hint": "The Q-signal QRP relates to power level.",
+    "explanation": "QRP operation refers to low-power transmit operation. QRP typically means operating at 5 watts or less on CW or 10 watts or less on SSB. Many amateurs enjoy the challenge of making contacts with minimal power, and QRP operating is a popular activity in the hobby."
+  },
+  "G2D11": {
+    "hint": "Signal reports help both stations adjust their operating strategy based on current conditions.",
+    "explanation": "Signal reports are exchanged at the beginning of an HF contact to allow each station to operate according to conditions. If signals are weak, operators might speak more slowly, repeat key information, or adjust power. Strong signals might allow a more relaxed, conversational pace."
+  },
+  "G2E01": {
+    "hint": "RTTY via AFSK uses a different sideband convention than voice on HF.",
+    "explanation": "LSB (Lower Sideband) is normally used when sending RTTY signals via AFSK with an SSB transmitter. This convention ensures that the audio tones are properly translated to the correct RF frequencies. Using USB would invert the mark and space frequencies."
+  },
+  "G2E02": {
+    "hint": "VARA is associated with email-over-radio systems.",
+    "explanation": "VARA is a digital protocol used with Winlink, the amateur radio email system. VARA provides high-speed data transfer capabilities on both HF and VHF, enabling efficient email communication over radio links when internet access is unavailable."
+  },
+  "G2E03": {
+    "hint": "Interference to error-correcting protocols causes problems at multiple levels of the communication.",
+    "explanation": "Interference with PACTOR or VARA transmissions can cause frequent retries or timeouts, long pauses in message transmission, and failure to establish a connection. These protocols use error correction and automatic retransmission, so interference triggers repeated attempts that slow or prevent communication."
+  },
+  "G2E04": {
+    "hint": "FT8 uses alternating 15-second time slots, so timing matters when responding.",
+    "explanation": "When answering a CQ using FT8, you should find a clear frequency during the alternate time slot to the calling station. FT8 operates in 15-second transmit/receive cycles, so you transmit during the opposite time slot from the station you are calling, and on a different audio frequency."
+  },
+  "G2E05": {
+    "hint": "Modern digital modes on HF follow the same sideband convention as voice above 10 MHz.",
+    "explanation": "USB (Upper Sideband) is the standard sideband for JT65, JT9, FT4, and FT8 digital signals when using AFSK. This convention is used regardless of band, even on bands where voice convention would normally use LSB, to ensure consistent frequency calibration."
+  },
+  "G2E06": {
+    "hint": "The standard RTTY shift is a relatively narrow value that has been used since the early days of amateur RTTY.",
+    "explanation": "The most common frequency shift for RTTY emissions in the amateur HF bands is 170 Hz. This means the mark and space tones are separated by 170 Hz. This standard shift provides a good balance between narrow bandwidth and reliable decoding."
+  },
+  "G2E07": {
+    "hint": "FT8's timing-dependent protocol requires precise synchronization between stations.",
+    "explanation": "FT8 requires computer time accurate to within approximately 1 second. FT8 uses precisely timed 15-second transmission periods, and if your computer clock is off by more than about a second, the software will not properly decode received signals or transmit at the correct time."
+  },
+  "G2E08": {
+    "hint": "Digital modes on 20 meters are found just above the CW segment but below the general phone frequencies.",
+    "explanation": "Most digital mode operations on the 20-meter band are found between 14.070 MHz and 14.100 MHz. This segment sits between the CW sub-band and the phone sub-band, and is where you will find FT8, PSK31, RTTY, and other digital mode activity."
+  },
+  "G2E09": {
+    "hint": "PACTOR is a point-to-point protocol that does not support group connections.",
+    "explanation": "You cannot join an existing PACTOR contact because PACTOR connections are limited to two stations. PACTOR is a point-to-point ARQ protocol designed for reliable data transfer between exactly two stations, and it does not support multi-party connections."
+  },
+  "G2E10": {
+    "hint": "To reach a gateway station, you initiate contact on its known operating frequency.",
+    "explanation": "A common way to establish contact with a digital messaging system gateway station is to transmit a connect message on the station's published frequency. Gateway stations like Winlink RMS nodes publish their frequencies and connection information so that users can initiate contact."
+  },
+  "G2E11": {
+    "hint": "AREDN mesh networks provide network services similar to internet connectivity.",
+    "explanation": "The primary purpose of an AREDN mesh network is to provide high-speed data services during an emergency or community event. AREDN networks use amateur radio frequencies to create self-healing mesh networks that can carry voice, video, and data when commercial infrastructure is unavailable."
+  },
+  "G2E12": {
+    "hint": "Winlink combines multiple technologies to deliver email capability over radio.",
+    "explanation": "Winlink is an amateur radio wireless network to send and receive email, a form of packet radio, and capable of both VHF and HF band operation. It combines internet-connected servers with radio gateways to provide email service when traditional internet access is unavailable."
+  },
+  "G2E13": {
+    "hint": "A Winlink RMS acts as an intermediary between radio users and the email system.",
+    "explanation": "A Winlink Remote Message Server is also known as a Gateway. It serves as the connection point between amateur radio users and the Winlink email system, receiving radio connections from users and forwarding their messages to the internet-based Winlink servers."
+  },
+  "G2E14": {
+    "hint": "Multiple settings must be correct for successful FSK decoding -- any mismatch can cause problems.",
+    "explanation": "If you cannot decode an RTTY or FSK signal even though it appears tuned properly, the mark and space frequencies may be reversed, you may have selected the wrong baud rate, or you may be listening on the wrong sideband. All of these settings must match the transmitting station for successful decoding."
+  },
+  "G2E15": {
+    "hint": "FT8 on 20 meters has a well-known narrow frequency segment where activity is concentrated.",
+    "explanation": "A common location for FT8 on 20 meters is approximately 14.074 MHz to 14.077 MHz. FT8 activity tends to concentrate in narrow segments on each band, with 14.074 MHz being the primary calling frequency for FT8 on 20 meters."
+  },
+  "G3A01": {
+    "hint": "More sunspots mean more solar radiation, which ionizes higher layers of the atmosphere more strongly.",
+    "explanation": "Higher sunspot numbers generally indicate a greater probability of good propagation at higher frequencies. Increased solar activity produces more ultraviolet radiation, which more strongly ionizes the ionosphere, raising the maximum usable frequency (MUF) and enabling propagation on higher HF bands."
+  },
+  "G3A02": {
+    "hint": "A sudden ionospheric disturbance increases D-layer absorption, which affects lower frequencies more.",
+    "explanation": "A sudden ionospheric disturbance (SID) disrupts signals on lower frequencies more than those on higher frequencies. SIDs enhance D-layer ionization on the sunlit side of Earth, and the D layer absorbs lower frequency signals more strongly, causing a sudden loss of propagation on those frequencies."
+  },
+  "G3A03": {
+    "hint": "Electromagnetic radiation from the sun travels at the speed of light, and we know the distance from the sun to Earth.",
+    "explanation": "Increased UV and X-ray radiation from a solar flare takes approximately 8 minutes to affect radio propagation on Earth. This is the time it takes for electromagnetic radiation to travel from the Sun to Earth at the speed of light (about 93 million miles or 150 million km)."
+  },
+  "G3A04": {
+    "hint": "Higher frequency bands require stronger ionospheric ionization to support propagation.",
+    "explanation": "The 15-, 12-, and 10-meter bands are least reliable for long-distance communications during periods of low solar activity. These higher frequency bands require stronger ionization (from higher solar activity) to refract signals back to Earth. During solar minimum, the MUF may not reach these frequencies."
+  },
+  "G3A05": {
+    "hint": "The solar flux index measures radio energy from the sun at a specific microwave wavelength.",
+    "explanation": "The solar flux index is a measure of solar radiation with a wavelength of 10.7 centimeters (2800 MHz). This measurement correlates well with ionospheric ionization levels and is widely used as an indicator of HF propagation conditions. Higher values generally mean better high-frequency propagation."
+  },
+  "G3A06": {
+    "hint": "Geomagnetic storms involve disruptions to Earth's magnetic field, not weather phenomena.",
+    "explanation": "A geomagnetic storm is a temporary disturbance in Earth's geomagnetic field. These storms are typically caused by coronal mass ejections or high-speed solar wind streams interacting with Earth's magnetosphere. They can significantly affect HF radio propagation, particularly at high latitudes."
+  },
+  "G3A07": {
+    "hint": "The 20-meter band is remarkably reliable for worldwide propagation throughout the entire solar cycle.",
+    "explanation": "The 20-meter band usually supports worldwide propagation during daylight hours at any point in the solar cycle. This band sits in a sweet spot where the MUF typically remains high enough to support propagation even during solar minimum, making it the most popular DX band."
+  },
+  "G3A08": {
+    "hint": "Geomagnetic storms disrupt the ionosphere most severely near the poles.",
+    "explanation": "A geomagnetic storm can degrade high-latitude HF propagation. The charged particles from the Sun that cause geomagnetic storms are channeled toward the polar regions by Earth's magnetic field, where they disrupt the ionosphere and can make HF signals passing through those regions unreliable or impossible."
+  },
+  "G3A09": {
+    "hint": "Geomagnetic activity creates visible auroras that can also serve as reflectors for radio signals.",
+    "explanation": "High geomagnetic activity can benefit radio communications by creating auroras that can reflect VHF signals. While geomagnetic storms generally degrade HF propagation, the aurora they produce can scatter VHF signals, enabling contacts over distances normally not possible on VHF."
+  },
+  "G3A10": {
+    "hint": "This cycle matches the time it takes for the sun to complete one rotation as seen from Earth.",
+    "explanation": "HF propagation conditions vary in a 26- to 28-day cycle due to the rotation of the Sun's surface layers around its axis. Active regions on the Sun (sunspots) rotate with the Sun, and when they face Earth, they affect ionospheric conditions. As the Sun rotates, these effects recur at roughly monthly intervals."
+  },
+  "G3A11": {
+    "hint": "Unlike electromagnetic radiation, CME particles travel much slower than the speed of light.",
+    "explanation": "A coronal mass ejection (CME) takes 15 hours to several days to affect radio propagation on Earth. CMEs consist of charged particles that travel much slower than light, typically at 300-2000 km/s. This is much slower than the 8 minutes it takes electromagnetic radiation from a solar flare."
+  },
+  "G3A12": {
+    "hint": "The K-index measures short-term geomagnetic activity over a 3-hour period.",
+    "explanation": "The K-index measures the short-term stability of Earth's geomagnetic field. It is updated every 3 hours and ranges from 0 (quiet) to 9 (extremely disturbed). Low K values indicate stable geomagnetic conditions favorable for HF propagation, while high values suggest disturbed conditions."
+  },
+  "G3A13": {
+    "hint": "The A-index is similar to the K-index but averaged over a longer period.",
+    "explanation": "The A-index measures the long-term stability of Earth's geomagnetic field. It is a daily average derived from the eight 3-hour K-index measurements. The A-index provides a broader view of geomagnetic conditions than the K-index and is useful for assessing overall propagation trends."
+  },
+  "G3A14": {
+    "hint": "Coronal holes produce streams of charged particles that disturb HF conditions.",
+    "explanation": "Charged particles from solar coronal holes typically disturb HF communication. Coronal holes are regions where the Sun's magnetic field allows solar wind to escape at high speed. When this high-speed stream reaches Earth, it can cause geomagnetic disturbances that degrade HF propagation."
+  },
+  "G3B01": {
+    "hint": "When a signal arrives via two different path lengths, the time difference creates a distinctive effect.",
+    "explanation": "When signals arrive by both short-path and long-path propagation, a slightly delayed echo might be heard. The long-path signal travels much farther around the Earth than the short-path signal, arriving a fraction of a second later and creating an audible echo effect."
+  },
+  "G3B02": {
+    "hint": "The MUF depends on many variables including geography, time, season, and solar conditions.",
+    "explanation": "The Maximum Usable Frequency (MUF) is affected by path distance and location, time of day and season, and solar radiation and ionospheric disturbances. All of these factors influence how strongly the ionosphere is ionized and therefore how high a frequency it can refract back to Earth."
+  },
+  "G3B03": {
+    "hint": "Operating near the top of the usable frequency range gives the strongest signals.",
+    "explanation": "The frequency with the least attenuation for long-distance skip propagation is just below the MUF. At frequencies near the MUF, signals pass through the ionosphere with minimal absorption. Lower frequencies experience more D-layer absorption, while frequencies above the MUF pass through entirely."
+  },
+  "G3B04": {
+    "hint": "Modern internet-connected receiving networks can show you in real-time where your signal is being heard.",
+    "explanation": "Using a network of automated receiving stations on the internet (such as the Reverse Beacon Network or PSKreporter) is a practical way to determine current propagation on a desired band. These systems show where your transmissions are being received, giving real-time propagation information."
+  },
+  "G3B05": {
+    "hint": "Frequencies between the LUF and MUF are in the usable range for skywave propagation.",
+    "explanation": "Radio waves with frequencies below the MUF and above the LUF are refracted back to Earth by the ionosphere. These frequencies are in the optimal range for skywave propagation -- high enough to penetrate the absorptive D layer but low enough to be bent back by the F layer."
+  },
+  "G3B06": {
+    "hint": "Frequencies below the LUF are too low to effectively propagate via skywave.",
+    "explanation": "Radio waves with frequencies below the LUF are attenuated before reaching the destination. The LUF (Lowest Usable Frequency) represents the point below which D-layer absorption becomes too great for a usable signal to reach the receiving station via skywave propagation."
+  },
+  "G3B07": {
+    "hint": "LUF is the lower boundary of usable frequencies for a specific path.",
+    "explanation": "LUF stands for the Lowest Usable Frequency for communications between two specific points. It is path-specific because D-layer absorption and other factors vary depending on the distance and direction of the communication path, as well as time of day and solar conditions."
+  },
+  "G3B08": {
+    "hint": "MUF is the upper boundary of frequencies that the ionosphere can refract for a given path.",
+    "explanation": "MUF stands for the Maximum Usable Frequency for communications between two points. It represents the highest frequency at which the ionosphere can refract radio waves back to Earth for a specific propagation path. Frequencies above the MUF pass through the ionosphere into space."
+  },
+  "G3B09": {
+    "hint": "The F2 region is the highest ionospheric layer, allowing the longest single-hop distances.",
+    "explanation": "The approximate maximum distance covered in one hop using the F2 region is 2,500 miles. Because the F2 region is the highest ionospheric layer (200-300 miles up), radio waves refracted from it can cover greater distances in a single hop than from lower regions."
+  },
+  "G3B10": {
+    "hint": "The E region is lower than the F2 region, so single-hop distances are shorter.",
+    "explanation": "The approximate maximum distance covered in one hop using the E region is 1,200 miles. The E region is at a lower altitude (about 60-70 miles) than the F2 region, so the geometry of refraction results in shorter maximum hop distances."
+  },
+  "G3B11": {
+    "hint": "When the lowest usable frequency exceeds the highest usable frequency, no frequency can get through.",
+    "explanation": "When the LUF exceeds the MUF, propagation via ordinary skywave communications is not possible over that path. This means there is no frequency that can simultaneously penetrate the D layer and be refracted by the upper ionosphere -- all usable frequencies are being absorbed."
+  },
+  "G3B12": {
+    "hint": "Summer weather conditions produce a lot of natural interference on lower HF bands.",
+    "explanation": "High levels of atmospheric noise or static are typical of the lower HF frequencies during summer. Increased thunderstorm activity in summer generates significant atmospheric noise (QRN), which is particularly problematic on lower frequency bands where natural noise levels are already higher."
+  },
+  "G3C01": {
+    "hint": "The ionospheric regions are lettered in order from lowest to highest altitude.",
+    "explanation": "The D region is the ionospheric region closest to Earth's surface, at approximately 40-55 miles altitude. The regions are named alphabetically from bottom to top: D, E, F1, and F2. The D region forms only during daylight and is primarily responsible for absorbing lower HF frequencies."
+  },
+  "G3C02": {
+    "hint": "The critical frequency defines the upper boundary of frequencies that can be refracted vertically.",
+    "explanation": "The critical frequency at a given incidence angle is the highest frequency which is refracted back to Earth. Frequencies above the critical frequency at that angle will pass through the ionosphere into space. The critical frequency varies with ionospheric density, which changes with solar conditions and time of day."
+  },
+  "G3C03": {
+    "hint": "A higher refraction point means the signal can travel farther along the Earth's surface.",
+    "explanation": "Skip propagation via the F2 region covers longer distances because it is the highest ionospheric region. At approximately 200-300 miles altitude, the F2 region provides the greatest angle of refraction relative to Earth's surface, allowing radio waves to cover up to 2,500 miles in a single hop."
+  },
+  "G3C04": {
+    "hint": "The critical angle determines which signals get refracted back versus which pass through the ionosphere.",
+    "explanation": "The critical angle is the highest takeoff angle that will return a radio wave to Earth under specific ionospheric conditions. Signals launched at angles higher than the critical angle will pass through the ionosphere into space, while those at or below the critical angle will be refracted back."
+  },
+  "G3C05": {
+    "hint": "During daytime, the lowest ionospheric region absorbs signals on lower frequency bands.",
+    "explanation": "Long-distance communication on the 40- through 160-meter bands is more difficult during the day because the D region absorbs signals at these frequencies during daylight hours. The D region, which forms when sunlight ionizes the lower atmosphere, strongly absorbs lower HF frequencies."
+  },
+  "G3C06": {
+    "hint": "Scatter signals are weak and unstable, creating a distinctive sound quality.",
+    "explanation": "A characteristic of HF scatter is that signals have a fluttering sound. Scatter propagation occurs when signals are scattered by irregularities in the ionosphere into the skip zone, and the multiple scattered paths cause rapid variations in signal amplitude that produce the fluttering effect."
+  },
+  "G3C07": {
+    "hint": "Multiple signal paths with different lengths create phase differences that distort the signal.",
+    "explanation": "HF scatter signals often sound distorted because energy is scattered into the skip zone through several different paths. Each path has a slightly different length and delay, causing the signal components to arrive at different times and combine constructively and destructively, creating distortion."
+  },
+  "G3C08": {
+    "hint": "Scattering is an inefficient propagation mechanism that redirects only a fraction of the signal energy.",
+    "explanation": "HF scatter signals in the skip zone are usually weak because only a small part of the signal energy is scattered into the skip zone. Most of the transmitted energy continues along the normal propagation path, and only a tiny fraction is redirected by ionospheric irregularities into the skip zone."
+  },
+  "G3C09": {
+    "hint": "The skip zone normally has no signal, but one propagation mode can deliver weak signals there.",
+    "explanation": "Scatter propagation allows signals to be heard in the transmitting station's skip zone. The skip zone is the area between the extent of ground wave coverage and where the first skywave hop returns to Earth. Scatter fills this gap by redirecting small amounts of energy into the zone."
+  },
+  "G3C10": {
+    "hint": "NVIS uses high-angle radiation to cover nearby areas without a skip zone.",
+    "explanation": "Near Vertical Incidence Skywave (NVIS) propagation is short-distance MF or HF propagation at high elevation angles. Signals are launched nearly straight up and refracted back down by the ionosphere, providing coverage within a few hundred miles without the skip zone that low-angle propagation creates."
+  },
+  "G3C11": {
+    "hint": "The lowest ionospheric region acts as a sponge for lower frequency signals during the day.",
+    "explanation": "The D region is the most absorbent of signals below 10 MHz during daylight hours. The D region forms at low altitude when solar UV radiation ionizes the lower atmosphere, and its relatively high density of neutral molecules causes significant energy loss through collisions with the lower frequency signals."
+  },
+  "G4A01": {
+    "hint": "A notch filter targets and removes a narrow, specific frequency from the received audio.",
+    "explanation": "The notch filter on an HF transceiver is designed to reduce interference from carriers in the receiver passband. It creates a sharp, narrow rejection at a specific frequency, allowing you to null out a single interfering carrier or tone while leaving the desired signal largely unaffected."
+  },
+  "G4A02": {
+    "hint": "Switching sidebands when receiving CW moves interfering signals to a different part of the passband.",
+    "explanation": "Using the reverse sideband when receiving CW may make it possible to reduce or eliminate interference from other signals. By switching between USB and LSB, an interfering signal on one side of the desired signal may be moved outside the receiver's passband while the desired signal remains audible."
+  },
+  "G4A03": {
+    "hint": "A noise blanker detects short pulses and temporarily mutes the receiver during those pulses.",
+    "explanation": "A noise blanker works by reducing receiver gain during a noise pulse. It detects the sharp onset of impulse noise (like ignition interference) and briefly reduces or mutes the receiver gain for the duration of the pulse. This removes the noise while minimally affecting the desired signal."
+  },
+  "G4A04": {
+    "hint": "When properly tuned, the tube amplifier draws the least current at resonance.",
+    "explanation": "The correct setting of a vacuum tube RF power amplifier's TUNE control produces a pronounced dip in plate current. At resonance, the tank circuit impedance is at maximum, and the tube operates most efficiently, drawing minimum plate current. Tuning is adjusted for this minimum current dip."
+  },
+  "G4A05": {
+    "hint": "ALC protects the amplifier by controlling how much signal is fed into it.",
+    "explanation": "Automatic Level Control (ALC) is used with an RF power amplifier to prevent excessive drive. Too much drive signal can overdrive the amplifier, causing distortion, splatter, and potential damage. ALC feeds back a control voltage to the transceiver to reduce drive when it exceeds safe levels."
+  },
+  "G4A06": {
+    "hint": "An antenna tuner does not actually change the antenna's resonance -- it matches impedances at the transmitter end.",
+    "explanation": "The purpose of an antenna tuner is to increase power transfer from the transmitter to the feed line. It does this by presenting the correct impedance to the transmitter output, allowing maximum power transfer. Note that the SWR on the feed line between the tuner and antenna is not changed."
+  },
+  "G4A07": {
+    "hint": "Too much noise reduction processing can affect the quality of the signals you want to hear.",
+    "explanation": "As a receiver's noise reduction control level is increased, received signals may become distorted. While noise reduction algorithms effectively reduce background noise, aggressive processing can also affect the desired signal, introducing artifacts or distortion in the audio output."
+  },
+  "G4A08": {
+    "hint": "The LOAD control sets the output coupling to deliver the right amount of power without overloading the tube.",
+    "explanation": "The LOAD or COUPLING control of a vacuum tube RF power amplifier should be adjusted for the desired power output without exceeding maximum allowable plate current. This control adjusts the coupling between the amplifier and the load, optimizing the transfer of RF energy."
+  },
+  "G4A09": {
+    "hint": "The amplifier needs time to physically switch its antenna relay before RF arrives.",
+    "explanation": "Delaying RF output after activating an external amplifier's keying line allows time for the amplifier to switch the antenna between the transceiver and the amplifier output. Without this delay, RF energy could be applied before the antenna relay has fully switched, potentially causing damage or hot-switching."
+  },
+  "G4A10": {
+    "hint": "An electronic keyer automates the generation of Morse code elements when using paddles.",
+    "explanation": "An electronic keyer provides automatic generation of dots and dashes for CW operation. When used with a set of paddles, the keyer produces correctly timed and spaced dots and dashes, making it easier to send clean, consistent Morse code compared to a straight key."
+  },
+  "G4A11": {
+    "hint": "ALC is designed for voice signals and can interfere with the constant-amplitude nature of data signals.",
+    "explanation": "The ALC system should be inactive when transmitting AFSK data signals because the ALC action distorts the signal. AFSK data modes use constant-amplitude audio tones, and ALC will try to compress these constant signals, altering their levels and causing distortion of the digital modulation."
+  },
+  "G4A12": {
+    "hint": "Dual VFO lets you set two different frequencies and switch or split between them.",
+    "explanation": "A common use of the dual-VFO feature is to transmit on one frequency and listen on another (split operation). This is especially useful when working DX stations that ask callers to transmit on a different frequency than the one they are listening on, to manage pileups."
+  },
+  "G4A13": {
+    "hint": "An attenuator reduces signal levels coming into the receiver to prevent overload.",
+    "explanation": "A receive attenuator is used to prevent receiver overload from strong incoming signals. When nearby transmitters or very strong signals cause the receiver's front end to become overloaded (producing distortion or spurious signals), the attenuator reduces the incoming signal level to manageable levels."
+  },
+  "G4B01": {
+    "hint": "This test instrument displays waveforms on a screen using horizontal and vertical axes.",
+    "explanation": "An oscilloscope contains horizontal and vertical channel amplifiers. The vertical amplifier controls the signal being measured (displayed on the Y axis), while the horizontal amplifier controls the time base (X axis), allowing visualization of how signals change over time."
+  },
+  "G4B02": {
+    "hint": "An oscilloscope can show the shape of a signal over time, not just its value.",
+    "explanation": "An oscilloscope can measure complex waveforms, which is its primary advantage over a digital voltmeter. While a voltmeter gives only a single numerical reading of voltage, an oscilloscope displays the complete waveform, showing peaks, distortion, noise, and timing relationships."
+  },
+  "G4B03": {
+    "hint": "To see the shape of CW keying transitions, you need an instrument that displays waveforms.",
+    "explanation": "An oscilloscope is the best instrument for checking the keying waveform of a CW transmitter. It can display the rise and fall times of the keyed signal, revealing problems like key clicks (too-fast transitions) or chirp (frequency shift during keying) that other instruments cannot show."
+  },
+  "G4B04": {
+    "hint": "To see the RF envelope on an oscilloscope, you need to connect the actual RF output (safely reduced in level).",
+    "explanation": "The attenuated RF output of the transmitter is connected to the vertical input of an oscilloscope when checking the RF envelope pattern. The signal must be attenuated to prevent damage to the oscilloscope and to bring the voltage within the instrument's input range."
+  },
+  "G4B05": {
+    "hint": "A voltmeter should measure voltage without significantly affecting the circuit being measured.",
+    "explanation": "Voltmeters have high input impedance to decrease the loading on circuits being measured. If a voltmeter had low impedance, connecting it to a circuit would draw significant current, changing the voltage being measured and giving an inaccurate reading."
+  },
+  "G4B06": {
+    "hint": "Digital multimeters can display many more digits of resolution than an analog meter's pointer position.",
+    "explanation": "A digital multimeter offers higher precision compared to an analog multimeter. Digital meters can display readings to several decimal places, while analog meters are limited by the ability to read the pointer position on a scale, which is inherently less precise."
+  },
+  "G4B07": {
+    "hint": "A two-tone test uses two specific audio frequencies that are not harmonically related to each other.",
+    "explanation": "A two-tone test uses two non-harmonically related audio signals. Using non-harmonically related frequencies (like 700 Hz and 1900 Hz) ensures that any intermodulation products or distortion in the amplifier can be clearly identified, as they will appear at frequencies distinct from the test tones and their harmonics."
+  },
+  "G4B08": {
+    "hint": "The two-tone test reveals how faithfully an amplifier reproduces the input signal.",
+    "explanation": "A two-tone test analyzes the linearity of a transmitter. By feeding two tones into the transmitter and observing the output on an oscilloscope, you can see if the amplifier is linear (producing a clean two-tone pattern) or if distortion and intermodulation products indicate nonlinearity."
+  },
+  "G4B09": {
+    "hint": "An analog meter's moving needle makes it easy to see peaks and nulls when tuning.",
+    "explanation": "An analog multimeter is preferred when adjusting circuits for maximum or minimum values. The moving needle of an analog meter provides a visual indication of the direction and rate of change, making it much easier to find peaks and nulls than watching changing numbers on a digital display."
+  },
+  "G4B10": {
+    "hint": "A directional wattmeter measures both forward and reflected power.",
+    "explanation": "A directional wattmeter can determine standing wave ratio (SWR). By measuring both forward power (going to the antenna) and reflected power (coming back from the antenna), the SWR can be calculated, indicating how well the antenna system is matched to the feed line."
+  },
+  "G4B11": {
+    "hint": "An antenna analyzer measures the properties of whatever is connected to its output port.",
+    "explanation": "When using an antenna analyzer for SWR measurements, the antenna and feed line must be connected. The analyzer sends a test signal through the feed line to the antenna and measures the impedance and SWR of the complete antenna system. No transmitter or receiver is needed."
+  },
+  "G4B12": {
+    "hint": "External RF energy picked up through the connected antenna can corrupt the analyzer's measurements.",
+    "explanation": "Strong signals from nearby transmitters can cause received power that interferes with SWR readings on an antenna analyzer. The analyzer uses low-level test signals, and external RF energy picked up by the antenna can overwhelm these signals, producing inaccurate impedance and SWR measurements."
+  },
+  "G4B13": {
+    "hint": "An antenna analyzer can measure the electrical properties of transmission lines and connectors.",
+    "explanation": "An antenna analyzer can measure the impedance of coaxial cable. This capability is useful for checking cable characteristics, finding faults, measuring cable loss, and verifying that connectors are properly installed. The analyzer sends a signal down the cable and measures the resulting impedance."
+  },
+  "G4C01": {
+    "hint": "A small capacitor to ground can shunt unwanted RF energy away from audio circuits.",
+    "explanation": "A bypass capacitor is useful for reducing RF interference to audio frequency circuits. The capacitor provides a low-impedance path to ground for RF frequencies while having minimal effect on audio frequencies, effectively filtering out unwanted RF energy that has gotten into the audio wiring."
+  },
+  "G4C02": {
+    "hint": "Electrical sparks generate broadband noise across a very wide frequency range.",
+    "explanation": "Arcing at a poor electrical connection can cause interference covering a wide range of frequencies. When electricity arcs across a gap (such as a loose wire connection or corroded contact), it generates broadband RF noise that can be heard across many frequencies simultaneously."
+  },
+  "G4C03": {
+    "hint": "SSB creates audio that varies in amplitude and frequency, so when rectified by an audio device, it sounds like garbled speech.",
+    "explanation": "An audio device experiencing RF interference from a single sideband phone transmitter will produce distorted speech. The SSB signal is inadvertently demodulated (detected) by nonlinear junctions in the audio equipment, producing a distorted version of the transmitted voice audio."
+  },
+  "G4C04": {
+    "hint": "CW is an on-off keyed signal, so when it interferes with audio equipment, it creates an intermittent sound.",
+    "explanation": "An audio device experiencing RF interference from a CW transmitter will produce on-and-off humming or clicking. The CW signal's on-off keying is detected by the audio equipment's nonlinear components, resulting in an intermittent buzzing or clicking sound synchronized with the Morse code."
+  },
+  "G4C05": {
+    "hint": "A ground wire that presents high impedance at a particular frequency is not effectively grounding RF energy.",
+    "explanation": "High voltages that produce RF burns can be caused by the ground wire having high impedance at the operating frequency. If the ground wire is too long or routed in a way that creates significant inductive reactance at the operating frequency, it cannot effectively shunt RF current to ground."
+  },
+  "G4C06": {
+    "hint": "When a ground connection resonates, it can develop unexpectedly high voltage at certain points.",
+    "explanation": "A resonant ground connection can cause high RF voltages on the enclosures of station equipment. When a ground wire is a resonant length at the operating frequency, standing waves can develop on it, creating high-voltage points that defeat the purpose of grounding and can create shock hazards."
+  },
+  "G4C07": {
+    "hint": "Lightning generates extreme heat that can melt certain types of connections.",
+    "explanation": "Soldered joints should not be used in lightning protection ground connections because a soldered joint will likely be destroyed by the heat of a lightning strike. The enormous current of a lightning strike can generate enough heat to melt solder, breaking the ground connection when it is needed most."
+  },
+  "G4C08": {
+    "hint": "Ferrite material creates impedance for common-mode currents without affecting differential-mode signals.",
+    "explanation": "Placing a ferrite choke on an audio cable can reduce RF interference caused by common-mode current. The ferrite adds impedance to common-mode RF currents (where current flows in the same direction on both conductors) while not affecting the differential-mode audio signal."
+  },
+  "G4C09": {
+    "hint": "Ground loops occur when multiple ground paths create a loop that picks up interference.",
+    "explanation": "The effects of ground loops can be minimized by bonding equipment enclosures together. Bonding creates a low-impedance connection between equipment chassis, reducing the voltage differences that cause ground loop currents and the resulting hum or interference."
+  },
+  "G4C10": {
+    "hint": "Ground loops allow AC power line frequency currents to flow through audio connections.",
+    "explanation": "A ground loop in station audio connections can cause reports of hum on your transmitted signal. The loop picks up 60 Hz (or 120 Hz) interference from AC power wiring, and this hum is then transmitted along with your audio signal, degrading signal quality."
+  },
+  "G4C11": {
+    "hint": "Ensuring all equipment shares a common ground reference eliminates voltage differences between chassis.",
+    "explanation": "Bonding all equipment enclosures together helps minimize RF hot spots in an amateur station. This creates a common ground reference and eliminates potential differences between equipment, preventing RF current from flowing through paths that could cause interference or safety hazards."
+  },
+  "G4C12": {
+    "hint": "Grounding metal enclosures is a fundamental safety practice to prevent electric shock.",
+    "explanation": "All metal enclosures of station equipment must be grounded to ensure that hazardous voltages cannot appear on the chassis. If an internal component fails and contacts the chassis, proper grounding will cause the circuit breaker to trip rather than leaving a dangerous voltage on the equipment exterior."
+  },
+  "G4D01": {
+    "hint": "A speech processor makes your voice signal seem louder and more powerful without increasing peak power.",
+    "explanation": "A speech processor increases the apparent loudness of transmitted voice signals. It compresses the dynamic range of speech, raising the average power level closer to the peak power level. This makes the signal more readable at the receiving end without increasing the transmitter's peak output power."
+  },
+  "G4D02": {
+    "hint": "A speech processor raises the average power of a voice signal by compressing its dynamic range.",
+    "explanation": "A speech processor increases the average power of a single sideband phone signal. By compressing the peaks and boosting the quieter parts of speech, the processor raises the average power level closer to the peak level, effectively making the signal stronger at the receiving end."
+  },
+  "G4D03": {
+    "hint": "Excessive speech processing can cause multiple audio quality problems.",
+    "explanation": "An incorrectly adjusted speech processor can cause distorted speech, excess intermodulation products, and excessive background noise. Over-processing compresses the signal too aggressively, clipping audio peaks, generating spurious signals, and amplifying background noise to objectionable levels."
+  },
+  "G4D04": {
+    "hint": "The S meter shows how strong incoming signals are.",
+    "explanation": "An S meter measures received signal strength. Found on most amateur transceivers, it displays the strength of incoming signals on a scale typically ranging from S1 to S9, with additional markings in dB above S9. It helps operators assess band conditions and antenna performance."
+  },
+  "G4D05": {
+    "hint": "Remember that decibels are logarithmic: 10 dB equals a 10x power ratio and 20 dB equals a 100x ratio.",
+    "explanation": "A signal that reads 20 dB over S9 is 100 times more powerful than one that reads S9. In decibels, every 10 dB represents a 10-fold increase in power. Therefore, 20 dB represents 10 x 10 = 100 times more power."
+  },
+  "G4D06": {
+    "hint": "Each S unit corresponds to a specific number of decibels on a properly calibrated meter.",
+    "explanation": "One S unit typically represents a 6 dB change in signal strength. This means that a one S-unit increase corresponds to approximately a 4-fold increase in power. The S meter scale from S1 to S9 covers a 48 dB range."
+  },
+  "G4D07": {
+    "hint": "One S unit equals 6 dB, and 6 dB is a four-fold power change.",
+    "explanation": "To change the S meter reading from S8 to S9 (one S unit, or 6 dB), the transmitter power output must be raised by approximately 4 times. A 6 dB increase in signal strength corresponds to a factor of approximately 4 in power (since 10^(6/10) is approximately 3.98)."
+  },
+  "G4D08": {
+    "hint": "LSB occupies frequencies below the displayed carrier frequency.",
+    "explanation": "A 3 kHz LSB signal with the carrier set to 7.178 MHz occupies 7.175 MHz to 7.178 MHz. Lower sideband means the voice signal appears below the carrier frequency, so a 3 kHz wide signal extends from the carrier down to 3 kHz below it."
+  },
+  "G4D09": {
+    "hint": "USB occupies frequencies above the displayed carrier frequency.",
+    "explanation": "A 3 kHz USB signal with the carrier set to 14.347 MHz occupies 14.347 MHz to 14.350 MHz. Upper sideband means the voice signal appears above the carrier frequency, so a 3 kHz wide signal extends from the carrier up to 3 kHz above it."
+  },
+  "G4D10": {
+    "hint": "Since LSB extends below the carrier, the carrier must be high enough to keep the signal within the band.",
+    "explanation": "When using 3 kHz wide LSB, your displayed carrier frequency should be at least 3 kHz above the lower edge of the phone segment. Since LSB occupies frequencies below the carrier, placing the carrier 3 kHz above the band edge ensures the entire signal stays within the authorized segment."
+  },
+  "G4D11": {
+    "hint": "Since USB extends above the carrier, the carrier must be far enough below the band edge.",
+    "explanation": "When using 3 kHz wide USB, your displayed carrier frequency should be at least 3 kHz below the upper edge of the phone segment. Since USB extends above the carrier frequency, this spacing ensures your signal does not extend beyond the authorized band segment."
+  },
+  "G4E01": {
+    "hint": "A capacitance hat adds electrical length to a physically short antenna without adding physical height.",
+    "explanation": "A capacitance hat on a mobile antenna serves to electrically lengthen a physically short antenna. The hat (a set of radial wires or a disk at the top of the antenna) adds capacitive loading that makes the antenna behave electrically as if it were longer, improving its performance on lower frequencies."
+  },
+  "G4E02": {
+    "hint": "The rounded ball prevents sharp-point discharge of high RF voltage at the antenna tip.",
+    "explanation": "A corona ball on an HF mobile antenna reduces RF voltage discharge from the tip of the antenna while transmitting. High RF voltages at the sharp tip of an antenna can cause corona discharge, which wastes power and can cause interference. The ball's rounded surface reduces the voltage gradient."
+  },
+  "G4E03": {
+    "hint": "The best power source for a mobile radio is a direct, heavy-gauge connection to the vehicle's main power storage.",
+    "explanation": "For a 100-watt HF mobile installation, the best power connection is directly to the battery using heavy-gauge wire with fusing. This provides the lowest resistance path, minimizes voltage drop during transmit, and avoids noise from the alternator and other vehicle electrical systems."
+  },
+  "G4E04": {
+    "hint": "The cigarette lighter/auxiliary socket has thin wiring not designed for high-current loads.",
+    "explanation": "DC power for a 100-watt HF transceiver should not come from a vehicle's auxiliary power socket because the socket's wiring may be inadequate for the current drawn by the transceiver. A 100-watt transceiver can draw 20+ amps, far exceeding what the auxiliary socket wiring can safely handle."
+  },
+  "G4E05": {
+    "hint": "The biggest challenge in HF mobile is the antenna, which must be much shorter than ideal.",
+    "explanation": "The efficiency of the electrically short antenna most limits an HF mobile installation. At HF frequencies, a full-size antenna would be many feet long, so mobile antennas must be severely shortened. Short antennas are inherently less efficient, radiating only a fraction of the applied power."
+  },
+  "G4E06": {
+    "hint": "A shorter antenna has higher Q, which means it resonates over a narrower frequency range.",
+    "explanation": "One disadvantage of a shortened mobile antenna compared to a full-size antenna is that operating bandwidth may be very limited. Shortened antennas have higher Q (quality factor), which means they are resonant over a much narrower frequency range and may need retuning when changing even small amounts in frequency."
+  },
+  "G4E07": {
+    "hint": "Modern vehicles contain many potential sources of electrical noise.",
+    "explanation": "The battery charging system, fuel delivery system, and control computers may all cause receive interference to an HF transceiver installed in a vehicle. Modern vehicles contain numerous electronic systems that generate electrical noise, and this noise can be conducted or radiated into the radio receiver."
+  },
+  "G4E08": {
+    "hint": "Solar panels need both series connections for voltage and parallel connections for current capacity.",
+    "explanation": "Individual cells in a solar panel are connected in a series-parallel configuration. Cells are connected in series to build up the desired voltage, and series strings are connected in parallel to increase the current capacity, providing the needed power output."
+  },
+  "G4E09": {
+    "hint": "A single silicon photovoltaic cell produces a characteristic low voltage.",
+    "explanation": "The approximate open-circuit voltage from a fully illuminated silicon photovoltaic cell is 0.5 VDC. This is a fundamental characteristic of silicon solar cells determined by the semiconductor material's bandgap. Multiple cells must be connected in series to produce useful voltages for charging batteries."
+  },
+  "G4E10": {
+    "hint": "The diode acts as a one-way valve for current, preventing backflow when the panel is dark.",
+    "explanation": "A series diode between a solar panel and a storage battery prevents discharge of the battery through the panel during times of low or no illumination. Without the diode, the battery would feed current backward through the solar panel at night or on cloudy days, discharging the battery."
+  },
+  "G4E11": {
+    "hint": "Lithium batteries require careful voltage and current management during charging.",
+    "explanation": "When connecting a solar panel to a lithium iron phosphate battery, the solar panel must have a charge controller. Lithium batteries require precise charging voltage and current control to prevent damage, overcharging, or dangerous conditions. A charge controller manages this process safely."
+  },
+  "G5A01": {
+    "hint": "In a series LC circuit at resonance, the two reactances cancel each other out.",
+    "explanation": "When inductive and capacitive reactance are equal in a series LC circuit, resonance causes the impedance to be very low. At resonance, the inductive reactance (+jX) and capacitive reactance (-jX) cancel, leaving only the small resistance of the circuit. This allows maximum current to flow."
+  },
+  "G5A02": {
+    "hint": "Reactance is caused by energy storage components, not resistive ones.",
+    "explanation": "Reactance is the opposition to the flow of alternating current caused by capacitance or inductance. Unlike resistance, which dissipates energy as heat, reactance stores energy in electric fields (capacitors) or magnetic fields (inductors) and returns it to the circuit."
+  },
+  "G5A03": {
+    "hint": "The opposition to AC flow in a reactive component shares a common name regardless of whether it is capacitive or inductive.",
+    "explanation": "Opposition to the flow of alternating current in an inductor is called reactance (specifically inductive reactance, XL). Reactance is measured in ohms, like resistance, but it represents energy storage rather than energy dissipation."
+  },
+  "G5A04": {
+    "hint": "Capacitors and inductors both exhibit the same type of opposition to AC, just in opposite directions.",
+    "explanation": "Opposition to the flow of alternating current in a capacitor is called reactance (specifically capacitive reactance, XC). Like inductive reactance, it is measured in ohms but represents the capacitor's tendency to oppose changes in voltage by storing and releasing energy."
+  },
+  "G5A05": {
+    "hint": "An inductor opposes changes in current, and faster changes mean more opposition.",
+    "explanation": "As the frequency of applied AC increases, an inductor's reactance increases. Inductive reactance (XL = 2 pi f L) is directly proportional to frequency. Higher frequencies mean more rapid current changes, and the inductor's opposition to those changes increases correspondingly."
+  },
+  "G5A06": {
+    "hint": "A capacitor's opposition to AC decreases with frequency because higher frequencies charge and discharge it more rapidly.",
+    "explanation": "As the frequency of applied AC increases, a capacitor's reactance decreases. Capacitive reactance (XC = 1/(2 pi f C)) is inversely proportional to frequency. At higher frequencies, the capacitor charges and discharges more rapidly, presenting less opposition to current flow."
+  },
+  "G5A07": {
+    "hint": "The reciprocal of impedance tells you how easily current can flow through a circuit.",
+    "explanation": "Admittance is the term for the inverse of impedance. Just as conductance is the inverse of resistance, admittance (Y = 1/Z) describes how easily alternating current flows through a circuit. It is measured in siemens."
+  },
+  "G5A08": {
+    "hint": "Impedance is the AC equivalent of resistance and follows a similar definition relating voltage and current.",
+    "explanation": "Impedance is the ratio of voltage to current in an AC circuit. It combines both resistance and reactance into a single complex quantity measured in ohms. Unlike pure resistance, impedance includes phase angle information reflecting the energy storage effects of reactive components."
+  },
+  "G5A09": {
+    "hint": "Reactance is measured in the same unit as resistance.",
+    "explanation": "Reactance is measured in ohms, the same unit used for resistance. Although reactance and resistance have different physical mechanisms (energy storage versus energy dissipation), both represent opposition to current flow and use the same unit of measurement."
+  },
+  "G5A10": {
+    "hint": "Several different components and techniques can transform impedance at radio frequencies.",
+    "explanation": "Transformers, Pi-networks, and lengths of transmission line can all be used for impedance matching at radio frequencies. Each method has advantages for different situations -- transformers for broadband matching, Pi-networks for adjustable matching, and transmission line sections for specific impedance transformations."
+  },
+  "G5A11": {
+    "hint": "The standard electrical symbol for reactance comes from the alphabet.",
+    "explanation": "The letter X is used to represent reactance. Inductive reactance is written as XL and capacitive reactance as XC. This distinguishes reactance from impedance (Z), admittance (Y), and susceptance (B)."
+  },
+  "G5A12": {
+    "hint": "At resonance, the two types of reactance in an LC circuit have equal magnitude but opposite signs.",
+    "explanation": "At resonance in an LC circuit, inductive reactance and capacitive reactance cancel each other. Since XL = XC at the resonant frequency, the net reactance is zero, leaving only the circuit's resistance. This is the fundamental principle behind resonant circuits used in filters and oscillators."
+  },
+  "G5B01": {
+    "hint": "This is one of the most fundamental relationships in decibel calculations.",
+    "explanation": "A factor of two increase or decrease in power represents approximately 3 dB. This is derived from 10 * log10(2) = 3.01 dB. This relationship is fundamental in radio engineering -- doubling power adds 3 dB, and halving power subtracts 3 dB."
+  },
+  "G5B02": {
+    "hint": "In parallel circuits, each branch carries its own current, and they all add up.",
+    "explanation": "The total current in a circuit of parallel resistors equals the sum of the currents through each branch. Each parallel resistor provides an independent current path, and by Kirchhoff's current law, all branch currents combine at the junction points to form the total current."
+  },
+  "G5B03": {
+    "hint": "Use the power formula P = V squared / R with 400V and 800 ohms.",
+    "explanation": "With 400 VDC across an 800-ohm load, 200 watts are consumed. Using P = V^2/R: P = (400)^2/800 = 160,000/800 = 200 watts. Alternatively, I = V/R = 0.5A, then P = IV = 0.5 x 400 = 200 watts."
+  },
+  "G5B04": {
+    "hint": "Use P = V times I with the given voltage and current.",
+    "explanation": "A 12 VDC light bulb drawing 0.2 amperes consumes 2.4 watts. Using the formula P = V x I: P = 12 x 0.2 = 2.4 watts. This straightforward application of Ohm's law and the power formula is fundamental to electrical calculations."
+  },
+  "G5B05": {
+    "hint": "Use P = I squared times R, remembering to convert milliamperes to amperes first.",
+    "explanation": "When 7.0 milliamperes flows through 1,250 ohms, approximately 61 milliwatts are consumed. Converting to amps: 0.007 A. Then P = I^2 x R = (0.007)^2 x 1250 = 0.0000490 x 1250 = 0.06125 watts, or about 61 milliwatts."
+  },
+  "G5B06": {
+    "hint": "Convert peak-to-peak voltage to peak voltage, then to RMS, then calculate power using P = V_RMS squared / R.",
+    "explanation": "With 200V peak-to-peak across 50 ohms, the PEP is 100 watts. Peak voltage = 200/2 = 100V. PEP uses peak voltage: P = V_peak^2 / (2 x R) = 10000/100 = 100 watts."
+  },
+  "G5B07": {
+    "hint": "This AC value is the one that produces equivalent heating effect in a resistor as the same DC value.",
+    "explanation": "The RMS (Root Mean Square) value of an AC signal produces the same power dissipation in a resistor as a DC voltage of the same value. RMS is the effective value of AC -- a 120V RMS AC signal delivers the same power to a resistor as 120V DC."
+  },
+  "G5B08": {
+    "hint": "Peak-to-peak is 2 times peak, and peak is RMS times the square root of 2.",
+    "explanation": "A sine wave with 120V RMS has a peak-to-peak voltage of 339.4 volts. Peak = RMS x sqrt(2) = 120 x 1.414 = 169.7V. Peak-to-peak = 2 x peak = 2 x 169.7 = 339.4 volts."
+  },
+  "G5B09": {
+    "hint": "RMS equals peak voltage divided by the square root of 2.",
+    "explanation": "A sine wave with 17V peak has an RMS voltage of 12 volts. RMS = Peak / sqrt(2) = 17 / 1.414 = 12.02 volts, which rounds to approximately 12 volts."
+  },
+  "G5B10": {
+    "hint": "Calculate the power ratio for 1 dB and convert to a percentage loss.",
+    "explanation": "A loss of 1 dB is equivalent to approximately 20.6 percent power loss. The power ratio for 1 dB is 10^(1/10) = 1.259, meaning the output is 1/1.259 = 0.794 of the input, or about 79.4%. The loss is 100% - 79.4% = 20.6%."
+  },
+  "G5B11": {
+    "hint": "An unmodulated carrier has constant amplitude, so peak and average are the same.",
+    "explanation": "The ratio of PEP to average power for an unmodulated carrier is 1.00. Since an unmodulated carrier has a constant amplitude, the peak envelope power equals the average power. Modulation would cause variations in amplitude, making PEP greater than average power."
+  },
+  "G5B12": {
+    "hint": "Use the formula V = sqrt(P times R) to find the RMS voltage.",
+    "explanation": "The RMS voltage across a 50-ohm dummy load dissipating 1200 watts is 245 volts. Using V = sqrt(P x R) = sqrt(1200 x 50) = sqrt(60,000) = 244.9 volts, approximately 245 volts."
+  },
+  "G5B13": {
+    "hint": "For an unmodulated carrier, PEP equals average power.",
+    "explanation": "The output PEP of an unmodulated carrier with average power of 1060 watts is 1060 watts. Since an unmodulated carrier has constant amplitude with no modulation peaks, the peak envelope power is identical to the average power."
+  },
+  "G5B14": {
+    "hint": "Convert peak-to-peak to peak voltage, then use P = V_peak squared / (2 times R).",
+    "explanation": "With 500V peak-to-peak across 50 ohms, the PEP is 625 watts. Peak voltage = 500/2 = 250V. PEP = V_peak^2 / (2 x R) = 62,500 / 100 = 625 watts."
+  },
+  "G5C01": {
+    "hint": "The changing magnetic field in the primary induces a voltage in the secondary through a shared magnetic field.",
+    "explanation": "Mutual inductance causes a voltage to appear across the secondary winding of a transformer when AC is applied to the primary. The alternating current in the primary creates a changing magnetic field that couples to the secondary winding, inducing a voltage proportional to the turns ratio."
+  },
+  "G5C02": {
+    "hint": "Applying the signal to the wrong winding reverses the transformer's step-up/step-down behavior.",
+    "explanation": "If a signal is applied to the secondary winding of a 4:1 voltage step-down transformer instead of the primary, the input voltage is multiplied by 4. The transformer that was designed to step down by 4:1 now works in reverse as a 1:4 step-up transformer."
+  },
+  "G5C03": {
+    "hint": "For parallel resistors, use the reciprocal formula: 1/R_total = 1/R1 + 1/R2 + 1/R3.",
+    "explanation": "The total resistance of 10, 20, and 50 ohms in parallel is 5.9 ohms. Using the formula: 1/R = 1/10 + 1/20 + 1/50 = 0.1 + 0.05 + 0.02 = 0.17. R = 1/0.17 = 5.88 ohms, approximately 5.9 ohms."
+  },
+  "G5C04": {
+    "hint": "For two resistors in parallel: R_total = (R1 times R2) / (R1 + R2).",
+    "explanation": "The total resistance of 100 and 200 ohms in parallel is approximately 67 ohms. Using R = (R1 x R2)/(R1 + R2) = (100 x 200)/(100 + 200) = 20,000/300 = 66.7 ohms, approximately 67 ohms."
+  },
+  "G5C05": {
+    "hint": "In a step-up transformer, the primary handles more current (at lower voltage) than the secondary.",
+    "explanation": "The primary winding wire of a voltage step-up transformer is usually larger to accommodate the higher current of the primary. Power is conserved (roughly), so the lower-voltage primary carries proportionally more current than the higher-voltage secondary, requiring thicker wire."
+  },
+  "G5C06": {
+    "hint": "The voltage ratio equals the turns ratio: V_secondary = V_primary times (N_secondary / N_primary).",
+    "explanation": "With a 500-turn primary, 1500-turn secondary, and 120 VAC input, the output is 360 volts. The turns ratio is 1500/500 = 3, so V_out = 120 x 3 = 360 volts. This is a 1:3 step-up transformer."
+  },
+  "G5C07": {
+    "hint": "The impedance ratio equals the square of the turns ratio.",
+    "explanation": "To match 600 ohms to 50 ohms requires a transformer turns ratio of approximately 3.5 to 1. The impedance ratio is 600/50 = 12. The turns ratio is the square root of the impedance ratio: sqrt(12) = 3.46, approximately 3.5 to 1."
+  },
+  "G5C08": {
+    "hint": "Capacitors in parallel simply add together -- just be careful with the units.",
+    "explanation": "Two 5.0 nF capacitors and one 750 pF capacitor in parallel total 10.750 nanofarads. Converting to the same units: 5000 pF + 5000 pF + 750 pF = 10,750 pF = 10.750 nF. Parallel capacitances add directly."
+  },
+  "G5C09": {
+    "hint": "For identical capacitors in series, divide one capacitor's value by the number of capacitors.",
+    "explanation": "Three 100-microfarad capacitors in series yield 33.3 microfarads. For equal capacitors in series: C_total = C/n = 100/3 = 33.3 microfarads. Series capacitors combine like parallel resistors."
+  },
+  "G5C10": {
+    "hint": "Inductors in parallel combine like resistors in parallel.",
+    "explanation": "Three 10-millihenry inductors in parallel yield 3.3 millihenries. For equal inductors in parallel: L_total = L/n = 10/3 = 3.33 millihenries. Inductors in parallel combine using the same reciprocal formula as resistors in parallel."
+  },
+  "G5C11": {
+    "hint": "Inductors in series simply add together, like resistors in series.",
+    "explanation": "A 20-millihenry inductor in series with a 50-millihenry inductor has a total inductance of 70 millihenries. Inductors in series add directly: L_total = L1 + L2 = 20 + 50 = 70 millihenries (assuming no mutual coupling)."
+  },
+  "G5C12": {
+    "hint": "Capacitors in series combine using the reciprocal formula, like resistors in parallel.",
+    "explanation": "A 20-microfarad and 50-microfarad capacitor in series yield 14.3 microfarads. Using C = (C1 x C2)/(C1 + C2) = (20 x 50)/(20 + 50) = 1000/70 = 14.3 microfarads."
+  },
+  "G5C13": {
+    "hint": "Adding capacitance in parallel increases total capacitance, while adding in series decreases it.",
+    "explanation": "To increase capacitance, add a capacitor in parallel. Parallel capacitors add directly (C_total = C1 + C2), always increasing the total. Series capacitors result in a total less than the smallest individual capacitor."
+  },
+  "G5C14": {
+    "hint": "Adding inductance in series increases total inductance, while adding in parallel decreases it.",
+    "explanation": "To increase inductance, add an inductor in series. Series inductors add directly (L_total = L1 + L2), always increasing the total. Parallel inductors result in a total less than the smallest individual inductor."
+  },
+  "G6A01": {
+    "hint": "Discharging a lead-acid battery too deeply significantly reduces its lifespan.",
+    "explanation": "The minimum allowable discharge voltage for maximum life of a standard 12-volt lead-acid battery is 10.5 volts. Discharging below this level causes deep discharge damage to the lead plates, significantly reducing the battery's capacity and lifespan. This corresponds to roughly 50% state of charge."
+  },
+  "G6A02": {
+    "hint": "Low internal resistance means less voltage drop under load, allowing more current to flow.",
+    "explanation": "An advantage of batteries with low internal resistance is high discharge current capability. Low internal resistance means less energy is lost as heat inside the battery, allowing it to deliver more current to external loads without excessive voltage drop."
+  },
+  "G6A03": {
+    "hint": "Germanium diodes have a lower forward voltage drop than silicon diodes.",
+    "explanation": "The approximate forward threshold voltage of a germanium diode is 0.3 volts. This is lower than the 0.7V threshold of silicon diodes, which made germanium diodes popular in early radio detectors. The difference is due to the different bandgap energies of the semiconductor materials."
+  },
+  "G6A04": {
+    "hint": "Electrolytic capacitors are prized for packing a lot of capacitance into a small space.",
+    "explanation": "Electrolytic capacitors are characterized by high capacitance for a given volume. Their construction uses a very thin oxide layer as the dielectric, allowing large capacitance values in relatively small packages. This makes them ideal for power supply filtering and energy storage applications."
+  },
+  "G6A05": {
+    "hint": "Silicon junction diodes have a well-known forward voltage that is higher than germanium.",
+    "explanation": "The approximate forward threshold voltage of a silicon junction diode is 0.7 volts. This value is determined by the bandgap of silicon (1.1 eV). Below this voltage, very little current flows; above it, current increases rapidly."
+  },
+  "G6A06": {
+    "hint": "The coiled wire in a wire-wound resistor can act like a small inductor at radio frequencies.",
+    "explanation": "Wire-wound resistors should not be used in RF circuits because the resistor's inductance could make circuit performance unpredictable. The wound wire structure creates significant inductance that interacts with the circuit at radio frequencies, causing the impedance to differ greatly from the stated resistance."
+  },
+  "G6A07": {
+    "hint": "A transistor used as a switch operates at two extreme points of its characteristics.",
+    "explanation": "The operating points for a bipolar transistor used as a switch are saturation and cutoff. In cutoff, no current flows (switch off). In saturation, maximum current flows with minimum voltage drop (switch on). These two states correspond to the binary on/off behavior of a switch."
+  },
+  "G6A08": {
+    "hint": "Low-voltage ceramic capacitors are commonly used because they are inexpensive and readily available.",
+    "explanation": "Low-voltage ceramic capacitors are characterized by comparatively low cost. They are widely used in electronics for bypassing, coupling, and filtering applications. While they may not have the tightest tolerances or highest stability, their low cost makes them the most common type of capacitor."
+  },
+  "G6A09": {
+    "hint": "The MOSFET name itself describes how the gate is constructed.",
+    "explanation": "In MOSFET construction, the gate is separated from the channel by a thin insulating layer (typically silicon dioxide). This Metal-Oxide-Semiconductor structure gives the device its name and provides extremely high input impedance, since the gate is electrically insulated from the channel."
+  },
+  "G6A10": {
+    "hint": "The control grid sits between the cathode and plate and modulates electron flow.",
+    "explanation": "The control grid of a vacuum tube regulates the flow of electrons between cathode and plate. By varying the voltage on the control grid, the flow of electrons through the tube can be increased, decreased, or cut off entirely, enabling amplification and switching."
+  },
+  "G6A11": {
+    "hint": "Above its self-resonant frequency, an inductor's parasitic capacitance dominates its behavior.",
+    "explanation": "When an inductor is operated above its self-resonant frequency, it becomes capacitive. Every inductor has parasitic inter-winding capacitance, and above the self-resonant frequency (where the inductance and capacitance are equal), the capacitive reactance becomes dominant."
+  },
+  "G6A12": {
+    "hint": "The screen grid was added to reduce unwanted feedback from the plate to the control grid.",
+    "explanation": "The primary purpose of a screen grid in a vacuum tube is to reduce grid-to-plate capacitance. By placing an additional grounded grid between the control grid and plate, the electrostatic coupling between them is greatly reduced, preventing unwanted oscillation and improving amplifier stability."
+  },
+  "G6B01": {
+    "hint": "Different ferrite mixes are optimized for different frequency ranges.",
+    "explanation": "The performance of a ferrite core at different frequencies is determined by the composition, or 'mix,' of materials used. Different ferrite formulations have different permeability characteristics across frequency, and selecting the right mix is essential for optimal performance in the intended frequency range."
+  },
+  "G6B02": {
+    "hint": "MMIC stands for a type of integrated circuit designed for microwave frequencies.",
+    "explanation": "MMIC stands for Monolithic Microwave Integrated Circuit. These are complete circuits fabricated on a single semiconductor chip that operate at microwave frequencies. MMICs are widely used in amateur radio for preamplifiers and other microwave applications."
+  },
+  "G6B03": {
+    "hint": "CMOS technology is known for one key advantage related to energy consumption.",
+    "explanation": "CMOS integrated circuits have the advantage of low power consumption compared to TTL. CMOS draws almost no current in steady state -- only during switching transitions does it consume significant power. This makes CMOS ideal for battery-powered and low-power applications."
+  },
+  "G6B04": {
+    "hint": "BNC connectors are commonly used up to the lower microwave range.",
+    "explanation": "The typical upper frequency limit for low-SWR operation of 50-ohm BNC connectors is 4 GHz. BNC connectors are versatile and commonly used for frequencies from DC through UHF and low microwave. Above 4 GHz, smaller connectors like SMA are typically preferred."
+  },
+  "G6B05": {
+    "hint": "Ferrite toroidal inductors offer multiple advantages from their geometry and material properties.",
+    "explanation": "Ferrite core toroidal inductors offer all of these advantages: large inductance values, frequency-optimized core properties, and containment of most of the magnetic field within the core. The toroidal shape minimizes external magnetic fields, reducing interference with nearby components."
+  },
+  "G6B06": {
+    "hint": "Op-amps process continuously variable signals, not digital ones.",
+    "explanation": "An integrated circuit operational amplifier is an analog device. Op-amps amplify the difference between two input voltages and are fundamental building blocks in analog circuits for amplification, filtering, signal conditioning, and mathematical operations on continuous signals."
+  },
+  "G6B07": {
+    "hint": "The type N connector is a high-quality threaded connector designed for weatherproof outdoor use.",
+    "explanation": "A type N connector is a moisture-resistant RF connector useful to 10 GHz. It features a threaded coupling mechanism that provides a weatherproof connection, making it popular for outdoor installations and higher-power applications at frequencies from DC through microwave."
+  },
+  "G6B08": {
+    "hint": "An LED emits light when current flows through it in the normal conducting direction.",
+    "explanation": "An LED is forward biased when emitting light. When forward biased, current flows through the LED's semiconductor junction, and electrons recombine with holes, releasing energy as photons (light). The color of light depends on the semiconductor material's bandgap."
+  },
+  "G6B10": {
+    "hint": "The ferrite material adds impedance to unwanted currents flowing on the outside of the cable.",
+    "explanation": "A ferrite bead or core reduces common-mode RF current by creating an impedance in the current's path. The ferrite material presents high impedance to common-mode currents (flowing on the cable shield) while having minimal effect on the desired differential-mode signal inside the cable."
+  },
+  "G6B11": {
+    "hint": "SMA connectors are small, threaded, and designed for high-frequency use.",
+    "explanation": "An SMA connector is a small threaded connector suitable for signals up to several GHz. SMA (Sub-Miniature version A) connectors are widely used in amateur radio and commercial equipment for connections at microwave frequencies where larger connectors like BNC would have excessive losses."
+  },
+  "G6B12": {
+    "hint": "This familiar connector from home audio equipment is used for low-frequency and DC connections.",
+    "explanation": "RCA Phono connectors are commonly used for low frequency or DC signal connections to a transceiver. These inexpensive connectors are suitable for audio, ACC port connections, and other low-frequency signals, but their design is not appropriate for RF applications."
+  },
+  "G7A01": {
+    "hint": "A bleeder resistor provides a discharge path for stored energy in the power supply.",
+    "explanation": "A power supply bleeder resistor discharges the filter capacitors when power is removed. Without a bleeder resistor, high-voltage filter capacitors can retain a dangerous charge for extended periods after the power supply is turned off, posing a shock hazard."
+  },
+  "G7A02": {
+    "hint": "The filter network smooths the rectified DC output using reactive components.",
+    "explanation": "Capacitors and inductors are used in a power supply filter network. Capacitors store energy during voltage peaks and release it during dips, while inductors oppose sudden current changes. Together, they smooth the pulsating DC output of the rectifier into steady DC."
+  },
+  "G7A03": {
+    "hint": "This rectifier design uses the center tap of the transformer to complete the circuit for both halves of the AC cycle.",
+    "explanation": "A full-wave rectifier circuit uses two diodes and a center-tapped transformer. Each diode conducts during alternating half-cycles of the AC input, using the center tap as the common return. This converts both halves of the AC waveform to DC."
+  },
+  "G7A04": {
+    "hint": "A half-wave rectifier is the simplest design, using minimum components.",
+    "explanation": "A half-wave rectifier requires only one diode. It converts only one half of the AC cycle to DC, blocking the other half. While simple, it has higher ripple and lower efficiency than full-wave designs, making it suitable only for low-power applications."
+  },
+  "G7A05": {
+    "hint": "A half-wave rectifier only converts one half of the complete AC cycle.",
+    "explanation": "A half-wave rectifier converts 180 degrees of the AC cycle to DC. It passes only the positive (or negative) half of each AC cycle, blocking the other 180 degrees. This means it uses only half of the available AC energy."
+  },
+  "G7A06": {
+    "hint": "A full-wave rectifier makes use of the complete AC cycle.",
+    "explanation": "A full-wave rectifier converts 360 degrees of the AC cycle to DC. Both the positive and negative half-cycles are converted to DC output, making full use of the entire AC waveform and producing smoother output with less ripple than a half-wave design."
+  },
+  "G7A07": {
+    "hint": "Full-wave rectification flips both halves of the AC cycle to the same polarity, doubling the pulse rate.",
+    "explanation": "An unfiltered full-wave rectifier produces a series of DC pulses at twice the frequency of the AC input. Since both halves of the AC cycle are converted to DC, there are two output pulses for every complete cycle of the input, resulting in doubled pulse frequency."
+  },
+  "G7A08": {
+    "hint": "Operating at high frequency allows a switching power supply to use smaller magnetic components.",
+    "explanation": "A switchmode power supply uses high-frequency operation that allows the use of smaller components. By switching at tens or hundreds of kilohertz (versus 60 Hz for linear supplies), the transformers and filter components can be dramatically smaller and lighter while providing the same power output."
+  },
+  "G7A09": {
+    "hint": "Look for the FET symbol which has an arrow on the gate lead.",
+    "explanation": "Symbol 1 in figure G7-1 represents a field effect transistor. FETs are identified in schematic diagrams by their distinctive gate, drain, and source terminals, with the gate shown as a line separated from the channel by a gap (representing the insulating layer in MOSFETs)."
+  },
+  "G7A10": {
+    "hint": "A Zener diode symbol looks like a regular diode but with a bent line at the cathode.",
+    "explanation": "Symbol 5 in figure G7-1 represents a Zener diode. The Zener diode symbol is similar to a regular diode but features a bent or hooked line at the cathode end, distinguishing it from standard diodes. Zener diodes are used for voltage regulation."
+  },
+  "G7A11": {
+    "hint": "The NPN transistor symbol has an arrow pointing outward from the base-emitter junction.",
+    "explanation": "Symbol 2 in figure G7-1 represents an NPN junction transistor. In the schematic symbol, the arrow on the emitter points away from the base (outward), indicating conventional current flow direction. The mnemonic 'Not Pointing iN' helps remember the NPN arrow direction."
+  },
+  "G7A12": {
+    "hint": "A solid core transformer has solid lines between the windings, indicating a solid (non-air) core.",
+    "explanation": "Symbol 6 in Figure G7-1 represents a solid core transformer. Transformer symbols show two coils (windings) side by side. Solid lines between the coils indicate a solid (iron or ferrite) core, as opposed to dashed lines for a powdered iron core or no lines for an air core."
+  },
+  "G7A13": {
+    "hint": "A tapped inductor symbol shows a coil with a connection point partway along its length.",
+    "explanation": "Symbol 7 in Figure G7-1 represents a tapped inductor. The symbol shows a coil with an additional terminal at an intermediate point, allowing access to only a portion of the total inductance. Tapped inductors are used in many RF circuits for impedance matching."
+  },
+  "G7B01": {
+    "hint": "Unwanted feedback in an amplifier can cause self-oscillation, and neutralization counteracts this.",
+    "explanation": "The purpose of neutralizing an amplifier is to eliminate self-oscillations. Internal capacitance between the input and output of an amplifier can cause positive feedback, leading to oscillation. Neutralization introduces an equal and opposite feedback signal to cancel this effect."
+  },
+  "G7B02": {
+    "hint": "Class C conducts for less than half the cycle, maximizing efficiency but sacrificing linearity.",
+    "explanation": "Class C amplifiers have the highest efficiency among the listed classes. Class C conducts for less than 180 degrees of the input cycle, achieving efficiencies up to 70-80%. However, this comes at the cost of severe distortion, making Class C suitable only for FM and CW, not SSB or AM."
+  },
+  "G7B03": {
+    "hint": "An AND gate requires all inputs to be true for the output to be true.",
+    "explanation": "A two-input AND gate produces a high output only when both inputs are high. If either input is low, the output is low. This fundamental logic function is used in digital circuits for conditions where multiple criteria must be met simultaneously."
+  },
+  "G7B04": {
+    "hint": "Class A means the transistor is always conducting, never turning off.",
+    "explanation": "In a Class A amplifier, the amplifying device conducts 100% of the time. The transistor is biased so that it conducts during the entire input cycle, producing the most linear amplification but at the lowest efficiency (typically 25-50%). Class A is used where linearity is paramount."
+  },
+  "G7B05": {
+    "hint": "A 3-bit counter can represent 2 to the power of 3 different states.",
+    "explanation": "A 3-bit binary counter has 8 states (2^3 = 8). It can count from 000 to 111 in binary, representing decimal values 0 through 7, for a total of 8 unique states."
+  },
+  "G7B06": {
+    "hint": "A shift register moves data bits sequentially through a chain of flip-flops.",
+    "explanation": "A shift register is a clocked array of circuits that passes data in steps along the array. Each clock pulse shifts the data one position through the chain of flip-flops. Shift registers are used for serial-to-parallel conversion, data storage, and timing circuits."
+  },
+  "G7B07": {
+    "hint": "An oscillator needs amplification and frequency-selective feedback to sustain oscillation.",
+    "explanation": "The basic components of a sine wave oscillator are a filter and an amplifier operating in a feedback loop. The amplifier provides gain while the filter determines the oscillation frequency by selecting which frequency component is fed back. When the loop gain equals unity, steady oscillation occurs."
+  },
+  "G7B08": {
+    "hint": "Efficiency compares useful output power to the total power consumed from the power supply.",
+    "explanation": "The efficiency of an RF power amplifier is determined by dividing the RF output power by the DC input power. This ratio (usually expressed as a percentage) indicates how effectively the amplifier converts DC power from the supply into useful RF energy. The remainder is dissipated as heat."
+  },
+  "G7B09": {
+    "hint": "An LC oscillator's frequency depends on its resonant circuit components.",
+    "explanation": "The frequency of an LC oscillator is determined by the inductance and capacitance in the tank circuit. The resonant frequency follows the formula f = 1/(2 pi sqrt(LC)). Changing either L or C changes the oscillation frequency."
+  },
+  "G7B10": {
+    "hint": "A linear amplifier faithfully reproduces the input signal without distortion.",
+    "explanation": "A linear amplifier is one in which the output preserves the input waveform. The output is a faithful, scaled reproduction of the input -- amplified but not distorted. This is essential for SSB and AM signals where the amplitude variations carry the information."
+  },
+  "G7B11": {
+    "hint": "FM signals have constant amplitude, so linearity is not required for the power amplifier.",
+    "explanation": "A Class C power stage is appropriate for amplifying FM signals. Since FM is a constant-envelope modulation (the amplitude does not carry information), the severe distortion introduced by Class C operation does not affect the signal quality. SSB and AM require linear amplification."
+  },
+  "G7C01": {
+    "hint": "After the balanced modulator removes the carrier, a frequency-selective circuit removes the unwanted sideband.",
+    "explanation": "A filter is used to select one sideband from a balanced modulator's output. The balanced modulator produces a double-sideband suppressed-carrier signal, and a narrow bandpass filter (usually a crystal or mechanical filter) passes only the desired sideband while rejecting the other."
+  },
+  "G7C02": {
+    "hint": "A balanced modulator combines an audio signal with an RF carrier while suppressing the carrier.",
+    "explanation": "A balanced modulator produces double-sideband modulated RF with the carrier suppressed. It mixes the audio and RF carrier signals in a balanced circuit that cancels the carrier, leaving only the upper and lower sidebands. This is the first step in generating an SSB signal."
+  },
+  "G7C03": {
+    "hint": "Matching the transmitter output impedance to the feed line maximizes power transfer.",
+    "explanation": "An impedance matching transformer at a transmitter output presents the desired impedance to the transmitter and feed line. This ensures maximum power transfer from the transmitter to the antenna system by matching the transmitter's designed output impedance to the actual feed line impedance."
+  },
+  "G7C04": {
+    "hint": "A product detector is used in receivers to demodulate SSB and CW signals by mixing with a local oscillator.",
+    "explanation": "A product detector is used in a single sideband receiver to extract the modulated signal. It works by mixing the incoming SSB signal with a beat frequency oscillator (BFO) signal to recreate the original audio. Without the product detector, SSB signals would be unintelligible."
+  },
+  "G7C05": {
+    "hint": "DDS generates precise, stable frequencies from a crystal reference using digital techniques.",
+    "explanation": "A direct digital synthesizer (DDS) provides variable output frequency with the stability of a crystal oscillator. DDS generates frequencies by digitally computing a waveform from a fixed crystal reference, providing precise, stable frequency output that can be rapidly and finely tuned."
+  },
+  "G7C06": {
+    "hint": "DSP filters can be reprogrammed in software to create virtually any filter characteristic.",
+    "explanation": "A DSP filter can create a wide range of filter bandwidths and shapes, which is its primary advantage over analog filters. Changing the software parameters allows the same hardware to produce narrow CW filters, wide SSB filters, or notch filters without any physical component changes."
+  },
+  "G7C07": {
+    "hint": "This specification describes how much signal is lost simply by passing through the filter in its passband.",
+    "explanation": "Insertion loss specifies a filter's attenuation inside its passband. Even within the passband where signals are intended to pass, some energy is lost due to the filter's components. Lower insertion loss means the filter passes signals more efficiently."
+  },
+  "G7C08": {
+    "hint": "Receiver sensitivity depends on multiple factors in the front-end signal chain.",
+    "explanation": "Input amplifier gain, demodulator stage bandwidth, and input amplifier noise figure all affect receiver sensitivity. Sensitivity is the receiver's ability to detect weak signals, which is limited by internal noise. A lower noise figure, appropriate gain, and matched bandwidth all improve sensitivity."
+  },
+  "G7C09": {
+    "hint": "I and Q signals are offset by a specific angle that is fundamental to quadrature processing.",
+    "explanation": "The I (In-phase) and Q (Quadrature) RF signals in software-defined radio have a 90-degree phase difference. This quadrature relationship allows the SDR to fully characterize the amplitude and phase of incoming signals, enabling demodulation of any modulation type."
+  },
+  "G7C10": {
+    "hint": "I-Q modulation is universal -- it can represent any type of analog or digital modulation.",
+    "explanation": "An advantage of I-Q modulation in SDRs is that all types of modulation can be created with appropriate processing. By independently controlling the I and Q components, any modulation scheme (AM, FM, SSB, digital modes, etc.) can be generated through mathematical processing in software."
+  },
+  "G7C11": {
+    "hint": "In an SDR, software replaces traditional analog circuits for most signal processing tasks.",
+    "explanation": "Filtering, detection, and modulation are all performed by software in a software-defined radio. Instead of dedicated analog hardware for each function, an SDR digitizes the signal and performs all processing mathematically, providing flexibility to change modes and parameters through software updates."
+  },
+  "G7C12": {
+    "hint": "The point where a filter's output drops to half power is a key specification.",
+    "explanation": "The cutoff frequency is the frequency above which a low-pass filter's output power is less than half the input power. This -3 dB point defines the boundary between the passband and the stopband, and is the standard way to specify a filter's frequency response."
+  },
+  "G7C13": {
+    "hint": "This specification describes how well a filter blocks signals that are far outside its passband.",
+    "explanation": "Ultimate rejection specifies a filter's maximum ability to reject signals outside its passband. It represents the greatest amount of attenuation the filter can provide to out-of-band signals, typically measured far from the passband edges where the filter has reached its maximum rejection."
+  },
+  "G7C14": {
+    "hint": "The bandwidth is defined between the two points where the filter response drops to half power.",
+    "explanation": "The bandwidth of a band-pass filter is measured between the upper and lower half-power (-3 dB) frequencies. These two points define the edges of the passband where the filter's output drops to 50% of its maximum power, establishing the useful operating range of the filter."
+  },
+  "G8A01": {
+    "hint": "Direct binary FSK shifts the oscillator frequency using a digital control signal.",
+    "explanation": "Direct binary FSK modulation is generated by changing an oscillator's frequency directly with a digital control signal. The digital data (0s and 1s) directly shift the oscillator between two frequencies (mark and space), producing a frequency-modulated signal carrying digital data."
+  },
+  "G8A02": {
+    "hint": "Varying the phase angle of an RF signal to carry information has a specific, straightforward name.",
+    "explanation": "Phase modulation is the process that changes the phase angle of an RF signal to convey information. The instantaneous phase of the carrier is varied in proportion to the modulating signal, which is one of the fundamental modulation methods along with amplitude and frequency modulation."
+  },
+  "G8A03": {
+    "hint": "When the frequency of the carrier is varied to carry information, the modulation type is named directly for what changes.",
+    "explanation": "Frequency modulation is the process that changes the instantaneous frequency of an RF wave to convey information. The carrier frequency deviates above and below its center frequency in proportion to the amplitude of the modulating signal."
+  },
+  "G8A04": {
+    "hint": "A reactance modulator varies the apparent reactance of a circuit, which changes the oscillator frequency and thus creates a specific type of modulation.",
+    "explanation": "A reactance modulator connected to a transmitter RF amplifier stage produces phase modulation. The reactance modulator varies the effective capacitance or inductance in the circuit in response to audio, which shifts the phase of the RF signal."
+  },
+  "G8A05": {
+    "hint": "When the power level (amplitude) of the RF signal varies with the modulating signal, the modulation type is straightforward.",
+    "explanation": "Amplitude modulation varies the instantaneous power level of the RF signal. In AM, the carrier's amplitude increases and decreases in proportion to the modulating audio signal, directly varying the power of the transmitted signal."
+  },
+  "G8A06": {
+    "hint": "QPSK31 has several characteristics including sensitivity to sideband selection.",
+    "explanation": "QPSK31 is sideband sensitive, provides error correction through its encoding, and has approximately the same bandwidth as BPSK31. The quadrature encoding sends two bits per symbol (versus one for BPSK), effectively doubling the data rate in the same bandwidth while adding error correction."
+  },
+  "G8A07": {
+    "hint": "SSB removes the carrier and one sideband, using about half the bandwidth of AM.",
+    "explanation": "Single sideband uses the narrowest bandwidth of the listed phone emissions. SSB occupies roughly 2.4-3 kHz, compared to about 6 kHz for AM, and 10-15 kHz or more for FM. This narrow bandwidth is a key reason SSB is the dominant voice mode on HF."
+  },
+  "G8A08": {
+    "hint": "Driving a transmitter too hard causes the signal to spread beyond its normal bandwidth.",
+    "explanation": "Overmodulation causes excessive bandwidth, also known as splatter. When the modulating signal exceeds the transmitter's linear range, the resulting distortion generates spurious signals that spread across adjacent frequencies, interfering with other stations."
+  },
+  "G8A09": {
+    "hint": "The 8 in FT8 refers to the number of tones used in the modulation scheme.",
+    "explanation": "FT8 uses 8-tone frequency shift keying modulation. The signal shifts between 8 different audio tones to encode data, with each tone representing 3 bits of information. This efficient modulation allows FT8 to decode signals well below the noise floor."
+  },
+  "G8A10": {
+    "hint": "Flat-topping occurs when the amplifier is pushed beyond its linear range, clipping the signal peaks.",
+    "explanation": "Flat-topping refers to signal distortion caused by excessive drive or speech levels. When the amplifier is driven too hard, the peaks of the modulation envelope are clipped flat instead of being reproduced faithfully, causing distortion and splatter on adjacent frequencies."
+  },
+  "G8A11": {
+    "hint": "The modulation envelope is the outline that traces the peaks of the modulated RF waveform.",
+    "explanation": "The modulation envelope of an AM signal is the waveform created by connecting the peak values of the modulated signal. This envelope represents the shape of the modulating audio signal and can be observed on an oscilloscope to assess modulation quality."
+  },
+  "G8A12": {
+    "hint": "QPSK uses four different phase states to encode digital data.",
+    "explanation": "QPSK (Quadrature Phase Shift Keying) is modulation in which digital data is transmitted using 0, 90, 180, and 270-degree phase shifts to represent pairs of bits. Each of the four phase states encodes two bits, doubling the data rate compared to BPSK."
+  },
+  "G8A13": {
+    "hint": "A link budget accounts for everything between the transmitter and the receiver.",
+    "explanation": "A link budget is the sum of transmit power and antenna gains minus system losses as seen at the receiver. It accounts for transmitter power, feed line losses, antenna gains at both ends, free-space path loss, and other factors to determine the signal level arriving at the receiver."
+  },
+  "G8A14": {
+    "hint": "Link margin describes how much extra signal you have beyond the minimum needed.",
+    "explanation": "Link margin is the difference between the received power level and the minimum required signal level at the receiver input. A positive link margin means the signal is above the minimum threshold, providing a safety buffer against fading and varying conditions."
+  },
+  "G8B01": {
+    "hint": "The local oscillator's frequency is changed to tune in different stations.",
+    "explanation": "The local oscillator is the mixer input that is varied to convert signals of different frequencies to the intermediate frequency (IF). By changing the LO frequency, different incoming signals are mixed down to the fixed IF where they can be filtered and amplified."
+  },
+  "G8B02": {
+    "hint": "An unwanted signal at a specific frequency relationship to the desired signal can produce the same IF.",
+    "explanation": "Image response is interference from a signal at twice the IF frequency from the desired signal. The image frequency produces the same IF as the desired signal when mixed with the local oscillator, creating interference that must be rejected by front-end filtering."
+  },
+  "G8B03": {
+    "hint": "Combining two RF signals in a mixer is a fundamental process with a specific technical name.",
+    "explanation": "Heterodyning is another term for the mixing of two RF signals. When two signals of different frequencies are combined in a nonlinear device (mixer), they produce output signals at the sum and difference of the input frequencies, which is the basis of superheterodyne receivers."
+  },
+  "G8B04": {
+    "hint": "This stage takes a lower frequency signal and generates a harmonic at the desired output frequency.",
+    "explanation": "A multiplier in a VHF FM transmitter generates a harmonic of a lower frequency signal to reach the desired operating frequency. By generating oscillator signals at a lower frequency and then multiplying, the transmitter can achieve precise frequency control at VHF."
+  },
+  "G8B05": {
+    "hint": "The intermodulation products closest to the original signals are the most problematic odd-order ones.",
+    "explanation": "Odd-order intermodulation products are closest to the original signal frequencies. Third-order products (2F1-F2 and 2F2-F1) fall very close to the original signals, making them particularly difficult to filter out and the most significant source of intermodulation interference."
+  },
+  "G8B06": {
+    "hint": "Use Carson's rule: bandwidth equals 2 times (deviation plus highest modulating frequency).",
+    "explanation": "The total bandwidth of an FM signal with 5 kHz deviation and 3 kHz modulating frequency is 16 kHz. Using Carson's rule: BW = 2 x (deviation + max modulating frequency) = 2 x (5 + 3) = 16 kHz."
+  },
+  "G8B07": {
+    "hint": "The oscillator deviation is multiplied along with the frequency, so work backward from the final deviation.",
+    "explanation": "For a 12.21 MHz oscillator in a 146.52 MHz transmitter with 5 kHz deviation, the oscillator deviation is 416.7 Hz. The multiplication factor is 146.52/12.21 = 12. The deviation at the oscillator = 5000/12 = 416.7 Hz."
+  },
+  "G8B08": {
+    "hint": "High duty cycle modes like digital and FM transmit at full power for extended periods.",
+    "explanation": "Knowing the duty cycle is important because some modes have high duty cycles that could exceed the transmitter's average power rating. Modes like RTTY, FT8, and FM transmit at full power continuously, while SSB voice has lower average power. Exceeding the average power rating can overheat the transmitter."
+  },
+  "G8B09": {
+    "hint": "Matching the receiver bandwidth to the signal bandwidth optimizes the tradeoff between noise and signal capture.",
+    "explanation": "Matching receiver bandwidth to the operating mode's bandwidth results in the best signal-to-noise ratio. A wider bandwidth than necessary admits more noise without adding signal, while a narrower bandwidth may cut off part of the desired signal. The optimal match maximizes SNR."
+  },
+  "G8B10": {
+    "hint": "Faster data rates need more frequency space to carry the additional information.",
+    "explanation": "Higher symbol rates require wider bandwidth. This is a fundamental principle of communications theory -- transmitting more symbols per second requires more frequency spectrum. This is why narrow-bandwidth modes like PSK31 transmit slowly, while wider-bandwidth modes can send data faster."
+  },
+  "G8B11": {
+    "hint": "A mixer combines two frequencies and produces outputs at mathematical combinations of the inputs.",
+    "explanation": "The output of a mixer contains the sum and difference of the Local Oscillator and RF input frequencies. These two new frequencies are produced by the nonlinear mixing process, and one of them (usually the difference) is selected as the intermediate frequency by the IF filter."
+  },
+  "G8B12": {
+    "hint": "Unwanted mixing products from nonlinear behavior in a circuit have a specific name.",
+    "explanation": "Intermodulation is the process that combines two signals in a non-linear circuit to produce unwanted spurious outputs. When strong signals encounter nonlinear elements, they interact to produce new signals at various sum and difference frequencies that can cause interference."
+  },
+  "G8B13": {
+    "hint": "Odd-order products have coefficients that add up to an odd number.",
+    "explanation": "2F1-F2 is an odd-order intermodulation product of frequencies F1 and F2. The order is determined by adding the absolute values of the coefficients: |2| + |-1| = 3, which is odd. Third-order products like 2F1-F2 fall close to the original frequencies and are the most troublesome."
+  },
+  "G8C01": {
+    "hint": "Wi-Fi operates in a band that overlaps with an amateur radio allocation.",
+    "explanation": "Amateurs share channels with unlicensed Wi-Fi on the 2.4 GHz band. This band (2400-2450 MHz) is allocated to both the amateur service and unlicensed Part 15 devices (Wi-Fi), though amateur stations cannot intentionally communicate with Wi-Fi equipment."
+  },
+  "G8C02": {
+    "hint": "This very low-power digital mode is specifically designed to probe propagation conditions.",
+    "explanation": "WSPR (Weak Signal Propagation Reporter) is used as a low-power beacon for assessing HF propagation. WSPR stations transmit at very low power (typically 1-5 watts) and receiving stations automatically report what they hear to an internet database, mapping real-time propagation paths."
+  },
+  "G8C03": {
+    "hint": "The part of a packet that contains addressing and control information is at the beginning of the frame.",
+    "explanation": "The header of a packet radio frame contains the routing and handling information. It includes source and destination call signs, path information, and protocol data needed to properly route and handle the packet through the network."
+  },
+  "G8C04": {
+    "hint": "Baudot is an older code used in RTTY with a small number of bits per character.",
+    "explanation": "Baudot code is a 5-bit code with additional start and stop bits. Each character is represented by 5 data bits, preceded by a start bit and followed by a stop bit. The limited 5-bit code uses LTRS and FIGS shift characters to switch between letter and number/symbol sets."
+  },
+  "G8C05": {
+    "hint": "NAK stands for Negative Acknowledgement -- the packet was not received correctly.",
+    "explanation": "In ARQ mode, a NAK response means the receiving station is requesting retransmission of the packet. NAK (Negative Acknowledgement) indicates that the packet was received with errors that could not be corrected, and the sending station should transmit it again."
+  },
+  "G8C06": {
+    "hint": "After too many failed attempts, the ARQ protocol gives up on the communication.",
+    "explanation": "When excessive transmission attempts fail to exchange information in ARQ mode, the connection is dropped. The protocol has a maximum retry limit, and if successful communication cannot be achieved within that limit, it terminates the connection rather than continuing indefinitely."
+  },
+  "G8C07": {
+    "hint": "This popular weak-signal digital mode can decode signals well below the noise floor.",
+    "explanation": "FT8 can receive signals with very low signal-to-noise ratios. FT8 can decode signals as weak as -20 dB below the noise floor in a 2.5 kHz bandwidth, making it extremely effective for contacts when conditions are poor or stations are running low power."
+  },
+  "G8C08": {
+    "hint": "PSK31 uses a variable-length code where common characters have shorter bit sequences.",
+    "explanation": "In PSK31, upper case letters use longer Varicode bit sequences and thus slow down transmission. Varicode assigns shorter codes to more common characters (like lowercase letters) and longer codes to less common ones (like uppercase), so using all caps significantly reduces throughput."
+  },
+  "G8C09": {
+    "hint": "Mesh networks are designed to be resilient -- if one path fails, data can take another route.",
+    "explanation": "In a mesh network, if one node fails, a packet may still reach its target station via an alternate node. This self-healing capability is a key advantage of mesh topology -- multiple redundant paths ensure that communication can continue even when individual nodes go offline."
+  },
+  "G8C10": {
+    "hint": "FEC sends extra information that allows the receiver to detect and fix errors without retransmission.",
+    "explanation": "Forward error correction works by transmitting redundant information with the data. The extra bits allow the receiver to detect and correct errors without requesting retransmission. This is particularly valuable on HF where conditions change rapidly and retransmission may not be practical."
+  },
+  "G8C11": {
+    "hint": "FSK uses two specific frequency names borrowed from telegraphy terminology.",
+    "explanation": "The two frequencies of a Frequency Shift Keyed signal are identified as mark and space. This terminology comes from early telegraphy, where 'mark' represented the current-on condition (typically the higher frequency) and 'space' represented current-off (the lower frequency)."
+  },
+  "G8C12": {
+    "hint": "PSK31 uses a special variable-length encoding scheme for its character set.",
+    "explanation": "PSK31 uses Varicode for sending characters. Varicode is a variable-length binary code that assigns shorter sequences to frequently used characters and longer sequences to less common ones, optimizing throughput for typical text. Two consecutive zeros mark the boundary between characters."
+  },
+  "G8C13": {
+    "hint": "Extra vertical lines on a waterfall display indicate that the signal is too wide, suggesting the transmitter is being overdriven.",
+    "explanation": "Vertical lines on either side of a data mode or RTTY signal on a waterfall display indicate overmodulation. These spurious sidebands (splatter) are caused by excessive audio drive or ALC action, and they interfere with adjacent signals on the waterfall."
+  },
+  "G8C14": {
+    "hint": "A waterfall shows frequency across the horizontal axis and scrolls time vertically, with brightness showing signal strength.",
+    "explanation": "A waterfall display shows frequency on the horizontal axis, signal strength as intensity (brightness or color), and time on the vertical axis. As time progresses, the display scrolls vertically, creating a visual history of spectrum activity that is invaluable for digital modes."
+  },
+  "G8C15": {
+    "hint": "FT8 signal reports are in dB relative to noise in a standard bandwidth.",
+    "explanation": "An FT8 signal report of +3 means the signal-to-noise ratio is equivalent to +3 dB in a 2.5 kHz bandwidth. FT8 reports are standardized SNR measurements in a 2.5 kHz reference bandwidth, making them directly comparable between different receiving setups."
+  },
+  "G8C16": {
+    "hint": "Digital voice modes use vocoder technology to transmit voice as digital data over radio.",
+    "explanation": "DMR, D-STAR, and SystemFusion provide digital voice modes. These systems digitize voice audio using vocoders, transmit it as digital data, and decode it at the receiving end. They offer features like better spectral efficiency, built-in error correction, and simultaneous data capability."
+  },
+  "G9A01": {
+    "hint": "The characteristic impedance of a parallel conductor line depends on its physical dimensions.",
+    "explanation": "The characteristic impedance of a parallel conductor feed line is determined by the distance between the centers of the conductors and the radius of the conductors. These physical dimensions establish the distributed capacitance and inductance per unit length, which determine the impedance."
+  },
+  "G9A02": {
+    "hint": "High SWR causes more current to flow in the feed line, increasing resistive losses.",
+    "explanation": "High SWR increases loss in a lossy transmission line. Standing waves cause higher peak currents and voltages on the line, increasing I^2R losses in the conductors and dielectric losses. The higher the line loss, the more significant the additional loss from high SWR becomes."
+  },
+  "G9A03": {
+    "hint": "Window line is a type of ladder line with a characteristic impedance much higher than coax.",
+    "explanation": "The nominal characteristic impedance of window line transmission line is 450 ohms. Window line (also called ladder line or open-wire line) uses two parallel conductors separated by periodic plastic spacers. Its high impedance and low loss make it popular for multiband wire antennas."
+  },
+  "G9A04": {
+    "hint": "Reflected power occurs when the antenna does not present the same impedance as the feed line.",
+    "explanation": "Reflected power at an antenna's feed point is caused by a difference between feed line impedance and antenna feed point impedance. When these impedances do not match, some of the power sent to the antenna is reflected back down the feed line instead of being radiated."
+  },
+  "G9A05": {
+    "hint": "Higher frequencies experience more loss in coaxial cable for a given length.",
+    "explanation": "Coaxial cable attenuation increases with increasing frequency. Both conductor losses (skin effect) and dielectric losses increase at higher frequencies, which is why longer cable runs at higher frequencies require higher-quality, lower-loss cable."
+  },
+  "G9A06": {
+    "hint": "Feed line loss is expressed per standard length in a logarithmic unit.",
+    "explanation": "RF feed line loss is usually expressed in decibels per 100 feet. This standard unit allows easy comparison between different cable types and makes it straightforward to calculate the total loss for any cable length by proportional scaling."
+  },
+  "G9A07": {
+    "hint": "Eliminating standing waves requires the antenna to present the same impedance as the feed line.",
+    "explanation": "To prevent standing waves on a feed line, the antenna feed point impedance must be matched to the characteristic impedance of the feed line. When these impedances are equal, all power is absorbed by the antenna and radiated, with no reflection back down the feed line."
+  },
+  "G9A08": {
+    "hint": "A matching network at the transmitter end only changes the impedance seen by the transmitter, not the SWR on the feed line.",
+    "explanation": "If the SWR on the feed line is 5:1 and a matching network presents 1:1 to the transmitter, the SWR on the feed line remains 5:1. The matching network only transforms the impedance at its location -- it does not change the mismatch between the feed line and the antenna."
+  },
+  "G9A09": {
+    "hint": "SWR is the ratio of the higher impedance to the lower impedance.",
+    "explanation": "Connecting a 50-ohm feed line to a 200-ohm load results in a 4:1 SWR. SWR = Z_load/Z_line = 200/50 = 4, giving a 4:1 ratio. SWR is always expressed as the larger number to 1."
+  },
+  "G9A10": {
+    "hint": "When the load is lower than the line impedance, divide the line impedance by the load impedance.",
+    "explanation": "Connecting a 50-ohm feed line to a 10-ohm load results in a 5:1 SWR. Since the load is less than the line impedance, SWR = Z_line/Z_load = 50/10 = 5:1. SWR always uses the ratio that gives a number 1 or greater."
+  },
+  "G9A11": {
+    "hint": "Line loss absorbs both the forward and reflected power, making the mismatch appear less severe.",
+    "explanation": "Higher transmission line loss reduces the SWR measured at the input to the line. The lossy line attenuates both the forward and reflected waves, so by the time the reflected wave returns to the input, it is weaker than it was at the antenna, making the apparent SWR lower."
+  },
+  "G9B01": {
+    "hint": "A random-wire antenna without proper grounding or matching can couple RF energy into station equipment.",
+    "explanation": "A random-wire HF antenna connected directly to the transmitter can cause station equipment to carry significant RF current. Without a proper ground system and impedance matching, RF current flows on the equipment chassis and wiring looking for a return path, potentially causing interference and RF burns."
+  },
+  "G9B02": {
+    "hint": "Angling the radials downward raises the feed point impedance from about 36 ohms to approximately 50 ohms.",
+    "explanation": "Sloping the radials downward is a common way to adjust the feed point impedance of an elevated quarter-wave ground-plane vertical antenna to approximately 50 ohms. With horizontal radials, the impedance is about 36 ohms. Drooping the radials at a 45-degree angle raises it to about 50 ohms."
+  },
+  "G9B03": {
+    "hint": "A vertical antenna radiates equally in all horizontal directions.",
+    "explanation": "A quarter-wave ground-plane vertical antenna has an omnidirectional radiation pattern in azimuth. It radiates equally in all horizontal directions (360 degrees), with no preferred direction. This makes it useful when you need to communicate in all directions without rotating the antenna."
+  },
+  "G9B04": {
+    "hint": "A dipole radiates most strongly broadside to its wire and has nulls off the ends.",
+    "explanation": "The radiation pattern of a dipole in free space in the plane of the conductor is a figure-eight at right angles to the antenna. Maximum radiation is broadside (perpendicular) to the wire, with deep nulls off the ends. This pattern makes the dipole a simple directional antenna."
+  },
+  "G9B05": {
+    "hint": "When a horizontal dipole is close to the ground, the ground reflection fills in the end-fire nulls at high angles.",
+    "explanation": "When a horizontal dipole is less than 1/2 wavelength high, the azimuthal pattern at high elevation angles is almost omnidirectional. The ground reflection effects combine with the antenna's natural pattern to fill in the nulls, creating more uniform coverage. This is useful for NVIS propagation."
+  },
+  "G9B06": {
+    "hint": "Radial wires for a ground-mounted vertical work best when in direct contact with or near the earth.",
+    "explanation": "Radial wires for a ground-mounted vertical antenna should be placed on the surface or buried a few inches below the ground. This creates an efficient ground plane by reducing ground losses, as the radials collect the return currents that flow in the soil near the antenna."
+  },
+  "G9B07": {
+    "hint": "As a dipole gets closer to ground, the ground increasingly affects its electrical characteristics.",
+    "explanation": "The feed point impedance of a horizontal half-wave dipole steadily decreases as the height is reduced to 1/10 wavelength above ground. Ground proximity causes the antenna's radiation resistance to drop, changing the feed point impedance from its free-space value of about 73 ohms."
+  },
+  "G9B08": {
+    "hint": "Current is highest at the center of a half-wave dipole and lowest at the ends, inversely proportional to impedance.",
+    "explanation": "The feed point impedance of a half-wave dipole steadily increases as the feed point is moved from the center toward the ends. At the center, impedance is about 73 ohms (where current is maximum). At the ends, impedance is very high (several thousand ohms) because current approaches zero."
+  },
+  "G9B09": {
+    "hint": "Horizontal antennas do not need to establish a ground current return path through the lossy earth.",
+    "explanation": "A horizontally polarized HF antenna has lower ground losses compared to a vertically polarized antenna. Vertical antennas rely on ground currents for their return path, and resistive losses in the soil reduce efficiency. Horizontal antennas are elevated above ground and do not depend on soil conductivity."
+  },
+  "G9B10": {
+    "hint": "Use the formula: length (feet) = 468 / frequency (MHz) for a half-wave dipole.",
+    "explanation": "The approximate length for a half-wave dipole cut for 14.250 MHz is 33 feet. Using the formula L = 468/f = 468/14.250 = 32.8 feet, approximately 33 feet. The 468 factor accounts for the velocity factor and end effects of a practical wire antenna."
+  },
+  "G9B11": {
+    "hint": "Apply the half-wave dipole formula: 468 divided by the frequency in MHz.",
+    "explanation": "The approximate length for a half-wave dipole cut for 3.550 MHz is 132 feet. Using L = 468/f = 468/3.550 = 131.8 feet, approximately 132 feet. Lower frequencies require longer antennas, which is why 80-meter dipoles are quite large."
+  },
+  "G9B12": {
+    "hint": "A quarter-wave monopole is half the length of a half-wave dipole: 234 / frequency (MHz).",
+    "explanation": "The approximate length for a quarter-wave monopole cut for 28.5 MHz is 8 feet. Using L = 234/f = 234/28.5 = 8.2 feet, approximately 8 feet. The quarter-wave monopole is half the length of a half-wave dipole for the same frequency."
+  },
+  "G9C01": {
+    "hint": "Using fatter elements reduces the Q of the antenna, which broadens its usable frequency range.",
+    "explanation": "Larger-diameter elements would increase the bandwidth of a Yagi antenna. Thicker elements have a lower Q (quality factor), which means the antenna's impedance changes more gradually with frequency, resulting in a wider usable bandwidth. This is why commercial Yagis often use large-diameter tubing."
+  },
+  "G9C02": {
+    "hint": "The driven element of a Yagi is essentially a dipole.",
+    "explanation": "The driven element of a Yagi antenna is approximately 1/2 wavelength long. It functions as a dipole that is directly fed by the transmission line. The parasitic elements (reflector and directors) are positioned around the driven element to create the antenna's directional pattern."
+  },
+  "G9C03": {
+    "hint": "The reflector is behind the driven element and is longer; the director is in front and is shorter.",
+    "explanation": "In a three-element Yagi, the reflector is longer than the driven element and the director is shorter. The reflector (typically 5% longer) reflects energy forward, while the director (typically 5% shorter) focuses the beam in the forward direction, creating the directional pattern."
+  },
+  "G9C04": {
+    "hint": "dBi is referenced to an isotropic antenna, while dBd is referenced to a dipole, which already has some gain.",
+    "explanation": "Gain in dBi is 2.15 dB higher than gain in dBd for the same antenna. This is because a dipole (the reference for dBd) already has 2.15 dB of gain over an isotropic antenna (the reference for dBi). So dBi numbers always appear larger than dBd for the same antenna."
+  },
+  "G9C05": {
+    "hint": "More directors on a longer boom concentrate the signal into a narrower, higher-gain beam.",
+    "explanation": "The primary effect of increasing boom length and adding directors to a Yagi antenna is increased gain. More parasitic elements better focus the radiated energy into the forward direction, narrowing the beamwidth and increasing the signal strength in the main lobe."
+  },
+  "G9C07": {
+    "hint": "Front-to-back ratio compares radiation in the forward direction to radiation in the backward direction.",
+    "explanation": "Front-to-back ratio refers to the power radiated in the major lobe compared to that in the opposite direction. A higher front-to-back ratio means the antenna rejects more signal from behind, reducing interference from the rear. It is expressed in dB."
+  },
+  "G9C08": {
+    "hint": "The main lobe is the primary direction where the antenna concentrates its radiated energy.",
+    "explanation": "The main lobe of a directive antenna is the direction of maximum radiated field strength from the antenna. For a Yagi, this is the direction the antenna is pointed (toward the directors). A well-designed antenna concentrates most of its energy in the main lobe."
+  },
+  "G9C09": {
+    "hint": "Stacking two identical antennas doubles the power in the main beam direction.",
+    "explanation": "Two three-element Yagis spaced vertically 1/2 wavelength apart typically provide approximately 3 dB higher gain than a single Yagi. Doubling the number of antenna elements (by stacking) doubles the effective radiated power, which corresponds to a 3 dB gain increase."
+  },
+  "G9C10": {
+    "hint": "Multiple physical parameters of a Yagi can be adjusted to optimize its performance.",
+    "explanation": "The physical length of the boom, the number of elements, and the spacing of elements along the boom can all be adjusted to optimize a Yagi antenna's performance. These parameters interact to determine the antenna's gain, front-to-back ratio, impedance, and SWR bandwidth."
+  },
+  "G9C11": {
+    "hint": "A beta or hairpin match uses a short-circuited transmission line stub for impedance transformation.",
+    "explanation": "A beta or hairpin match is a shorted transmission line stub placed at the feed point of a Yagi antenna to provide impedance matching. The stub adds inductive reactance that cancels the capacitive reactance of a slightly shortened driven element, providing a match to 50-ohm feed line."
+  },
+  "G9C12": {
+    "hint": "A gamma match allows direct connection of the driven element to the boom without insulation.",
+    "explanation": "A characteristic of a gamma match with a Yagi antenna is that it does not require the driven element to be insulated from the boom. The gamma match feeds the antenna through a separate rod alongside the driven element, allowing the element to be directly connected to the grounded boom."
+  },
+  "G9D01": {
+    "hint": "NVIS needs high-angle radiation, which a low horizontal antenna provides.",
+    "explanation": "A horizontal dipole placed between 1/10 and 1/4 wavelength above the ground is most effective for NVIS on 40 meters. At this low height, the antenna radiates primarily straight up, and the ionosphere refracts the signal back down, providing coverage within a few hundred miles with no skip zone."
+  },
+  "G9D02": {
+    "hint": "At the end of a half-wave antenna, voltage is high and current is low, creating a high-impedance point.",
+    "explanation": "The feed point impedance of an end-fed half-wave antenna is very high, typically several thousand ohms. At the end of a half-wave element, the current is at minimum and voltage at maximum, resulting in a very high impedance ratio. A matching network is required to use this antenna with 50-ohm coax."
+  },
+  "G9D03": {
+    "hint": "A halo antenna is a horizontally polarized loop that radiates in all directions in the horizontal plane.",
+    "explanation": "The maximum radiation from a VHF/UHF halo antenna is omnidirectional in the plane of the halo. A halo is essentially a dipole bent into a circle, providing horizontally polarized omnidirectional coverage -- useful for VHF/UHF work where you need all-direction coverage with horizontal polarization."
+  },
+  "G9D04": {
+    "hint": "Traps act as band-selective switches that electrically shorten or lengthen an antenna for different bands.",
+    "explanation": "The primary function of antenna traps is to enable multiband operation. Traps are parallel LC circuits inserted in an antenna element that present high impedance at their resonant frequency, effectively isolating portions of the antenna. This allows one antenna to operate on multiple bands."
+  },
+  "G9D05": {
+    "hint": "Vertical stacking compresses the radiation pattern in the vertical plane.",
+    "explanation": "Vertically stacking horizontally polarized Yagi antennas narrows the main lobe in elevation. By stacking, the vertical beamwidth is reduced while the horizontal pattern remains the same, concentrating energy at lower elevation angles for better long-distance communication."
+  },
+  "G9D06": {
+    "hint": "Log-periodic antennas maintain relatively constant characteristics across a wide frequency range.",
+    "explanation": "Wide bandwidth is the primary advantage of a log-periodic antenna. Its design allows it to operate over a frequency range of 2:1 or more with consistent gain, impedance, and pattern, making it useful for applications requiring coverage of multiple bands without the need for an antenna tuner."
+  },
+  "G9D07": {
+    "hint": "The 'log-periodic' name describes the mathematical relationship between the element dimensions.",
+    "explanation": "In a log-periodic antenna, element length and spacing vary logarithmically along the boom. Each element is a fixed ratio shorter than the previous one, and the spacing follows the same logarithmic relationship. This self-similar scaling provides consistent performance across a wide frequency range."
+  },
+  "G9D08": {
+    "hint": "A screwdriver antenna uses a motor to change the amount of inductance in the loading coil.",
+    "explanation": "A screwdriver mobile antenna adjusts its feed point impedance by varying the base loading inductance. A motor-driven mechanism moves a contact along the loading coil, changing the amount of inductance in the circuit to resonate the antenna at different frequencies."
+  },
+  "G9D09": {
+    "hint": "The Beverage is a long, low wire antenna known for its directional receiving performance on lower frequencies.",
+    "explanation": "The primary use of a Beverage antenna is directional receiving for MF and low HF bands. This very long (several wavelengths) wire antenna close to the ground provides excellent directional receiving capability with a good front-to-back ratio, though it is inefficient as a transmitting antenna."
+  },
+  "G9D10": {
+    "hint": "A small loop antenna has its minimum sensitivity (nulls) in a specific direction relative to the loop plane.",
+    "explanation": "An electrically small loop has nulls in its radiation pattern broadside to the loop (perpendicular to the plane of the loop). The loop radiates maximum signal in the plane of the loop and minimum signal perpendicular to it, making small loops useful for direction finding by rotating to find the null."
+  },
+  "G9D11": {
+    "hint": "Multiband antennas can inadvertently radiate on harmonic frequencies of the intended operating frequency.",
+    "explanation": "A disadvantage of multiband antennas is poor harmonic rejection. Because multiband antennas are designed to resonate at multiple frequencies, they may also be resonant at harmonics of the operating frequency, potentially radiating spurious emissions on those harmonic frequencies."
+  },
+  "G9D12": {
+    "hint": "This common antenna shape results from supporting a dipole at a single center point.",
+    "explanation": "A dipole with a single central support is commonly called an inverted V. When a dipole is supported only at its center, the ends droop downward, forming a V shape that is inverted (point up). This is one of the most popular wire antenna configurations due to its simplicity."
+  },
+  "G0A01": {
+    "hint": "RF energy interacts with body tissue in a way similar to how a microwave oven works.",
+    "explanation": "RF energy can affect human body tissue by heating it. When RF energy is absorbed by the body, it causes molecules (especially water) to vibrate, converting the electromagnetic energy into heat. This thermal effect is the primary biological concern with RF exposure."
+  },
+  "G0A02": {
+    "hint": "Multiple characteristics of a transmitted signal must be considered when evaluating RF exposure.",
+    "explanation": "Duty cycle, frequency, and power density are all used to determine RF exposure from a transmitted signal. Each factor affects how much energy reaches people: duty cycle determines average power, frequency determines absorption rates, and power density measures the intensity at a given location."
+  },
+  "G0A03": {
+    "hint": "Multiple methods are acceptable for demonstrating compliance with RF exposure limits.",
+    "explanation": "Station compliance with FCC RF exposure regulations can be determined by calculation based on FCC OET Bulletin 65, by computer modeling, or by field strength measurement with calibrated equipment. Any of these approaches is acceptable to the FCC for demonstrating compliance."
+  },
+  "G0A04": {
+    "hint": "Time averaging accounts for the fact that RF exposure is not constant but varies with transmitter use.",
+    "explanation": "Time averaging in RF exposure evaluation means the total RF exposure averaged over a certain period. Since amateur transmitters are not on continuously, the actual exposure can be averaged over time (typically 6 or 30 minutes depending on the environment), reducing the calculated exposure level."
+  },
+  "G0A05": {
+    "hint": "If your station exceeds exposure limits, you must take corrective action to protect people.",
+    "explanation": "If your station exceeds permissible RF exposure limits, you must take action to prevent human exposure to the excessive RF fields. This might include reducing power, changing antenna location or height, restricting access to high-exposure areas, or modifying operating habits."
+  },
+  "G0A06": {
+    "hint": "If your station does not qualify for an exemption, you must perform a formal evaluation.",
+    "explanation": "If your station fails to meet FCC RF exposure exemption criteria, you must perform an RF exposure evaluation in accordance with FCC OET Bulletin 65. This evaluation determines whether your station complies with the Maximum Permissible Exposure (MPE) limits."
+  },
+  "G0A07": {
+    "hint": "Lower duty cycle means the transmitter is on for less time, reducing average exposure.",
+    "explanation": "A lower modulation duty cycle permits greater power levels to be transmitted while staying within RF exposure limits. Since the exposure is time-averaged, modes that transmit less of the time (like SSB voice, which has pauses between words) produce lower average exposure than continuous modes like FM."
+  },
+  "G0A08": {
+    "hint": "Compliance requires both evaluation and prevention of exposure in high-risk areas.",
+    "explanation": "To ensure compliance with RF safety regulations, you must perform a routine RF exposure evaluation and prevent access to any identified high-exposure areas. This two-step process ensures that potential hazards are identified and that people are protected from excessive RF energy."
+  },
+  "G0A09": {
+    "hint": "Accurately measuring RF field strength requires a properly calibrated instrument and antenna.",
+    "explanation": "A calibrated field strength meter with a calibrated antenna can accurately measure RF field strength. Both components must be calibrated for the measurements to be meaningful for RF exposure evaluation. Uncalibrated instruments cannot provide the accuracy needed for compliance determination."
+  },
+  "G0A10": {
+    "hint": "If the main beam of your directional antenna could over-expose a neighbor, you must restrict where you point it.",
+    "explanation": "If evaluation shows a neighbor might exceed RF exposure limits from your directional antenna's main lobe, you must take precautions to ensure the antenna cannot be pointed in their direction when they are present. This might involve mechanical stops, operating procedures, or antenna repositioning."
+  },
+  "G0A11": {
+    "hint": "An indoor antenna brings RF energy very close to where people live and work.",
+    "explanation": "When installing an indoor transmitting antenna, you must ensure that MPE (Maximum Permissible Exposure) limits are not exceeded in occupied areas. Indoor antennas are much closer to people than outdoor ones, making it more likely that exposure limits could be exceeded, especially at higher power levels."
+  },
+  "G0A12": {
+    "hint": "The FCC RF exposure rules apply very broadly, with virtually no stations being exempt.",
+    "explanation": "All stations with a time-averaged transmission of more than one milliwatt are subject to FCC RF exposure rules. This effectively means virtually all amateur stations must comply, as the threshold is extremely low. Amateur stations are not exempt from these requirements."
+  },
+  "G0B01": {
+    "hint": "In a 240V circuit, the wires that carry voltage (hot wires) need overcurrent protection.",
+    "explanation": "Only the hot wires in a four-conductor 240 VAC circuit should be attached to fuses or circuit breakers. The neutral and ground wires must never be fused or switched, as interrupting these conductors could create a shock hazard by leaving equipment energized without a return path."
+  },
+  "G0B02": {
+    "hint": "The NEC specifies wire gauge based on the current rating of the circuit breaker.",
+    "explanation": "The minimum wire size for a 20-ampere circuit breaker is AWG number 12. The National Electrical Code requires that wire size be adequate for the circuit breaker rating to prevent the wire from overheating under full load. AWG 12 wire is rated for 20 amperes."
+  },
+  "G0B03": {
+    "hint": "AWG 14 wire is rated for a specific maximum current that matches a standard breaker size.",
+    "explanation": "A 15-ampere fuse or circuit breaker is appropriate for AWG number 14 wiring. AWG 14 wire is rated for 15 amperes by the National Electrical Code. Using a larger breaker would allow current that could overheat the wire, creating a fire hazard."
+  },
+  "G0B04": {
+    "hint": "Lightning protection grounding must be located where it can effectively direct lightning energy away from the building.",
+    "explanation": "The station's lightning protection ground system should be located outside the building. This places the ground rods and connections between the antenna system and the building, allowing lightning energy to be directed to earth before it enters the structure."
+  },
+  "G0B05": {
+    "hint": "A GFCI detects when current is taking an unintended path to ground, bypassing the neutral wire.",
+    "explanation": "A Ground Fault Circuit Interrupter disconnects AC power when current flows from one or more hot wires directly to ground. The GFCI monitors the difference between hot and neutral currents, and if they are not equal (indicating current is leaking to ground), it trips in milliseconds to prevent electrocution."
+  },
+  "G0B06": {
+    "hint": "The NEC is specifically concerned with electrical safety in buildings and structures.",
+    "explanation": "The National Electrical Code covers the electrical safety of the station, including wiring, grounding, and circuit protection. It does not address RF emissions, bandwidth, or exposure limits -- those are covered by FCC regulations. The NEC focuses on preventing fires and electrical shock."
+  },
+  "G0B07": {
+    "hint": "The safety harness itself must be appropriate for the person using it.",
+    "explanation": "When climbing a tower with a safety harness, you should confirm that the harness is rated for the weight of the climber and that it is within its allowable service life. Safety equipment has weight limits and expiration dates based on material degradation, and using improper equipment could be fatal."
+  },
+  "G0B08": {
+    "hint": "Lockout/tagout is a standard safety procedure before working on any powered equipment.",
+    "explanation": "Before climbing a tower that supports electrically powered devices, you must make sure all circuits that supply power to the tower are locked out and tagged. This lockout/tagout procedure prevents someone from accidentally energizing equipment while a person is working on the tower."
+  },
+  "G0B09": {
+    "hint": "Generators produce carbon monoxide and other exhaust gases that are dangerous in enclosed spaces.",
+    "explanation": "An emergency generator should be operated in a well-ventilated area. Generators powered by gasoline, diesel, or propane produce carbon monoxide, a colorless and odorless gas that can be lethal in enclosed or poorly ventilated spaces. Always operate generators outdoors or with adequate ventilation."
+  },
+  "G0B10": {
+    "hint": "Lead is a toxic metal that can be transferred to food through hand contact.",
+    "explanation": "Lead-tin solder poses a danger because lead can contaminate food if hands are not washed carefully after handling the solder. Lead is a cumulative toxin that can cause serious health problems. Always wash hands thoroughly after soldering and avoid eating or drinking while working with lead solder."
+  },
+  "G0B11": {
+    "hint": "All ground systems must be interconnected to create a single, unified ground reference.",
+    "explanation": "Lightning protection ground rods must be bonded together with all other grounds. This includes the electrical service ground, telephone ground, cable TV ground, and any other ground rods. Bonding all grounds together prevents dangerous voltage differences between grounding systems during a lightning strike."
+  },
+  "G0B12": {
+    "hint": "A power supply interlock is a safety switch that activates when the enclosure is opened.",
+    "explanation": "The purpose of a power supply interlock is to ensure that dangerous voltages are removed if the cabinet is opened. The interlock switch automatically disconnects power when the cover is removed, protecting against accidental contact with high-voltage components inside the power supply."
+  },
+  "G0B13": {
+    "hint": "Lightning arrestors should be placed at the boundary between outdoor antenna systems and indoor equipment.",
+    "explanation": "Lightning arrestors should be located where the feed lines enter the building. This placement intercepts lightning energy at the building entry point, directing it to ground before it can travel through feed lines to equipment inside the building and cause damage or start a fire."
+  }
+}

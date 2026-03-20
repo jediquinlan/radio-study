@@ -6,6 +6,10 @@ import technicianSyllabus from '../assets/images/data/technician-2022-2026-sylla
 import generalSyllabus from '../assets/images/data/general-2023-2027-syllabus.json';
 import extraSyllabus from '../assets/images/data/extra-2024-2028-syllabus.json';
 
+import technicianHints from '../assets/images/data/technician-2022-2026-hints.json';
+import generalHints from '../assets/images/data/general-2023-2027-hints.json';
+import extraHints from '../assets/images/data/extra-2024-2028-hints.json';
+
 export type PoolId = 'technician' | 'general' | 'extra';
 
 export interface Question {
@@ -44,6 +48,22 @@ const SYLLABUS: Record<PoolId, { subelements: Record<string, SubelementMeta> }> 
   general: generalSyllabus as any,
   extra: extraSyllabus as any,
 };
+
+export interface HintData {
+  hint: string;
+  explanation: string;
+}
+
+const HINTS: Record<PoolId, Record<string, HintData>> = {
+  technician: technicianHints as any,
+  general: generalHints as any,
+  extra: extraHints as any,
+};
+
+/** Returns hint and explanation for a question, or undefined if not found. */
+export function getHintData(pool: PoolId, questionId: string): HintData | undefined {
+  return HINTS[pool]?.[questionId];
+}
 
 function parseQuestion(raw: any, pool: PoolId): Question {
   const id: string = raw.id;
