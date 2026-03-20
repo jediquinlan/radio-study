@@ -30,7 +30,6 @@ export default function ExamSessionScreen() {
   const [examQuestions, setExamQuestions] = useState<ExamQuestion[]>([]);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
-  const [showCorrect, setShowCorrect] = useState(false);
   const [loading, setLoading] = useState(true);
 
   function confirmQuit() {
@@ -81,46 +80,66 @@ export default function ExamSessionScreen() {
   if (!question) return null;
 
   const order: number[] = eq.answer_order;
-  const correctDisplayIdx = order.indexOf(question.correct);
 
   async function handleSelect(displayIdx: number) {
-    if (showCorrect) return;
     const originalIdx = order[displayIdx];
     const isCorrect = originalIdx === question!.correct;
     setSelected(displayIdx);
-    setShowCorrect(true);
 
     await supabase
       .from('practice_exam_questions')
       .update({ user_answer: displayIdx, is_correct: isCorrect })
       .eq('id', eq.id);
-
-    await supabase.from('user_responses').insert({
-      user_id: (await supabase.auth.getSession()).data.session?.user.id,
-      question_id: question!.id,
-      pool_id: exam!.pool_id,
-      is_correct: isCorrect,
-    });
   }
 
-  async function handleNext() {
+  function handleNext() {
     if (index + 1 >= examQuestions.length) {
-      // Score and complete
-      const { data: finalQs } = await supabase
-        .from('practice_exam_questions')
-        .select('is_correct')
-        .eq('exam_id', examId);
-      const score = finalQs?.filter((q) => q.is_correct).length ?? 0;
-      await supabase
-        .from('practice_exams')
-        .update({ completed_at: new Date().toISOString(), score })
-        .eq('id', examId);
-      router.replace(`/exam/results/${examId}`);
+      finishExam();
       return;
     }
     setIndex(index + 1);
-    setSelected(null);
-    setShowCorrect(false);
+    // Restore previous answer if going forward to an already-answered question
+    const nextEq = examQuestions[index + 1];
+    setSelected(nextEq.user_answer);
+  }
+
+  function handlePrev() {
+    if (index <= 0) return;
+    setIndex(index - 1);
+    const prevEq = examQuestions[index - 1];
+    setSelected(prevEq.user_answer);
+  }
+
+  async function finishExam() {
+    const { data: finalQs } = await supabase
+      .from('practice_exam_questions')
+      .select('is_correct, question_id')
+      .eq('exam_id', examId);
+
+    const answered = finalQs?.filter((q) => q.is_correct !== null) ?? [];
+    const score = answered.filter((q) => q.is_correct).length;
+
+    // Record user responses for progress tracking
+    const userId = (await supabase.auth.getSession()).data.session?.user.id;
+    if (userId && finalQs) {
+      const responses = finalQs
+        .filter((q) => q.is_correct !== null)
+        .map((q) => ({
+          user_id: userId,
+          question_id: q.question_id,
+          pool_id: exam!.pool_id,
+          is_correct: q.is_correct,
+        }));
+      if (responses.length > 0) {
+        await supabase.from('user_responses').insert(responses);
+      }
+    }
+
+    await supabase
+      .from('practice_exams')
+      .update({ completed_at: new Date().toISOString(), score })
+      .eq('id', examId);
+    router.replace(`/exam/results/${examId}`);
   }
 
   const figureRef = parseFigureRef(question.question);
@@ -148,17 +167,11 @@ export default function ExamSessionScreen() {
       <View style={styles.answers}>
         {order.map((originalIdx, displayIdx) => {
           const isSelected = selected === displayIdx;
-          const isCorrectAnswer = displayIdx === correctDisplayIdx;
-          let bg = '#F7F7F7';
-          let border = '#E5E5E5';
-          if (showCorrect && isCorrectAnswer) { bg = '#D7F5C0'; border = '#58CC02'; }
-          else if (showCorrect && isSelected && !isCorrectAnswer) { bg = '#FFE0E0'; border = '#FF4B4B'; }
-
           return (
             <Pressable
               key={displayIdx}
               onPress={() => handleSelect(displayIdx)}
-              style={[styles.answer, { backgroundColor: bg, borderColor: border }]}
+              style={[styles.answer, isSelected && styles.answerSelected]}
             >
               <Text style={styles.answerText}>{question.answers[originalIdx]}</Text>
             </Pressable>
@@ -166,13 +179,20 @@ export default function ExamSessionScreen() {
         })}
       </View>
 
-      {showCorrect && (
-        <Pressable style={styles.next} onPress={handleNext}>
-          <Text style={styles.nextText}>
+      <View style={styles.navRow}>
+        <Pressable
+          style={[styles.navBtn, index <= 0 && styles.navBtnDisabled]}
+          onPress={handlePrev}
+          disabled={index <= 0}
+        >
+          <Text style={[styles.navBtnText, index <= 0 && styles.navBtnTextDisabled]}>BACK</Text>
+        </Pressable>
+        <Pressable style={[styles.navBtn, selected !== null && styles.navBtnHighlight]} onPress={handleNext}>
+          <Text style={[styles.navBtnText, selected !== null && styles.navBtnHighlightText]}>
             {index + 1 >= examQuestions.length ? 'FINISH' : 'NEXT'}
           </Text>
         </Pressable>
-      )}
+      </View>
     </ScrollView>
   );
 }
@@ -185,16 +205,21 @@ const styles = StyleSheet.create({
   questionId: { fontSize: 12, color: '#aaa', marginBottom: 4 },
   question: { fontSize: 18, fontWeight: '700', color: '#333', marginBottom: 24, lineHeight: 26 },
   answers: { gap: 12 },
-  answer: { borderRadius: 16, borderWidth: 2, padding: 16 },
+  answer: { borderRadius: 16, borderWidth: 2, borderColor: '#E5E5E5', backgroundColor: '#F7F7F7', padding: 16 },
   answerText: { fontSize: 16, color: '#333' },
-  next: {
-    marginTop: 24,
-    backgroundColor: '#58CC02',
+  answerSelected: { backgroundColor: '#EDEDED', borderColor: '#DD614A', borderWidth: 3 },
+  navRow: { flexDirection: 'row', marginTop: 24, gap: 12 },
+  navBtn: {
     borderRadius: 16,
     padding: 16,
     alignItems: 'center',
-    borderBottomWidth: 4,
-    borderBottomColor: '#46A302',
+    borderWidth: 2,
+    borderColor: '#E5E5E5',
+    flex: 1,
   },
-  nextText: { color: '#fff', fontWeight: '800', fontSize: 16, letterSpacing: 1 },
+  navBtnText: { color: '#777', fontWeight: '800', fontSize: 16, letterSpacing: 1 },
+  navBtnDisabled: { opacity: 0.35 },
+  navBtnTextDisabled: { color: '#bbb' },
+  navBtnHighlight: { backgroundColor: '#DD614A', borderColor: '#C04535' },
+  navBtnHighlightText: { color: '#fff' },
 });

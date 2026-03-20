@@ -30,7 +30,6 @@ export default function PoolModeScreen() {
         />
         <RoundedButton
           title="MISSED ONLY"
-          outline
           onPress={() => router.push(`/review/${pool}/session?mode=missed`)}
         />
       </YStack>
