@@ -10,6 +10,7 @@ import {
   shuffleAnswerOrder,
   weightedPickQuestion,
   getHintData,
+  getBookReference,
 } from '../../../lib/questions';
 import { parseFigureRef, getFigureSource } from '../../../lib/figures';
 import { supabase } from '../../../lib/supabase';
@@ -125,6 +126,7 @@ export default function ReviewSession() {
   const figureRef = parseFigureRef(question.question);
   const figureSource = figureRef ? getFigureSource(figureRef) : null;
   const hintData = getHintData(pool, question.id);
+  const bookRef = getBookReference(question.id);
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
@@ -132,6 +134,12 @@ export default function ReviewSession() {
         <Text style={{ fontSize: 28, color: '#333' }}>←</Text>
       </Pressable>
       <Text style={styles.questionId}>{question.id}</Text>
+      {bookRef && (
+        <Text style={styles.bookRef}>
+          {bookRef.book} — Ch. {bookRef.chapter}, Sec. {bookRef.section}
+          {bookRef.page != null ? `, p. ${bookRef.page}` : ''}
+        </Text>
+      )}
       <Text style={styles.question}>{question.question}</Text>
 
       {figureSource && (
@@ -212,7 +220,8 @@ export default function ReviewSession() {
 
 const styles = StyleSheet.create({
   container: { padding: 24, paddingTop: 60, paddingBottom: 40 },
-  questionId: { fontSize: 12, color: '#aaa', marginBottom: 4 },
+  questionId: { fontSize: 12, color: '#aaa', marginBottom: 2 },
+  bookRef: { fontSize: 12, color: '#999', marginBottom: 8, fontStyle: 'italic' as const },
   question: { fontSize: 18, fontWeight: '700', color: '#333', marginBottom: 24, lineHeight: 26 },
   answers: { gap: 12 },
   answer: {

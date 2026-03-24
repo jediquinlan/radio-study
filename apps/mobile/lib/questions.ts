@@ -10,6 +10,8 @@ import technicianHints from '../assets/images/data/technician-2022-2026-hints.js
 import generalHints from '../assets/images/data/general-2023-2027-hints.json';
 import extraHints from '../assets/images/data/extra-2024-2028-hints.json';
 
+import bookReferencesData from '../assets/images/data/book-references.json';
+
 export type PoolId = 'technician' | 'general' | 'extra';
 
 export interface Question {
@@ -63,6 +65,23 @@ const HINTS: Record<PoolId, Record<string, HintData>> = {
 /** Returns hint and explanation for a question, or undefined if not found. */
 export function getHintData(pool: PoolId, questionId: string): HintData | undefined {
   return HINTS[pool]?.[questionId];
+}
+
+export interface BookReference {
+  question: string;
+  chapter: number;
+  section: number;
+  page: number | null;
+  book: string;
+}
+
+const BOOK_REFS = new Map<string, BookReference>(
+  (bookReferencesData as BookReference[]).map((r) => [r.question, r])
+);
+
+/** Returns book/chapter/section reference for a question, or undefined if not mapped. */
+export function getBookReference(questionId: string): BookReference | undefined {
+  return BOOK_REFS.get(questionId);
 }
 
 function parseQuestion(raw: any, pool: PoolId): Question {
