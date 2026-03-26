@@ -150,6 +150,13 @@ export default function ReviewSession() {
       <Pressable onPress={() => router.back()} hitSlop={12} style={{ alignSelf: 'flex-start', marginBottom: 8 }}>
         <Text style={{ fontSize: 28, color: '#333' }}>←</Text>
       </Pressable>
+      <View style={styles.characterContainer}>
+        <Character
+          width={120}
+          height={144}
+          onActorRef={(send) => { characterSend.current = send; }}
+        />
+      </View>
       <Text style={styles.questionId}>{question.id}</Text>
       {bookRef && (
         <Text style={styles.bookRef}>
@@ -231,13 +238,6 @@ export default function ReviewSession() {
           )}
         </>
       )}
-      <View style={styles.characterContainer}>
-        <Character
-          width={120}
-          height={144}
-          onActorRef={(send) => { characterSend.current = send; }}
-        />
-      </View>
     </ScrollView>
   );
 }
@@ -294,7 +294,6 @@ const styles = StyleSheet.create({
   nextText: { color: '#fff', fontWeight: '800', fontSize: 16, letterSpacing: 1 },
   characterContainer: {
     alignItems: 'center',
-    marginTop: 24,
-    paddingBottom: 20,
+    marginBottom: 12,
   },
 });

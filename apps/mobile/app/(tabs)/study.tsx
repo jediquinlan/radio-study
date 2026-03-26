@@ -15,6 +15,9 @@ export default function StudyScreen() {
       contentContainerStyle={{ padding: 24, paddingTop: 80, paddingBottom: 40 }}
       keyboardShouldPersistTaps="handled"
     >
+      <View style={styles.characterContainer}>
+        <Character width={120} height={144} />
+      </View>
       <ScreenTitle>Review Mode</ScreenTitle>
       <Subtitle>Review questions by subelement or randomly. Questions you miss will appear more often.</Subtitle>
 
@@ -28,10 +31,6 @@ export default function StudyScreen() {
           />
         ))}
       </YStack>
-
-      <View style={styles.characterContainer}>
-        <Character width={120} height={144} />
-      </View>
     </ScrollView>
   );
 }
@@ -39,7 +38,6 @@ export default function StudyScreen() {
 const styles = StyleSheet.create({
   characterContainer: {
     alignItems: 'center',
-    marginTop: 32,
-    paddingBottom: 20,
+    marginBottom: 12,
   },
 });

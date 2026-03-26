@@ -16,6 +16,9 @@ export default function PoolModeScreen() {
       keyboardShouldPersistTaps="handled"
     >
       <BackButton onPress={() => router.back()} />
+      <View style={styles.characterContainer}>
+        <Character width={120} height={144} />
+      </View>
       <ScreenTitle>{POOL_LABELS[pool]}</ScreenTitle>
       <Subtitle>Choose a study mode</Subtitle>
 
@@ -68,10 +71,6 @@ export default function PoolModeScreen() {
           );
         })}
       </YStack>
-
-      <View style={styles.characterContainer}>
-        <Character width={120} height={144} />
-      </View>
     </ScrollView>
   );
 }
@@ -79,8 +78,7 @@ export default function PoolModeScreen() {
 const styles = StyleSheet.create({
   characterContainer: {
     alignItems: 'center',
-    marginTop: 32,
-    paddingBottom: 20,
+    marginBottom: 12,
   },
   card: {
     backgroundColor: '#F7F7F7',
