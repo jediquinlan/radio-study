@@ -50,15 +50,6 @@ export default function ReviewSession() {
 
   // Character state machine control
   const characterSend = useRef<((event: CharacterEvent) => void) | null>(null);
-  const reactionTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-
-  const triggerReaction = useCallback((mood: 'SET_HAPPY' | 'SET_SAD') => {
-    if (reactionTimer.current) clearTimeout(reactionTimer.current);
-    characterSend.current?.({ type: mood });
-    reactionTimer.current = setTimeout(() => {
-      characterSend.current?.({ type: 'SET_NORMAL' });
-    }, 1000);
-  }, []);
 
   // Load existing performance data on mount
   useEffect(() => {
@@ -114,7 +105,7 @@ export default function ReviewSession() {
     setSelected(displayIdx);
     setShowCorrect(true);
     const isCorrect = originalIdx === question.correct;
-    triggerReaction(isCorrect ? 'SET_HAPPY' : 'SET_SAD');
+    characterSend.current?.({ type: isCorrect ? 'SET_HAPPY' : 'SET_SAD' });
 
     // Update local performance map
     const rec = performance.get(question.id) ?? { question_id: question.id, total: 0, correct: 0 };
@@ -134,7 +125,6 @@ export default function ReviewSession() {
   }
 
   function handleNext() {
-    if (reactionTimer.current) clearTimeout(reactionTimer.current);
     characterSend.current?.({ type: 'SET_NORMAL' });
     pickNext();
   }
