@@ -1,8 +1,9 @@
-import { ScrollView } from 'react-native';
+import { ScrollView, View, StyleSheet } from 'react-native';
 import { useRouter } from 'expo-router';
 import { YStack } from 'tamagui';
 import { ScreenTitle, Subtitle, SectionLabel, RoundedButton } from '@radio-lingo/ui';
 import { POOL_LABELS, PoolId } from '../../lib/questions';
+import { Character } from '@radio-lingo/character';
 
 const POOLS: PoolId[] = ['technician', 'general', 'extra'];
 
@@ -27,6 +28,18 @@ export default function StudyScreen() {
           />
         ))}
       </YStack>
+
+      <View style={styles.characterContainer}>
+        <Character width={120} height={144} />
+      </View>
     </ScrollView>
   );
 }
+
+const styles = StyleSheet.create({
+  characterContainer: {
+    alignItems: 'center',
+    marginTop: 32,
+    paddingBottom: 20,
+  },
+});

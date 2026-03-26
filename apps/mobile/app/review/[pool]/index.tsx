@@ -3,6 +3,7 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import { YStack } from 'tamagui';
 import { ScreenTitle, Subtitle, SectionLabel, RoundedButton, BackButton } from '@radio-lingo/ui';
 import { PoolId, POOL_LABELS, getSubelements, getSubelementMeta } from '../../../lib/questions';
+import { Character } from '@radio-lingo/character';
 
 export default function PoolModeScreen() {
   const { pool } = useLocalSearchParams<{ pool: PoolId }>();
@@ -67,11 +68,20 @@ export default function PoolModeScreen() {
           );
         })}
       </YStack>
+
+      <View style={styles.characterContainer}>
+        <Character width={120} height={144} />
+      </View>
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
+  characterContainer: {
+    alignItems: 'center',
+    marginTop: 32,
+    paddingBottom: 20,
+  },
   card: {
     backgroundColor: '#F7F7F7',
     borderRadius: 16,

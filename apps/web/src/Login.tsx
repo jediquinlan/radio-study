@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { YStack, Text } from "tamagui";
 import {
   RoundedButton,
@@ -8,12 +8,23 @@ import {
   colors,
 } from "@radio-lingo/ui";
 import { supabase } from "./supabase";
+import { WebCharacter } from "./WebCharacter";
 
 export function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [mood, setMood] = useState<"normal" | "happy">("normal");
+
+  // Cycle between normal and happy every few seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setMood("happy");
+      setTimeout(() => setMood("normal"), 1500);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, []);
 
   const handleLogin = async () => {
     setLoading(true);
@@ -36,7 +47,8 @@ export function Login() {
       minHeight="100vh"
       backgroundColor={colors.white}
     >
-      <YStack gap={12} width={360} padding={24}>
+      <YStack gap={12} width={360} padding={24} alignItems="center">
+        <WebCharacter width={140} height={168} mood={mood} />
         <ScreenTitle>Radio Lingo</ScreenTitle>
         <Subtitle>Sign in to continue</Subtitle>
 

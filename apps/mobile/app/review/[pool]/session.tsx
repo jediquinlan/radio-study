@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { ScrollView, View, Text, Pressable, StyleSheet, Image, useWindowDimensions } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import {
@@ -14,6 +14,8 @@ import {
 } from '../../../lib/questions';
 import { parseFigureRef, getFigureSource } from '../../../lib/figures';
 import { supabase } from '../../../lib/supabase';
+import { Character } from '@radio-lingo/character';
+import type { CharacterEvent } from '@radio-lingo/character';
 
 type Mode = 'random' | 'subelement' | 'missed';
 
@@ -45,6 +47,18 @@ export default function ReviewSession() {
   const [selected, setSelected] = useState<number | null>(null);
   const [showCorrect, setShowCorrect] = useState(false);
   const [showHint, setShowHint] = useState(false);
+
+  // Character state machine control
+  const characterSend = useRef<((event: CharacterEvent) => void) | null>(null);
+  const reactionTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const triggerReaction = useCallback((mood: 'SET_HAPPY' | 'SET_SAD') => {
+    if (reactionTimer.current) clearTimeout(reactionTimer.current);
+    characterSend.current?.({ type: mood });
+    reactionTimer.current = setTimeout(() => {
+      characterSend.current?.({ type: 'SET_NORMAL' });
+    }, 1000);
+  }, []);
 
   // Load existing performance data on mount
   useEffect(() => {
@@ -100,6 +114,7 @@ export default function ReviewSession() {
     setSelected(displayIdx);
     setShowCorrect(true);
     const isCorrect = originalIdx === question.correct;
+    triggerReaction(isCorrect ? 'SET_HAPPY' : 'SET_SAD');
 
     // Update local performance map
     const rec = performance.get(question.id) ?? { question_id: question.id, total: 0, correct: 0 };
@@ -119,6 +134,8 @@ export default function ReviewSession() {
   }
 
   function handleNext() {
+    if (reactionTimer.current) clearTimeout(reactionTimer.current);
+    characterSend.current?.({ type: 'SET_NORMAL' });
     pickNext();
   }
 
@@ -214,6 +231,13 @@ export default function ReviewSession() {
           )}
         </>
       )}
+      <View style={styles.characterContainer}>
+        <Character
+          width={120}
+          height={144}
+          onActorRef={(send) => { characterSend.current = send; }}
+        />
+      </View>
     </ScrollView>
   );
 }
@@ -268,4 +292,9 @@ const styles = StyleSheet.create({
     borderBottomColor: '#46A302',
   },
   nextText: { color: '#fff', fontWeight: '800', fontSize: 16, letterSpacing: 1 },
+  characterContainer: {
+    alignItems: 'center',
+    marginTop: 24,
+    paddingBottom: 20,
+  },
 });
