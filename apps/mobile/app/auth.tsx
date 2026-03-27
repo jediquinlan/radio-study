@@ -39,6 +39,7 @@ export default function AuthGate() {
       email,
       password,
       options: {
+        emailRedirectTo: `${process.env.EXPO_PUBLIC_WEB_URL}/confirmed`,
         data: {
           call_sign: callSign,
           first_name: firstName,

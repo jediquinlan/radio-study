@@ -5,12 +5,19 @@ import { supabase } from "./supabase";
 import type { Session } from "@supabase/supabase-js";
 import { Login } from "./Login";
 import { Home } from "./Home";
+import { Confirmed } from "./Confirmed";
 
 export default function App() {
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
+  const [confirmed, setConfirmed] = useState(false);
 
   useEffect(() => {
+    // Check if this is the email confirmation redirect
+    if (window.location.pathname === "/confirmed") {
+      setConfirmed(true);
+    }
+
     supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session);
       setLoading(false);
@@ -30,7 +37,7 @@ export default function App() {
   return (
     <TamaguiProvider config={tamaguiConfig}>
       <Theme name="light">
-        {session ? <Home session={session} /> : <Login />}
+        {confirmed ? <Confirmed /> : session ? <Home session={session} /> : <Login />}
       </Theme>
     </TamaguiProvider>
   );
