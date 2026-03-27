@@ -3,6 +3,7 @@ import type { Session } from "@supabase/supabase-js";
 import { colors } from "@radio-lingo/ui";
 import { supabase } from "./supabase";
 import { ProgressChart, type PoolData } from "./ProgressChart";
+import { AdminPanel } from "./AdminPanel";
 import {
   type PoolId,
   POOL_LABELS,
@@ -18,6 +19,9 @@ interface HomeProps {
 export function Home({ session }: HomeProps) {
   const [poolData, setPoolData] = useState<PoolData[]>([]);
   const [loading, setLoading] = useState(true);
+  const [showAdmin, setShowAdmin] = useState(false);
+
+  const isAdmin = session.user.user_metadata?.is_admin === true;
 
   useEffect(() => {
     loadProgress();
@@ -65,6 +69,10 @@ export function Home({ session }: HomeProps) {
     setLoading(false);
   }
 
+  if (showAdmin) {
+    return <AdminPanel session={session} onBack={() => setShowAdmin(false)} />;
+  }
+
   return (
     <div
       style={{
@@ -99,24 +107,47 @@ export function Home({ session }: HomeProps) {
         </>
       )}
 
-      <button
-        onClick={() => supabase.auth.signOut()}
-        style={{
-          marginTop: 32,
-          borderRadius: 16,
-          backgroundColor: colors.white,
-          border: `2px solid ${colors.grayBorder}`,
-          padding: "14px 24px",
-          fontSize: 16,
-          fontWeight: 800,
-          letterSpacing: 1,
-          textTransform: "uppercase",
-          cursor: "pointer",
-          color: colors.textPrimary,
-        }}
-      >
-        Sign Out
-      </button>
+      <div style={{ display: "flex", gap: 12, marginTop: 32 }}>
+        {isAdmin && (
+          <button
+            onClick={() => setShowAdmin(true)}
+            style={{
+              borderRadius: 16,
+              backgroundColor: colors.primary,
+              border: "none",
+              borderBottomWidth: 4,
+              borderBottomStyle: "solid",
+              borderBottomColor: colors.primaryDark,
+              padding: "14px 24px",
+              fontSize: 16,
+              fontWeight: 800,
+              letterSpacing: 1,
+              textTransform: "uppercase",
+              cursor: "pointer",
+              color: colors.white,
+            }}
+          >
+            Admin Panel
+          </button>
+        )}
+        <button
+          onClick={() => supabase.auth.signOut()}
+          style={{
+            borderRadius: 16,
+            backgroundColor: colors.white,
+            border: `2px solid ${colors.grayBorder}`,
+            padding: "14px 24px",
+            fontSize: 16,
+            fontWeight: 800,
+            letterSpacing: 1,
+            textTransform: "uppercase",
+            cursor: "pointer",
+            color: colors.textPrimary,
+          }}
+        >
+          Sign Out
+        </button>
+      </div>
     </div>
   );
 }
