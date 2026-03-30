@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import type { Session } from "@supabase/supabase-js";
-import { colors } from "@radio-lingo/ui";
+import { colors, APP_NAME } from "@radio-lingo/ui";
 import { supabase } from "./supabase";
 import { ProgressChart, type PoolData } from "./ProgressChart";
 import { AdminPanel } from "./AdminPanel";
@@ -84,7 +84,7 @@ export function Home({ session }: HomeProps) {
       }}
     >
       <h1 style={{ fontSize: 28, fontWeight: 800, color: colors.textPrimary, margin: "0 0 4px 0" }}>
-        Radio Lingo
+        {APP_NAME}
       </h1>
       <p style={{ color: colors.grayText, margin: "0 0 24px 0", fontSize: 16 }}>
         Signed in as {session.user.email}

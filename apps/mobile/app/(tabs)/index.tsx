@@ -1,6 +1,9 @@
-import { ScrollView, Linking } from 'react-native';
+import { ScrollView, View, Text, Pressable, StyleSheet, Linking } from 'react-native';
+import { useRouter } from 'expo-router';
 import { YStack } from 'tamagui';
-import { ScreenTitle, Subtitle, SectionLabel, RoundedButton } from '@radio-lingo/ui';
+import { ScreenTitle, SectionLabel, RoundedButton, APP_NAME } from '@radio-lingo/ui';
+import { Character } from '@radio-lingo/character';
+import { SpeechBubble } from '../../components/SpeechBubble';
 
 const RESOURCES = [
   { label: 'Order ARRL Study Guides', url: 'https://www.arrl.org/shop/Licensing-Education/' },
@@ -11,15 +14,38 @@ const RESOURCES = [
 ];
 
 export default function HomeScreen() {
+  const router = useRouter();
+
   return (
     <ScrollView
       contentContainerStyle={{ padding: 24, paddingTop: 80, paddingBottom: 40 }}
       keyboardShouldPersistTaps="handled"
     >
-      <ScreenTitle>Radio Lingo</ScreenTitle>
-      <Subtitle>Study for your amateur radio license</Subtitle>
+      <SpeechBubble>
+        <Text style={styles.bubbleText}>
+          Welcome to {APP_NAME}! I'm here to help you earn your amateur radio license.
+          {'\n\n'}Use the tabs below to get started:{'\n\n'}
+        </Text>
+        <Pressable onPress={() => router.push('/(tabs)/study')}>
+          <Text style={styles.bubbleLink}>📖 Study — Review questions by chapter or randomly</Text>
+        </Pressable>
+        <Pressable onPress={() => router.push('/(tabs)/exam')}>
+          <Text style={styles.bubbleLink}>📝 Exam — Take timed practice exams</Text>
+        </Pressable>
+        <Pressable onPress={() => router.push('/(tabs)/progress')}>
+          <Text style={styles.bubbleLink}>📊 Progress — Track how you're doing</Text>
+        </Pressable>
+        <Text style={styles.bubbleText}>
+          {'\n'}I cover Technician, General, and Extra class. Let's go!
+        </Text>
+      </SpeechBubble>
+      <View style={styles.characterContainer}>
+        <Character width={140} height={171} />
+      </View>
 
-      <YStack gap={12} marginTop={32}>
+      <ScreenTitle>{APP_NAME}</ScreenTitle>
+
+      <YStack gap={12} marginTop={24}>
         <SectionLabel>Resources</SectionLabel>
         {RESOURCES.map((r) => (
           <RoundedButton
@@ -32,3 +58,25 @@ export default function HomeScreen() {
     </ScrollView>
   );
 }
+
+const styles = StyleSheet.create({
+  characterContainer: {
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  bubbleText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#333',
+    lineHeight: 23,
+    textAlign: 'center',
+  },
+  bubbleLink: {
+    fontSize: 16,
+    fontWeight: '700',
+    color: '#DD614A',
+    lineHeight: 23,
+    textAlign: 'center',
+    paddingVertical: 4,
+  },
+});

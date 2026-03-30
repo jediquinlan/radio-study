@@ -6,6 +6,7 @@ import {
   ScreenTitle,
   Subtitle,
   colors,
+  APP_NAME,
 } from "@radio-lingo/ui";
 import { supabase } from "./supabase";
 import { WebCharacter } from "./WebCharacter";
@@ -49,7 +50,7 @@ export function Login() {
     >
       <YStack gap={12} width={360} padding={24} alignItems="center">
         <WebCharacter width={140} height={168} mood={mood} />
-        <ScreenTitle>Radio Lingo</ScreenTitle>
+        <ScreenTitle>{APP_NAME}</ScreenTitle>
         <Subtitle>Sign in to continue</Subtitle>
 
         <StyledInput

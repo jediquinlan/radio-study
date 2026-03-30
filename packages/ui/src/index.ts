@@ -1,6 +1,6 @@
 export { tamaguiConfig } from "./tamagui.config";
 export type { AppConfig } from "./tamagui.config";
-export { colors } from "./theme";
+export { colors, APP_NAME } from "./theme";
 export { BackButton } from "./BackButton";
 export { RoundedButton } from "./RoundedButton";
 export { StyledInput } from "./StyledInput";

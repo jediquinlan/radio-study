@@ -1,5 +1,5 @@
 import { YStack, Text } from "tamagui";
-import { ScreenTitle, Subtitle, colors } from "@radio-lingo/ui";
+import { ScreenTitle, Subtitle, colors, APP_NAME } from "@radio-lingo/ui";
 import { WebCharacter } from "./WebCharacter";
 
 export function Confirmed() {
@@ -14,7 +14,7 @@ export function Confirmed() {
       <YStack gap={12} width={360} padding={24} alignItems="center">
         <WebCharacter width={140} height={168} mood="happy" />
         <ScreenTitle>You're Confirmed!</ScreenTitle>
-        <Subtitle>Your email has been verified. Open the Radio Lingo app on your phone to start studying.</Subtitle>
+        <Subtitle>Your email has been verified. Open the {APP_NAME} app on your phone to start studying.</Subtitle>
       </YStack>
     </YStack>
   );

@@ -16,6 +16,7 @@ import { parseFigureRef, getFigureSource } from '../../../lib/figures';
 import { supabase } from '../../../lib/supabase';
 import { Character } from '@radio-lingo/character';
 import type { CharacterEvent } from '@radio-lingo/character';
+import { SpeechBubble } from '../../../components/SpeechBubble';
 
 type Mode = 'random' | 'subelement' | 'missed';
 
@@ -140,21 +141,23 @@ export default function ReviewSession() {
       <Pressable onPress={() => router.back()} hitSlop={12} style={{ alignSelf: 'flex-start', marginBottom: 8 }}>
         <Text style={{ fontSize: 28, color: '#333' }}>←</Text>
       </Pressable>
+      <SpeechBubble>
+        <Text style={styles.questionId}>{question.id}</Text>
+        {bookRef && (
+          <Text style={styles.bookRef}>
+            {bookRef.book} — Ch. {bookRef.chapter}, Sec. {bookRef.section}
+            {bookRef.page != null ? `, p. ${bookRef.page}` : ''}
+          </Text>
+        )}
+        <Text style={styles.bubbleQuestion}>{question.question}</Text>
+      </SpeechBubble>
       <View style={styles.characterContainer}>
         <Character
-          width={120}
-          height={144}
+          width={100}
+          height={122}
           onActorRef={(send) => { characterSend.current = send; }}
         />
       </View>
-      <Text style={styles.questionId}>{question.id}</Text>
-      {bookRef && (
-        <Text style={styles.bookRef}>
-          {bookRef.book} — Ch. {bookRef.chapter}, Sec. {bookRef.section}
-          {bookRef.page != null ? `, p. ${bookRef.page}` : ''}
-        </Text>
-      )}
-      <Text style={styles.question}>{question.question}</Text>
 
       {figureSource && (
         <Image
@@ -234,9 +237,9 @@ export default function ReviewSession() {
 
 const styles = StyleSheet.create({
   container: { padding: 24, paddingTop: 60, paddingBottom: 40 },
-  questionId: { fontSize: 12, color: '#aaa', marginBottom: 2 },
-  bookRef: { fontSize: 12, color: '#999', marginBottom: 8, fontStyle: 'italic' as const },
-  question: { fontSize: 18, fontWeight: '700', color: '#333', marginBottom: 24, lineHeight: 26 },
+  questionId: { fontSize: 11, color: '#aaa', marginBottom: 2, textAlign: 'center' as const },
+  bookRef: { fontSize: 11, color: '#999', marginBottom: 6, fontStyle: 'italic' as const, textAlign: 'center' as const },
+  bubbleQuestion: { fontSize: 16, fontWeight: '600', color: '#333', lineHeight: 23, textAlign: 'center' as const },
   answers: { gap: 12 },
   answer: {
     borderRadius: 16,

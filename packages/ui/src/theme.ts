@@ -1,3 +1,5 @@
+export const APP_NAME = "Roger That Radio";
+
 export const colors = {
   primary: "#DD614A",
   primaryDark: "#C04535",
