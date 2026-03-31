@@ -54,7 +54,10 @@ export default function AuthGate() {
       },
     });
     if (error) Alert.alert(error.message);
-    else Alert.alert('Check your email for the confirmation link!');
+    else {
+      Alert.alert('Check your email for the confirmation link!');
+      setMode('signIn');
+    }
     setLoading(false);
   }
 

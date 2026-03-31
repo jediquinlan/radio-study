@@ -53,20 +53,22 @@ export function Login() {
         <ScreenTitle>{APP_NAME}</ScreenTitle>
         <Subtitle>Sign in to continue</Subtitle>
 
-        <StyledInput
-          placeholder="Email"
-          value={email}
-          onChangeText={setEmail}
-          autoCapitalize="none"
-          keyboardType="email-address"
-        />
-        <StyledInput
-          placeholder="Password"
-          value={password}
-          onChangeText={setPassword}
-          secureTextEntry
-          autoCapitalize="none"
-        />
+        <YStack gap={12} width="100%" marginTop={8}>
+          <StyledInput
+            placeholder="Email"
+            value={email}
+            onChangeText={setEmail}
+            autoCapitalize="none"
+            keyboardType="email-address"
+          />
+          <StyledInput
+            placeholder="Password"
+            value={password}
+            onChangeText={setPassword}
+            secureTextEntry
+            autoCapitalize="none"
+          />
+        </YStack>
 
         {error && (
           <Text color={colors.red} fontSize={14}>
@@ -74,11 +76,13 @@ export function Login() {
           </Text>
         )}
 
-        <RoundedButton
-          title={loading ? "SIGNING IN..." : "SIGN IN"}
-          onPress={handleLogin}
-          disabled={loading}
-        />
+        <YStack width="100%" marginTop={12}>
+          <RoundedButton
+            title={loading ? "SIGNING IN..." : "SIGN IN"}
+            onPress={handleLogin}
+            disabled={loading}
+          />
+        </YStack>
       </YStack>
     </YStack>
   );

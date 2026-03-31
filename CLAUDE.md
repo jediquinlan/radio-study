@@ -1,6 +1,6 @@
 # Radio Lingo
 
-Amateur radio license study app (Duolingo-style) for iOS. Covers Technician, General, and Extra license pools.
+Amateur radio license study app for iOS and Android. Covers Technician, General, and Extra license pools.
 
 ## Tech Stack
 

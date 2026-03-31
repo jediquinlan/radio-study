@@ -70,7 +70,7 @@ export function Home({ session }: HomeProps) {
   }
 
   if (showAdmin) {
-    return <AdminPanel session={session} onBack={() => setShowAdmin(false)} />;
+    return <AdminPanel onBack={() => setShowAdmin(false)} />;
   }
 
   return (

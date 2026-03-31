@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import type { Session } from "@supabase/supabase-js";
 import { colors } from "@radio-lingo/ui";
 import { supabase } from "./supabase";
 import { ProgressChart, type PoolData } from "./ProgressChart";
@@ -12,7 +11,6 @@ import {
 } from "./questions";
 
 interface AdminPanelProps {
-  session: Session;
   onBack: () => void;
 }
 
@@ -26,7 +24,7 @@ interface UserSummary {
   totalCorrect: number;
 }
 
-export function AdminPanel({ session, onBack }: AdminPanelProps) {
+export function AdminPanel({ onBack }: AdminPanelProps) {
   const [users, setUsers] = useState<UserSummary[]>([]);
   const [selectedUser, setSelectedUser] = useState<UserSummary | null>(null);
   const [poolData, setPoolData] = useState<PoolData[]>([]);
@@ -57,9 +55,7 @@ export function AdminPanel({ session, onBack }: AdminPanelProps) {
       userMap.set(r.user_id, u);
     }
 
-    // Get user profiles from auth (via user metadata in responses)
-    // We'll fetch profiles from the profiles table if it exists,
-    // otherwise just show user IDs
+    // Get user profiles
     const { data: profiles } = await supabase
       .from("profiles")
       .select("id, email, call_sign, first_name, last_name");
