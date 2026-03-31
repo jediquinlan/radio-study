@@ -23,8 +23,8 @@ export default function HomeScreen() {
     >
       <SpeechBubble>
         <Text style={styles.bubbleText}>
-          Welcome to {APP_NAME}! I'm here to help you earn your amateur radio license.
-          {'\n\n'}Use the tabs below to get started:{'\n\n'}
+          Welcome to {APP_NAME}!
+          {'\n\n'}Use the tabs below to get started:
         </Text>
         <Pressable onPress={() => router.push('/(tabs)/study')}>
           <Text style={styles.bubbleLink}>📖 Study — Review questions by chapter or randomly</Text>
@@ -35,9 +35,6 @@ export default function HomeScreen() {
         <Pressable onPress={() => router.push('/(tabs)/progress')}>
           <Text style={styles.bubbleLink}>📊 Progress — Track how you're doing</Text>
         </Pressable>
-        <Text style={styles.bubbleText}>
-          {'\n'}I cover Technician, General, and Extra class. Let's go!
-        </Text>
       </SpeechBubble>
       <View style={styles.characterContainer}>
         <Character width={140} height={171} />

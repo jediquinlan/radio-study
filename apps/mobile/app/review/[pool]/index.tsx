@@ -1,9 +1,10 @@
 import { ScrollView, View, Text, Pressable, StyleSheet } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { YStack } from 'tamagui';
-import { ScreenTitle, Subtitle, SectionLabel, RoundedButton, BackButton } from '@radio-lingo/ui';
+import { ScreenTitle, SectionLabel, RoundedButton, BackButton } from '@radio-lingo/ui';
 import { PoolId, POOL_LABELS, getSubelements, getSubelementMeta } from '../../../lib/questions';
 import { Character } from '@radio-lingo/character';
+import { SpeechBubble } from '../../../components/SpeechBubble';
 
 export default function PoolModeScreen() {
   const { pool } = useLocalSearchParams<{ pool: PoolId }>();
@@ -16,11 +17,17 @@ export default function PoolModeScreen() {
       keyboardShouldPersistTaps="handled"
     >
       <BackButton onPress={() => router.back()} />
+      <SpeechBubble>
+        <Text style={{ fontSize: 24, fontWeight: '800', color: '#333', textAlign: 'center' }}>
+          {POOL_LABELS[pool]}
+        </Text>
+        <Text style={{ fontSize: 16, fontWeight: '600', color: '#777', textAlign: 'center', marginTop: 4 }}>
+          Choose a study mode
+        </Text>
+      </SpeechBubble>
       <View style={styles.characterContainer}>
         <Character width={120} height={144} />
       </View>
-      <ScreenTitle>{POOL_LABELS[pool]}</ScreenTitle>
-      <Subtitle>Choose a study mode</Subtitle>
 
       <YStack gap={12} marginTop={32}>
         <SectionLabel>Mode</SectionLabel>

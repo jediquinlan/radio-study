@@ -43,6 +43,7 @@ export default function ReviewSession() {
   );
   const [performance, setPerformance] = useState<Map<string, PerformanceRecord>>(new Map());
   const [recentIds, setRecentIds] = useState<Set<string>>(new Set());
+  const [ready, setReady] = useState(false);
   const [question, setQuestion] = useState<Question>(() => questionPool[0]);
   const [order, setOrder] = useState<number[]>(() => shuffleAnswerOrder(questionPool[0]));
   const [selected, setSelected] = useState<number | null>(null);
@@ -56,7 +57,10 @@ export default function ReviewSession() {
   useEffect(() => {
     async function loadPerformance() {
       const { data: { session } } = await supabase.auth.getSession();
-      if (!session) return;
+      if (!session) {
+        setReady(true);
+        return;
+      }
       const qIds = questionPool.map((q) => q.id);
       const { data } = await supabase
         .from('user_responses')
@@ -78,6 +82,7 @@ export default function ReviewSession() {
       const first = weightedPickQuestion(questionPool, map, new Set());
       setQuestion(first);
       setOrder(shuffleAnswerOrder(first));
+      setReady(true);
     }
     loadPerformance();
   }, []);
@@ -135,6 +140,8 @@ export default function ReviewSession() {
   const figureSource = figureRef ? getFigureSource(figureRef) : null;
   const hintData = getHintData(pool, question.id);
   const bookRef = getBookReference(question.id);
+
+  if (!ready) return null;
 
   return (
     <ScrollView contentContainerStyle={styles.container}>

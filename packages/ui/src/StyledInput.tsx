@@ -8,6 +8,7 @@ export const StyledInput = styled(Input, {
   borderRadius: 16,
   paddingHorizontal: 16,
   paddingVertical: 14,
+  height: 52,
   fontSize: 16,
   color: colors.textPrimary,
   placeholderTextColor: colors.grayText,

@@ -1,5 +1,5 @@
 import { Tabs } from 'expo-router';
-import { Ionicons } from '@expo/vector-icons';
+import { Text } from 'react-native';
 import { colors } from '@radio-lingo/ui';
 
 export default function TabLayout() {
@@ -23,8 +23,8 @@ export default function TabLayout() {
         name="index"
         options={{
           title: 'Home',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="home-outline" size={size} color={color} />
+          tabBarIcon: ({ size }) => (
+            <Text style={{ fontSize: size }}>🏠</Text>
           ),
         }}
       />
@@ -32,8 +32,8 @@ export default function TabLayout() {
         name="study"
         options={{
           title: 'Study',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="book-outline" size={size} color={color} />
+          tabBarIcon: ({ size }) => (
+            <Text style={{ fontSize: size }}>📖</Text>
           ),
         }}
       />
@@ -41,8 +41,8 @@ export default function TabLayout() {
         name="exam"
         options={{
           title: 'Exam',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="document-text-outline" size={size} color={color} />
+          tabBarIcon: ({ size }) => (
+            <Text style={{ fontSize: size }}>📝</Text>
           ),
         }}
       />
@@ -50,8 +50,8 @@ export default function TabLayout() {
         name="progress"
         options={{
           title: 'Progress',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="bar-chart-outline" size={size} color={color} />
+          tabBarIcon: ({ size }) => (
+            <Text style={{ fontSize: size }}>📊</Text>
           ),
         }}
       />
