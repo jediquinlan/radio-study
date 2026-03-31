@@ -2,6 +2,8 @@
 
 Amateur radio license study app for iOS and Android. Covers Technician, General, and Extra class question pools.
 
+Built by KC1YWN
+
 ## Project Structure
 
 ```
@@ -282,8 +284,24 @@ This makes email confirmation work — users click the link in their email and l
 
 Question data lives in `apps/mobile/assets/images/data/` as JSON files:
 
-- `technician-2022-2026.json` + `-syllabus.json` + `-hints.json`
-- `general-2023-2027.json` + `-syllabus.json` + `-hints.json`
-- `extra-2024-2028.json` + `-syllabus.json` + `-hints.json`
+- `technician-2022-2026.json` + `-syllabus.json` + `-hints.json` + `-book-references.json`
+- `general-2023-2027.json` + `-syllabus.json` + `-hints.json` + `-book-references.json`
+- `extra-2024-2028.json` + `-syllabus.json` + `-hints.json` + `-book-references.json`
 
 To update pools, replace the JSON files with new NCVEC data in the same format.
+
+### Book References
+
+Each pool has a `-book-references.json` file that maps questions to study guide chapters. Format:
+
+```json
+[
+  {
+    "question": "T1A01",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL Ham Radio License Manual"
+  }
+]
+```

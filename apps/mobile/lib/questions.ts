@@ -10,7 +10,9 @@ import technicianHints from '../assets/images/data/technician-2022-2026-hints.js
 import generalHints from '../assets/images/data/general-2023-2027-hints.json';
 import extraHints from '../assets/images/data/extra-2024-2028-hints.json';
 
-import bookReferencesData from '../assets/images/data/book-references.json';
+import technicianBookRefs from '../assets/images/data/technician-2022-2026-book-references.json';
+import generalBookRefs from '../assets/images/data/general-2023-2027-book-references.json';
+import extraBookRefs from '../assets/images/data/extra-2024-2028-book-references.json';
 
 export type PoolId = 'technician' | 'general' | 'extra';
 
@@ -76,7 +78,7 @@ export interface BookReference {
 }
 
 const BOOK_REFS = new Map<string, BookReference>(
-  (bookReferencesData as BookReference[]).map((r) => [r.question, r])
+  ([...technicianBookRefs, ...generalBookRefs, ...extraBookRefs] as BookReference[]).map((r) => [r.question, r])
 );
 
 /** Returns book/chapter/section reference for a question, or undefined if not mapped. */
