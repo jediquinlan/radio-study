@@ -1,1 +1,2991 @@
-[]
+[
+  {
+    "question": "G1A01",
+    "chapter": 3,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1A02",
+    "chapter": 3,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1A03",
+    "chapter": 3,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1A04",
+    "chapter": 3,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1A05",
+    "chapter": 3,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1A06",
+    "chapter": 3,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1A07",
+    "chapter": 3,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1A08",
+    "chapter": 3,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1A09",
+    "chapter": 3,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1A10",
+    "chapter": 3,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1A11",
+    "chapter": 3,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1B01",
+    "chapter": 3,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1B02",
+    "chapter": 3,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1B03",
+    "chapter": 3,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1B04",
+    "chapter": 3,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1B05",
+    "chapter": 3,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1B06",
+    "chapter": 3,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1B07",
+    "chapter": 3,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1B08",
+    "chapter": 3,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1B09",
+    "chapter": 3,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1B10",
+    "chapter": 3,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1B11",
+    "chapter": 3,
+    "section": 15,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1C01",
+    "chapter": 3,
+    "section": 15,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1C02",
+    "chapter": 3,
+    "section": 15,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1C03",
+    "chapter": 3,
+    "section": 15,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1C04",
+    "chapter": 2,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1C05",
+    "chapter": 3,
+    "section": 15,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1C06",
+    "chapter": 3,
+    "section": 15,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1C07",
+    "chapter": 3,
+    "section": 17,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1C09",
+    "chapter": 3,
+    "section": 15,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1C11",
+    "chapter": 3,
+    "section": 15,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1D01",
+    "chapter": 3,
+    "section": 3,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1D02",
+    "chapter": 3,
+    "section": 3,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1D03",
+    "chapter": 3,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1D04",
+    "chapter": 3,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1D05",
+    "chapter": 3,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1D06",
+    "chapter": 3,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1D07",
+    "chapter": 3,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1D08",
+    "chapter": 3,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1D09",
+    "chapter": 3,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1D10",
+    "chapter": 3,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1D11",
+    "chapter": 3,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1D12",
+    "chapter": 3,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1E01",
+    "chapter": 3,
+    "section": 12,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1E02",
+    "chapter": 3,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1E03",
+    "chapter": 6,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1E04",
+    "chapter": 3,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1E05",
+    "chapter": 3,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1E06",
+    "chapter": 3,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1E07",
+    "chapter": 3,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1E08",
+    "chapter": 3,
+    "section": 15,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1E09",
+    "chapter": 6,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1E10",
+    "chapter": 3,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1E11",
+    "chapter": 6,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G1E12",
+    "chapter": 3,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2A01",
+    "chapter": 2,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2A02",
+    "chapter": 2,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2A03",
+    "chapter": 2,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2A04",
+    "chapter": 2,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2A05",
+    "chapter": 2,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2A06",
+    "chapter": 2,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2A07",
+    "chapter": 2,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2A08",
+    "chapter": 2,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2A09",
+    "chapter": 2,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2A10",
+    "chapter": 2,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2A11",
+    "chapter": 2,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2A12",
+    "chapter": 5,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2B01",
+    "chapter": 2,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2B02",
+    "chapter": 2,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2B03",
+    "chapter": 2,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2B04",
+    "chapter": 2,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2B05",
+    "chapter": 2,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2B06",
+    "chapter": 2,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2B07",
+    "chapter": 2,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2B08",
+    "chapter": 2,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2B09",
+    "chapter": 2,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2B10",
+    "chapter": 2,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2B11",
+    "chapter": 2,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2C01",
+    "chapter": 2,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2C02",
+    "chapter": 2,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2C03",
+    "chapter": 2,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2C04",
+    "chapter": 2,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2C05",
+    "chapter": 2,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2C06",
+    "chapter": 2,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2C07",
+    "chapter": 2,
+    "section": 11,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2C08",
+    "chapter": 2,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2C09",
+    "chapter": 2,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2C10",
+    "chapter": 2,
+    "section": 11,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2C11",
+    "chapter": 2,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2D01",
+    "chapter": 3,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2D02",
+    "chapter": 3,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2D03",
+    "chapter": 3,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2D04",
+    "chapter": 7,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2D05",
+    "chapter": 2,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2D06",
+    "chapter": 8,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2D07",
+    "chapter": 2,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2D08",
+    "chapter": 2,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2D09",
+    "chapter": 2,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2D10",
+    "chapter": 3,
+    "section": 15,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2D11",
+    "chapter": 2,
+    "section": 11,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E01",
+    "chapter": 6,
+    "section": 11,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E02",
+    "chapter": 6,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E03",
+    "chapter": 6,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E04",
+    "chapter": 6,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E05",
+    "chapter": 6,
+    "section": 11,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E06",
+    "chapter": 6,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E07",
+    "chapter": 6,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E08",
+    "chapter": 6,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E09",
+    "chapter": 6,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E10",
+    "chapter": 6,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E11",
+    "chapter": 6,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E12",
+    "chapter": 6,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E13",
+    "chapter": 6,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E14",
+    "chapter": 6,
+    "section": 11,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G2E15",
+    "chapter": 6,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A01",
+    "chapter": 8,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A02",
+    "chapter": 8,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A03",
+    "chapter": 8,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A04",
+    "chapter": 8,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A05",
+    "chapter": 8,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A06",
+    "chapter": 8,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A07",
+    "chapter": 8,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A08",
+    "chapter": 8,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A09",
+    "chapter": 8,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A10",
+    "chapter": 8,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A11",
+    "chapter": 8,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A12",
+    "chapter": 8,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A13",
+    "chapter": 8,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3A14",
+    "chapter": 8,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3B01",
+    "chapter": 8,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3B02",
+    "chapter": 8,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3B03",
+    "chapter": 8,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3B04",
+    "chapter": 8,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3B05",
+    "chapter": 8,
+    "section": 10,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3B06",
+    "chapter": 8,
+    "section": 10,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3B07",
+    "chapter": 8,
+    "section": 10,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3B08",
+    "chapter": 8,
+    "section": 10,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3B09",
+    "chapter": 8,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3B10",
+    "chapter": 8,
+    "section": 10,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3B11",
+    "chapter": 8,
+    "section": 10,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3B12",
+    "chapter": 8,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3C01",
+    "chapter": 8,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3C02",
+    "chapter": 8,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3C03",
+    "chapter": 8,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3C04",
+    "chapter": 8,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3C05",
+    "chapter": 8,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3C06",
+    "chapter": 8,
+    "section": 12,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3C07",
+    "chapter": 8,
+    "section": 12,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3C08",
+    "chapter": 8,
+    "section": 12,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3C09",
+    "chapter": 8,
+    "section": 12,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3C10",
+    "chapter": 8,
+    "section": 12,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G3C11",
+    "chapter": 8,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4A01",
+    "chapter": 5,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4A02",
+    "chapter": 5,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4A03",
+    "chapter": 5,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4A04",
+    "chapter": 5,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4A05",
+    "chapter": 5,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4A06",
+    "chapter": 7,
+    "section": 19,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4A07",
+    "chapter": 5,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4A08",
+    "chapter": 5,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4A09",
+    "chapter": 5,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4A10",
+    "chapter": 2,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4A11",
+    "chapter": 6,
+    "section": 12,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4A12",
+    "chapter": 2,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4A13",
+    "chapter": 5,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4B01",
+    "chapter": 4,
+    "section": 42,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4B02",
+    "chapter": 4,
+    "section": 42,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4B03",
+    "chapter": 4,
+    "section": 42,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4B04",
+    "chapter": 4,
+    "section": 43,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4B05",
+    "chapter": 4,
+    "section": 43,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4B06",
+    "chapter": 4,
+    "section": 43,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4B07",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4B08",
+    "chapter": 4,
+    "section": 43,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4B09",
+    "chapter": 4,
+    "section": 43,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4B10",
+    "chapter": 4,
+    "section": 43,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4B11",
+    "chapter": 4,
+    "section": 43,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4B12",
+    "chapter": 4,
+    "section": 43,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4B13",
+    "chapter": 4,
+    "section": 43,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4C01",
+    "chapter": 5,
+    "section": 21,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4C02",
+    "chapter": 5,
+    "section": 21,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4C03",
+    "chapter": 5,
+    "section": 21,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4C04",
+    "chapter": 5,
+    "section": 21,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4C05",
+    "chapter": 5,
+    "section": 21,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4C06",
+    "chapter": 5,
+    "section": 21,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4C07",
+    "chapter": 9,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4C08",
+    "chapter": 5,
+    "section": 21,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4C09",
+    "chapter": 5,
+    "section": 22,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4C10",
+    "chapter": 5,
+    "section": 22,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4C11",
+    "chapter": 5,
+    "section": 22,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4C12",
+    "chapter": 5,
+    "section": 22,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4D01",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4D02",
+    "chapter": 5,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4D03",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4D04",
+    "chapter": 5,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4D05",
+    "chapter": 5,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4D06",
+    "chapter": 5,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4D07",
+    "chapter": 5,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4D08",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4D09",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4D10",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4D11",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4E01",
+    "chapter": 7,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4E02",
+    "chapter": 7,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4E03",
+    "chapter": 5,
+    "section": 22,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4E04",
+    "chapter": 5,
+    "section": 22,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4E05",
+    "chapter": 5,
+    "section": 22,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4E06",
+    "chapter": 7,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4E07",
+    "chapter": 5,
+    "section": 22,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4E08",
+    "chapter": 4,
+    "section": 37,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4E09",
+    "chapter": 4,
+    "section": 37,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4E10",
+    "chapter": 4,
+    "section": 37,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G4E11",
+    "chapter": 4,
+    "section": 38,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5A01",
+    "chapter": 4,
+    "section": 23,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5A02",
+    "chapter": 4,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5A03",
+    "chapter": 4,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5A04",
+    "chapter": 4,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5A05",
+    "chapter": 4,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5A06",
+    "chapter": 4,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5A07",
+    "chapter": 4,
+    "section": 23,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5A08",
+    "chapter": 4,
+    "section": 23,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5A09",
+    "chapter": 4,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5A10",
+    "chapter": 4,
+    "section": 23,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5A11",
+    "chapter": 4,
+    "section": 23,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5A12",
+    "chapter": 4,
+    "section": 23,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B01",
+    "chapter": 4,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B02",
+    "chapter": 4,
+    "section": 15,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B03",
+    "chapter": 4,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B04",
+    "chapter": 4,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B05",
+    "chapter": 4,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B06",
+    "chapter": 4,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B07",
+    "chapter": 4,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B08",
+    "chapter": 4,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B09",
+    "chapter": 4,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B10",
+    "chapter": 4,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B11",
+    "chapter": 4,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B12",
+    "chapter": 4,
+    "section": 5,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B13",
+    "chapter": 4,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5B14",
+    "chapter": 4,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C01",
+    "chapter": 4,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C02",
+    "chapter": 4,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C03",
+    "chapter": 4,
+    "section": 15,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C04",
+    "chapter": 4,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C05",
+    "chapter": 4,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C06",
+    "chapter": 4,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C07",
+    "chapter": 4,
+    "section": 23,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C08",
+    "chapter": 4,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C09",
+    "chapter": 4,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C10",
+    "chapter": 4,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C11",
+    "chapter": 4,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C12",
+    "chapter": 4,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C13",
+    "chapter": 4,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G5C14",
+    "chapter": 4,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6A01",
+    "chapter": 4,
+    "section": 38,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6A02",
+    "chapter": 4,
+    "section": 38,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6A03",
+    "chapter": 4,
+    "section": 25,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6A04",
+    "chapter": 4,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6A05",
+    "chapter": 4,
+    "section": 25,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6A06",
+    "chapter": 4,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6A07",
+    "chapter": 4,
+    "section": 25,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6A08",
+    "chapter": 4,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6A09",
+    "chapter": 4,
+    "section": 25,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6A10",
+    "chapter": 4,
+    "section": 27,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6A11",
+    "chapter": 4,
+    "section": 23,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6A12",
+    "chapter": 4,
+    "section": 27,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6B01",
+    "chapter": 4,
+    "section": 11,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6B02",
+    "chapter": 4,
+    "section": 29,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6B03",
+    "chapter": 4,
+    "section": 29,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6B04",
+    "chapter": 4,
+    "section": 39,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6B05",
+    "chapter": 4,
+    "section": 11,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6B06",
+    "chapter": 4,
+    "section": 29,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6B07",
+    "chapter": 4,
+    "section": 39,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6B08",
+    "chapter": 4,
+    "section": 32,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6B10",
+    "chapter": 5,
+    "section": 22,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6B11",
+    "chapter": 4,
+    "section": 39,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G6B12",
+    "chapter": 4,
+    "section": 39,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7A01",
+    "chapter": 4,
+    "section": 33,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7A02",
+    "chapter": 4,
+    "section": 33,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7A03",
+    "chapter": 4,
+    "section": 33,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7A04",
+    "chapter": 4,
+    "section": 33,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7A05",
+    "chapter": 4,
+    "section": 33,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7A06",
+    "chapter": 4,
+    "section": 33,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7A07",
+    "chapter": 4,
+    "section": 33,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7A08",
+    "chapter": 4,
+    "section": 33,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7A09",
+    "chapter": 4,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7A10",
+    "chapter": 4,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7A11",
+    "chapter": 4,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7A12",
+    "chapter": 4,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7A13",
+    "chapter": 4,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7B01",
+    "chapter": 5,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7B02",
+    "chapter": 5,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7B03",
+    "chapter": 5,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7B04",
+    "chapter": 5,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7B05",
+    "chapter": 4,
+    "section": 29,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7B06",
+    "chapter": 4,
+    "section": 29,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7B07",
+    "chapter": 5,
+    "section": 3,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7B08",
+    "chapter": 5,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7B09",
+    "chapter": 5,
+    "section": 3,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7B10",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7B11",
+    "chapter": 5,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C01",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C02",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C03",
+    "chapter": 4,
+    "section": 23,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C04",
+    "chapter": 5,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C05",
+    "chapter": 5,
+    "section": 3,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C06",
+    "chapter": 5,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C07",
+    "chapter": 5,
+    "section": 3,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C08",
+    "chapter": 5,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C09",
+    "chapter": 5,
+    "section": 3,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C10",
+    "chapter": 5,
+    "section": 3,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C11",
+    "chapter": 5,
+    "section": 3,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C12",
+    "chapter": 5,
+    "section": 3,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C13",
+    "chapter": 5,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G7C14",
+    "chapter": 5,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A01",
+    "chapter": 6,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A02",
+    "chapter": 5,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A03",
+    "chapter": 5,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A04",
+    "chapter": 5,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A05",
+    "chapter": 5,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A06",
+    "chapter": 6,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A07",
+    "chapter": 5,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A08",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A09",
+    "chapter": 6,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A10",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A11",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A12",
+    "chapter": 6,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A13",
+    "chapter": null,
+    "section": null,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8A14",
+    "chapter": 5,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8B01",
+    "chapter": 5,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8B02",
+    "chapter": 5,
+    "section": 17,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8B03",
+    "chapter": 5,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8B04",
+    "chapter": 5,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8B05",
+    "chapter": 5,
+    "section": 22,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8B06",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8B07",
+    "chapter": 5,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8B08",
+    "chapter": 6,
+    "section": 12,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8B09",
+    "chapter": 5,
+    "section": 17,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8B10",
+    "chapter": 6,
+    "section": 12,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8B11",
+    "chapter": 5,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8B12",
+    "chapter": 5,
+    "section": 22,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8B13",
+    "chapter": 5,
+    "section": 22,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C01",
+    "chapter": 3,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C02",
+    "chapter": 6,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C03",
+    "chapter": 6,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C04",
+    "chapter": 6,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C05",
+    "chapter": 6,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C06",
+    "chapter": 6,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C07",
+    "chapter": 6,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C08",
+    "chapter": 6,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C09",
+    "chapter": 6,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C10",
+    "chapter": 6,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C11",
+    "chapter": 6,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C12",
+    "chapter": 6,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C13",
+    "chapter": 6,
+    "section": 12,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C14",
+    "chapter": 6,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C15",
+    "chapter": 6,
+    "section": 7,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G8C16",
+    "chapter": 6,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9A01",
+    "chapter": 7,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9A02",
+    "chapter": 7,
+    "section": 19,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9A03",
+    "chapter": 7,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9A04",
+    "chapter": 7,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9A05",
+    "chapter": 7,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9A06",
+    "chapter": 7,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9A07",
+    "chapter": 7,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9A08",
+    "chapter": 7,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9A09",
+    "chapter": 7,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9A10",
+    "chapter": 7,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9A11",
+    "chapter": 7,
+    "section": 20,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9B01",
+    "chapter": 7,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9B02",
+    "chapter": 7,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9B03",
+    "chapter": 7,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9B04",
+    "chapter": 7,
+    "section": 1,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9B05",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9B06",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9B07",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9B08",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9B09",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9B10",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9B11",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9B12",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9C01",
+    "chapter": 7,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9C02",
+    "chapter": 7,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9C03",
+    "chapter": 7,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9C04",
+    "chapter": 7,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9C05",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9C07",
+    "chapter": 7,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9C08",
+    "chapter": 7,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9C09",
+    "chapter": 7,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9C10",
+    "chapter": 7,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9C11",
+    "chapter": 7,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9C12",
+    "chapter": 7,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9D01",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9D02",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9D03",
+    "chapter": 7,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9D04",
+    "chapter": 7,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9D05",
+    "chapter": 7,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9D06",
+    "chapter": 7,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9D07",
+    "chapter": 7,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9D08",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9D09",
+    "chapter": 7,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9D10",
+    "chapter": 7,
+    "section": 13,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9D11",
+    "chapter": 7,
+    "section": 16,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G9D12",
+    "chapter": 7,
+    "section": 2,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0A01",
+    "chapter": 9,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0A02",
+    "chapter": 9,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0A03",
+    "chapter": 9,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0A04",
+    "chapter": 9,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0A05",
+    "chapter": 9,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0A06",
+    "chapter": 9,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0A07",
+    "chapter": 9,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0A08",
+    "chapter": 9,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0A09",
+    "chapter": 9,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0A10",
+    "chapter": 9,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0A11",
+    "chapter": 9,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0A12",
+    "chapter": 9,
+    "section": 9,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0B01",
+    "chapter": 9,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0B02",
+    "chapter": 9,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0B03",
+    "chapter": 9,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0B04",
+    "chapter": 9,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0B05",
+    "chapter": 9,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0B06",
+    "chapter": 9,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0B07",
+    "chapter": 9,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0B08",
+    "chapter": 9,
+    "section": 14,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0B09",
+    "chapter": 9,
+    "section": 6,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0B10",
+    "chapter": 9,
+    "section": 3,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0B11",
+    "chapter": 9,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0B12",
+    "chapter": 9,
+    "section": 4,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  },
+  {
+    "question": "G0B13",
+    "chapter": 9,
+    "section": 8,
+    "page": null,
+    "book": "ARRL General Class License Manual"
+  }
+]
