@@ -12,7 +12,7 @@ apps/web/       Vite React web app (admin dashboard, email confirmation)
 packages/ui/    Shared UI components and theme
 ```
 
-The animated character lives in a separate repo: [radio-character](https://github.com/jediquinlan/radio-character), linked via portal dependency.
+The animated character lives in a separate repo: [radio-character](https://github.com/jediquinlan/radio-character), installed as a GitHub dependency.
 
 ## Prerequisites
 
@@ -188,15 +188,7 @@ corepack enable
 yarn install
 ```
 
-Also clone the character repo next to this one:
-
-```bash
-cd ..
-git clone git@github.com:jediquinlan/radio-character.git
-cd radio-lingo
-```
-
-The mobile app expects `radio-character` at `../radio-character` (configured in `apps/mobile/metro.config.js`).
+The `@radio-lingo/character` package is installed automatically from GitHub during `yarn install`.
 
 ## 4. Run the Mobile App
 

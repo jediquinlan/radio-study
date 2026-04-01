@@ -2258,9 +2258,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radio-lingo/character@portal:/Users/jedierikb/dev/radio-character::locator=%40radio-lingo%2Fmobile%40workspace%3Aapps%2Fmobile":
-  version: 0.0.0-use.local
-  resolution: "@radio-lingo/character@portal:/Users/jedierikb/dev/radio-character::locator=%40radio-lingo%2Fmobile%40workspace%3Aapps%2Fmobile"
+"@radio-lingo/character@github:jediquinlan/radio-character":
+  version: 0.2.0
+  resolution: "@radio-lingo/character@https://github.com/jediquinlan/radio-character.git#commit=6350bbc92769562ed441669c833c0df2a25f2fdb"
   dependencies:
     "@xstate/react": "npm:^4.1.0"
     xstate: "npm:^5.19.0"
@@ -2268,15 +2268,16 @@ __metadata:
     react: ">=18"
     react-native: ">=0.73"
     react-native-svg: ">=13"
+  checksum: 10c0/1fb533c46770597f61e1deabe5206b4221d1b48786f30809c7a0f72d0f55bb0d5c5e2a33dbcaf9b4eb3937fe29c817bbf8784744b645bbcf417ae3b86f207036
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@radio-lingo/mobile@workspace:apps/mobile":
   version: 0.0.0-use.local
   resolution: "@radio-lingo/mobile@workspace:apps/mobile"
   dependencies:
     "@expo/vector-icons": "npm:^15.0.3"
-    "@radio-lingo/character": "portal:/Users/jedierikb/dev/radio-character"
+    "@radio-lingo/character": "github:jediquinlan/radio-character"
     "@radio-lingo/ui": "npm:*"
     "@react-native-async-storage/async-storage": "npm:^2.2.0"
     "@react-navigation/bottom-tabs": "npm:^7.4.0"
