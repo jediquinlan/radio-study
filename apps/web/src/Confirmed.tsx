@@ -11,7 +11,7 @@ export function Confirmed() {
       minHeight="100vh"
       backgroundColor={colors.white}
     >
-      <YStack gap={12} width={360} padding={24} alignItems="center">
+      <YStack gap={12} maxWidth={360} width="100%" padding={24} alignItems="center">
         <WebCharacter width={140} height={168} mood="happy" />
         <ScreenTitle>You're Confirmed!</ScreenTitle>
         <Subtitle>Your email has been verified. Open the {APP_NAME} app on your phone to start studying.</Subtitle>

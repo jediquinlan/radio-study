@@ -1,0 +1,24 @@
+/* Admin panel: stack on mobile */
+@media (max-width: 700px) {
+  .admin-layout {
+    flex-direction: column !important;
+  }
+  .admin-user-list {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .admin-stats {
+    width: 100% !important;
+  }
+  .admin-header h1 {
+    font-size: 22px !important;
+  }
+}
+
+/* Progress chart: stack donut + bars on mobile */
+@media (max-width: 500px) {
+  .pool-row {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}

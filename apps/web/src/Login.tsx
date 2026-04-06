@@ -48,7 +48,7 @@ export function Login() {
       minHeight="100vh"
       backgroundColor={colors.white}
     >
-      <YStack gap={12} width={360} padding={24} alignItems="center">
+      <YStack gap={12} maxWidth={360} width="100%" padding={24} alignItems="center">
         <WebCharacter width={140} height={168} mood={mood} />
         <ScreenTitle>{APP_NAME}</ScreenTitle>
         <Subtitle>Sign in to continue</Subtitle>

@@ -76,11 +76,12 @@ export function Home({ session }: HomeProps) {
   return (
     <div
       style={{
-        padding: 24,
-        paddingTop: 48,
+        padding: 16,
+        paddingTop: 32,
         maxWidth: 700,
         margin: "0 auto",
         fontFamily: "system-ui, sans-serif",
+        boxSizing: "border-box",
       }}
     >
       <h1 style={{ fontSize: 28, fontWeight: 800, color: colors.textPrimary, margin: "0 0 4px 0" }}>
@@ -107,7 +108,7 @@ export function Home({ session }: HomeProps) {
         </>
       )}
 
-      <div style={{ display: "flex", gap: 12, marginTop: 32 }}>
+      <div style={{ display: "flex", gap: 12, marginTop: 32, flexWrap: "wrap" }}>
         {isAdmin && (
           <button
             onClick={() => setShowAdmin(true)}

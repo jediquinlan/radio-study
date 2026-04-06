@@ -129,14 +129,15 @@ export function AdminPanel({ onBack }: AdminPanelProps) {
   return (
     <div
       style={{
-        padding: 24,
-        paddingTop: 48,
+        padding: 16,
+        paddingTop: 32,
         maxWidth: 900,
         margin: "0 auto",
         fontFamily: "system-ui, sans-serif",
+        boxSizing: "border-box",
       }}
     >
-      <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 24 }}>
+      <div className="admin-header" style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 24, flexWrap: "wrap" }}>
         <button onClick={onBack} style={styles.backBtn}>
           ← Dashboard
         </button>
@@ -145,9 +146,9 @@ export function AdminPanel({ onBack }: AdminPanelProps) {
         </h1>
       </div>
 
-      <div style={{ display: "flex", gap: 24 }}>
+      <div className="admin-layout" style={{ display: "flex", gap: 24 }}>
         {/* User list */}
-        <div style={{ width: 320, flexShrink: 0 }}>
+        <div className="admin-user-list" style={{ width: 320, flexShrink: 0 }}>
           <h3 style={styles.sectionLabel}>
             Users ({users.length})
           </h3>
@@ -191,7 +192,7 @@ export function AdminPanel({ onBack }: AdminPanelProps) {
         </div>
 
         {/* Stats panel */}
-        <div style={{ flex: 1, minWidth: 0 }}>
+        <div className="admin-stats" style={{ flex: 1, minWidth: 0 }}>
           {selectedUser ? (
             <>
               <h3 style={styles.sectionLabel}>
