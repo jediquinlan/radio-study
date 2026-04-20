@@ -14,7 +14,8 @@
     "mobile:ios": "yarn workspace @radio-lingo/mobile exec expo run:ios --device",
     "mobile:rebuild": "yarn mobile:prebuild && yarn mobile:fix-splash && yarn mobile:ios",
     "web": "yarn workspace @radio-lingo/web dev",
-    "build:web": "yarn workspace @radio-lingo/web build"
+    "build:web": "yarn workspace @radio-lingo/web build",
+    "supabase:keepalive": "node scripts/supabase-keepalive.mjs"
   },
   "version": "1.0.0"
 }
