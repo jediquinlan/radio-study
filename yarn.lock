@@ -2260,7 +2260,7 @@ __metadata:
 
 "@radio-lingo/character@github:jediquinlan/radio-character":
   version: 0.2.0
-  resolution: "@radio-lingo/character@https://github.com/jediquinlan/radio-character.git#commit=6350bbc92769562ed441669c833c0df2a25f2fdb"
+  resolution: "@radio-lingo/character@https://github.com/jediquinlan/radio-character.git#commit=283ccac21f569333b9814469409a9eff2db60d01"
   dependencies:
     "@xstate/react": "npm:^4.1.0"
     xstate: "npm:^5.19.0"
@@ -2268,7 +2268,7 @@ __metadata:
     react: ">=18"
     react-native: ">=0.73"
     react-native-svg: ">=13"
-  checksum: 10c0/1fb533c46770597f61e1deabe5206b4221d1b48786f30809c7a0f72d0f55bb0d5c5e2a33dbcaf9b4eb3937fe29c817bbf8784744b645bbcf417ae3b86f207036
+  checksum: 10c0/43d7bb42127f5f343c7c68f3ff08e1d7db05d0319100ec6e2e178e20b98cb2504799f69c731a1086146a612c11aebdd32a2ed7b6de90ea6a51dcbfb90a32fe79
   languageName: node
   linkType: hard
 

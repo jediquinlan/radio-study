@@ -22,8 +22,9 @@ export function ProgressChart({ data }) {
         font-family: system-ui, sans-serif;
       `;
             section.appendChild(header);
-            // Summary donut + bar chart side by side
+            // Summary donut + bar chart — side by side on wide, stacked on narrow
             const row = document.createElement("div");
+            row.className = "pool-row";
             row.style.cssText = "display: flex; gap: 24px; align-items: flex-start;";
             section.appendChild(row);
             // Donut chart
@@ -34,9 +35,10 @@ export function ProgressChart({ data }) {
             // Bar chart
             const barDiv = document.createElement("div");
             barDiv.style.flex = "1";
-            barDiv.style.minWidth = "0";
+            barDiv.style.minWidth = "200px";
             row.appendChild(barDiv);
-            renderBars(barDiv, pool);
+            // Defer to allow layout to settle so clientWidth is available
+            requestAnimationFrame(() => renderBars(barDiv, pool));
         }
     }, [data]);
     return _jsx("div", { ref: containerRef });
@@ -92,11 +94,12 @@ function renderDonut(container, pool) {
         .text("correct");
 }
 function renderBars(container, pool) {
-    const margin = { top: 0, right: 50, bottom: 0, left: 80 };
+    const containerWidth = container.clientWidth || 300;
+    const margin = { top: 0, right: 40, bottom: 0, left: containerWidth < 300 ? 40 : 80 };
     const barHeight = 18;
     const barGap = 6;
     const height = pool.subelements.length * (barHeight + barGap) - barGap;
-    const width = Math.min(400, container.clientWidth || 400);
+    const width = containerWidth;
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height;
     const svg = d3
