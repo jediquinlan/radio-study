@@ -21,7 +21,7 @@ export function Home({ session }: HomeProps) {
   const [loading, setLoading] = useState(true);
   const [showAdmin, setShowAdmin] = useState(false);
 
-  const isAdmin = session.user.user_metadata?.is_admin === true;
+  const isAdmin = session.user.app_metadata?.is_admin === true;
 
   useEffect(() => {
     loadProgress();

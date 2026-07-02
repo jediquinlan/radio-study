@@ -1,0 +1,4 @@
+# Compiled output — Vite builds .tsx directly (tsconfig has noEmit).
+# These were previously committed and shadowed the .tsx source at resolve time.
+src/**/*.js
+dist/
