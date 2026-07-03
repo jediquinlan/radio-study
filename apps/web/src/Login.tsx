@@ -15,6 +15,7 @@ export function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
+  const [info, setInfo] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [mood, setMood] = useState<"normal" | "happy">("normal");
 
@@ -38,6 +39,22 @@ export function Login() {
 
     if (error) setError(error.message);
     setLoading(false);
+  };
+
+  const handleForgot = async () => {
+    setError(null);
+    setInfo(null);
+    if (!email) {
+      setError("Enter your email above, then tap “Forgot password?”");
+      return;
+    }
+    setLoading(true);
+    const { error } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: `${window.location.origin}/reset`,
+    });
+    setLoading(false);
+    if (error) setError(error.message);
+    else setInfo("Check your email for a password reset link.");
   };
 
   return (
@@ -75,6 +92,11 @@ export function Login() {
             {error}
           </Text>
         )}
+        {info && (
+          <Text color={colors.accent} fontSize={14}>
+            {info}
+          </Text>
+        )}
 
         <YStack width="100%" marginTop={12}>
           <RoundedButton
@@ -83,6 +105,17 @@ export function Login() {
             disabled={loading}
           />
         </YStack>
+
+        <Text
+          onPress={handleForgot}
+          color={colors.grayText}
+          fontSize={14}
+          marginTop={4}
+          cursor="pointer"
+          hoverStyle={{ color: colors.primary }}
+        >
+          Forgot password?
+        </Text>
       </YStack>
     </YStack>
   );

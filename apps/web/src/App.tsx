@@ -6,16 +6,28 @@ import type { Session } from "@supabase/supabase-js";
 import { Login } from "./Login";
 import { Home } from "./Home";
 import { Confirmed } from "./Confirmed";
+import { Support } from "./Support";
+import { Reset } from "./Reset";
 
 export default function App() {
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
   const [confirmed, setConfirmed] = useState(false);
+  const [support, setSupport] = useState(false);
+  const [reset, setReset] = useState(false);
 
   useEffect(() => {
     // Check if this is the email confirmation redirect
     if (window.location.pathname === "/confirmed") {
       setConfirmed(true);
+    }
+    // Public support page (used as the App Store "Support URL")
+    if (window.location.pathname === "/support") {
+      setSupport(true);
+    }
+    // Password-reset landing (from the reset email link)
+    if (window.location.pathname === "/reset") {
+      setReset(true);
     }
 
     supabase.auth.getSession().then(({ data: { session } }) => {
@@ -37,7 +49,17 @@ export default function App() {
   return (
     <TamaguiProvider config={tamaguiConfig}>
       <Theme name="light">
-        {confirmed ? <Confirmed /> : session ? <Home session={session} /> : <Login />}
+        {reset ? (
+          <Reset />
+        ) : support ? (
+          <Support />
+        ) : confirmed ? (
+          <Confirmed />
+        ) : session ? (
+          <Home session={session} />
+        ) : (
+          <Login />
+        )}
       </Theme>
     </TamaguiProvider>
   );

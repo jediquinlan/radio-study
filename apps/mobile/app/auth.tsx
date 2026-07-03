@@ -5,7 +5,7 @@ import {
   Platform,
   ScrollView,
 } from 'react-native';
-import { XStack, YStack } from 'tamagui';
+import { XStack, YStack, Text } from 'tamagui';
 import {
   RoundedButton,
   StyledInput,
@@ -65,6 +65,20 @@ export default function AuthGate() {
     setLoading(true);
     const { error } = await supabase.auth.signInWithPassword({ email, password });
     if (error) Alert.alert(error.message);
+    setLoading(false);
+  }
+
+  async function resetPassword() {
+    if (!email) {
+      Alert.alert('Enter your email above first, then tap "Forgot password?"');
+      return;
+    }
+    setLoading(true);
+    const { error } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: `${process.env.EXPO_PUBLIC_WEB_URL}/reset`,
+    });
+    if (error) Alert.alert(error.message);
+    else Alert.alert('Check your email for a password reset link!');
     setLoading(false);
   }
 
@@ -139,6 +153,18 @@ export default function AuthGate() {
                 outline
               />
             </YStack>
+
+            {mode === 'signIn' && (
+              <Text
+                onPress={resetPassword}
+                textAlign="center"
+                color="#777"
+                fontSize={14}
+                marginTop={12}
+              >
+                Forgot password?
+              </Text>
+            )}
       </ScrollView>
     </KeyboardAvoidingView>
   );

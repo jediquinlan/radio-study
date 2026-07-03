@@ -1,0 +1,43 @@
+<!-- Supabase Auth → Email Templates → "Confirm signup"
+     Subject: Confirm your Roger That Radio account 📻 -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#F7F7F7;padding:24px 0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <tr>
+    <td align="center">
+      <table role="presentation" width="480" cellpadding="0" cellspacing="0" style="max-width:480px;width:100%;background-color:#ffffff;border-radius:16px;border:1px solid #E5E5E5;">
+        <tr>
+          <td style="padding:32px 32px 8px;text-align:center;">
+            <div style="font-size:40px;line-height:1;">📻</div>
+            <h1 style="margin:16px 0 0;font-size:24px;font-weight:800;color:#333333;">Welcome to Roger That Radio!</h1>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:8px 32px 0;text-align:center;">
+            <p style="margin:0;font-size:16px;line-height:1.5;color:#777777;">You're one tap away from acing your amateur radio license exam. Confirm your email to get started.</p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:28px 32px;text-align:center;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 auto;">
+              <tr>
+                <td align="center" style="border-radius:16px;background-color:#DD614A;border-bottom:4px solid #C04535;">
+                  <a href="{{ .ConfirmationURL }}" style="display:inline-block;padding:14px 32px;font-size:16px;font-weight:800;letter-spacing:1px;color:#ffffff;text-decoration:none;text-transform:uppercase;">Confirm my email</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:0 32px 24px;text-align:center;">
+            <p style="margin:0;font-size:13px;line-height:1.5;color:#999999;">If the button doesn't work, copy and paste this link:<br><a href="{{ .ConfirmationURL }}" style="color:#DD614A;word-break:break-all;">{{ .ConfirmationURL }}</a></p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:20px 32px;background-color:#F7F7F7;text-align:center;border-top:1px solid #E5E5E5;border-radius:0 0 16px 16px;">
+            <p style="margin:0;font-size:13px;color:#999999;">Didn't sign up? You can safely ignore this email.</p>
+            <p style="margin:8px 0 0;font-size:14px;font-weight:700;color:#333333;">73, the Roger That Radio team 📡</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
