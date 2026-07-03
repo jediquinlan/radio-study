@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
-    "@radio-lingo/character": "github:jediquinlan/radio-character",
+    "@radio-lingo/character": "git+https://x-access-token:${GITHUB_TOKEN}@github.com/jediquinlan/radio-character.git",
     "@radio-lingo/ui": "*",
     "@react-native-async-storage/async-storage": "^2.2.0",
     "@react-navigation/bottom-tabs": "^7.4.0",
