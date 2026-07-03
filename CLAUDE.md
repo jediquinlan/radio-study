@@ -47,21 +47,34 @@ yarn mobile:tunnel              # Terminal 1: start Metro with tunnel
 # open Radio Lingo on phone
 
 # Full native rebuild (needed after native config changes)
-yarn mobile:rebuild             # prebuild → fix-splash → run:ios --device
+yarn mobile:rebuild             # prebuild → run:ios --device
 ```
 
 > Expo Go does NOT work — must use a development build.
 
-## Splash Screen (Critical)
+## Splash Screen
 
-`expo-splash-screen` ignores `resizeMode: "cover"` and always generates a 100×100 centered storyboard. `prebuild --clean` overwrites any manual fix.
+As of Expo SDK 55, the default prebuild produces a correct full-bleed splash from the
+top-level `splash` config (`resizeMode: "cover"`): it generates `SplashScreenLegacy.imageset`
+with the full source art and a storyboard that pins all four edges with `scaleAspectFill`.
+No custom plugin or post-prebuild fix is needed — this works the same locally and on EAS cloud builds.
 
-**Working approach** (`yarn mobile:rebuild` does this automatically):
-1. `yarn mobile:prebuild` — generates ios/
-2. `yarn mobile:fix-splash` — overwrites `SplashScreen.storyboard` with full-bleed version
-3. `yarn mobile:ios` — builds WITHOUT `prebuild --clean`
+> History: the old `withFullScreenSplash` plugin and `fix-splash.js` script targeted the
+> pre-SDK-55 layout (`SplashScreenLogo.imageset`) and became dead code. They were removed.
+> [splash-screen-fix.md](apps/mobile/splash-screen-fix.md) is kept only as a historical reference.
 
-See [splash-screen-fix.md](apps/mobile/splash-screen-fix.md) for storyboard content.
+## Shipping to the App Store (EAS)
+
+Builds go through EAS (not local Xcode archives). `eas.json` is configured.
+
+```bash
+eas build --platform ios --profile production   # cloud build + auto sign
+eas submit --platform ios --profile production  # upload to App Store Connect / TestFlight
+```
+
+Requires: Apple Developer Program membership, an app record in App Store Connect
+(`app.rogerthat.radio`), screenshots, a hosted privacy policy URL, and demo login
+credentials for reviewers (the app gates on Supabase auth).
 
 ## Question Data Model
 
