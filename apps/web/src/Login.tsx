@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { YStack, Text } from "tamagui";
+import { YStack, XStack, Text, Anchor } from "tamagui";
 import {
   RoundedButton,
   StyledInput,
@@ -117,6 +117,28 @@ export function Login() {
           Forgot password?
         </Text>
       </YStack>
+
+      <XStack position="absolute" bottom={24} gap={8} alignItems="center">
+        <Anchor
+          href="/privacy"
+          fontSize={13}
+          color={colors.grayText}
+          hoverStyle={{ color: colors.primary }}
+        >
+          Privacy Policy
+        </Anchor>
+        <Text fontSize={13} color={colors.grayText}>
+          ·
+        </Text>
+        <Anchor
+          href="/support"
+          fontSize={13}
+          color={colors.grayText}
+          hoverStyle={{ color: colors.primary }}
+        >
+          Support
+        </Anchor>
+      </XStack>
     </YStack>
   );
 }

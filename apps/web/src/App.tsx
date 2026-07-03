@@ -8,6 +8,7 @@ import { Home } from "./Home";
 import { Confirmed } from "./Confirmed";
 import { Support } from "./Support";
 import { Reset } from "./Reset";
+import { Privacy } from "./Privacy";
 
 export default function App() {
   const [session, setSession] = useState<Session | null>(null);
@@ -15,6 +16,7 @@ export default function App() {
   const [confirmed, setConfirmed] = useState(false);
   const [support, setSupport] = useState(false);
   const [reset, setReset] = useState(false);
+  const [privacy, setPrivacy] = useState(false);
 
   useEffect(() => {
     // Check if this is the email confirmation redirect
@@ -28,6 +30,10 @@ export default function App() {
     // Password-reset landing (from the reset email link)
     if (window.location.pathname === "/reset") {
       setReset(true);
+    }
+    // Public privacy policy (used as the App Store "Privacy Policy URL")
+    if (window.location.pathname === "/privacy") {
+      setPrivacy(true);
     }
 
     supabase.auth.getSession().then(({ data: { session } }) => {
@@ -51,6 +57,8 @@ export default function App() {
       <Theme name="light">
         {reset ? (
           <Reset />
+        ) : privacy ? (
+          <Privacy />
         ) : support ? (
           <Support />
         ) : confirmed ? (

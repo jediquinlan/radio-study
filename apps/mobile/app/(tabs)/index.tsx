@@ -1,9 +1,12 @@
-import { ScrollView, View, Text, Pressable, StyleSheet, Linking } from 'react-native';
+import { ScrollView, View, Text, Pressable, StyleSheet, Linking, Alert } from 'react-native';
 import { useRouter } from 'expo-router';
 import { YStack } from 'tamagui';
 import { ScreenTitle, SectionLabel, RoundedButton, APP_NAME } from '@radio-lingo/ui';
 import { Character } from '@radio-lingo/character';
 import { SpeechBubble } from '../../components/SpeechBubble';
+import { supabase } from '../../lib/supabase';
+
+const WEB_URL = process.env.EXPO_PUBLIC_WEB_URL;
 
 const RESOURCES = [
   { label: 'Order ARRL Study Guides', url: 'https://www.arrl.org/shop/Licensing-Education/' },
@@ -15,6 +18,30 @@ const RESOURCES = [
 
 export default function HomeScreen() {
   const router = useRouter();
+
+  async function signOut() {
+    await supabase.auth.signOut();
+  }
+
+  async function deleteAccount() {
+    const { error } = await supabase.rpc('delete_user');
+    if (error) {
+      Alert.alert('Could not delete account', error.message);
+      return;
+    }
+    await supabase.auth.signOut();
+  }
+
+  function confirmDelete() {
+    Alert.alert(
+      'Delete Account',
+      'This permanently deletes your account and all of your study data. This cannot be undone.',
+      [
+        { text: 'Cancel', style: 'cancel' },
+        { text: 'Delete', style: 'destructive', onPress: deleteAccount },
+      ],
+    );
+  }
 
   return (
     <ScrollView
@@ -52,6 +79,23 @@ export default function HomeScreen() {
           />
         ))}
       </YStack>
+
+      <YStack gap={12} marginTop={32}>
+        <SectionLabel>Account</SectionLabel>
+        <RoundedButton title="Sign Out" outline onPress={signOut} />
+        <View style={styles.accountLinks}>
+          <Pressable onPress={() => Linking.openURL(`${WEB_URL}/privacy`)}>
+            <Text style={styles.accountLink}>Privacy Policy</Text>
+          </Pressable>
+          <Text style={styles.accountDot}>·</Text>
+          <Pressable onPress={() => Linking.openURL(`${WEB_URL}/support`)}>
+            <Text style={styles.accountLink}>Support</Text>
+          </Pressable>
+        </View>
+        <Pressable onPress={confirmDelete} style={styles.deleteWrap}>
+          <Text style={styles.deleteText}>Delete Account</Text>
+        </Pressable>
+      </YStack>
     </ScrollView>
   );
 }
@@ -75,5 +119,30 @@ const styles = StyleSheet.create({
     lineHeight: 23,
     textAlign: 'center',
     paddingVertical: 4,
+  },
+  accountLinks: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 8,
+    marginTop: 4,
+  },
+  accountLink: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#DD614A',
+  },
+  accountDot: {
+    fontSize: 14,
+    color: '#777',
+  },
+  deleteWrap: {
+    alignItems: 'center',
+    marginTop: 8,
+  },
+  deleteText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#EE2A33',
   },
 });
