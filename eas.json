@@ -15,7 +15,8 @@
       "autoIncrement": true,
       "env": {
         "GITHUB_TOKEN": "@secret.GITHUB_TOKEN"
-      }
+      },
+      "prebuild": "echo 'machine github.com' > ~/.netrc && echo 'login x-access-token' >> ~/.netrc && echo \"password $GITHUB_TOKEN\" >> ~/.netrc && chmod 600 ~/.netrc && git config --global url.'https://github.com/'.insteadOf 'git://github.com/'"
     }
   },
   "submit": {
